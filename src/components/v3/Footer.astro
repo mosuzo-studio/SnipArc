@@ -5,11 +5,44 @@ import { getV3Copy } from './copy-intl';
 
 export interface Props {
   lang: Lang;
+  homeRefresh?: boolean;
 }
 
 const { lang } = Astro.props;
+const homeRefresh = lang === 'en' || lang === 'zh-cn';
+const zh = lang === 'zh-cn';
 const c = getV3Copy(lang);
+const blurb = homeRefresh
+  ? lang === 'zh-cn'
+    ? '为 Windows 打造的截图与标注工具，让日常沟通更清楚。'
+    : 'Capture and annotation for Windows. Make everyday communication a little clearer.'
+  : c.footer.blurb;
 const l = (path: string, hash?: string) => `${localizedPagePath(lang, path)}${hash ? `#${hash}` : ''}`;
+const cols = homeRefresh
+  ? [
+      {
+        title: zh ? '产品' : 'Product',
+        links: [
+          { text: c.nav.features, path: '/', hash: 'features' },
+          { text: zh ? '下载 Windows 版' : 'Download for Windows', path: '/download' },
+        ],
+      },
+      {
+        title: zh ? '支持' : 'Support',
+        links: [
+          { text: zh ? '使用帮助' : 'Help', path: '/faq' },
+          { text: c.nav.changelog, path: '/changelog' },
+        ],
+      },
+      {
+        title: zh ? '工作室' : 'Studio',
+        links: [
+          { text: c.nav.about, path: '/about' },
+          { text: zh ? '联系与反馈' : 'Contact and feedback', path: '/contact' },
+        ],
+      },
+    ]
+  : c.footer.cols;
 ---
 
 <footer class="v3-footer">
@@ -17,10 +50,10 @@ const l = (path: string, hash?: string) => `${localizedPagePath(lang, path)}${ha
     <div class="v3-footer-cols">
       <div>
         <h4>SnipX</h4>
-        <p class="v3-foot-note" style="margin:0;max-width:280px">{c.footer.blurb}</p>
+        <p class="v3-foot-note" style="margin:0;max-width:280px">{blurb}</p>
       </div>
       {
-        c.footer.cols.map((col) => (
+        cols.map((col) => (
           <div>
             <h4>{col.title}</h4>
             {col.links.map((link) => (
@@ -32,9 +65,9 @@ const l = (path: string, hash?: string) => `${localizedPagePath(lang, path)}${ha
     </div>
 
     <div class="v3-footer-base">
-      <span dir="ltr">{c.footer.rights}</span>
+      <span dir="ltr">{homeRefresh ? '© 2026 Mosuzo Studio' : c.footer.rights}</span>
       {c.footer.legal.map((link) => <a href={l(link.path)}>{link.text}</a>)}
-      <span class="v3-sp">{c.footer.system}</span>
+      <span class="v3-sp">{homeRefresh ? <span>Windows · Mosuzo Studio</span> : c.footer.system}</span>
     </div>
   </div>
 </footer>

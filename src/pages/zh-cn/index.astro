@@ -7,6 +7,7 @@ import { v3Copy } from '~/components/v3/copy';
 import { getSetupDownloadUrl } from '~/utils/download';
 
 import '~/assets/styles/v3-home.css';
+import '~/assets/styles/home-refresh.css';
 
 const lang = 'zh-cn' as const;
 const metadata = {
@@ -18,11 +19,11 @@ const downloadUrl = await getSetupDownloadUrl();
 ---
 
 <Layout metadata={metadata} language={lang}>
-  <div class="v3">
-    <Header lang={lang} downloadUrl={downloadUrl} />
+  <div class="v3 v3-refresh">
+    <Header lang={lang} downloadUrl={downloadUrl} homeRefresh />
     <main>
       <Home lang={lang} downloadUrl={downloadUrl} />
     </main>
-    <Footer lang={lang} />
+    <Footer lang={lang} homeRefresh />
   </div>
 </Layout>

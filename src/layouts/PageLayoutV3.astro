@@ -16,6 +16,7 @@ import { getSetupDownloadUrl } from '~/utils/download';
 import type { MetaData } from '~/types';
 
 import '~/assets/styles/v3-home.css';
+import '~/assets/styles/home-refresh.css';
 
 export interface Props {
   metadata?: MetaData;
@@ -25,11 +26,12 @@ export interface Props {
 const { metadata, lang: explicitLang } = Astro.props;
 
 const lang = explicitLang ?? ((Astro.currentLocale ?? defaultLang) as Lang);
-const downloadUrl = await getSetupDownloadUrl();
+const refreshed = lang === 'en' || lang === 'zh-cn';
+const downloadUrl = refreshed ? (lang === 'zh-cn' ? '/zh-cn/download' : '/download') : await getSetupDownloadUrl();
 ---
 
 <Layout metadata={metadata} language={lang}>
-  <div class="v3">
+  <div class:list={['v3', { 'v3-refresh sx-inner': refreshed }]}>
     <slot name="header">
       <Header lang={lang} downloadUrl={downloadUrl} />
     </slot>

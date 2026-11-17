@@ -1,0 +1,66 @@
+---
+import type { Lang } from '~/i18n/utils';
+import { localizedPath } from '~/i18n/utils';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const zh = lang === 'zh-cn';
+const items = zh
+  ? [
+      { title: '截图之后，继续表达', text: '框选需要的区域，用标注突出重点，再复制到正在进行的对话或文档中。' },
+      { title: '把参考放在眼前', text: '通过贴图保留参考，用文字提取减少手动录入；需要展示步骤时，可以使用录屏。' },
+      {
+        title: '以真实界面说明功能',
+        text: '网站使用 SnipX 的实际界面展示操作。不同版本提供的功能与资源，请以软件和发行说明为准。',
+      },
+    ]
+  : [
+      {
+        title: 'Keep the conversation moving',
+        text: 'Select what matters, annotate the detail, and copy it into the conversation or document you are working on.',
+      },
+      {
+        title: 'Keep a reference close',
+        text: 'Pin a reference, extract text to reduce retyping, or record the steps when a walkthrough explains things better.',
+      },
+      {
+        title: 'Show the real interface',
+        text: 'The website uses actual SnipX screens to illustrate workflows. Check the app and release notes for the features and resources included in your version.',
+      },
+    ];
+---
+
+<section class="sx-page-head v3-wrap">
+  <p class="v3-eyebrow">MOSUZO STUDIO / SNIPX</p><h1>
+    {zh ? '让屏幕上的信息，更容易传达。' : 'Make what’s on your screen easier to share.'}
+  </h1><p class="v3-lead">
+    {
+      zh
+        ? 'SnipX 是由 Mosuzo Studio 开发、使用 Qt 原生实现的 Windows 截图与标注工具。'
+        : 'SnipX is a native Qt screenshot and annotation tool for Windows, developed by Mosuzo Studio.'
+    }
+  </p>
+</section>
+<section class="v3-wrap sx-about-grid">
+  {
+    items.map((item, i) => (
+      <article>
+        <>
+          <p class="v3-eyebrow">0{i + 1}</p>
+          <h2>{item.title}</h2>
+          <p>{item.text}</p>
+        </>
+      </article>
+    ))
+  }
+</section>
+<section class="v3-wrap sx-about-contact">
+  <h2>{zh ? '一起把细节打磨好。' : 'Help shape the details.'}</h2><p class="v3-lead">
+    {
+      zh
+        ? '遇到问题或有改进想法，欢迎带上使用场景与具体步骤反馈。'
+        : 'Have a problem or an idea? Tell us what you were trying to do and the steps involved.'
+    }
+  </p><a class="sx-text-link" href={localizedPath(lang, '/contact')}>{zh ? '反馈与联系' : 'Feedback and contact'} ↗</a>
+</section>

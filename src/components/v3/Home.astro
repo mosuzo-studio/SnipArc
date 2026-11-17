@@ -3,7 +3,11 @@ import { getImage } from 'astro:assets';
 import { localizedPath } from '~/i18n/utils';
 import type { Lang } from '~/i18n/utils';
 import { getReleaseDownloads, getTotalDownloads, RELEASES_URL, STORE_URL } from '~/utils/download';
-import { getV3Copy } from './copy-intl';
+import { getHomeCopy } from './home-copy';
+import QuickHelp from './QuickHelp.astro';
+import captureFull from '~/assets/images/real/capture-full.zh-cn.png';
+import annotateFull from '~/assets/images/real/annotate-full.zh-cn.png';
+import ocrFull from '~/assets/images/real/ocr-full.zh-cn.png';
 
 import captureDemo from '~/assets/images/capture-demo.png';
 import longshotDemo from '~/assets/images/longshot-demo.png';
@@ -33,7 +37,10 @@ export interface Props {
 }
 
 const { lang, downloadUrl } = Astro.props;
-const c = getV3Copy(lang);
+const c = getHomeCopy(lang);
+const refreshed = lang === 'en' || lang === 'zh-cn';
+const zh = lang === 'zh-cn';
+const storeAvailable = !STORE_URL.includes('TBD_');
 const l = (path: string) => localizedPath(lang, path);
 
 const { urls: downloadUrls } = await getReleaseDownloads();
@@ -41,26 +48,25 @@ const { urls: downloadUrls } = await getReleaseDownloads();
 const downloadTotal = await getTotalDownloads();
 const downloadTotalText = downloadTotal === null ? null : new Intl.NumberFormat(lang).format(downloadTotal);
 
-/* Real SnipX v7.20.9 captures. Only the zh-CN UI was captured this round, so
-   only /zh-cn takes them; en and the other 13 locales keep the images they
-   already ship until an English-UI set exists. */
+/* The refreshed EN/zh-CN pages use complete real captures, including the
+   toolbar. English captions explicitly identify the Chinese software UI. */
 const realShots = lang === 'zh-cn';
 
 const shotSources = {
-  capture: realShots ? captureWideZhCn : captureWide,
+  capture: refreshed ? annotateFull : realShots ? captureWideZhCn : captureWide,
   long: longshotWide,
   pin: pinWide,
   record: recordingWide,
-  ai: realShots ? aiWideZhCn : aiWide,
+  ai: refreshed ? ocrFull : realShots ? aiWideZhCn : aiWide,
 } as const;
 
 const featureSources = {
-  capture: realShots ? captureDemoZhCn : captureDemo,
+  capture: refreshed ? captureFull : realShots ? captureDemoZhCn : captureDemo,
   longshot: longshotDemo,
   pin: pinDemo,
   recording: recordingDemo,
-  ai: realShots ? annotateWideZhCn : aiDemo,
-  modes: modesDemo,
+  ai: refreshed ? ocrFull : realShots ? annotateWideZhCn : aiDemo,
+  modes: refreshed ? annotateFull : modesDemo,
 } as const;
 
 type ShotKey = keyof typeof shotSources;
@@ -79,7 +85,8 @@ const modeKeyByFeatureImage = {
 } as const;
 
 const heroShots: Record<string, { src: string; width: number; height: number }> = {};
-for (const shotKey of Object.keys(shotSources) as ShotKey[]) {
+const activeShotKeys: ShotKey[] = refreshed ? ['capture', 'ai'] : (Object.keys(shotSources) as ShotKey[]);
+for (const shotKey of activeShotKeys) {
   const optimized = await getImage({ src: shotSources[shotKey], width: 1200, format: 'webp' });
   heroShots[shotKey] = {
     src: optimized.src,
@@ -94,8 +101,11 @@ for (const shotKey of Object.keys(shotSources) as ShotKey[]) {
 const taskbarStrip = await getImage({ src: taskbarStripSrc, width: 1792, format: 'webp', quality: 92 });
 
 const featureImages: Record<string, { src: string; width: number; height: number }> = {};
-for (const featureKey of Object.keys(featureSources) as FeatureKey[]) {
-  const optimized = await getImage({ src: featureSources[featureKey], width: 920, format: 'webp' });
+const activeFeatureKeys = refreshed
+  ? (['capture', 'modes', 'ai'] as FeatureKey[])
+  : (Object.keys(featureSources) as FeatureKey[]);
+for (const featureKey of activeFeatureKeys) {
+  const optimized = await getImage({ src: featureSources[featureKey], width: refreshed ? 1600 : 920, format: 'webp' });
   featureImages[featureKey] = {
     src: optimized.src,
     width: optimized.attributes.width,
@@ -111,174 +121,290 @@ const shotData = JSON.stringify({
 });
 ---
 
-<section class="v3-stage">
-  <div class="v3-sky">
-    <span class="v3-sun"></span>
-    <i class="v3-cloud c1"></i><i class="v3-cloud c2"></i><i class="v3-cloud c3"></i><i class="v3-cloud c4"></i>
-    <i class="v3-cloud c5"></i>
+{
+  refreshed ? (
+    <section class="sx-hero" aria-labelledby="sx-title">
+      <div class="v3-wrap sx-hero-grid">
+        <div class="sx-hero-copy">
+          <p class="sx-kicker">
+            <span aria-hidden="true" />
+            {c.hero.announce}
+          </p>
+          <h1 id="sx-title">
+            {c.hero.h1.map((line) => (
+              <span>{line.map((part) => (part.hl ? <em>{part.text}</em> : part.text))}</span>
+            ))}
+          </h1>
+          <p class="sx-summary">{c.hero.sub}</p>
+          <div class="sx-actions">
+            <a class="v3-btn v3-btn-main" href={l('/download')}>
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                aria-hidden="true"
+              >
+                <path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" />
+              </svg>
+              {c.hero.primary}
+            </a>
+            <a class="sx-text-link" href="#features" data-astro-reload>
+              {c.hero.secondary}
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p class="sx-platform">
+            {c.hero.metaStrong}
+            <span aria-hidden="true"> · </span>
+            {c.hero.metaRest}
+          </p>
+        </div>
+        <figure class="sx-preview">
+          <div class="sx-preview-bar">
+            <>
+              <span class="sx-preview-brand">
+                SnipX <span>/ {zh ? '实际界面' : 'IN ACTION'}</span>
+              </span>
+              <span class="sx-live-dot" aria-hidden="true" />
+            </>
+          </div>
+          <div class="sx-preview-viewport">
+            <a
+              id="sx-full-image"
+              data-sx-image
+              href={initialShot.src}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={zh ? '在新标签页查看完整截图' : 'Open the full screenshot in a new tab'}
+            >
+              <img
+                id="v3-shot"
+                src={initialShot.src}
+                width={initialShot.width}
+                height={initialShot.height}
+                alt={initialMode.caption}
+                fetchpriority="high"
+                decoding="async"
+              />
+              <span class="sx-expand">{zh ? '查看完整截图' : 'View full screenshot'} ↗</span>
+            </a>
+          </div>
+          <figcaption>
+            <div class="sx-preview-controls" role="group" aria-label={zh ? '选择演示画面' : 'Choose a preview'}>
+              {c.hero.modes.map((mode) => (
+                <button
+                  type="button"
+                  data-preview-mode={mode.key}
+                  aria-pressed={mode.key === initialMode.key ? 'true' : 'false'}
+                >
+                  {mode.label}
+                </button>
+              ))}
+            </div>
+            <span id="v3-shot-cap-text" class="sx-caption">
+              {initialMode.caption}
+            </span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  ) : (
+    <section class="v3-stage">
+      <div class="v3-sky">
+        <span class="v3-sun" />
+        <>
+          <i class="v3-cloud c1" />
+          <i class="v3-cloud c2" />
+          <i class="v3-cloud c3" />
+          <i class="v3-cloud c4" />
+        </>
+        <i class="v3-cloud c5" />
 
-    <div class="v3-announce">
-      <b>{c.hero.badge}</b><span>{c.hero.announce}</span><em aria-hidden="true">→</em>
-    </div>
-
-    <div class="v3-modes" role="group" aria-label={c.nav.features}>
-      {
-        c.hero.modes.map((mode) => (
-          <a
-            href={`#feature-${mode.key}`}
-            aria-current={mode.key === initialMode.key ? 'true' : 'false'}
-            data-v3-mode={mode.key}
-          >
-            {mode.label}
-          </a>
-        ))
-      }
-    </div>
-
-    <h1 class="v3-h1">
-      {
-        c.hero.h1.map((line, lineIndex) => (
+        <div class="v3-announce">
           <>
-            {line.map((segment) => (segment.hl ? <span class="hl">{segment.text}</span> : <span>{segment.text}</span>))}
-            {lineIndex < c.hero.h1.length - 1 && <br />}
+            <b>{c.hero.badge}</b>
+            <span>{c.hero.announce}</span>
+            <em aria-hidden="true">→</em>
           </>
-        ))
-      }
-    </h1>
+        </div>
 
-    <p class="v3-sub">{c.hero.sub}</p>
+        <div class="v3-modes" role="group" aria-label={c.nav.features}>
+          {c.hero.modes.map((mode) => (
+            <a
+              href={`#feature-${mode.key}`}
+              aria-current={mode.key === initialMode.key ? 'true' : 'false'}
+              data-v3-mode={mode.key}
+            >
+              {mode.label}
+            </a>
+          ))}
+        </div>
 
-    <div class="v3-cta">
-      <div class="v3-split" data-v3-split>
-        <a class="v3-btn v3-btn-main v3-split-main" href={downloadUrl}>{c.hero.primary}</a>
-        <button
-          class="v3-btn v3-btn-main v3-split-toggle"
-          type="button"
-          aria-haspopup="true"
-          aria-expanded="false"
-          aria-label={c.download.more}
-          data-v3-split-toggle
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
+        <h1 class="v3-h1">
+          {c.hero.h1.map((line, lineIndex) => (
+            <>
+              {line.map((segment) =>
+                segment.hl ? <span class="hl">{segment.text}</span> : <span>{segment.text}</span>
+              )}
+              {lineIndex < c.hero.h1.length - 1 && <br />}
+            </>
+          ))}
+        </h1>
+
+        <p class="v3-sub">{c.hero.sub}</p>
+
+        <div class="v3-cta">
+          <div class="v3-split" data-v3-split>
+            <a class="v3-btn v3-btn-main v3-split-main" href={downloadUrl}>
+              {c.hero.primary}
+            </a>
+            <button
+              class="v3-btn v3-btn-main v3-split-toggle"
+              type="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label={c.download.more}
+              data-v3-split-toggle
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6 9.5l6 6 6-6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="v3-split-menu" aria-label={c.download.menu}>
+              <p class="v3-split-cap">{c.download.edition}</p>
+              <a href={downloadUrls.setup} data-v3-tip={c.download.setupTip}>
+                <>
+                  <span>{c.download.setup}</span>
+                  <b>{c.download.recommend}</b>
+                </>
+              </a>
+              <a href={downloadUrls.portable} data-v3-tip={c.download.portableTip}>
+                {c.download.portable}
+              </a>
+              <a href={downloadUrls.msi} data-v3-tip={c.download.msiTip}>
+                {c.download.msi}
+              </a>
+              <a href={STORE_URL} target="_blank" rel="noopener noreferrer" data-v3-tip={c.download.storeTip}>
+                {c.download.store}
+              </a>
+              <a class="v3-split-all" href={RELEASES_URL} target="_blank" rel="noopener noreferrer">
+                {c.download.allVersions}
+              </a>
+            </div>
+          </div>
+          <a class="v3-btn v3-btn-sub" href={l('/#features')}>
+            {c.hero.secondary} <em aria-hidden="true">▾</em>
+          </a>
+        </div>
+
+        {/* The platform line is a Latin token in every locale, so keep its own
+        direction in RTL pages (`+Windows 10/11` would otherwise flip). */}
+        <p class="v3-meta">
+          <b dir="ltr">{c.hero.metaStrong}</b> · {c.hero.metaRest}
+        </p>
+        <a class="v3-ontop" href={STORE_URL} target="_blank" rel="noopener noreferrer">
+          {c.hero.store}
+          <svg class="v3-ontop-logo" viewBox="0 0 24 24" aria-hidden="true">
             <path
-              d="M6 9.5l6 6 6-6"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
               stroke-linecap="round"
-              stroke-linejoin="round"></path>
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m17.8 20l-12-1.5c-1-.1-1.8-.9-1.8-1.9V7.4c0-1 .8-1.8 1.8-1.9l12-1.5c1.2-.1 2.2.8 2.2 1.9V18c0 1.2-1.1 2.1-2.2 1.9zM12 5v14m-8-7h16"
+            />
           </svg>
-        </button>
-        <div class="v3-split-menu" aria-label={c.download.menu}>
-          <p class="v3-split-cap">{c.download.edition}</p>
-          <a href={downloadUrls.setup} data-v3-tip={c.download.setupTip}>
-            <span>{c.download.setup}</span><b>{c.download.recommend}</b>
-          </a>
-          <a href={downloadUrls.portable} data-v3-tip={c.download.portableTip}>{c.download.portable}</a>
-          <a href={downloadUrls.msi} data-v3-tip={c.download.msiTip}>{c.download.msi}</a>
-          <a href={STORE_URL} target="_blank" rel="noopener noreferrer" data-v3-tip={c.download.storeTip}
-            >{c.download.store}</a
-          >
-          <a class="v3-split-all" href={RELEASES_URL} target="_blank" rel="noopener noreferrer"
-            >{c.download.allVersions}</a
-          >
-        </div>
-      </div>
-      <a class="v3-btn v3-btn-sub" href={l('/#features')}>{c.hero.secondary} <em aria-hidden="true">▾</em></a>
-    </div>
+        </a>
 
-    {
-      /* The platform line is a Latin token in every locale, so keep its own
-        direction in RTL pages (`+Windows 10/11` would otherwise flip). */
-    }
-    <p class="v3-meta"><b dir="ltr">{c.hero.metaStrong}</b> · {c.hero.metaRest}</p>
-    <a class="v3-ontop" href={STORE_URL} target="_blank" rel="noopener noreferrer">
-      {c.hero.store}
-      <svg class="v3-ontop-logo" viewBox="0 0 24 24" aria-hidden="true">
-        <path
-          fill="none"
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="m17.8 20l-12-1.5c-1-.1-1.8-.9-1.8-1.9V7.4c0-1 .8-1.8 1.8-1.9l12-1.5c1.2-.1 2.2.8 2.2 1.9V18c0 1.2-1.1 2.1-2.2 1.9zM12 5v14m-8-7h16"
-        ></path>
-      </svg>
-    </a>
-
-    <figure class="v3-shot">
-      {/* data-shell="laptop" swaps the aluminium monitor for the laptop shell */}
-      <div class="v3-display" data-shell="monitor">
-        <div class="v3-bezel">
-          <span class="v3-cam" aria-hidden="true"></span>
-          <div class="v3-desktop">
-            <img
-              id="v3-shot"
-              class="v3-shot-img"
-              src={initialShot.src}
-              width={initialShot.width}
-              height={initialShot.height}
-              alt={initialMode.label}
-            />
-            <img
-              class="v3-tb"
-              src={taskbarStrip.src}
-              width={taskbarStrip.attributes.width}
-              height={taskbarStrip.attributes.height}
-              alt=""
-              aria-hidden="true"
-            />
+        <figure class="v3-shot">
+          {/* data-shell="laptop" swaps the aluminium monitor for the laptop shell */}
+          <div class="v3-display" data-shell="monitor">
+            <div class="v3-bezel">
+              <span class="v3-cam" aria-hidden="true" />
+              <div class="v3-desktop">
+                <img
+                  id="v3-shot"
+                  class="v3-shot-img"
+                  src={initialShot.src}
+                  width={initialShot.width}
+                  height={initialShot.height}
+                  alt={initialMode.label}
+                />
+                <img
+                  class="v3-tb"
+                  src={taskbarStrip.src}
+                  width={taskbarStrip.attributes.width}
+                  height={taskbarStrip.attributes.height}
+                  alt=""
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+            <div class="v3-arm" aria-hidden="true" />
+            <div class="v3-base" aria-hidden="true" />
           </div>
-        </div>
-        <div class="v3-arm" aria-hidden="true"></div>
-        <div class="v3-base" aria-hidden="true"></div>
+          <figcaption class="v3-shot-cap" id="v3-shot-cap">
+            <span id="v3-shot-cap-text">{initialMode.caption}</span>
+            <span class="v3-shell-dots">
+              <button
+                type="button"
+                class="v3-shell-dot"
+                data-shell-target="monitor"
+                aria-pressed="true"
+                aria-label={c.hero.shellMonitor}
+              />
+              <button
+                type="button"
+                class="v3-shell-dot"
+                data-shell-target="laptop"
+                aria-pressed="false"
+                aria-label={c.hero.shellLaptop}
+              />
+            </span>
+          </figcaption>
+        </figure>
+        <div class="v3-tail" />
       </div>
-      <figcaption class="v3-shot-cap" id="v3-shot-cap">
-        <span id="v3-shot-cap-text">{initialMode.caption}</span>
-        <span class="v3-shell-dots">
-          <button
-            type="button"
-            class="v3-shell-dot"
-            data-shell-target="monitor"
-            aria-pressed="true"
-            aria-label={c.hero.shellMonitor}></button>
-          <button
-            type="button"
-            class="v3-shell-dot"
-            data-shell-target="laptop"
-            aria-pressed="false"
-            aria-label={c.hero.shellLaptop}></button>
-        </span>
-      </figcaption>
-    </figure>
-    <div class="v3-tail"></div>
-  </div>
-</section>
+    </section>
+  )
+}
 
-<div class="v3-trust">
-  <div class="v3-wrap v3-trust-row">
-    {
-      c.trust.map((item) => {
-        if (!item.value.includes('{downloads}')) {
+{
+  !refreshed && (
+    <div class="v3-trust">
+      <div class="v3-wrap v3-trust-row">
+        {c.trust.map((item) => {
+          if (!item.value.includes('{downloads}')) {
+            return (
+              <span>
+                <b>{item.value}</b> {item.label}
+              </span>
+            );
+          }
+          if (downloadTotalText === null) return null;
+          /* The one moving number; refreshed in the browser, see initV3DownloadCount. */
           return (
-            <span>
-              <b>{item.value}</b> {item.label}
+            <span class="v3-trust-live" data-v3-tip={item.tip}>
+              <em aria-hidden="true" />
+              <b data-v3-downloads="">{item.value.replace('{downloads}', downloadTotalText)}</b> {item.label}
+              {item.badge && <i>{item.badge}</i>}
             </span>
           );
-        }
-        if (downloadTotalText === null) return null;
-        /* The one moving number; refreshed in the browser, see initV3DownloadCount. */
-        return (
-          <span class="v3-trust-live" data-v3-tip={item.tip}>
-            <em aria-hidden="true" />
-            <b data-v3-downloads="">{item.value.replace('{downloads}', downloadTotalText)}</b> {item.label}
-            {item.badge && <i>{item.badge}</i>}
-          </span>
-        );
-      })
-    }
-  </div>
-</div>
+        })}
+      </div>
+    </div>
+  )
+}
 
 <section class="v3-section v3-center" id="features">
   <div class="v3-wrap">
@@ -344,92 +470,217 @@ const shotData = JSON.stringify({
               </div>
             ))}
           </div>
-          {
-            section.items && (
-              <div class="v3-list2">
-                {section.items.map((item) => (
-                  <div class="v3-it">
-                    <div class="v3-d">
-                      <svg viewBox="0 0 24 24" aria-hidden="true">
-                        <path d="m5 13 4 4L19 7" />
-                      </svg>
-                    </div>
-                    <div>
-                      <b>{item.title}</b>
-                      <i>{item.note}</i>
-                    </div>
+          {section.items && (
+            <div class="v3-list2">
+              {section.items.map((item) => (
+                <div class="v3-it">
+                  <div class="v3-d">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m5 13 4 4L19 7" />
+                    </svg>
                   </div>
-                ))}
-              </div>
-            )
-          }
+                  <div>
+                    <b>{item.title}</b>
+                    <i>{item.note}</i>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
         <div class="v3-panel">
-          <img
-            src={featureImages[section.image].src}
-            width={featureImages[section.image].width}
-            height={featureImages[section.image].height}
-            alt={section.title}
-            loading="lazy"
-          />
+          {refreshed ? (
+            <a
+              class="sx-image-link"
+              data-sx-image
+              href={featureImages[section.image].src}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={zh ? '放大查看实机截图' : 'Enlarge the actual screenshot'}
+            >
+              <img
+                src={featureImages[section.image].src}
+                width={featureImages[section.image].width}
+                height={featureImages[section.image].height}
+                alt={
+                  zh
+                    ? `${section.title}：SnipX 中文界面实机截图`
+                    : `${section.title}: actual SnipX screenshot, Chinese UI`
+                }
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="sx-image-hint">{zh ? '点击放大实机截图' : 'Enlarge actual screenshot'} ↗</span>
+            </a>
+          ) : (
+            <img
+              src={featureImages[section.image].src}
+              width={featureImages[section.image].width}
+              height={featureImages[section.image].height}
+              alt={section.title}
+              loading="lazy"
+            />
+          )}
         </div>
       </div>
     </section>
   ))
 }
 
-<section class="v3-section is-tight" id="download">
-  <div class="v3-wrap">
-    <div class="v3-dl">
-      <div class="v3-dl-glow"><span class="v3-sun"></span></div>
-      <div class="v3-eyebrow">{c.cta.eyebrow}</div>
-      <h2 class="v3-h2">{c.cta.title}</h2>
-      <p class="v3-lead" style="margin:0 auto 28px">{c.cta.lead}</p>
-      <div class="v3-cta">
-        <div class="v3-split" data-v3-split>
-          <a class="v3-btn v3-btn-main v3-split-main" href={downloadUrl}>{c.cta.primary}</a>
-          <button
-            class="v3-btn v3-btn-main v3-split-toggle"
-            type="button"
-            aria-haspopup="true"
-            aria-expanded="false"
-            aria-label={c.download.more}
-            data-v3-split-toggle
-          >
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path
-                d="M6 9.5l6 6 6-6"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"></path>
-            </svg>
-          </button>
-          <div class="v3-split-menu" aria-label={c.download.menu}>
-            <p class="v3-split-cap">{c.download.edition}</p>
-            <a href={downloadUrls.setup} data-v3-tip={c.download.setupTip}>
-              <span>{c.download.setup}</span><b>{c.download.recommend}</b>
-            </a>
-            <a href={downloadUrls.portable} data-v3-tip={c.download.portableTip}>{c.download.portable}</a>
-            <a href={downloadUrls.msi} data-v3-tip={c.download.msiTip}>{c.download.msi}</a>
-            <a href={STORE_URL} target="_blank" rel="noopener noreferrer" data-v3-tip={c.download.storeTip}>
-              {c.download.store}
-            </a>
-            <a class="v3-split-all" href={RELEASES_URL} target="_blank" rel="noopener noreferrer">
-              {c.download.allVersions}
+{refreshed && <QuickHelp lang={lang} />}
+
+{
+  refreshed ? (
+    <section class="v3-section is-tight" id="download">
+      <div class="v3-wrap">
+        <div class="v3-dl">
+          <>
+            <p class="v3-eyebrow">{c.cta.eyebrow}</p>
+            <h2 class="v3-h2">{c.cta.title}</h2>
+            <p class="v3-lead">{c.cta.lead}</p>
+          </>
+          <div class="v3-cta">
+            <>
+              <a class="v3-btn v3-btn-main" href={l('/download')}>
+                {c.cta.primary}
+              </a>
+              <a class="sx-text-link" href={l('/download#sx-format-title')}>
+                {zh ? '其他下载方式' : 'Other download options'} <span aria-hidden="true">↗</span>
+              </a>
+            </>
+          </div>
+          <p class="v3-other">{c.cta.note}</p>
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="v3-section is-tight" id="download">
+      <div class="v3-wrap">
+        <div class="v3-dl">
+          <div class="v3-dl-glow">
+            <span class="v3-sun" />
+          </div>
+          <div class="v3-eyebrow">{c.cta.eyebrow}</div>
+          <h2 class="v3-h2">{c.cta.title}</h2>
+          <p class="v3-lead" style="margin:0 auto 28px">
+            {c.cta.lead}
+          </p>
+          <div class="v3-cta">
+            <div class="v3-split" data-v3-split>
+              <a class="v3-btn v3-btn-main v3-split-main" href={downloadUrl}>
+                {c.cta.primary}
+              </a>
+              <button
+                class="v3-btn v3-btn-main v3-split-toggle"
+                type="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                aria-label={c.download.more}
+                data-v3-split-toggle
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M6 9.5l6 6 6-6"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <div class="v3-split-menu" aria-label={c.download.menu}>
+                <p class="v3-split-cap">{c.download.edition}</p>
+                <a href={downloadUrls.setup} data-v3-tip={c.download.setupTip}>
+                  <>
+                    <span>{c.download.setup}</span>
+                    <b>{c.download.recommend}</b>
+                  </>
+                </a>
+                <a href={downloadUrls.portable} data-v3-tip={c.download.portableTip}>
+                  {c.download.portable}
+                </a>
+                <a href={downloadUrls.msi} data-v3-tip={c.download.msiTip}>
+                  {c.download.msi}
+                </a>
+                {(!refreshed || storeAvailable) && (
+                  <a href={STORE_URL} target="_blank" rel="noopener noreferrer" data-v3-tip={c.download.storeTip}>
+                    {c.download.store}
+                  </a>
+                )}
+                <a class="v3-split-all" href={RELEASES_URL} target="_blank" rel="noopener noreferrer">
+                  {c.download.allVersions}
+                </a>
+              </div>
+            </div>
+            <a class="v3-btn v3-btn-sub" href={l('/versions')}>
+              {c.cta.secondary}
             </a>
           </div>
+          <div class="v3-other">
+            <i />
+            {c.cta.note}
+          </div>
         </div>
-        <a class="v3-btn v3-btn-sub" href={l('/versions')}>{c.cta.secondary}</a>
       </div>
-      <div class="v3-other"><i></i>{c.cta.note}</div>
-    </div>
-  </div>
-</section>
+    </section>
+  )
+}
 
 <script is:inline type="application/json" id="v3-shot-data" set:html={shotData} />
+{
+  refreshed && (
+    <dialog class="sx-image-dialog" id="sx-image-dialog" aria-labelledby="sx-image-dialog-title">
+      <div class="sx-dialog-head">
+        <>
+          <h2 id="sx-image-dialog-title">{zh ? 'SnipX 实机截图' : 'Actual SnipX screenshot'}</h2>
+          <button type="button" data-sx-close autofocus>
+            {zh ? '关闭' : 'Close'} <span aria-hidden="true">×</span>
+          </button>
+        </>
+      </div>
+      <img data-sx-dialog-image alt="" />
+    </dialog>
+  )
+}
 <script>
+  function initScreenshotViewer() {
+    const dialog = document.getElementById('sx-image-dialog') as HTMLDialogElement | null;
+    const image = dialog?.querySelector<HTMLImageElement>('[data-sx-dialog-image]');
+    if (!dialog || !image || dialog.dataset.wired) return;
+    dialog.dataset.wired = 'true';
+    dialog.querySelector('[data-sx-close]')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+    document.querySelectorAll<HTMLAnchorElement>('[data-sx-image]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        if (
+          event.button !== 0 ||
+          event.ctrlKey ||
+          event.metaKey ||
+          event.shiftKey ||
+          event.altKey ||
+          typeof dialog.showModal !== 'function'
+        )
+          return;
+        event.preventDefault();
+        image.src = link.href;
+        image.alt = link.querySelector('img')?.alt ?? '';
+        dialog.showModal();
+      });
+    });
+    document.addEventListener(
+      'astro:before-swap',
+      () => {
+        if (dialog.open) dialog.close();
+      },
+      { once: true }
+    );
+  }
+  initScreenshotViewer();
+  document.addEventListener('astro:page-load', initScreenshotViewer);
+
   function initV3ShotSwitcher() {
     const dataEl = document.getElementById('v3-shot-data');
     const img = document.getElementById('v3-shot') as HTMLImageElement | null;
@@ -446,6 +697,9 @@ const shotData = JSON.stringify({
 
     const showShot = (modeKey: string) => {
       links.forEach((link) => link.setAttribute('aria-current', String(link.dataset.v3Mode === modeKey)));
+      document
+        .querySelectorAll<HTMLButtonElement>('[data-preview-mode]')
+        .forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.previewMode === modeKey)));
 
       const shot = data.shots[modeKey];
       if (shot && img.getAttribute('src') !== shot.src) {
@@ -455,8 +709,19 @@ const shotData = JSON.stringify({
       }
 
       const mode = data.modes.find((entry) => entry.key === modeKey);
-      if (mode) caption.textContent = mode.caption;
+      if (mode) {
+        caption.textContent = mode.caption;
+        img.alt = mode.caption;
+      }
+      const fullImage = document.getElementById('sx-full-image') as HTMLAnchorElement | null;
+      if (fullImage && shot) fullImage.href = shot.src;
     };
+
+    document.querySelectorAll<HTMLButtonElement>('[data-preview-mode]').forEach((button) => {
+      button.addEventListener('click', () => {
+        if (button.dataset.previewMode) showShot(button.dataset.previewMode);
+      });
+    });
 
     // Hover previews the shot; a plain click scrolls to the feature section of
     // the same name. The click is handled here because the view-transition
@@ -467,8 +732,7 @@ const shotData = JSON.stringify({
       link.addEventListener('pointerenter', () => showShot(modeKey));
       link.addEventListener('focus', () => showShot(modeKey));
       link.addEventListener('click', (event) => {
-        const plainClick =
-          event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
+        const plainClick = event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey;
         const anchor = link.getAttribute('href');
         const target = anchor ? document.getElementById(anchor.slice(1)) : null;
         if (!plainClick || event.defaultPrevented || !target) return;
@@ -510,7 +774,8 @@ const shotData = JSON.stringify({
       .then((response) => (response.ok ? response.json() : Promise.reject(new Error(String(response.status)))))
       .then((releases: { assets?: { name?: string; download_count?: number }[] }[]) => {
         const total = releases.reduce(
-          (sum, release) => sum + (release.assets ?? []).reduce((inner, asset) => inner + (asset.download_count ?? 0), 0),
+          (sum, release) =>
+            sum + (release.assets ?? []).reduce((inner, asset) => inner + (asset.download_count ?? 0), 0),
           0
         );
         if (total > 0) el.textContent = new Intl.NumberFormat(document.documentElement.lang || 'en').format(total);

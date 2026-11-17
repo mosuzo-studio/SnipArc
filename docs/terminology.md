@@ -1,5 +1,18 @@
 # SnipX 术语与卖点口径
 
+## 当前中英文页面补充口径（2026-11-17）
+
+本节对当前 SnipX 中英文网站优先适用。下文继承资料中涉及旧 ShotxAI 路径、Lite/Standard 差异、价格、安装包大小与系统最低版本的内容，不可直接当作已确认事实发布。
+
+- 当前源码参考：`D:\project\research\SnipX`；网站现有实机素材来自 `dist\SnipX_v7.20.9_2026-11-16_1609_win64\SnipX.exe`。
+- v7.20.9 表示截图对应的软件版本，不自动等于最新正式发行版本；v7.20.8 更新条目保留为历史记录，不标为 Current。
+- 产品名称 SnipX；Windows 截图与标注工具 / screenshot and annotation tool for Windows；Qt 原生实现。
+- 下载 Windows 版 / Download for Windows 导向下载选择页；前往 GitHub 下载页 / View downloads on GitHub 表示打开发行列表，不能冒充已核实的直接安装包下载。
+- 安装版与便携版是分发方式，不据此推断授权与功能差异。不展示未经核实的 Lite/Standard 比较、免费期限、安装包大小或未来平台路线图。
+- 文字提取 / Extract text 是下文离线 OCR 的用户操作表达，不新增独立软件能力。其他功能名沿用下文约定。
+- 不将基础截图的本地处理概括为所有功能绝不联网；图片翻译等服务以实际配置为准。不承诺未经核实的反馈响应时限。
+- 其余 13 种语言本轮保留既有文案；本节不表示已对其进行完整事实审查。
+
 站点（首页、关于、版本、FAQ、changelog、README、15 语言页面）与 App 界面必须说同一套词。本文件是**站点侧的唯一术语来源**：新词先在这里登记，再写进任何页面。
 
 - 事实依据（唯一权威）：App 语言包 `D:\project\research\ShotxAI\src\i18n\{zh-CN,en,zh-TW,ja,pt-BR,es,de,fr,it,ko,ru,ar,nl,pl,sv}.js`

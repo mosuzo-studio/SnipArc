@@ -1,0 +1,48 @@
+---
+import { getSupportCopy } from './support-copy';
+import { localizedPath } from '~/i18n/utils';
+import type { Lang } from '~/i18n/utils';
+interface Props {
+  lang: Lang;
+  full?: boolean;
+}
+const { lang, full = false } = Astro.props;
+const c = getSupportCopy(lang);
+const zh = lang === 'zh-cn';
+---
+
+<section class:list={['sx-help', { 'sx-help-full': full }]} aria-labelledby="sx-help-title">
+  <div class="v3-wrap sx-help-grid">
+    <div>
+      <p class="v3-eyebrow">{zh ? '使用帮助' : 'GOOD TO KNOW'}</p>
+      {
+        full ? (
+          <h1 id="sx-help-title">{zh ? '简单开始，顺手使用。' : 'Get started. Keep going.'}</h1>
+        ) : (
+          <h2 id="sx-help-title" class="v3-h2">
+            {c.title}
+          </h2>
+        )
+      }
+      <p class="v3-lead">{c.lead}</p>
+      <a class="sx-text-link" href={localizedPath(lang, '/contact')}
+        >{zh ? '联系与反馈' : 'Contact and feedback'} <span aria-hidden="true">↗</span></a
+      >
+    </div>
+    <div class="sx-faq-list">
+      {
+        c.items.map((item) => (
+          <details id={item.id}>
+            <>
+              <summary>
+                {item.q}
+                <span aria-hidden="true">+</span>
+              </summary>
+              <p>{item.a}</p>
+            </>
+          </details>
+        ))
+      }
+    </div>
+  </div>
+</section>

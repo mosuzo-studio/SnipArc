@@ -69,11 +69,11 @@ export function localizedPath(lang: Lang, path = '/'): string {
   const [pathname, hash] = path.split('#');
   const localeUrl = getRelativeLocaleUrl(lang, pathname === '' ? '/' : pathname);
   const localized = localeUrl !== '/' && localeUrl.endsWith('/') ? localeUrl.slice(0, -1) : localeUrl;
-  return hash ? `${localized.replace(/\/$/, '')}#${hash}` : localized;
+  return hash ? `${localized.replace(/\/$/, '') || '/'}#${hash}` : localized;
 }
 
 /** Routes only EN and zh-CN publish; every other locale links to the English one. */
-const ENGLISH_ONLY_PATHS = new Set(['/privacy', '/terms']);
+const ENGLISH_ONLY_PATHS = new Set(['/privacy', '/terms', '/download']);
 
 /**
  * Locale-aware path for a page, honouring the split routes: the legal pages

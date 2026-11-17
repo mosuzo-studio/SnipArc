@@ -13,7 +13,28 @@ export interface Props {
 }
 
 const { lang } = Astro.props;
-const c = getV3Copy(lang);
+const baseCopy = getV3Copy(lang);
+const refreshed = lang === 'en' || lang === 'zh-cn';
+const c = refreshed
+  ? {
+      ...baseCopy,
+      contact: {
+        ...baseCopy.contact,
+        replyNote:
+          lang === 'zh-cn'
+            ? '欢迎提供具体的使用场景与复现步骤，方便定位问题。'
+            : 'Include your workflow and reproduction steps so we can understand the issue.',
+        groups: baseCopy.contact.groups
+          .map((group) => ({
+            ...group,
+            channels: group.channels.filter(
+              (channel) => channel.href && !channel.href.includes('github.com/mosuzo-studio/SnipX')
+            ),
+          }))
+          .filter((group) => group.channels.length),
+      },
+    }
+  : baseCopy;
 const faqHref = localizedPagePath(lang, '/faq');
 
 // Marks that are not in the tabler set ship their own artwork instead.

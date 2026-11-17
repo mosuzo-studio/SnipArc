@@ -1,11 +1,13 @@
 @echo off
 chcp 65001 >nul
-title Astro Local Preview - template
+title SnipX - Local Preview
 cd /d "%~dp0"
 
 echo ============================================================
 echo   Local live preview (Astro dev server, hot reload)
-echo   URL:  http://localhost:4321/template
+echo   Chinese: http://127.0.0.1:4325/zh-cn/
+echo   English: http://127.0.0.1:4325/
+echo   Open these links after Astro reports ready.
 echo   Stop: close this window or press Ctrl+C
 echo ============================================================
 echo.
@@ -15,12 +17,6 @@ if errorlevel 1 (
   echo [ERROR] npm not found in PATH. Please install Node.js first.
   pause
   exit /b 1
-)
-
-REM --- Free port 4321 if a previous run left a server behind ---
-for /f "tokens=5" %%P in ('netstat -ano ^| findstr /r /c:":4321 .*LISTENING"') do (
-  echo Releasing port 4321 - stopping old server PID %%P ...
-  taskkill /F /PID %%P >nul 2>nul
 )
 
 if not exist "node_modules" (
@@ -33,12 +29,9 @@ if not exist "node_modules" (
   )
 )
 
-echo Opening browser shortly...
-start "" /min cmd /c "ping -n 7 127.0.0.1 >nul && start http://localhost:4321/template"
-
 echo Starting dev server...
 echo.
-call npm run dev
+call npm run dev -- --host 127.0.0.1 --port 4325 --strictPort
 
 echo.
 echo Dev server stopped.
