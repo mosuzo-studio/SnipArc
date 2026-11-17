@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const frFormats: DownloadFormatsContent = {
   tagline: 'Formats de téléchargement',
   title: 'Quel fichier télécharger ?',
-  subtitle: "Le même Shotera dans tous les formats — seules l'installation et la mise à jour changent.",
+  subtitle: "Le même SnipX dans tous les formats — seules l'installation et la mise à jour changent.",
   headers: ['Format', 'Installation et mises à jour', 'Pour qui'],
   recommendLabel: 'Recommandé',
   rows: [

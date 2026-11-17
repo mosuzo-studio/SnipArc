@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const ruFormats: DownloadFormatsContent = {
   tagline: 'Форматы загрузки',
   title: 'Какой файл скачать?',
-  subtitle: 'Это один и тот же Shotera в четырёх форматах — различаются только установка и обновление.',
+  subtitle: 'Это один и тот же SnipX в четырёх форматах — различаются только установка и обновление.',
   headers: ['Формат', 'Установка и обновление', 'Кому подходит'],
   recommendLabel: 'Рекомендуется',
   rows: [

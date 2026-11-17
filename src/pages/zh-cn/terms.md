@@ -5,15 +5,15 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _最后更新_：2026 年 8 月 2 日
 
-## Shotera 最终用户许可协议
+## SnipX 最终用户许可协议
 
 **版权所有 © Mosuzo Studio。保留所有权利。**
 
-官网：[https://shotera.mosuzo.com](https://shotera.mosuzo.com) · 邮箱：mosuzo.studio@gmail.com
+官网：[https://snipx.mosuzo.com](https://snipx.mosuzo.com) · 邮箱：mosuzo.studio@gmail.com
 
 ---
 
-感谢您选择 Shotera（以下简称「本软件」）。本协议是您与 Mosuzo Studio（以下简称「我们」）之间的法律协议。请在安装或使用前花几分钟阅读。一旦安装、复制或使用本软件，即表示您已阅读并同意本协议。若您不同意，请勿安装或使用本软件。
+感谢您选择 SnipX（以下简称「本软件」）。本协议是您与 Mosuzo Studio（以下简称「我们」）之间的法律协议。请在安装或使用前花几分钟阅读。一旦安装、复制或使用本软件，即表示您已阅读并同意本协议。若您不同意，请勿安装或使用本软件。
 
 ### 1. 授权许可
 

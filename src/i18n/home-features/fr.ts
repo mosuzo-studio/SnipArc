@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Fonctions principales',
     title: 'Une seule application pour toutes vos captures',
     subtitle:
-      'De la capture rapide au travail créatif, Shotera réunit vos besoins les plus fréquents de capture, d’enregistrement, d’OCR et d’annotation dans une application légère.',
+      'De la capture rapide au travail créatif, SnipX réunit vos besoins les plus fréquents de capture, d’enregistrement, d’OCR et d’annotation dans une application légère.',
     items: [
       {
         title: 'Capture intelligente',
         description:
-          'Capturez une zone, une fenêtre ou l’écran entier d’une seule touche. Shotera détecte automatiquement les fenêtres et les éléments d’interface au pixel près.',
+          'Capturez une zone, une fenêtre ou l’écran entier d’une seule touche. SnipX détecte automatiquement les fenêtres et les éléments d’interface au pixel près.',
       },
       {
         title: 'Enregistrement d’écran et GIF',
@@ -124,7 +124,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Plus de fonctions',
     title: 'Ces petits détails sur lesquels vous allez compter',
-    subtitle: 'Les petites attentions cachées dans les détails sont ce qui rend Shotera difficile à quitter.',
+    subtitle: 'Les petites attentions cachées dans les détails sont ce qui rend SnipX difficile à quitter.',
     items: [
       {
         title: 'Autocollants emoji',

@@ -493,7 +493,7 @@ const shotData = JSON.stringify({
     if (!el || el.dataset.wired === '1') return;
     el.dataset.wired = '1';
 
-    fetch('https://api.github.com/repos/mosuzo-studio/Shotera/releases?per_page=100', {
+    fetch('https://api.github.com/repos/mosuzo-studio/SnipX/releases?per_page=100', {
       headers: { Accept: 'application/vnd.github+json' },
     })
       .then((response) => (response.ok ? response.json() : Promise.reject(new Error(String(response.status)))))

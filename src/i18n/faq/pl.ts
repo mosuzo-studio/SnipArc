@@ -16,12 +16,12 @@ export const content: FaqContent = {
       label: 'Platformy i języki',
       items: [
         {
-          q: 'Jakie systemy operacyjne obsługuje Shotera?',
-          a: 'Shotera obsługuje obecnie pulpit Windows: instalator jest niewielki, szybko się uruchamia i działa offline — pobierasz go i od razu zaczynasz pracę. macOS, Linux i kolejne platformy są w planach.',
+          q: 'Jakie systemy operacyjne obsługuje SnipX?',
+          a: 'SnipX obsługuje obecnie pulpit Windows: instalator jest niewielki, szybko się uruchamia i działa offline — pobierasz go i od razu zaczynasz pracę. macOS, Linux i kolejne platformy są w planach.',
         },
         {
-          q: 'Jakie języki interfejsu obsługuje Shotera?',
-          a: 'Shotera obsługuje teraz chiński tradycyjny, japoński, portugalski (Brazylia), hiszpański, niemiecki, francuski, włoski, koreański, rosyjski, arabski, niderlandzki, polski i szwedzki. Razem z angielskim i chińskim uproszczonym daje to 15 języków interfejsu.',
+          q: 'Jakie języki interfejsu obsługuje SnipX?',
+          a: 'SnipX obsługuje teraz chiński tradycyjny, japoński, portugalski (Brazylia), hiszpański, niemiecki, francuski, włoski, koreański, rosyjski, arabski, niderlandzki, polski i szwedzki. Razem z angielskim i chińskim uproszczonym daje to 15 języków interfejsu.',
         },
       ],
     },
@@ -34,7 +34,7 @@ export const content: FaqContent = {
           a: 'Nie. OCR, wycinanie AI i wymazywanie AI działają w całości offline na Twoim urządzeniu — nic nie jest wysyłane, więc Twoje dane pozostają prywatne. Tłumaczenie obrazów korzysta z interfejsów API w chmurze i podlega politykom prywatności odpowiednich dostawców.',
         },
         {
-          q: 'Czy Shotera działa bez żadnego połączenia z internetem?',
+          q: 'Czy SnipX działa bez żadnego połączenia z internetem?',
           a: 'Tak. Przechwytywanie, adnotacje, nagrywanie, OCR, wycinanie AI, wymazywanie AI i przeglądarka obrazów działają offline, a to, co przechwycisz, nie opuszcza Twojego komputera. Tłumaczenie obrazów jako jedyne odwołuje się do API w chmurze, więc wymaga połączenia.',
         },
       ],
@@ -44,8 +44,8 @@ export const content: FaqContent = {
       label: 'Wersje, eksport i wydajność',
       items: [
         {
-          q: 'Czy Shotera jest bezpłatna?',
-          a: 'Podstawowe przechwytywanie, adnotacje i przypinanie są bezpłatne. Jeśli wystarczy Ci codzienne przechwytywanie i adnotacje, sięgnij po Shotera Lite — lżejszą wersję bez nagrywania i AI. Nagrywanie, wycinanie AI, wymazywanie AI i tłumaczenie obrazów są dostępne w wersji Standard — szczegóły znajdziesz w porównaniu wersji.',
+          q: 'Czy SnipX jest bezpłatna?',
+          a: 'Podstawowe przechwytywanie, adnotacje i przypinanie są bezpłatne. Jeśli wystarczy Ci codzienne przechwytywanie i adnotacje, sięgnij po SnipX Lite — lżejszą wersję bez nagrywania i AI. Nagrywanie, wycinanie AI, wymazywanie AI i tłumaczenie obrazów są dostępne w wersji Standard — szczegóły znajdziesz w porównaniu wersji.',
         },
         {
           q: 'Jakie rozdzielczości i liczbę klatek obsługuje nagrywanie?',
@@ -56,8 +56,8 @@ export const content: FaqContent = {
           a: 'Tak. Każde nagranie wyeksportujesz do MP4 — od 720p do 4K, przy 30 lub 60 fps — albo do kompaktowego GIF-a na potrzeby dokumentacji, czatu i zgłoszeń błędów. Żadna z tych opcji nie ogranicza czasu nagrywania.',
         },
         {
-          q: 'Czy Shotera spowolni mój komputer?',
-          a: 'Nie. Shotera powstała z myślą o lekkości — minimalne zużycie pamięci i natychmiastowy start, niezauważalna nawet działając w tle.',
+          q: 'Czy SnipX spowolni mój komputer?',
+          a: 'Nie. SnipX powstała z myślą o lekkości — minimalne zużycie pamięci i natychmiastowy start, niezauważalna nawet działając w tle.',
         },
       ],
     },
@@ -66,20 +66,20 @@ export const content: FaqContent = {
       label: 'Szczegóły i personalizacja',
       items: [
         {
-          q: 'Czy Shotera ma tryb ciemny?',
+          q: 'Czy SnipX ma tryb ciemny?',
           a: 'Tak. Ustawienia → Ogólne → Motyw interfejsu przełącza między opcjami Zgodnie z systemem, Jasny i Ciemny; opcja Zgodnie z systemem automatycznie podąża za jasnym/ciemnym ustawieniem Windows.',
         },
         {
-          q: 'Czy Shotera działa z wieloma monitorami i ekranami o wysokiej rozdzielczości?',
+          q: 'Czy SnipX działa z wieloma monitorami i ekranami o wysokiej rozdzielczości?',
           a: 'Tak. Wiele monitorów jest traktowanych jako jeden ciągły pulpit, więc dodatkowy ekran ustawiony po lewej stronie głównego nadal zaznacza się poprawnie — a interfejs i zrzuty pozostają ostre na ekranach HiDPI.',
         },
         {
           q: 'Czy mogę zmienić skróty klawiszowe?',
-          a: 'Tak. Przechwytywanie, niestandardowy zrzut ekranu, przypinanie do pulpitu i tryb prezentacji możesz przypisać do innych klawiszy w Ustawienia → Skróty klawiszowe; jeśli dany klawisz należy już do innej aplikacji, Shotera Cię o tym poinformuje, a wszystkie domyślne skróty przywrócisz jednym kliknięciem.',
+          a: 'Tak. Przechwytywanie, niestandardowy zrzut ekranu, przypinanie do pulpitu i tryb prezentacji możesz przypisać do innych klawiszy w Ustawienia → Skróty klawiszowe; jeśli dany klawisz należy już do innej aplikacji, SnipX Cię o tym poinformuje, a wszystkie domyślne skróty przywrócisz jednym kliknięciem.',
         },
         {
-          q: 'Jak zaktualizować Shotera do nowej wersji?',
-          a: 'Shotera aktualizuje się sama: domyślnie sprawdza dostępność nowej wersji przy starcie, potrafi pobrać i zainstalować ją w tle, a ręcznie sprawdzisz ją w Ustawienia → Aktualizacja. Wersja z Microsoft Store aktualizuje się przez Store.',
+          q: 'Jak zaktualizować SnipX do nowej wersji?',
+          a: 'SnipX aktualizuje się sama: domyślnie sprawdza dostępność nowej wersji przy starcie, potrafi pobrać i zainstalować ją w tle, a ręcznie sprawdzisz ją w Ustawienia → Aktualizacja. Wersja z Microsoft Store aktualizuje się przez Store.',
         },
       ],
     },

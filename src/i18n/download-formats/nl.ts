@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const nlFormats: DownloadFormatsContent = {
   tagline: 'Downloadformaten',
   title: 'Welk bestand moet je downloaden?',
-  subtitle: 'Hetzelfde Shotera in alle vier de formaten: alleen de installatie en de updates verschillen.',
+  subtitle: 'Hetzelfde SnipX in alle vier de formaten: alleen de installatie en de updates verschillen.',
   headers: ['Formaat', 'Installatie en updates', 'Beste voor'],
   recommendLabel: 'Aanbevolen',
   rows: [

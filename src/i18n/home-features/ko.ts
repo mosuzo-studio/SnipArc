@@ -3,7 +3,7 @@ import type { HomeFeaturesContent } from '~/i18n/home-features-types';
 /**
  * Korean copy for the homepage feature blocks.
  * Mirrors the English homepage in `src/pages/index.astro`, the source of truth;
- * terminology follows the Shotera app's ko language pack.
+ * terminology follows the SnipX app's ko language pack.
  */
 export const content: HomeFeaturesContent = {
   features: {
@@ -126,7 +126,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: '추가 기능',
     title: '쓸수록 손에서 놓지 못하는 작은 기능들',
-    subtitle: '디테일 속에 숨은 작은 배려가 Shotera를 놓기 어렵게 만듭니다.',
+    subtitle: '디테일 속에 숨은 작은 배려가 SnipX를 놓기 어렵게 만듭니다.',
     items: [
       {
         title: '이모지 스티커',

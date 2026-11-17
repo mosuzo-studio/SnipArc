@@ -2,14 +2,14 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Polish copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the Shotera app's Polish language pack.
+ * English pages. Terminology follows the SnipX app's Polish language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Długi zrzut',
 
   home: {
     heroAlt:
-      'Narzędzia Shotera na ekranie: przechwytywanie, długi zrzut, adnotacje, nagrywanie, wycinanie AI, OCR offline, rozpoznawanie kodów QR i kreskowych, tłumaczenie i przypinanie',
+      'Narzędzia SnipX na ekranie: przechwytywanie, długi zrzut, adnotacje, nagrywanie, wycinanie AI, OCR offline, rozpoznawanie kodów QR i kreskowych, tłumaczenie i przypinanie',
     cards: [
       {
         title: 'Długi zrzut',
@@ -68,7 +68,7 @@ export const content: LocaleExtras = {
         {
           title: 'Naciśnij skrót',
           description:
-            'Wywołaj Shotera w dowolnym miejscu i najedź kursorem — okno lub element, o który chodzi, jest już wykryty.',
+            'Wywołaj SnipX w dowolnym miejscu i najedź kursorem — okno lub element, o który chodzi, jest już wykryty.',
         },
         {
           title: 'Dodaj adnotacje, wyodrębnij lub edytuj',
@@ -83,7 +83,7 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'Shotera w skrócie',
+    statsTitle: 'SnipX w skrócie',
     metaDescription:
       'Poznaj zespół stojący za Shoterą i powody, dla których tworzymy szybkie, proste i dyskretne zrzuty ekranu.',
     hero: {
@@ -91,8 +91,8 @@ export const content: LocaleExtras = {
       title: 'Zrób zrzuty ekranu',
       accent: 'tak dobre, że aż niezauważalne',
       subtitle:
-        'Shotera zaczęła się od prostej frustracji: zrzuty, które robimy po kilkanaście razy dziennie, powinny być szybsze i płynniejsze. Jesteśmy małym zespołem ludzi produktu i inżynierów, którzy opierają się na narzędziach do przechwytywania tak mocno jak wszyscy — i tę obsesję wbudowaliśmy w każdy skrót, każde zaznaczenie, każdą klatkę.',
-      alt: 'Narzędzia do adnotacji Shotera na pulpicie Windows',
+        'SnipX zaczęła się od prostej frustracji: zrzuty, które robimy po kilkanaście razy dziennie, powinny być szybsze i płynniejsze. Jesteśmy małym zespołem ludzi produktu i inżynierów, którzy opierają się na narzędziach do przechwytywania tak mocno jak wszyscy — i tę obsesję wbudowaliśmy w każdy skrót, każde zaznaczenie, każdą klatkę.',
+      alt: 'Narzędzia do adnotacji SnipX na pulpicie Windows',
     },
     stats: [
       { title: 'Języki', amount: '15' },
@@ -125,7 +125,7 @@ export const content: LocaleExtras = {
       title: 'Możliwości podstawowe',
       subtitle:
         'Zrzut ekranu, długi zrzut, przypinanie, nagrywanie, OCR offline i AI na urządzeniu — sześć rzeczy, po które sięgasz każdego dnia, dostępne pod jednym skrótem.',
-      alt: 'Narzędzia do adnotacji Shotera na pulpicie Windows: zaznaczenie, pasek narzędzi i przypięte kafelki',
+      alt: 'Narzędzia do adnotacji SnipX na pulpicie Windows: zaznaczenie, pasek narzędzi i przypięte kafelki',
       items: [
         {
           title: 'Zrzut ekranu',
@@ -135,7 +135,7 @@ export const content: LocaleExtras = {
         {
           title: 'Długi zrzut',
           description:
-            'Przewiń stronę lub długi czat, a Shotera scali całość w jeden długi zrzut — automatycznie albo ręcznie, z podglądem na żywo.',
+            'Przewiń stronę lub długi czat, a SnipX scali całość w jeden długi zrzut — automatycznie albo ręcznie, z podglądem na żywo.',
         },
         {
           title: 'Przypnij do pulpitu',
@@ -232,7 +232,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Jak tu dotarliśmy',
       subtitle: 'Od narzędzia, które zbudowaliśmy dla siebie, po takie, na którym ludzie polegają każdego dnia.',
-      cta: 'Pobierz Shotera za darmo',
+      cta: 'Pobierz SnipX za darmo',
       items: [
         {
           title: 'Zaczęło się od własnej potrzeby',
@@ -247,7 +247,7 @@ export const content: LocaleExtras = {
         {
           title: 'Docieramy do coraz większej liczby osób',
           description:
-            'Dziś Shotera mówi w 15 językach interfejsu i wciąż rośnie — z tym samym celem: uprościć zrzuty ekranu.',
+            'Dziś SnipX mówi w 15 językach interfejsu i wciąż rośnie — z tym samym celem: uprościć zrzuty ekranu.',
         },
       ],
     },
@@ -258,7 +258,7 @@ export const content: LocaleExtras = {
         {
           title: 'Społeczność',
           description:
-            'Dołącz do społeczności Shotera, aby poznawać nowe wersje i wskazówki oraz bezpośrednio mówić nam, co myślisz.',
+            'Dołącz do społeczności SnipX, aby poznawać nowe wersje i wskazówki oraz bezpośrednio mówić nam, co myślisz.',
         },
         {
           title: 'Wsparcie e-mail',

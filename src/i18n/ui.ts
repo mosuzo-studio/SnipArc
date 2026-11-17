@@ -92,7 +92,7 @@ const baseUi = {
 
     'announcement.new': 'NEW',
     'announcement.text':
-      'Shotera v{version}+ is here — AI cutout, AI eraser, offline OCR, and image translation. (Site in progress; preview only — the final release prevails.) »',
+      'SnipX v{version}+ is here — AI cutout, AI eraser, offline OCR, and image translation. (Site in progress; preview only — the final release prevails.) »',
 
 
     'lang.label': 'Language',
@@ -171,7 +171,7 @@ const baseUi = {
 
     'announcement.new': '新',
     'announcement.text':
-      'Shotera v{version}+ 发布 —— 新增 AI 抠图、AI 擦图、离线 OCR 与图片翻译。（官网建设中，当前为预览版，以最终发布为准）»',
+      'SnipX v{version}+ 发布 —— 新增 AI 抠图、AI 擦图、离线 OCR 与图片翻译。（官网建设中，当前为预览版，以最终发布为准）»',
 
 
     'lang.label': '语言',

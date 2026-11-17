@@ -3,7 +3,7 @@ import type { LocalizedLocale } from './site-content';
 /**
  * Localized copy for the versions comparison page (`/xx/versions`).
  *
- * Feature names mirror the Shotera app's own UI catalogs (modebar / toolbar /
+ * Feature names mirror the SnipX app's own UI catalogs (modebar / toolbar /
  * settings), so the table reads the same as the app in every language.
  * The English and Simplified Chinese pages live in `src/pages` and are the
  * source of truth for this content.
@@ -38,7 +38,7 @@ export interface VersionsPageContent {
 export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   'zh-tw': {
     metaTitle: '版本對比',
-    metaDescription: '對比 Shotera Lite 版與標準版的功能差異與定位，幫你選到合適的版本。',
+    metaDescription: '對比 SnipX Lite 版與標準版的功能差異與定位，幫你選到合適的版本。',
     hero: {
       tagline: '版本對比',
       title: 'Lite 還是標準版？選最適合你的那一款',
@@ -51,14 +51,14 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite 版',
+        title: 'SnipX Lite 版',
         tagline: '輕量精簡版',
         badge: '新',
         description: '輕量精簡版本，專注截圖與基礎繪圖標註，不含 AI、錄製螢幕與長截圖等進階能力。',
         cta: '下載 Lite 版',
       },
       standard: {
-        title: 'Shotera 標準版',
+        title: 'SnipX 標準版',
         tagline: '完整能力版本',
         description:
           '完整能力版本：AI 去背、擦除、離線 OCR、圖片翻譯，以及錄製螢幕、GIF 錄製、QR Code / 條碼辨識與長截圖。',
@@ -108,7 +108,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   ja: {
     metaTitle: 'バージョン比較',
-    metaDescription: 'Shotera Lite版と Standard 版の機能差と位置づけを比較して、あなたに合うバージョンを選べます。',
+    metaDescription: 'SnipX Lite版と Standard 版の機能差と位置づけを比較して、あなたに合うバージョンを選べます。',
     hero: {
       tagline: 'バージョン比較',
       title: 'Lite版と Standard 版、あなたに合うのはどっち？',
@@ -121,7 +121,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite版',
+        title: 'SnipX Lite版',
         tagline: '軽量エディション',
         badge: '新',
         description:
@@ -129,7 +129,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Lite版をダウンロード',
       },
       standard: {
-        title: 'Shotera Standard 版',
+        title: 'SnipX Standard 版',
         tagline: 'フル機能エディション',
         description:
           'フル機能エディション：AI 切り抜き、AI 消去、オフライン OCR、画像翻訳に加え、画面録画、GIF 録画、QR コード・バーコード認識、長尺キャプチャを搭載。',
@@ -185,7 +185,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   'pt-br': {
     metaTitle: 'Versões',
-    metaDescription: 'Compare o Shotera Lite e a versão Standard: o que cada edição inclui e qual combina com você.',
+    metaDescription: 'Compare o SnipX Lite e a versão Standard: o que cada edição inclui e qual combina com você.',
     hero: {
       tagline: 'Versões',
       title: 'Lite ou versão Standard? Escolha a que combina com você',
@@ -198,14 +198,14 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Edição leve',
         badge: 'Novo',
         description: 'Versão leve, focada em captura e anotação básica — sem AI, gravação de tela e captura longa.',
         cta: 'Baixar Lite',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Edição completa',
         description:
           'Tudo o que há na Lite, e mais: recorte e apagamento com AI, OCR offline, tradução de imagens, além de gravação de tela, GIF, leitura de QR Code e código de barras, e captura longa.',
@@ -265,7 +265,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   es: {
     metaTitle: 'Versiones',
-    metaDescription: 'Compara Shotera Lite y la versión Estándar: qué incluye cada edición y cuál encaja contigo.',
+    metaDescription: 'Compara SnipX Lite y la versión Estándar: qué incluye cada edición y cuál encaja contigo.',
     hero: {
       tagline: 'Versiones',
       title: '¿Lite o versión Estándar? Elige la que mejor te encaje',
@@ -278,7 +278,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Edición ligera',
         badge: 'Nuevo',
         description:
@@ -286,7 +286,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Descargar Lite',
       },
       standard: {
-        title: 'Shotera Estándar',
+        title: 'SnipX Estándar',
         tagline: 'Edición completa',
         description:
           'Todo lo de Lite, y además: recorte y borrado con IA, OCR sin conexión, traducción de imágenes, además de grabación de pantalla, GIF, lectura de códigos QR y de barras, y captura larga.',
@@ -347,7 +347,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   de: {
     metaTitle: 'Versionen',
     metaDescription:
-      'Vergleiche Shotera Lite und die Standard-Edition: Was jede Edition bietet und welche zu dir passt.',
+      'Vergleiche SnipX Lite und die Standard-Edition: Was jede Edition bietet und welche zu dir passt.',
     hero: {
       tagline: 'Versionen',
       title: 'Lite oder Standard-Edition? Wähle die passende Edition',
@@ -360,7 +360,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Leichte Edition',
         badge: 'Neu',
         description:
@@ -368,7 +368,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Lite herunterladen',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Voll ausgestattete Edition',
         description:
           'Alles aus Lite, plus: AI-Freistellen, AI-Radierer, Offline-OCR, Bildübersetzung sowie Bildschirmaufnahme, GIF, QR- und Barcode-Erkennung und langen Screenshot.',
@@ -426,7 +426,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   fr: {
     metaTitle: 'Versions',
     metaDescription:
-      'Comparez Shotera Lite et la version Standard : ce que chaque édition propose et laquelle vous convient.',
+      'Comparez SnipX Lite et la version Standard : ce que chaque édition propose et laquelle vous convient.',
     hero: {
       tagline: 'Versions',
       title: 'Lite ou version Standard ? Choisissez celle qui vous convient',
@@ -439,7 +439,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Édition légère',
         badge: 'Nouveau',
         description:
@@ -447,7 +447,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Télécharger Lite',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Édition complète',
         description:
           "Tout ce que propose Lite, et en plus : détourage et effacement AI, OCR hors ligne, traduction d'images, plus enregistrement d'écran, GIF, lecture de QR Code et longue capture.",
@@ -508,7 +508,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   it: {
     metaTitle: 'Versioni',
-    metaDescription: 'Confronta Shotera Lite e la versione Standard: cosa include ogni edizione e quale fa per te.',
+    metaDescription: 'Confronta SnipX Lite e la versione Standard: cosa include ogni edizione e quale fa per te.',
     hero: {
       tagline: 'Versioni',
       title: 'Lite o versione Standard? Scegli quella giusta per te',
@@ -521,7 +521,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Edizione leggera',
         badge: 'Nuovo',
         description:
@@ -529,7 +529,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Scarica Lite',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Edizione completa',
         description:
           'Tutto quello che offre Lite, e in più: scontorno e cancellazione IA, OCR offline, traduzione immagini, oltre a registrazione schermo, GIF, lettura di codici QR e a barre e screenshot lungo.',
@@ -589,7 +589,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   ko: {
     metaTitle: '버전 비교',
-    metaDescription: 'Shotera Lite 버전과 Standard 버전의 기능 차이를 비교하고 나에게 맞는 버전을 선택하세요.',
+    metaDescription: 'SnipX Lite 버전과 Standard 버전의 기능 차이를 비교하고 나에게 맞는 버전을 선택하세요.',
     hero: {
       tagline: '버전 비교',
       title: 'Lite 버전과 Standard 버전, 어떤 걸 선택할까요?',
@@ -602,7 +602,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite 버전',
+        title: 'SnipX Lite 버전',
         tagline: '경량 에디션',
         badge: '신규',
         description:
@@ -610,7 +610,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Lite 버전 다운로드',
       },
       standard: {
-        title: 'Shotera Standard 버전',
+        title: 'SnipX Standard 버전',
         tagline: '전체 기능 에디션',
         description:
           'Lite의 모든 기능에 더해: AI 배경 제거·지우기, 오프라인 OCR, 이미지 번역은 물론 화면 녹화, GIF, QR 코드·바코드 인식, 스크롤 캡처까지 제공합니다.',
@@ -666,7 +666,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   ru: {
     metaTitle: 'Версии',
-    metaDescription: 'Сравните Shotera Lite и Стандартную версию: что входит в каждую и какая подходит вам.',
+    metaDescription: 'Сравните SnipX Lite и Стандартную версию: что входит в каждую и какая подходит вам.',
     hero: {
       tagline: 'Версии',
       title: 'Lite или Стандартная версия? Выберите подходящую',
@@ -679,14 +679,14 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Лёгкая версия',
         badge: 'Новинка',
         description: 'Лёгкая версия для захвата и базовых аннотаций — без AI, записи экрана и длинных снимков.',
         cta: 'Скачать Lite',
       },
       standard: {
-        title: 'Shotera Стандартная версия',
+        title: 'SnipX Стандартная версия',
         tagline: 'Полнофункциональная версия',
         description:
           'Всё из Lite, плюс: AI-удаление фона, AI-стирание, офлайн-OCR, перевод изображений, а также запись экрана, GIF, распознавание QR- и штрихкодов и длинные снимки.',
@@ -742,7 +742,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   ar: {
     metaTitle: 'الإصدارات',
-    metaDescription: 'قارن بين نسخة Shotera Lite والنسخة القياسية: ما تتضمنه كل نسخة وأيها يناسبك.',
+    metaDescription: 'قارن بين نسخة SnipX Lite والنسخة القياسية: ما تتضمنه كل نسخة وأيها يناسبك.',
     hero: {
       tagline: 'الإصدارات',
       title: 'نسخة Lite أم النسخة القياسية؟ اختر ما يناسبك',
@@ -755,7 +755,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'نسخة خفيفة',
         badge: 'جديد',
         description:
@@ -763,7 +763,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'تنزيل Lite',
       },
       standard: {
-        title: 'Shotera النسخة القياسية',
+        title: 'SnipX النسخة القياسية',
         tagline: 'نسخة كاملة الميزات',
         description:
           'نسخة كاملة الميزات: إزالة الخلفية ومحو بالذكاء الاصطناعي، وOCR دون اتصال، وترجمة الصور، إضافة إلى تسجيل الشاشة وGIF وقراءة رمز QR والباركود ولقطة طويلة.',
@@ -819,7 +819,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   nl: {
     metaTitle: 'Versies',
-    metaDescription: 'Vergelijk Shotera Lite en de volledige versie: wat elke editie biedt en welke bij je past.',
+    metaDescription: 'Vergelijk SnipX Lite en de volledige versie: wat elke editie biedt en welke bij je past.',
     hero: {
       tagline: 'Versies',
       title: 'Lite of volledige versie? Kies wat bij je past',
@@ -832,7 +832,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Lichte editie',
         badge: 'Nieuw',
         description:
@@ -840,7 +840,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Lite downloaden',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Volledige editie',
         description:
           'Alles uit Lite, en meer: AI-uitsnede, AI-gum, offline OCR, beeldvertaling, plus schermopname, GIF, QR- en barcodes scannen en lange schermafbeelding.',
@@ -901,7 +901,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   pl: {
     metaTitle: 'Wersje',
-    metaDescription: 'Porównaj Shotera Lite i wersję Standard: co zawiera każda edycja i która jest dla Ciebie.',
+    metaDescription: 'Porównaj SnipX Lite i wersję Standard: co zawiera każda edycja i która jest dla Ciebie.',
     hero: {
       tagline: 'Wersje',
       title: 'Lite czy pełna wersja? Wybierz tę, która Ci odpowiada',
@@ -914,7 +914,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Lekka edycja',
         badge: 'Nowość',
         description:
@@ -922,7 +922,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Pobierz Lite',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'W pełni wyposażona edycja',
         description:
           'Wszystko, co oferuje Lite, plus: wycinanie i wymazywanie AI, OCR offline, tłumaczenie obrazów oraz nagrywanie ekranu, GIF, rozpoznawanie kodów QR i kreskowych oraz długi zrzut.',
@@ -978,7 +978,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
   },
   sv: {
     metaTitle: 'Versioner',
-    metaDescription: 'Jämför Shotera Lite och Standard: vad varje version innehåller och vilken som passar dig.',
+    metaDescription: 'Jämför SnipX Lite och Standard: vad varje version innehåller och vilken som passar dig.',
     hero: {
       tagline: 'Versioner',
       title: 'Lite eller Standard? Välj den som passar dig',
@@ -991,7 +991,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
     },
     cards: {
       lite: {
-        title: 'Shotera Lite',
+        title: 'SnipX Lite',
         tagline: 'Lättviktig version',
         badge: 'Ny',
         description:
@@ -999,7 +999,7 @@ export const versionsContent: Record<LocalizedLocale, VersionsPageContent> = {
         cta: 'Ladda ner Lite',
       },
       standard: {
-        title: 'Shotera Standard',
+        title: 'SnipX Standard',
         tagline: 'Fullutrustad version',
         description:
           'Allt i Lite, plus: AI-frilägg, AI-radering, offline-OCR, bildöversättning samt skärminspelning, GIF, QR- och streckkodsläsning och rullande skärmbild.',

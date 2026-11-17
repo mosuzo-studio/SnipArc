@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="Shotera 標誌" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX 標誌" />
 </p>
 
-<h1 align="center">Shotera</h1>
+<h1 align="center">SnipX</h1>
 
 <p align="center">
   <strong>精準擷取，清楚表達，讓工作持續向前。</strong><br/>
@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-shotera.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="造訪 Shotera 官方網站" /></a>
-  <a href="https://shotera.mosuzo.com/zh-tw/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-4c72b0?style=for-the-badge" height="40" alt="查看常見問題" /></a>
-  <a href="https://shotera.mosuzo.com/zh-tw/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge" height="40" alt="查看 Shotera 更新紀錄" /></a>
+  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="造訪 SnipX 官方網站" /></a>
+  <a href="https://snipx.mosuzo.com/zh-tw/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-4c72b0?style=for-the-badge" height="40" alt="查看常見問題" /></a>
+  <a href="https://snipx.mosuzo.com/zh-tw/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge" height="40" alt="查看 SnipX 更新紀錄" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/Shotera?display_name=tag&label=Release&color=4c72b0" alt="最新版本" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/Shotera/total?label=%E4%B8%8B%E8%BC%89%E9%87%8F&color=dd8452" alt="累計下載量" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="最新版本" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%E4%B8%8B%E8%BC%89%E9%87%8F&color=dd8452" alt="累計下載量" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="支援 15 種介面語言" />
 </p>
@@ -48,12 +48,12 @@
 <br/>
 
 <p align="center">
-  <strong>下載 Shotera</strong> · Windows 10 / 11（64 位元）
+  <strong>下載 SnipX</strong> · Windows 10 / 11（64 位元）
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-%E5%8F%96%E5%BE%97_Shotera-0067b8?style=for-the-badge" height="40" alt="從 Microsoft Store 取得 Shotera" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BC%89%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="從 GitHub Releases 下載更多版本" /></a>
+  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-%E5%8F%96%E5%BE%97_SnipX-0067b8?style=for-the-badge" height="40" alt="從 Microsoft Store 取得 SnipX" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BC%89%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="從 GitHub Releases 下載更多版本" /></a>
 </p>
 
 <details open>
@@ -61,22 +61,22 @@
 
 | 主要功能 | 了解更多 | 開始使用 |
 | --- | --- | --- |
-| [核心能力](#核心能力)：截圖 · 長截圖 · 釘在桌面 · 錄製螢幕 & GIF · 離線 OCR · AI 去背與擦除<br/>[更多能力](#更多能力)：標註與遮蔽 · Emoji 貼圖 · 演示模式 · 深色模式 · 多螢幕 | [為截圖之後的工作而生](#為截圖之後的工作而生)<br/>[常見問題](#常見問題)<br/>[Windows 工作流程](#專注的-windows-工作流程)<br/>[隱私與掌控](#隱私與掌控)<br/>[支援語言](#支援語言) | [下載與版本](#下載與版本)<br/>[支援與意見回饋](#支援與意見回饋)<br/>[在 Ko-fi 支援 Shotera](#在-ko-fi-支援-shotera) |
+| [核心能力](#核心能力)：截圖 · 長截圖 · 釘在桌面 · 錄製螢幕 & GIF · 離線 OCR · AI 去背與擦除<br/>[更多能力](#更多能力)：標註與遮蔽 · Emoji 貼圖 · 演示模式 · 深色模式 · 多螢幕 | [為截圖之後的工作而生](#為截圖之後的工作而生)<br/>[常見問題](#常見問題)<br/>[Windows 工作流程](#專注的-windows-工作流程)<br/>[隱私與掌控](#隱私與掌控)<br/>[支援語言](#支援語言) | [下載與版本](#下載與版本)<br/>[支援與意見回饋](#支援與意見回饋)<br/>[在 Ko-fi 支援 SnipX](#在-ko-fi-支援-snipx) |
 
 </details>
 
 > **三步驟上手：** ① 下載安裝 → ② 按 `F1` 框選區域 → ③ 標註、複製，或按 `F3` 釘在桌面上。
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="Shotera 產品總覽" />
-  <p align="center"><strong>Shotera 一覽。</strong> 從截圖、長截圖到釘在桌面、錄製螢幕、擷取文字與 AI 處理——全都在同一個視窗裡。</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipX 產品總覽" />
+  <p align="center"><strong>SnipX 一覽。</strong> 從截圖、長截圖到釘在桌面、錄製螢幕、擷取文字與 AI 處理——全都在同一個視窗裡。</p>
 </figure>
 
 <br/>
 
 ## 為截圖之後的工作而生
 
-麻煩的往往不是「截」，而是截完之後：標註、遮蔽、拼長圖、擷取文字、留住參考。Shotera 把這些收進同一條流暢的流程——截完就能用。
+麻煩的往往不是「截」，而是截完之後：標註、遮蔽、拼長圖、擷取文字、留住參考。SnipX 把這些收進同一條流暢的流程——截完就能用。
 
 - **不用二次加工：** 標註、遮蔽、放大，都在同一個工具列
 - **長內容一張搞定：** 長網頁、長聊天記錄、整份文件，自動拼接成一張
@@ -98,7 +98,7 @@
 <sub>**詳解：** 吸附視窗與介面元素邊界，支援像素級微調、尺寸預設集與延遲擷取。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="Shotera 智慧擷取與標註工作區" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX 智慧擷取與標註工作區" />
   <p align="center"><strong>智慧擷取。</strong> 選好視窗或介面元素，直接在工具列完成標註。</p>
 </figure>
 
@@ -107,7 +107,7 @@
 > **優雅簡潔：** 框選完成即複製，右下角通知點開就能進編輯器。**所見即所得：** 標註工具列隨框選出現，先標註再複製。兩者都能在「設定 → 截圖」切換。
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="Shotera 兩種完成模式：優雅簡潔與所見即所得" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX 兩種完成模式：優雅簡潔與所見即所得" />
   <p align="center"><strong>兩種完成模式。</strong> 左：優雅簡潔；右：所見即所得。</p>
 </figure>
 
@@ -122,7 +122,7 @@
 <sub>**詳解：** 為長網頁、長聊天記錄與整份文件而生；完成的長圖可直接放進文件與 Issue。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="Shotera 長截圖" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX 長截圖" />
   <p align="center"><strong>長截圖。</strong> 長網頁、長對話與整份文件，一張到底。</p>
 </figure>
 
@@ -136,7 +136,7 @@
 <sub>**詳解：** 從任一邊或角落拖曳即可縮放，長寬比自動鎖定；釘住的視窗保持在最上層，點擊穿透不中斷手邊的操作。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="Shotera 釘在桌面" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipX 釘在桌面" />
   <p align="center"><strong>釘在桌面。</strong> 參考釘在最上層，邊看邊做。</p>
 </figure>
 
@@ -150,7 +150,7 @@
 <sub>**詳解：** GIF 體積小巧，貼進文件、Issue 與聊天視窗都方便；高解析度模式在高 DPI 螢幕上依然清晰。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="Shotera 錄製螢幕與 GIF 匯出" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipX 錄製螢幕與 GIF 匯出" />
   <p align="center"><strong>錄製螢幕 & GIF。</strong> 示範一次，勝過解釋十遍。</p>
 </figure>
 
@@ -163,7 +163,7 @@
 <sub>**詳解：** 辨識在你的裝置上執行，結果一鍵就能進剪貼簿。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="Shotera 離線 OCR 與圖片翻譯" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX 離線 OCR 與圖片翻譯" />
   <p align="center"><strong>離線 OCR 與圖片翻譯。</strong> 不必離開擷取流程，就能擷取文字、翻譯內容。</p>
 </figure>
 
@@ -175,7 +175,7 @@
 <sub>**詳解：** 兩者都在本機模型上執行，原圖不會上傳；去背結果可直接複製，或另存為透明 PNG。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Shotera AI 去背" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX AI 去背" />
   <p align="center"><strong>AI 去背。</strong> 主體與背景，一步分離。</p>
 </figure>
 
@@ -190,7 +190,7 @@
 <sub>**詳解：** 標註可移動、縮放、旋轉，改變主意時隨時復原與重做。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Shotera 標註與遮蔽工具" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX 標註與遮蔽工具" />
   <p align="center"><strong>標註與遮蔽。</strong> 步驟講得更清楚，敏感內容也保護得更周全。</p>
 </figure>
 
@@ -199,7 +199,7 @@
 數百款貼圖，可自由縮放、任意擺放——加點趣味，也讓重點更醒目。
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Shotera Emoji 貼圖" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX Emoji 貼圖" />
   <p align="center"><strong>Emoji 貼圖。</strong> 把目光帶到真正重要的地方。</p>
 </figure>
 
@@ -208,7 +208,7 @@
 按 `Pause` 清除桌面雜亂，演示或錄製前都合用；結束後一切原樣復原。
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Shotera 演示模式" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX 演示模式" />
   <p align="center"><strong>演示模式。</strong> 按一下清空桌面，再按一下就還原。</p>
 </figure>
 
@@ -232,7 +232,7 @@
 **長頁面要怎麼截？**
 切到長截圖，滾動頁面，畫面會自動拼接成一張長圖。
 
-更多問題都能在[官網的常見問題](https://shotera.mosuzo.com/zh-tw/faq)找到解答。
+更多問題都能在[官網的常見問題](https://snipx.mosuzo.com/zh-tw/faq)找到解答。
 
 <br/>
 
@@ -246,13 +246,13 @@
 
 ## 隱私與掌控
 
-截圖儲存在本機；離線 OCR、AI 去背與 AI 擦除在你的裝置上執行，因此處理過程不會上傳你的截圖。詳情請參閱[隱私權政策](https://shotera.mosuzo.com/zh-tw/privacy)。
+截圖儲存在本機；離線 OCR、AI 去背與 AI 擦除在你的裝置上執行，因此處理過程不會上傳你的截圖。詳情請參閱[隱私權政策](https://snipx.mosuzo.com/zh-tw/privacy)。
 
 <br/>
 
 ## 支援語言
 
-Shotera 支援 **15 種介面語言**：
+SnipX 支援 **15 種介面語言**：
 
 <p>
   <kbd>英語</kbd>
@@ -276,7 +276,7 @@ Shotera 支援 **15 種介面語言**：
 
 ## 關鍵字
 
-Shotera；Shotera AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截圖標註；釘在桌面；螢幕錄製；GIF 錄製；AI 去背；AI 擦除；離線 OCR；圖片翻譯
+SnipX；SnipX AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截圖標註；釘在桌面；螢幕錄製；GIF 錄製；AI 去背；AI 擦除；離線 OCR；圖片翻譯
 
 <br/>
 
@@ -284,16 +284,16 @@ Shotera；Shotera AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖�
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="從 Microsoft Store 取得 Shotera" />
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="從 Microsoft Store 取得 SnipX" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.zh-TW.svg" height="44" alt="從 GitHub Releases 下載更多版本" />
   </a>
 </p>
 
 > **系統需求：** Windows 10 / 11（64 位元）。
 >
-> **版本說明：** 標準版與 Lite 版差異，詳見[版本對比](https://shotera.mosuzo.com/zh-tw/versions)。
+> **版本說明：** 標準版與 Lite 版差異，詳見[版本對比](https://snipx.mosuzo.com/zh-tw/versions)。
 
 <br/>
 
@@ -302,14 +302,14 @@ Shotera；Shotera AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖�
 有問題、有建議或想分享心得，都歡迎告訴我們。
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="造訪 Shotera 官方網站" />
+  <a href="https://snipx.mosuzo.com">
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="造訪 SnipX 官方網站" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">
     <img src="https://img.shields.io/badge/%E6%84%8F%E8%A6%8B%E5%9B%9E%E9%A5%8B%E8%88%87%20Bug-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="提供意見回饋或回報問題" />
   </a>
-  <a href="https://shotera.mosuzo.com/zh-tw/changelog">
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="查看 Shotera 更新紀錄" />
+  <a href="https://snipx.mosuzo.com/zh-tw/changelog">
+    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="查看 SnipX 更新紀錄" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/%E8%81%AF%E7%B5%A1%E4%BF%A1%E7%AE%B1-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="寄送電子郵件給 Mosuzo Studio" />
@@ -318,31 +318,31 @@ Shotera；Shotera AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖�
 
 <br/>
 
-## 在 Ko-fi 支援 Shotera
+## 在 Ko-fi 支援 SnipX
 
-如果 Shotera 讓你的工作更輕鬆，歡迎在 Ko-fi 支持我們；開發進度也會在那裡分享。
+如果 SnipX 讓你的工作更輕鬆，歡迎在 Ko-fi 支持我們；開發進度也會在那裡分享。
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="在 Ko-fi 支援 Shotera" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="在 Ko-fi 支援 SnipX" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
+  <a href="https://snipx.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio 標誌" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 保留所有權利<br/>
-  Shotera 專為 Windows 打造，讓螢幕擷取、視覺溝通與桌面參考更有效率。
+  SnipX 專為 Windows 打造，讓螢幕擷取、視覺溝通與桌面參考更有效率。
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">官方網站</a> ·
-  <a href="https://shotera.mosuzo.com/zh-tw/versions">版本對比</a> ·
-  <a href="https://shotera.mosuzo.com/zh-tw/changelog">更新紀錄</a> ·
-  <a href="https://shotera.mosuzo.com/zh-tw/faq">常見問題</a> ·
-  <a href="https://shotera.mosuzo.com/zh-tw/privacy">隱私權政策</a> ·
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">意見回饋</a>
+  <a href="https://snipx.mosuzo.com">官方網站</a> ·
+  <a href="https://snipx.mosuzo.com/zh-tw/versions">版本對比</a> ·
+  <a href="https://snipx.mosuzo.com/zh-tw/changelog">更新紀錄</a> ·
+  <a href="https://snipx.mosuzo.com/zh-tw/faq">常見問題</a> ·
+  <a href="https://snipx.mosuzo.com/zh-tw/privacy">隱私權政策</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">意見回饋</a>
 </p>

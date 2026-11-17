@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const ptBrFormats: DownloadFormatsContent = {
   tagline: 'Formatos de download',
   title: 'Qual arquivo devo baixar?',
-  subtitle: 'O mesmo Shotera nos quatro formatos: só muda a forma de instalar e atualizar.',
+  subtitle: 'O mesmo SnipX nos quatro formatos: só muda a forma de instalar e atualizar.',
   headers: ['Formato', 'Instalação e atualizações', 'Ideal para'],
   recommendLabel: 'Recomendado',
   rows: [

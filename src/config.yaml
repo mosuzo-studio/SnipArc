@@ -1,30 +1,30 @@
 site:
-  name: Shotera
-  site: 'https://shotera.mosuzo.com'
+  name: SnipX
+  site: 'https://snipx.mosuzo.com'
   base: '/'
   trailingSlash: ignore
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: null
 
 # Default SEO metadata
 metadata:
   title:
-    default: Shotera — Faster, smarter screenshots and screen recording
-    template: '%s — Shotera'
-  description: 'Shotera is a Windows capture tool for smart screenshots, scrolling capture, screen and GIF recording, AI cutout, AI eraser, offline OCR, image translation, QR and barcode recognition, annotation, pinning, and an image viewer.'
+    default: SnipX — Fast, local-first screenshots and annotation for Windows
+    template: '%s — SnipX'
+  description: 'SnipX is a native Windows capture tool for region screenshots, annotation, clipboard workflow, global hotkeys, and on-device AI for OCR, cutout, and object erase.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Shotera
+    site_name: SnipX
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@shotera'
-    site: '@shotera'
+    handle: '@snipx'
+    site: '@snipx'
     cardType: summary_large_image
 
 i18n:

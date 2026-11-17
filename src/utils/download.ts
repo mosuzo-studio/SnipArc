@@ -7,10 +7,10 @@
  * redirect, which is plain github.com and not rate limited, to learn the current
  * tag, then derives each asset URL from the project's stable naming scheme.
  *
- * Release assets follow `Shotera-<version>-windows-x64<suffix>`, e.g. for v7.3.0:
- *   Shotera-7.3.0-windows-x64-setup.exe
- *   Shotera-7.3.0-windows-x64.msi
- *   Shotera-7.3.0-windows-x64-portable.7z
+ * Release assets follow `SnipX-<version>-windows-x64<suffix>`, e.g. for v7.3.0:
+ *   SnipX-7.3.0-windows-x64-setup.exe
+ *   SnipX-7.3.0-windows-x64.msi
+ *   SnipX-7.3.0-windows-x64-portable.7z
  *
  * This runs at build time only (the site is `output: 'static'`), so visitors
  * never touch GitHub metadata — their button href is a baked-in literal that
@@ -22,10 +22,10 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 /** Releases list page — also the fallback target when resolution fails. */
-export const RELEASES_URL = 'https://github.com/mosuzo-studio/Shotera/releases';
+export const RELEASES_URL = 'https://github.com/mosuzo-studio/SnipX/releases';
 
 /** Microsoft Store listing for the app. */
-export const STORE_URL = 'https://apps.microsoft.com/detail/9n73ldhrmc8v';
+export const STORE_URL = 'https://apps.microsoft.com/detail/TBD_SNIPX_STORE_ID';
 
 const LATEST_RELEASE_URL = `${RELEASES_URL}/latest`;
 
@@ -34,7 +34,7 @@ const DOWNLOAD_BASE = `${RELEASES_URL}/download`;
 const FETCH_TIMEOUT_MS = 8000;
 
 /** Shown in copy when the release lookup fails; bump alongside real releases. */
-const FALLBACK_DISPLAY_VERSION = '7.9.2';
+const FALLBACK_DISPLAY_VERSION = '7.20.8';
 
 /** Asset kinds exposed on the site, in the order they should be offered. */
 const ASSET_SUFFIXES = {
@@ -78,7 +78,7 @@ const tagFromLocation = (location: string): string | null => {
 };
 
 const buildAssetUrl = (tag: string, version: string, suffix: string): string =>
-  `${DOWNLOAD_BASE}/${encodeURIComponent(tag)}/Shotera-${version}${suffix}`;
+  `${DOWNLOAD_BASE}/${encodeURIComponent(tag)}/SnipX-${version}${suffix}`;
 
 const buildUrls = (tag: string, version: string, suffixes: Record<AssetKind, string>): Record<AssetKind, string> =>
   Object.fromEntries(
@@ -109,7 +109,7 @@ const resolveLatestRelease = async (): Promise<ReleaseDownloads> => {
   // downloading the release page itself.
   const response = await fetch(LATEST_RELEASE_URL, {
     redirect: 'manual',
-    headers: { 'User-Agent': 'shotera-site-build' },
+    headers: { 'User-Agent': 'snipx-site-build' },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
 
@@ -211,7 +211,7 @@ const writeCountCache = (total: number): void => {
 };
 
 /** One page is enough while the project stays under 100 releases. */
-const RELEASES_API_URL = 'https://api.github.com/repos/mosuzo-studio/Shotera/releases?per_page=100';
+const RELEASES_API_URL = 'https://api.github.com/repos/mosuzo-studio/SnipX/releases?per_page=100';
 
 interface ReleaseAsset {
   name?: string;
@@ -233,7 +233,7 @@ const fetchTotalDownloads = async (): Promise<number> => {
   await installProxyDispatcher();
 
   const response = await fetch(RELEASES_API_URL, {
-    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'shotera-site-build' },
+    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'snipx-site-build' },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
 

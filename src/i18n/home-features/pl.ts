@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Funkcje podstawowe',
     title: 'Jedna aplikacja do każdego zrzutu ekranu',
     subtitle:
-      'Od szybkiego przechwycenia po poważną pracę twórczą: Shotera łączy najczęstsze zadania — przechwytywanie, nagrywanie, OCR i adnotacje — w jednej lekkiej aplikacji.',
+      'Od szybkiego przechwycenia po poważną pracę twórczą: SnipX łączy najczęstsze zadania — przechwytywanie, nagrywanie, OCR i adnotacje — w jednej lekkiej aplikacji.',
     items: [
       {
         title: 'Inteligentne przechwytywanie',
         description:
-          'Przechwyć obszar, okno lub cały ekran jednym skrótem. Shotera automatycznie wykrywa okna i elementy interfejsu z dokładnością do piksela.',
+          'Przechwyć obszar, okno lub cały ekran jednym skrótem. SnipX automatycznie wykrywa okna i elementy interfejsu z dokładnością do piksela.',
       },
       {
         title: 'Nagrywanie ekranu i GIF',
@@ -123,7 +123,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Więcej funkcji',
     title: 'Drobne rzeczy, na których wkrótce się oprzesz',
-    subtitle: 'To właśnie te małe smaczki ukryte w szczegółach sprawiają, że trudno odłożyć Shotera.',
+    subtitle: 'To właśnie te małe smaczki ukryte w szczegółach sprawiają, że trudno odłożyć SnipX.',
     items: [
       {
         title: 'Naklejki emoji',

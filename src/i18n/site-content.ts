@@ -89,12 +89,12 @@ const scenarios = (titles: string[], descriptions: string[]): Record<string, [st
 export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent> = {
   'zh-tw': {
     storeLanguage: 'zh-tw',
-    metaTitle: 'Shotera — 更快、更聰明的截圖與錄製工具',
+    metaTitle: 'SnipX — 更快、更聰明的截圖與錄製工具',
     metaDescription: '為 Windows 打造的智慧截圖、錄製螢幕、AI 能力、離線 OCR、圖片翻譯與釘在桌面工具。',
     heroTitle: '截圖、錄製螢幕，',
     heroAccent: 'AI 能力',
     heroSubtitle:
-      'Shotera 把日常需要的擷取、標註、GIF 錄製、離線 OCR、圖片翻譯與釘在桌面整合在一個流暢的 Windows 工作流程中。',
+      'SnipX 把日常需要的擷取、標註、GIF 錄製、離線 OCR、圖片翻譯與釘在桌面整合在一個流暢的 Windows 工作流程中。',
     philosophy: '快速、精準、不打斷思緒——讓每一次擷取都恰到好處。',
     featuresTitle: '一套工具，完成每種截圖工作',
     featuresSubtitle: '從快速截圖到清楚說明問題，常用工具都在手邊。',
@@ -118,20 +118,20 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
     privacyLink: '閱讀英文隱私權政策',
     faqTitle: '常見問題',
     faqs: [
-      { title: 'Shotera 支援哪些 Windows 版本？', answer: '目前以實際發布頁面列出的 Windows 版本與系統需求為準。' },
+      { title: 'SnipX 支援哪些 Windows 版本？', answer: '目前以實際發布頁面列出的 Windows 版本與系統需求為準。' },
       { title: '基本功能需要付費嗎？', answer: '基本版本功能可永久免費使用；部分進階能力需要升級 Pro。' },
       { title: 'OCR 會上傳截圖嗎？', answer: '離線 OCR 在裝置上處理文字擷取，不需要上傳截圖。' },
     ],
     ctaTitle: '讓下一張截圖更快完成',
-    ctaText: '從 Microsoft Store 安裝 Shotera，或前往 GitHub 取得更多版本。',
+    ctaText: '從 Microsoft Store 安裝 SnipX，或前往 GitHub 取得更多版本。',
     moreVersions: '更多版本',
-    storeAria: '從 Microsoft Store 取得 Shotera',
+    storeAria: '從 Microsoft Store 取得 SnipX',
     pages: {
-      about: ['關於 Shotera', '我們專注於把高頻的截圖工作做得更快、更精準，也更不打擾你的思緒。'],
+      about: ['關於 SnipX', '我們專注於把高頻的截圖工作做得更快、更精準，也更不打擾你的思緒。'],
       contact: ['聯絡與意見回饋', '有建議、問題或錯誤回報嗎？歡迎透過 GitHub Issues 或電子郵件與 Mosuzo Studio 聯絡。'],
       pricing: ['版本與價格', '基本版本功能永久免費；需要更進階工作流程時，可依正式發布內容升級 Pro。'],
-      services: ['Shotera 能為你做什麼', '從擷取、錄製到辨識與分享，Shotera 將常用視覺溝通工具整合在一起。'],
-      changelog: ['更新紀錄', '查看 Shotera 的最新功能、改善內容與修正項目。'],
+      services: ['SnipX 能為你做什麼', '從擷取、錄製到辨識與分享，SnipX 將常用視覺溝通工具整合在一起。'],
+      changelog: ['更新紀錄', '查看 SnipX 的最新功能、改善內容與修正項目。'],
       notFound: ['找不到這個頁面', '網址可能已變更，請返回首頁繼續瀏覽。'],
     },
     scenarios: scenarios(
@@ -140,14 +140,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         '個人工作流程',
         'SaaS 團隊',
         '新創團隊',
-        '快速了解 Shotera',
+        '快速了解 SnipX',
         '提高回饋效率',
         '即將推出',
         '產品功能詳情',
         '清楚呈現價值',
         '版本與訂閱',
       ],
-      Array(10).fill('探索 Shotera 如何讓擷取、說明與分享工作更順暢。')
+      Array(10).fill('探索 SnipX 如何讓擷取、說明與分享工作更順暢。')
     ),
     labels: {
       learnMore: '進一步了解',
@@ -180,19 +180,19 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: '讓每一次截圖與錄製都更有效率。',
       newLabel: '新功能',
       announcement:
-        'Shotera v{version}+ 發布 —— 新增 AI 去背、AI 擦除、離線 OCR 與圖片翻譯！（官網建置中，目前為預覽，以正式發布為準）»',
+        'SnipX v{version}+ 發布 —— 新增 AI 去背、AI 擦除、離線 OCR 與圖片翻譯！（官網建置中，目前為預覽，以正式發布為準）»',
     },
   },
   ja: {
     storeLanguage: 'ja-jp',
-    metaTitle: 'Shotera — スクリーンショットと録画を、もっと速くスマートに',
+    metaTitle: 'SnipX — スクリーンショットと録画を、もっと速くスマートに',
     metaDescription:
       'Windows向けの高精度キャプチャ、画面録画、AI画像編集、オフラインOCR、画像翻訳、画面に固定できるツール。',
     heroTitle: 'キャプチャも録画も、',
     heroAccent: 'AI編集もひとつに',
     heroSubtitle:
-      'Shoteraは、スクリーンショット、注釈、GIF録画、AI切り抜き、オフラインOCR、画像翻訳、画面に固定する機能を、軽快なWindowsワークフローにまとめます。',
-    philosophy: '速く、正確に、作業を邪魔しない。それがShoteraの基本です。',
+      'SnipXは、スクリーンショット、注釈、GIF録画、AI切り抜き、オフラインOCR、画像翻訳、画面に固定する機能を、軽快なWindowsワークフローにまとめます。',
+    philosophy: '速く、正確に、作業を邪魔しない。それがSnipXの基本です。',
     featuresTitle: 'スクリーンショット後の作業まで、これひとつ',
     featuresSubtitle: '撮るだけで終わらせず、伝わる形に整えてすぐ共有できます。',
     features: [
@@ -235,10 +235,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
     ctaTitle: '次のスクリーンショットを、もっとスムーズに',
     ctaText: 'Microsoft Storeからインストールするか、GitHubでその他のバージョンを入手できます。',
     moreVersions: 'その他のバージョン',
-    storeAria: 'Microsoft StoreからShoteraを入手',
+    storeAria: 'Microsoft StoreからSnipXを入手',
     pages: {
       about: [
-        'Shoteraについて',
+        'SnipXについて',
         '頻繁に行うキャプチャ作業を、速く、正確に、気持ちよく進められる製品を目指しています。',
       ],
       contact: [
@@ -247,10 +247,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       ],
       pricing: ['エディションと価格', '基本機能はずっと無料。さらに高度な機能が必要な場合はProを選べます。'],
       services: [
-        'Shoteraでできること',
+        'SnipXでできること',
         'キャプチャから録画、文字認識、共有まで、視覚的なコミュニケーションをひとつにまとめます。',
       ],
-      changelog: ['更新履歴', 'Shoteraの新機能、改善、修正内容をご確認いただけます。'],
+      changelog: ['更新履歴', 'SnipXの新機能、改善、修正内容をご確認いただけます。'],
       notFound: ['ページが見つかりません', 'URLが変更された可能性があります。ホームへ戻ってお探しください。'],
     },
     scenarios: scenarios(
@@ -259,14 +259,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         '個人の作業効率化',
         'SaaSチーム向け',
         'スタートアップ向け',
-        'Shoteraをすぐ理解',
+        'SnipXをすぐ理解',
         'フィードバックを効率化',
         '近日公開',
         '製品機能の詳細',
         '価値をわかりやすく',
         'エディションとプラン',
       ],
-      Array(10).fill('Shoteraでキャプチャ、説明、共有がどう変わるかをご紹介します。')
+      Array(10).fill('SnipXでキャプチャ、説明、共有がどう変わるかをご紹介します。')
     ),
     labels: {
       learnMore: '詳しく見る',
@@ -299,18 +299,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'キャプチャと録画を、もっと効率よく。',
       newLabel: '新着',
       announcement:
-        'Shotera v{version}+ 公開 —— AI切り抜き、AI消去、オフラインOCR、画像翻訳を新搭載！（本サイトは制作中のプレビューです。正式リリース内容が優先されます）»',
+        'SnipX v{version}+ 公開 —— AI切り抜き、AI消去、オフラインOCR、画像翻訳を新搭載！（本サイトは制作中のプレビューです。正式リリース内容が優先されます）»',
     },
   },
   'pt-br': {
     storeLanguage: 'pt-br',
-    metaTitle: 'Shotera — Capturas de tela e gravações mais rápidas e inteligentes',
+    metaTitle: 'SnipX — Capturas de tela e gravações mais rápidas e inteligentes',
     metaDescription:
       'Captura precisa, gravação de tela, edição de imagens com AI, OCR offline, tradução de imagens e fixação na área de trabalho para Windows.',
     heroTitle: 'Capture, grave e edite com',
     heroAccent: 'AI em um só lugar',
     heroSubtitle:
-      'O Shotera reúne captura de tela, anotações, gravação em GIF, recorte com AI, OCR offline, tradução de imagens e referências fixadas em um fluxo leve para Windows.',
+      'O SnipX reúne captura de tela, anotações, gravação em GIF, recorte com AI, OCR offline, tradução de imagens e referências fixadas em um fluxo leve para Windows.',
     philosophy: 'Rápido, preciso e sem interromper seu ritmo de trabalho.',
     featuresTitle: 'Tudo o que acontece depois da captura',
     featuresSubtitle: 'Capture, explique e compartilhe sem alternar entre vários aplicativos.',
@@ -323,7 +323,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         title: 'Anotações claras',
         description: 'Use setas, textos, passos numerados, ampliação e desfoque para comunicar melhor.',
       },
-      { title: 'Edição com AI', description: 'Recorte objetos e remova elementos indesejados sem sair do Shotera.' },
+      { title: 'Edição com AI', description: 'Recorte objetos e remova elementos indesejados sem sair do SnipX.' },
       { title: 'OCR offline', description: 'Extraia texto no próprio dispositivo, sem enviar suas capturas.' },
       {
         title: 'Tradução de imagens',
@@ -353,7 +353,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
           'Consulte a página oficial da versão para verificar os requisitos e sistemas compatíveis mais recentes.',
       },
       {
-        title: 'O Shotera é gratuito?',
+        title: 'O SnipX é gratuito?',
         answer: 'Os recursos da versão básica são gratuitos para sempre; alguns recursos avançados fazem parte do Pro.',
       },
       {
@@ -364,10 +364,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
     ctaTitle: 'Deixe sua próxima captura pronta em menos tempo',
     ctaText: 'Instale pela Microsoft Store ou acesse o GitHub para baixar outras versões.',
     moreVersions: 'Mais versões',
-    storeAria: 'Baixar Shotera na Microsoft Store',
+    storeAria: 'Baixar SnipX na Microsoft Store',
     pages: {
       about: [
-        'Sobre o Shotera',
+        'Sobre o SnipX',
         'Criamos uma experiência de captura mais rápida, precisa e discreta para quem trabalha com imagens todos os dias.',
       ],
       contact: [
@@ -379,10 +379,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'A versão básica é gratuita para sempre. Para fluxos mais avançados, você poderá optar pelo Pro.',
       ],
       services: [
-        'O que o Shotera faz por você',
+        'O que o SnipX faz por você',
         'Da captura à gravação, reconhecimento e compartilhamento, suas ferramentas visuais ficam reunidas em um só lugar.',
       ],
-      changelog: ['Novidades e atualizações', 'Acompanhe os novos recursos, melhorias e correções do Shotera.'],
+      changelog: ['Novidades e atualizações', 'Acompanhe os novos recursos, melhorias e correções do SnipX.'],
       notFound: ['Página não encontrada', 'O endereço pode ter mudado. Volte à página inicial para continuar.'],
     },
     scenarios: scenarios(
@@ -391,14 +391,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Fluxo de trabalho pessoal',
         'Para equipes SaaS',
         'Para startups',
-        'Conheça o Shotera',
+        'Conheça o SnipX',
         'Feedback mais eficiente',
         'Em breve',
         'Detalhes do produto',
         'Valor com clareza',
         'Versões e planos',
       ],
-      Array(10).fill('Veja como o Shotera simplifica capturas, explicações e compartilhamentos.')
+      Array(10).fill('Veja como o SnipX simplifica capturas, explicações e compartilhamentos.')
     ),
     labels: {
       learnMore: 'Saiba mais',
@@ -431,18 +431,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Mais eficiência em cada captura e gravação.',
       newLabel: 'NOVO',
       announcement:
-        'Shotera v{version}+ chegou — recorte com AI, apagar com AI, OCR offline e tradução de imagens! (Site em construção; esta é apenas uma prévia, vale a versão final) »',
+        'SnipX v{version}+ chegou — recorte com AI, apagar com AI, OCR offline e tradução de imagens! (Site em construção; esta é apenas uma prévia, vale a versão final) »',
     },
   },
   es: {
     storeLanguage: 'es-es',
-    metaTitle: 'Shotera — Capturas y grabaciones más rápidas e inteligentes',
+    metaTitle: 'SnipX — Capturas y grabaciones más rápidas e inteligentes',
     metaDescription:
       'Captura precisa, grabación de pantalla, edición con IA, OCR sin conexión, traducción de imágenes y fijación en el escritorio para Windows.',
     heroTitle: 'Captura, graba y edita con',
     heroAccent: 'IA en un solo lugar',
     heroSubtitle:
-      'Shotera reúne capturas, anotaciones, grabación GIF, recorte con IA, OCR sin conexión, traducción de imágenes y referencias fijadas en un flujo ágil para Windows.',
+      'SnipX reúne capturas, anotaciones, grabación GIF, recorte con IA, OCR sin conexión, traducción de imágenes y referencias fijadas en un flujo ágil para Windows.',
     philosophy: 'Rápido, preciso y sin interrumpir tu concentración.',
     featuresTitle: 'Todo lo que necesitas después de capturar',
     featuresSubtitle: 'Captura, explica y comparte sin saltar entre varias aplicaciones.',
@@ -455,7 +455,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         title: 'Anotaciones claras',
         description: 'Utiliza flechas, texto, pasos numerados, ampliación y desenfoque para comunicar mejor.',
       },
-      { title: 'Edición con IA', description: 'Aísla sujetos y elimina elementos no deseados sin salir de Shotera.' },
+      { title: 'Edición con IA', description: 'Aísla sujetos y elimina elementos no deseados sin salir de SnipX.' },
       { title: 'OCR sin conexión', description: 'Extrae texto en tu dispositivo sin subir las capturas.' },
       {
         title: 'Traducción de imágenes',
@@ -484,7 +484,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Consulta la página oficial de la versión para conocer los requisitos y sistemas compatibles actuales.',
       },
       {
-        title: '¿Shotera es gratis?',
+        title: '¿SnipX es gratis?',
         answer: 'Las funciones básicas son gratuitas para siempre; algunas funciones avanzadas requieren Pro.',
       },
       {
@@ -493,12 +493,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Termina tu próxima captura en menos tiempo',
-    ctaText: 'Instala Shotera desde Microsoft Store o visita GitHub para obtener más versiones.',
+    ctaText: 'Instala SnipX desde Microsoft Store o visita GitHub para obtener más versiones.',
     moreVersions: 'Más versiones',
-    storeAria: 'Obtener Shotera en Microsoft Store',
+    storeAria: 'Obtener SnipX en Microsoft Store',
     pages: {
       about: [
-        'Acerca de Shotera',
+        'Acerca de SnipX',
         'Creamos una experiencia de captura rápida, precisa y discreta para quienes trabajan con imágenes cada día.',
       ],
       contact: [
@@ -510,10 +510,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'La edición básica es gratuita para siempre. Si necesitas flujos avanzados, puedes elegir Pro.',
       ],
       services: [
-        'Qué puede hacer Shotera por ti',
+        'Qué puede hacer SnipX por ti',
         'Desde capturar y grabar hasta reconocer texto y compartir, tus herramientas visuales están reunidas en un solo lugar.',
       ],
-      changelog: ['Novedades', 'Consulta las nuevas funciones, mejoras y correcciones de Shotera.'],
+      changelog: ['Novedades', 'Consulta las nuevas funciones, mejoras y correcciones de SnipX.'],
       notFound: ['Página no encontrada', 'Es posible que la dirección haya cambiado. Vuelve al inicio para continuar.'],
     },
     scenarios: scenarios(
@@ -522,14 +522,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Flujo personal',
         'Para equipos SaaS',
         'Para startups',
-        'Descubre Shotera',
+        'Descubre SnipX',
         'Comentarios más ágiles',
         'Próximamente',
         'Detalles del producto',
         'Comunica mejor el valor',
         'Ediciones y planes',
       ],
-      Array(10).fill('Descubre cómo Shotera simplifica la captura, la explicación y el intercambio de información.')
+      Array(10).fill('Descubre cómo SnipX simplifica la captura, la explicación y el intercambio de información.')
     ),
     labels: {
       learnMore: 'Más información',
@@ -563,18 +563,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Más eficiencia en cada captura y grabación.',
       newLabel: 'NUEVO',
       announcement:
-        'Shotera v{version}+ ya está aquí: recorte con IA, borrado con IA, OCR sin conexión y traducción de imágenes. (Sitio en construcción; solo una vista previa, prevalece la versión final) »',
+        'SnipX v{version}+ ya está aquí: recorte con IA, borrado con IA, OCR sin conexión y traducción de imágenes. (Sitio en construcción; solo una vista previa, prevalece la versión final) »',
     },
   },
   de: {
     storeLanguage: 'de-de',
-    metaTitle: 'Shotera — Schnellere, intelligentere Screenshots und Aufnahmen',
+    metaTitle: 'SnipX — Schnellere, intelligentere Screenshots und Aufnahmen',
     metaDescription:
       'Präzise Bildschirmaufnahmen, AI-Freistellen & AI-Radierer, Offline-OCR, Bildübersetzung und Anheften auf dem Desktop für Windows.',
     heroTitle: 'Aufnehmen, erklären und mit',
     heroAccent: 'AI bearbeiten',
     heroSubtitle:
-      'Shotera verbindet Screenshots, Anmerkungen, GIF-Aufnahmen, AI-Freistellen, Offline-OCR, Bildübersetzung und Anheften auf dem Desktop in einem schlanken Windows-Workflow.',
+      'SnipX verbindet Screenshots, Anmerkungen, GIF-Aufnahmen, AI-Freistellen, Offline-OCR, Bildübersetzung und Anheften auf dem Desktop in einem schlanken Windows-Workflow.',
     philosophy: 'Schnell, präzise und unaufdringlich – damit Sie im Arbeitsfluss bleiben.',
     featuresTitle: 'Alles für die Arbeit nach dem Screenshot',
     featuresSubtitle: 'Aufnehmen, verständlich erklären und direkt weitergeben – ohne ständigen App-Wechsel.',
@@ -589,7 +589,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'AI-Freistellen & AI-Radierer',
-        description: 'Motive freistellen und störende Inhalte entfernen, ohne Shotera zu verlassen.',
+        description: 'Motive freistellen und störende Inhalte entfernen, ohne SnipX zu verlassen.',
       },
       { title: 'Offline-OCR', description: 'Text lokal auf dem Gerät extrahieren, ohne Screenshots hochzuladen.' },
       { title: 'Bildübersetzung', description: 'Text in Bildern direkt im Aufnahmeablauf erkennen und übersetzen.' },
@@ -616,7 +616,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Aktuelle Systemanforderungen und unterstützte Versionen finden Sie auf der offiziellen Downloadseite.',
       },
       {
-        title: 'Ist Shotera kostenlos?',
+        title: 'Ist SnipX kostenlos?',
         answer:
           'Die Funktionen der Basisversion bleiben dauerhaft kostenlos; einige erweiterte Funktionen gehören zu Pro.',
       },
@@ -626,12 +626,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Den nächsten Screenshot schneller fertigstellen',
-    ctaText: 'Shotera im Microsoft Store installieren oder weitere Versionen auf GitHub herunterladen.',
+    ctaText: 'SnipX im Microsoft Store installieren oder weitere Versionen auf GitHub herunterladen.',
     moreVersions: 'Weitere Versionen',
-    storeAria: 'Shotera aus dem Microsoft Store beziehen',
+    storeAria: 'SnipX aus dem Microsoft Store beziehen',
     pages: {
       about: [
-        'Über Shotera',
+        'Über SnipX',
         'Wir entwickeln eine schnelle, präzise und unaufdringliche Aufnahme-Erfahrung für Menschen, die täglich mit Screenshots arbeiten.',
       ],
       contact: [
@@ -643,7 +643,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Die Basisversion bleibt dauerhaft kostenlos. Für anspruchsvollere Abläufe steht Pro zur Verfügung.',
       ],
       services: [
-        'Was Shotera für Sie leistet',
+        'Was SnipX für Sie leistet',
         'Von Aufnahme und Bildschirmaufnahme bis Texterkennung und Freigabe sind alle visuellen Werkzeuge an einem Ort.',
       ],
       changelog: [
@@ -661,14 +661,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Persönlicher Workflow',
         'Für SaaS-Teams',
         'Für Start-ups',
-        'Shotera kennenlernen',
+        'SnipX kennenlernen',
         'Feedback beschleunigen',
         'Demnächst verfügbar',
         'Produktdetails',
         'Mehr Klarheit im Vertrieb',
         'Editionen und Pläne',
       ],
-      Array(10).fill('Erfahren Sie, wie Shotera Aufnahme, Erklärung und Weitergabe vereinfacht.')
+      Array(10).fill('Erfahren Sie, wie SnipX Aufnahme, Erklärung und Weitergabe vereinfacht.')
     ),
     labels: {
       learnMore: 'Mehr erfahren',
@@ -702,18 +702,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Effizienter bei jedem Screenshot und jeder Aufnahme.',
       newLabel: 'NEU',
       announcement:
-        'Shotera v{version}+ ist da — AI-Freistellen, AI-Radierer, Offline-OCR und Bildübersetzung! (Website im Aufbau; derzeit nur eine Vorschau, maßgeblich ist die finale Veröffentlichung) »',
+        'SnipX v{version}+ ist da — AI-Freistellen, AI-Radierer, Offline-OCR und Bildübersetzung! (Website im Aufbau; derzeit nur eine Vorschau, maßgeblich ist die finale Veröffentlichung) »',
     },
   },
   fr: {
     storeLanguage: 'fr-fr',
-    metaTitle: 'Shotera — Des captures et enregistrements plus rapides et plus intelligents',
+    metaTitle: 'SnipX — Des captures et enregistrements plus rapides et plus intelligents',
     metaDescription:
       'Capture précise, enregistrement d’écran, détourage et effacement AI, OCR hors ligne, traduction d’images et épinglage sur Windows.',
     heroTitle: 'Capturez, enregistrez et retouchez avec',
     heroAccent: 'l’IA au même endroit',
     heroSubtitle:
-      'Shotera réunit captures, annotations, enregistrement GIF, détourage AI, OCR hors ligne, traduction d’images et références épinglées dans un flux Windows fluide.',
+      'SnipX réunit captures, annotations, enregistrement GIF, détourage AI, OCR hors ligne, traduction d’images et références épinglées dans un flux Windows fluide.',
     philosophy: 'Rapide, précis et discret, pour préserver votre concentration.',
     featuresTitle: 'Tout ce qu’il faut après la capture',
     featuresSubtitle: 'Capturez, expliquez et partagez sans multiplier les applications.',
@@ -728,7 +728,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'Détourage et effacement AI',
-        description: 'Détourez un sujet ou effacez un élément indésirable sans quitter Shotera.',
+        description: 'Détourez un sujet ou effacez un élément indésirable sans quitter SnipX.',
       },
       { title: 'OCR hors ligne', description: 'Extrayez du texte sur votre appareil, sans téléverser vos captures.' },
       {
@@ -759,7 +759,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
           'Consultez la page de téléchargement officielle pour les prérequis et versions actuellement compatibles.',
       },
       {
-        title: 'Shotera est-il gratuit ?',
+        title: 'SnipX est-il gratuit ?',
         answer: 'Les fonctions de base restent gratuites ; certaines fonctions avancées nécessitent Pro.',
       },
       {
@@ -768,12 +768,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Finalisez votre prochaine capture plus vite',
-    ctaText: 'Installez Shotera depuis le Microsoft Store ou retrouvez d’autres versions sur GitHub.',
+    ctaText: 'Installez SnipX depuis le Microsoft Store ou retrouvez d’autres versions sur GitHub.',
     moreVersions: 'Autres versions',
-    storeAria: 'Obtenir Shotera sur le Microsoft Store',
+    storeAria: 'Obtenir SnipX sur le Microsoft Store',
     pages: {
       about: [
-        'À propos de Shotera',
+        'À propos de SnipX',
         'Nous concevons une expérience de capture rapide, précise et discrète pour celles et ceux qui utilisent des images au quotidien.',
       ],
       contact: [
@@ -785,10 +785,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'L’édition de base reste gratuite. Pour les besoins avancés, vous pourrez choisir Pro.',
       ],
       services: [
-        'Ce que Shotera vous apporte',
+        'Ce que SnipX vous apporte',
         'De la capture à l’enregistrement, en passant par la reconnaissance et le partage, vos outils visuels sont réunis.',
       ],
-      changelog: ['Notes de version', 'Découvrez les nouvelles fonctions, améliorations et corrections de Shotera.'],
+      changelog: ['Notes de version', 'Découvrez les nouvelles fonctions, améliorations et corrections de SnipX.'],
       notFound: ['Page introuvable', 'L’adresse a peut-être changé. Revenez à l’accueil pour poursuivre.'],
     },
     scenarios: scenarios(
@@ -797,14 +797,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Flux de travail personnel',
         'Pour les équipes SaaS',
         'Pour les start-up',
-        'Découvrir Shotera',
+        'Découvrir SnipX',
         'Accélérer les retours',
         'Bientôt disponible',
         'Détails du produit',
         'Présenter la valeur clairement',
         'Éditions et formules',
       ],
-      Array(10).fill('Découvrez comment Shotera simplifie la capture, l’explication et le partage.')
+      Array(10).fill('Découvrez comment SnipX simplifie la capture, l’explication et le partage.')
     ),
     labels: {
       learnMore: 'En savoir plus',
@@ -813,7 +813,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       pro: 'Pro',
       freeText: 'Les principales fonctions de capture, annotation et épinglage restent gratuites.',
       proText: 'Accédez aux fonctions avancées ; référez-vous aux informations de la version publiée.',
-      contactText: 'Vos idées, signalements et usages nous aident à améliorer Shotera.',
+      contactText: 'Vos idées, signalements et usages nous aident à améliorer SnipX.',
       releaseText:
         'La dernière version apporte des outils IA, l’OCR hors ligne, la traduction d’images et diverses améliorations.',
       features: 'Fonctions',
@@ -838,18 +838,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Plus d’efficacité à chaque capture et enregistrement.',
       newLabel: 'NOUVEAU',
       announcement:
-        'Shotera v{version}+ est disponible — détourage AI, effacement AI, OCR hors ligne et traduction d’images ! (Site en construction, simple aperçu pour l’instant : la version finale prévaut) »',
+        'SnipX v{version}+ est disponible — détourage AI, effacement AI, OCR hors ligne et traduction d’images ! (Site en construction, simple aperçu pour l’instant : la version finale prévaut) »',
     },
   },
   it: {
     storeLanguage: 'it-it',
-    metaTitle: 'Shotera — Screenshot e registrazioni più rapidi e intelligenti',
+    metaTitle: 'SnipX — Screenshot e registrazioni più rapidi e intelligenti',
     metaDescription:
       'Cattura precisa, registrazione schermo, editing AI, OCR offline, traduzione immagini e pin sul desktop per Windows.',
     heroTitle: 'Cattura, registra e modifica con',
     heroAccent: 'l’IA in un solo posto',
     heroSubtitle:
-      'Shotera riunisce screenshot, annotazioni, registrazione GIF, scontorno AI, OCR offline, traduzione immagini e riferimenti fissati in un flusso Windows leggero.',
+      'SnipX riunisce screenshot, annotazioni, registrazione GIF, scontorno AI, OCR offline, traduzione immagini e riferimenti fissati in un flusso Windows leggero.',
     philosophy: 'Veloce, preciso e discreto, per non interrompere la concentrazione.',
     featuresTitle: 'Tutto ciò che serve dopo uno screenshot',
     featuresSubtitle: 'Cattura, spiega e condividi senza passare continuamente da un’app all’altra.',
@@ -865,7 +865,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'Editing con IA',
-        description: 'Isola soggetti e rimuovi elementi indesiderati senza uscire da Shotera.',
+        description: 'Isola soggetti e rimuovi elementi indesiderati senza uscire da SnipX.',
       },
       { title: 'OCR offline', description: 'Estrai testo direttamente sul dispositivo senza caricare gli screenshot.' },
       { title: 'Traduzione immagini', description: 'Riconosci e traduci il testo nelle immagini durante la cattura.' },
@@ -892,7 +892,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Consulta la pagina ufficiale del download per requisiti e versioni attualmente compatibili.',
       },
       {
-        title: 'Shotera è gratuito?',
+        title: 'SnipX è gratuito?',
         answer: 'Le funzioni di base sono gratuite per sempre; alcune funzioni avanzate richiedono Pro.',
       },
       {
@@ -901,12 +901,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Completa il prossimo screenshot in meno tempo',
-    ctaText: 'Installa Shotera dal Microsoft Store o visita GitHub per altre versioni.',
+    ctaText: 'Installa SnipX dal Microsoft Store o visita GitHub per altre versioni.',
     moreVersions: 'Altre versioni',
-    storeAria: 'Scarica Shotera dal Microsoft Store',
+    storeAria: 'Scarica SnipX dal Microsoft Store',
     pages: {
       about: [
-        'Informazioni su Shotera',
+        'Informazioni su SnipX',
         'Creiamo un’esperienza di cattura rapida, precisa e discreta per chi lavora ogni giorno con le immagini.',
       ],
       contact: [
@@ -918,10 +918,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'L’edizione base è gratuita per sempre. Per flussi più avanzati puoi scegliere Pro.',
       ],
       services: [
-        'Cosa può fare Shotera',
+        'Cosa può fare SnipX',
         'Dalla cattura alla registrazione, dal riconoscimento alla condivisione: tutti gli strumenti visivi in un unico posto.',
       ],
-      changelog: ['Novità e aggiornamenti', 'Scopri nuove funzioni, miglioramenti e correzioni di Shotera.'],
+      changelog: ['Novità e aggiornamenti', 'Scopri nuove funzioni, miglioramenti e correzioni di SnipX.'],
       notFound: ['Pagina non trovata', 'L’indirizzo potrebbe essere cambiato. Torna alla pagina iniziale.'],
     },
     scenarios: scenarios(
@@ -930,14 +930,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Flusso personale',
         'Per team SaaS',
         'Per startup',
-        'Scopri Shotera',
+        'Scopri SnipX',
         'Feedback più rapido',
         'In arrivo',
         'Dettagli del prodotto',
         'Valore più chiaro',
         'Edizioni e piani',
       ],
-      Array(10).fill('Scopri come Shotera semplifica cattura, spiegazione e condivisione.')
+      Array(10).fill('Scopri come SnipX semplifica cattura, spiegazione e condivisione.')
     ),
     labels: {
       learnMore: 'Scopri di più',
@@ -970,25 +970,25 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Più efficienza in ogni cattura e registrazione.',
       newLabel: 'NOVITÀ',
       announcement:
-        'Shotera v{version}+ è disponibile — scontorno AI, cancellazione IA, OCR offline e traduzione immagini! (Sito in costruzione, per ora solo un’anteprima: fa fede la versione finale) »',
+        'SnipX v{version}+ è disponibile — scontorno AI, cancellazione IA, OCR offline e traduzione immagini! (Sito in costruzione, per ora solo un’anteprima: fa fede la versione finale) »',
     },
   },
   ko: {
     storeLanguage: 'ko-kr',
-    metaTitle: 'Shotera — 더 빠르고 스마트한 캡처와 화면 녹화',
+    metaTitle: 'SnipX — 더 빠르고 스마트한 캡처와 화면 녹화',
     metaDescription:
       'Windows용 정밀 캡처, 화면 녹화, AI 이미지 편집, 오프라인 OCR, 이미지 번역 및 바탕 화면에 고정 도구입니다.',
     heroTitle: '캡처와 녹화,',
     heroAccent: 'AI 편집까지 한곳에서',
     heroSubtitle:
-      'Shotera는 스크린샷, 주석, GIF 녹화, AI 배경 제거, 오프라인 OCR, 이미지 번역, 바탕 화면에 고정을 하나의 매끄러운 Windows 작업 흐름으로 연결합니다.',
+      'SnipX는 스크린샷, 주석, GIF 녹화, AI 배경 제거, 오프라인 OCR, 이미지 번역, 바탕 화면에 고정을 하나의 매끄러운 Windows 작업 흐름으로 연결합니다.',
     philosophy: '빠르고 정확하게, 작업 흐름은 방해하지 않도록.',
     featuresTitle: '캡처 이후의 작업까지 한 번에',
     featuresSubtitle: '여러 앱을 오가지 않고 캡처하고 설명하고 공유하세요.',
     features: [
       { title: '스크린샷', description: '창과 UI 요소를 자동 감지하고 픽셀 단위로 영역을 다듬습니다.' },
       { title: '명확한 주석', description: '화살표, 텍스트, 번호, 확대 및 흐림 효과로 핵심을 쉽게 전달합니다.' },
-      { title: 'AI 이미지 편집', description: 'Shotera 안에서 피사체를 분리하고 불필요한 요소를 지웁니다.' },
+      { title: 'AI 이미지 편집', description: 'SnipX 안에서 피사체를 분리하고 불필요한 요소를 지웁니다.' },
       { title: '오프라인 OCR', description: '스크린샷을 업로드하지 않고 기기에서 바로 텍스트를 추출합니다.' },
       { title: '이미지 번역', description: '캡처 흐름 안에서 이미지 속 문자를 인식하고 번역합니다.' },
       {
@@ -1025,19 +1025,19 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
     ctaTitle: '다음 캡처를 더 빠르게 완성하세요',
     ctaText: 'Microsoft Store에서 설치하거나 GitHub에서 다른 버전을 받을 수 있습니다.',
     moreVersions: '다른 버전',
-    storeAria: 'Microsoft Store에서 Shotera 받기',
+    storeAria: 'Microsoft Store에서 SnipX 받기',
     pages: {
       about: [
-        'Shotera 소개',
+        'SnipX 소개',
         '매일 이미지를 다루는 사용자를 위해 빠르고 정확하며 흐름을 방해하지 않는 캡처 경험을 만듭니다.',
       ],
       contact: ['문의 및 피드백', '제안이나 오류는 GitHub Issues에 남기거나 Mosuzo Studio로 이메일을 보내 주세요.'],
       pricing: ['버전 및 가격', '기본 버전은 영구 무료입니다. 더 고급 작업이 필요할 때 Pro를 선택할 수 있습니다.'],
       services: [
-        'Shotera로 할 수 있는 일',
+        'SnipX로 할 수 있는 일',
         '캡처와 녹화부터 문자 인식과 공유까지 필요한 시각 도구를 한곳에 모았습니다.',
       ],
-      changelog: ['업데이트 내역', 'Shotera의 새로운 기능, 개선 사항 및 오류 수정을 확인하세요.'],
+      changelog: ['업데이트 내역', 'SnipX의 새로운 기능, 개선 사항 및 오류 수정을 확인하세요.'],
       notFound: ['페이지를 찾을 수 없습니다', '주소가 변경되었을 수 있습니다. 홈으로 돌아가 주세요.'],
     },
     scenarios: scenarios(
@@ -1046,14 +1046,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         '개인 작업 흐름',
         'SaaS 팀용',
         '스타트업용',
-        'Shotera 빠르게 보기',
+        'SnipX 빠르게 보기',
         '피드백 효율 높이기',
         '출시 예정',
         '제품 기능 상세',
         '가치를 명확하게 전달',
         '버전과 플랜',
       ],
-      Array(10).fill('Shotera가 캡처, 설명, 공유를 어떻게 간단하게 만드는지 살펴보세요.')
+      Array(10).fill('SnipX가 캡처, 설명, 공유를 어떻게 간단하게 만드는지 살펴보세요.')
     ),
     labels: {
       learnMore: '자세히 보기',
@@ -1086,18 +1086,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: '모든 캡처와 녹화를 더 효율적으로.',
       newLabel: '새 기능',
       announcement:
-        'Shotera v{version}+ 출시 — AI 배경 제거, AI 지우기, 오프라인 OCR, 이미지 번역 추가! (사이트 준비 중이라 현재는 미리보기이며, 최종 출시 내용이 기준입니다) »',
+        'SnipX v{version}+ 출시 — AI 배경 제거, AI 지우기, 오프라인 OCR, 이미지 번역 추가! (사이트 준비 중이라 현재는 미리보기이며, 최종 출시 내용이 기준입니다) »',
     },
   },
   ru: {
     storeLanguage: 'ru-ru',
-    metaTitle: 'Shotera — Быстрые и умные снимки экрана и запись',
+    metaTitle: 'SnipX — Быстрые и умные снимки экрана и запись',
     metaDescription:
       'Точный захват экрана, запись, AI-удаление фона и AI-стирание, офлайн-OCR, перевод изображений и закрепление на рабочем столе Windows.',
     heroTitle: 'Снимки, запись и',
     heroAccent: 'AI-удаление фона и AI-стирание в одном месте',
     heroSubtitle:
-      'Shotera объединяет снимки экрана, аннотации, запись GIF, AI-удаление фона, офлайн-OCR, перевод изображений и закрепление материалов в удобном процессе Windows.',
+      'SnipX объединяет снимки экрана, аннотации, запись GIF, AI-удаление фона, офлайн-OCR, перевод изображений и закрепление материалов в удобном процессе Windows.',
     philosophy: 'Быстро, точно и без лишних отвлечений.',
     featuresTitle: 'Всё для работы после снимка экрана',
     featuresSubtitle: 'Захватывайте, объясняйте и делитесь результатом без переключения между приложениями.',
@@ -1112,7 +1112,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'AI-удаление фона и AI-стирание',
-        description: 'Отделяйте объекты и удаляйте лишние детали, не выходя из Shotera.',
+        description: 'Отделяйте объекты и удаляйте лишние детали, не выходя из SnipX.',
       },
       { title: 'Офлайн-OCR', description: 'Извлекайте текст непосредственно на устройстве без загрузки снимков.' },
       {
@@ -1142,7 +1142,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Актуальные требования и поддерживаемые версии указаны на официальной странице загрузки.',
       },
       {
-        title: 'Shotera бесплатна?',
+        title: 'SnipX бесплатна?',
         answer: 'Возможности базовой версии бесплатны навсегда; отдельные расширенные функции доступны в Pro.',
       },
       {
@@ -1151,12 +1151,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Подготовьте следующий снимок быстрее',
-    ctaText: 'Установите Shotera из Microsoft Store или загрузите другие версии на GitHub.',
+    ctaText: 'Установите SnipX из Microsoft Store или загрузите другие версии на GitHub.',
     moreVersions: 'Другие версии',
-    storeAria: 'Скачать Shotera из Microsoft Store',
+    storeAria: 'Скачать SnipX из Microsoft Store',
     pages: {
       about: [
-        'О Shotera',
+        'О SnipX',
         'Мы создаём быстрый, точный и ненавязчивый инструмент для тех, кто ежедневно работает со снимками экрана.',
       ],
       contact: [
@@ -1165,10 +1165,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       ],
       pricing: ['Версии и цены', 'Базовая версия бесплатна навсегда. Для более сложных задач можно выбрать Pro.'],
       services: [
-        'Возможности Shotera',
+        'Возможности SnipX',
         'Захват, запись, распознавание и обмен материалами — все визуальные инструменты собраны вместе.',
       ],
-      changelog: ['История обновлений', 'Узнайте о новых функциях, улучшениях и исправлениях Shotera.'],
+      changelog: ['История обновлений', 'Узнайте о новых функциях, улучшениях и исправлениях SnipX.'],
       notFound: ['Страница не найдена', 'Возможно, адрес изменился. Вернитесь на главную страницу.'],
     },
     scenarios: scenarios(
@@ -1177,14 +1177,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Личный рабочий процесс',
         'Для SaaS-команд',
         'Для стартапов',
-        'Знакомство с Shotera',
+        'Знакомство с SnipX',
         'Ускорение обратной связи',
         'Скоро',
         'Подробности о продукте',
         'Наглядная ценность',
         'Версии и планы',
       ],
-      Array(10).fill('Узнайте, как Shotera упрощает захват, объяснение и обмен материалами.')
+      Array(10).fill('Узнайте, как SnipX упрощает захват, объяснение и обмен материалами.')
     ),
     labels: {
       learnMore: 'Подробнее',
@@ -1217,18 +1217,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Больше эффективности в каждом снимке и записи.',
       newLabel: 'НОВОЕ',
       announcement:
-        'Shotera v{version}+ уже доступен — AI-удаление фона, AI-стирание, офлайн-OCR и перевод изображений! (Сайт в разработке, сейчас это лишь предпросмотр: приоритет за финальным релизом) »',
+        'SnipX v{version}+ уже доступен — AI-удаление фона, AI-стирание, офлайн-OCR и перевод изображений! (Сайт в разработке, сейчас это лишь предпросмотр: приоритет за финальным релизом) »',
     },
   },
   ar: {
     storeLanguage: 'ar-sa',
-    metaTitle: 'Shotera — لقطات شاشة وتسجيل أسرع وأكثر ذكاءً',
+    metaTitle: 'SnipX — لقطات شاشة وتسجيل أسرع وأكثر ذكاءً',
     metaDescription:
       'التقاط دقيق وتسجيل للشاشة وتحرير بالذكاء الاصطناعي وOCR دون اتصال وترجمة للصور وتثبيت على سطح مكتب Windows.',
     heroTitle: 'التقط وسجّل وحرّر باستخدام',
     heroAccent: 'الذكاء الاصطناعي في مكان واحد',
     heroSubtitle:
-      'يجمع Shotera لقطات الشاشة والتعليقات وتسجيل GIF وإزالة الخلفية بالذكاء الاصطناعي وOCR دون اتصال وترجمة الصور وتثبيت المراجع ضمن سير عمل سلس على Windows.',
+      'يجمع SnipX لقطات الشاشة والتعليقات وتسجيل GIF وإزالة الخلفية بالذكاء الاصطناعي وOCR دون اتصال وترجمة الصور وتثبيت المراجع ضمن سير عمل سلس على Windows.',
     philosophy: 'سريع ودقيق ويحافظ على تركيزك.',
     featuresTitle: 'كل ما تحتاجه بعد التقاط الشاشة',
     featuresSubtitle: 'التقط واشرح وشارك من دون التنقل المستمر بين التطبيقات.',
@@ -1237,7 +1237,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       { title: 'تعليقات واضحة', description: 'استخدم الأسهم والنص وترقيم الخطوات والتكبير والتمويه لتوضيح الفكرة.' },
       {
         title: 'إزالة الخلفية والمحو بالذكاء الاصطناعي',
-        description: 'اعزل العناصر واحذف الأجزاء غير المرغوبة من داخل Shotera.',
+        description: 'اعزل العناصر واحذف الأجزاء غير المرغوبة من داخل SnipX.',
       },
       { title: 'OCR دون اتصال', description: 'استخرج النص على جهازك من دون رفع لقطات الشاشة.' },
       { title: 'ترجمة الصور', description: 'تعرّف على النص داخل الصور وترجمه ضمن مسار الالتقاط.' },
@@ -1260,15 +1260,15 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         title: 'ما إصدارات Windows المدعومة؟',
         answer: 'راجع صفحة التنزيل الرسمية لمعرفة المتطلبات والإصدارات المدعومة حالياً.',
       },
-      { title: 'هل Shotera مجاني؟', answer: 'ميزات الإصدار الأساسي مجانية دائماً، وبعض الميزات المتقدمة تتطلب Pro.' },
+      { title: 'هل SnipX مجاني؟', answer: 'ميزات الإصدار الأساسي مجانية دائماً، وبعض الميزات المتقدمة تتطلب Pro.' },
       { title: 'هل يرفع OCR لقطات الشاشة؟', answer: 'لا. يعالج OCR دون اتصال استخراج النص مباشرة على جهازك.' },
     ],
     ctaTitle: 'أنجز لقطة الشاشة التالية بوقت أقل',
-    ctaText: 'ثبّت Shotera من Microsoft Store أو احصل على إصدارات أخرى من GitHub.',
+    ctaText: 'ثبّت SnipX من Microsoft Store أو احصل على إصدارات أخرى من GitHub.',
     moreVersions: 'إصدارات أخرى',
-    storeAria: 'تنزيل Shotera من Microsoft Store',
+    storeAria: 'تنزيل SnipX من Microsoft Store',
     pages: {
-      about: ['حول Shotera', 'نطوّر تجربة التقاط سريعة ودقيقة وغير مشتتة لمن يعتمدون على لقطات الشاشة يومياً.'],
+      about: ['حول SnipX', 'نطوّر تجربة التقاط سريعة ودقيقة وغير مشتتة لمن يعتمدون على لقطات الشاشة يومياً.'],
       contact: [
         'التواصل والملاحظات',
         'شارك اقتراحاتك أو بلّغ عن مشكلة عبر GitHub Issues، أو راسل Mosuzo Studio بالبريد الإلكتروني.',
@@ -1278,10 +1278,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'الإصدار الأساسي مجاني دائماً، ويمكن اختيار Pro عند الحاجة إلى قدرات أكثر تقدماً.',
       ],
       services: [
-        'ما الذي يقدمه Shotera',
+        'ما الذي يقدمه SnipX',
         'من الالتقاط والتسجيل إلى التعرّف والمشاركة، أدوات التواصل المرئي في مكان واحد.',
       ],
-      changelog: ['سجل التحديثات', 'اطّلع على الميزات الجديدة والتحسينات والإصلاحات في Shotera.'],
+      changelog: ['سجل التحديثات', 'اطّلع على الميزات الجديدة والتحسينات والإصلاحات في SnipX.'],
       notFound: ['الصفحة غير موجودة', 'ربما تغيّر العنوان. ارجع إلى الصفحة الرئيسية للمتابعة.'],
     },
     scenarios: scenarios(
@@ -1290,14 +1290,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'سير عمل شخصي',
         'لفرق SaaS',
         'للشركات الناشئة',
-        'تعرّف على Shotera',
+        'تعرّف على SnipX',
         'ملاحظات أسرع',
         'قريباً',
         'تفاصيل المنتج',
         'وضّح القيمة',
         'الإصدارات والخطط',
       ],
-      Array(10).fill('اكتشف كيف يبسّط Shotera الالتقاط والشرح والمشاركة.')
+      Array(10).fill('اكتشف كيف يبسّط SnipX الالتقاط والشرح والمشاركة.')
     ),
     labels: {
       learnMore: 'اعرف المزيد',
@@ -1330,18 +1330,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'كفاءة أكبر في كل لقطة وتسجيل.',
       newLabel: 'جديد',
       announcement:
-        'Shotera v{version}+ متوفّر الآن — إزالة الخلفية بالذكاء الاصطناعي والمحو بالذكاء الاصطناعي وOCR دون اتصال وترجمة الصور! (الموقع قيد الإنشاء، وهذه معاينة فقط، والإصدار النهائي هو المرجع) «',
+        'SnipX v{version}+ متوفّر الآن — إزالة الخلفية بالذكاء الاصطناعي والمحو بالذكاء الاصطناعي وOCR دون اتصال وترجمة الصور! (الموقع قيد الإنشاء، وهذه معاينة فقط، والإصدار النهائي هو المرجع) «',
     },
   },
   nl: {
     storeLanguage: 'nl-nl',
-    metaTitle: 'Shotera — Snellere, slimmere screenshots en opnamen',
+    metaTitle: 'SnipX — Snellere, slimmere screenshots en opnamen',
     metaDescription:
       'Nauwkeurige schermopname, AI-beeldbewerking, offline OCR, beeldvertaling en vastpinnen op het bureaublad.',
     heroTitle: 'Leg vast, neem op en bewerk met',
     heroAccent: 'AI op één plek',
     heroSubtitle:
-      'Shotera brengt screenshots, annotaties, GIF-opname, AI-uitsnede, offline OCR, beeldvertaling en vastgepinde referenties samen in één vlotte Windows-workflow.',
+      'SnipX brengt screenshots, annotaties, GIF-opname, AI-uitsnede, offline OCR, beeldvertaling en vastgepinde referenties samen in één vlotte Windows-workflow.',
     philosophy: 'Snel, nauwkeurig en zonder je concentratie te onderbreken.',
     featuresTitle: 'Alles voor het werk na een screenshot',
     featuresSubtitle: 'Leg vast, leg uit en deel zonder steeds van app te wisselen.',
@@ -1356,7 +1356,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'AI-beeldbewerking',
-        description: 'Maak onderwerpen vrijstaand en verwijder ongewenste details binnen Shotera.',
+        description: 'Maak onderwerpen vrijstaand en verwijder ongewenste details binnen SnipX.',
       },
       { title: 'Offline OCR', description: 'Haal tekst lokaal uit beelden zonder screenshots te uploaden.' },
       { title: 'Beeldvertaling', description: 'Herken en vertaal tekst in afbeeldingen tijdens je vastlegworkflow.' },
@@ -1383,7 +1383,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Bekijk de officiële downloadpagina voor de actuele systeemvereisten en ondersteunde versies.',
       },
       {
-        title: 'Is Shotera gratis?',
+        title: 'Is SnipX gratis?',
         answer: 'De basisfuncties blijven altijd gratis; sommige geavanceerde functies vereisen Pro.',
       },
       {
@@ -1392,12 +1392,12 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
     ],
     ctaTitle: 'Maak je volgende screenshot sneller af',
-    ctaText: 'Installeer Shotera via de Microsoft Store of download andere versies op GitHub.',
+    ctaText: 'Installeer SnipX via de Microsoft Store of download andere versies op GitHub.',
     moreVersions: 'Andere versies',
-    storeAria: 'Shotera downloaden uit de Microsoft Store',
+    storeAria: 'SnipX downloaden uit de Microsoft Store',
     pages: {
       about: [
-        'Over Shotera',
+        'Over SnipX',
         'We bouwen een snelle, nauwkeurige en rustige vastlegervaring voor iedereen die dagelijks met screenshots werkt.',
       ],
       contact: ['Contact en feedback', 'Deel suggesties of meld problemen via GitHub Issues, of mail Mosuzo Studio.'],
@@ -1406,10 +1406,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'De basiseditie blijft altijd gratis. Voor geavanceerdere workflows kun je Pro kiezen.',
       ],
       services: [
-        'Wat Shotera voor je doet',
+        'Wat SnipX voor je doet',
         'Van vastleggen en opnemen tot herkennen en delen: al je visuele gereedschap op één plek.',
       ],
-      changelog: ['Versie-informatie', 'Bekijk nieuwe functies, verbeteringen en oplossingen in Shotera.'],
+      changelog: ['Versie-informatie', 'Bekijk nieuwe functies, verbeteringen en oplossingen in SnipX.'],
       notFound: ['Pagina niet gevonden', 'Het adres is mogelijk gewijzigd. Ga terug naar de startpagina.'],
     },
     scenarios: scenarios(
@@ -1418,14 +1418,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Persoonlijke workflow',
         'Voor SaaS-teams',
         'Voor startups',
-        'Ontdek Shotera',
+        'Ontdek SnipX',
         'Snellere feedback',
         'Binnenkort',
         'Productdetails',
         'Waarde helder tonen',
         'Edities en abonnementen',
       ],
-      Array(10).fill('Ontdek hoe Shotera vastleggen, uitleggen en delen eenvoudiger maakt.')
+      Array(10).fill('Ontdek hoe SnipX vastleggen, uitleggen en delen eenvoudiger maakt.')
     ),
     labels: {
       learnMore: 'Meer informatie',
@@ -1459,18 +1459,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Efficiënter bij elke screenshot en opname.',
       newLabel: 'NIEUW',
       announcement:
-        'Shotera v{version}+ is hier — AI-uitsnede, AI-gum, offline OCR en beeldvertaling! (Site in opbouw, dit is slechts een preview: definitieve release is leidend) »',
+        'SnipX v{version}+ is hier — AI-uitsnede, AI-gum, offline OCR en beeldvertaling! (Site in opbouw, dit is slechts een preview: definitieve release is leidend) »',
     },
   },
   pl: {
     storeLanguage: 'pl-pl',
-    metaTitle: 'Shotera — Szybsze i inteligentniejsze zrzuty oraz nagrania',
+    metaTitle: 'SnipX — Szybsze i inteligentniejsze zrzuty oraz nagrania',
     metaDescription:
       'Precyzyjne przechwytywanie, nagrywanie ekranu, edycja AI, OCR offline, tłumaczenie obrazów i przypinanie do pulpitu.',
     heroTitle: 'Przechwytuj, nagrywaj i edytuj z',
     heroAccent: 'AI w jednym miejscu',
     heroSubtitle:
-      'Shotera łączy zrzuty ekranu, adnotacje, nagrywanie GIF, wycinanie AI, OCR offline, tłumaczenie obrazów i przypięte materiały w płynnym środowisku Windows.',
+      'SnipX łączy zrzuty ekranu, adnotacje, nagrywanie GIF, wycinanie AI, OCR offline, tłumaczenie obrazów i przypięte materiały w płynnym środowisku Windows.',
     philosophy: 'Szybko, precyzyjnie i bez wybijania z rytmu pracy.',
     featuresTitle: 'Wszystko, czego potrzebujesz po zrobieniu zrzutu',
     featuresSubtitle: 'Przechwytuj, objaśniaj i udostępniaj bez ciągłego przełączania aplikacji.',
@@ -1485,7 +1485,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'Edycja obrazów AI',
-        description: 'Wycinaj obiekty i usuwaj niechciane elementy bez opuszczania Shotera.',
+        description: 'Wycinaj obiekty i usuwaj niechciane elementy bez opuszczania SnipX.',
       },
       { title: 'OCR offline', description: 'Wyodrębniaj tekst lokalnie, bez przesyłania zrzutów.' },
       { title: 'Tłumaczenie obrazów', description: 'Rozpoznawaj i tłumacz tekst na obrazach w tym samym procesie.' },
@@ -1512,18 +1512,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Aktualne wymagania i wspierane wersje znajdziesz na oficjalnej stronie pobierania.',
       },
       {
-        title: 'Czy Shotera jest bezpłatna?',
+        title: 'Czy SnipX jest bezpłatna?',
         answer: 'Funkcje wersji podstawowej są bezpłatne na zawsze; część zaawansowanych opcji wymaga Pro.',
       },
       { title: 'Czy OCR przesyła zrzuty?', answer: 'Nie. OCR offline przetwarza tekst bezpośrednio na urządzeniu.' },
     ],
     ctaTitle: 'Szybciej przygotuj kolejny zrzut',
-    ctaText: 'Zainstaluj Shotera z Microsoft Store lub pobierz inne wersje z GitHub.',
+    ctaText: 'Zainstaluj SnipX z Microsoft Store lub pobierz inne wersje z GitHub.',
     moreVersions: 'Inne wersje',
-    storeAria: 'Pobierz Shotera z Microsoft Store',
+    storeAria: 'Pobierz SnipX z Microsoft Store',
     pages: {
       about: [
-        'O Shotera',
+        'O SnipX',
         'Tworzymy szybkie, precyzyjne i dyskretne narzędzie dla osób, które codziennie pracują ze zrzutami ekranu.',
       ],
       contact: ['Kontakt i opinie', 'Sugestie i błędy zgłaszaj przez GitHub Issues lub napisz do Mosuzo Studio.'],
@@ -1532,10 +1532,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Wersja podstawowa pozostaje bezpłatna. Dla bardziej zaawansowanych potrzeb dostępna będzie wersja Pro.',
       ],
       services: [
-        'Co oferuje Shotera',
+        'Co oferuje SnipX',
         'Od przechwytywania i nagrywania po rozpoznawanie i udostępnianie — wszystkie narzędzia wizualne w jednym miejscu.',
       ],
-      changelog: ['Historia zmian', 'Poznaj nowe funkcje, ulepszenia i poprawki w Shotera.'],
+      changelog: ['Historia zmian', 'Poznaj nowe funkcje, ulepszenia i poprawki w SnipX.'],
       notFound: ['Nie znaleziono strony', 'Adres mógł się zmienić. Wróć na stronę główną.'],
     },
     scenarios: scenarios(
@@ -1544,14 +1544,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Osobisty proces pracy',
         'Dla zespołów SaaS',
         'Dla startupów',
-        'Poznaj Shotera',
+        'Poznaj SnipX',
         'Sprawniejsze opinie',
         'Już wkrótce',
         'Szczegóły produktu',
         'Jasno pokaż wartość',
         'Wersje i plany',
       ],
-      Array(10).fill('Zobacz, jak Shotera upraszcza przechwytywanie, objaśnianie i udostępnianie.')
+      Array(10).fill('Zobacz, jak SnipX upraszcza przechwytywanie, objaśnianie i udostępnianie.')
     ),
     labels: {
       learnMore: 'Dowiedz się więcej',
@@ -1584,18 +1584,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Większa wydajność każdego zrzutu i nagrania.',
       newLabel: 'NOWOŚĆ',
       announcement:
-        'Shotera v{version}+ już dostępna — wycinanie AI, wymazywanie AI, OCR offline i tłumaczenie obrazów! (Strona w budowie, to tylko podgląd: liczy się wersja finalna) »',
+        'SnipX v{version}+ już dostępna — wycinanie AI, wymazywanie AI, OCR offline i tłumaczenie obrazów! (Strona w budowie, to tylko podgląd: liczy się wersja finalna) »',
     },
   },
   sv: {
     storeLanguage: 'sv-se',
-    metaTitle: 'Shotera — Snabbare och smartare skärmbilder och inspelningar',
+    metaTitle: 'SnipX — Snabbare och smartare skärmbilder och inspelningar',
     metaDescription:
       'Exakta skärmbilder, skärminspelning, AI-bildredigering, offline-OCR, bildöversättning och fästa bilder på Windows-skrivbordet.',
     heroTitle: 'Fånga, spela in och redigera med',
     heroAccent: 'AI på samma plats',
     heroSubtitle:
-      'Shotera samlar skärmbilder, anteckningar, GIF-inspelning, AI-frilägg, offline-OCR, bildöversättning och fästa referenser i ett smidigt Windows-flöde.',
+      'SnipX samlar skärmbilder, anteckningar, GIF-inspelning, AI-frilägg, offline-OCR, bildöversättning och fästa referenser i ett smidigt Windows-flöde.',
     philosophy: 'Snabbt, exakt och utan att störa koncentrationen.',
     featuresTitle: 'Allt du behöver efter en skärmbild',
     featuresSubtitle: 'Fånga, förklara och dela utan att växla mellan flera appar.',
@@ -1610,7 +1610,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       },
       {
         title: 'AI-frilägg och AI-radering',
-        description: 'Frilägg motiv och ta bort oönskade detaljer utan att lämna Shotera.',
+        description: 'Frilägg motiv och ta bort oönskade detaljer utan att lämna SnipX.',
       },
       { title: 'Offline-OCR', description: 'Extrahera text lokalt på enheten utan att ladda upp skärmbilder.' },
       { title: 'Bildöversättning', description: 'Identifiera och översätt text i bilder direkt i skärmbildsflödet.' },
@@ -1637,18 +1637,18 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         answer: 'Se den officiella nedladdningssidan för aktuella systemkrav och versioner.',
       },
       {
-        title: 'Är Shotera gratis?',
+        title: 'Är SnipX gratis?',
         answer: 'Basfunktionerna är kostnadsfria för alltid; vissa avancerade funktioner kräver Pro.',
       },
       { title: 'Laddar OCR upp mina skärmbilder?', answer: 'Nej. Offline-OCR behandlar texten direkt på din enhet.' },
     ],
     ctaTitle: 'Gör nästa skärmbild klar snabbare',
-    ctaText: 'Installera Shotera från Microsoft Store eller hämta andra versioner på GitHub.',
+    ctaText: 'Installera SnipX från Microsoft Store eller hämta andra versioner på GitHub.',
     moreVersions: 'Andra versioner',
-    storeAria: 'Hämta Shotera från Microsoft Store',
+    storeAria: 'Hämta SnipX från Microsoft Store',
     pages: {
       about: [
-        'Om Shotera',
+        'Om SnipX',
         'Vi bygger en snabb, exakt och diskret skärmbildsupplevelse för alla som arbetar med skärmbilder varje dag.',
       ],
       contact: [
@@ -1660,10 +1660,10 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Basutgåvan är kostnadsfri för alltid. För mer avancerade arbetsflöden kan du välja Pro.',
       ],
       services: [
-        'Vad Shotera kan göra',
+        'Vad SnipX kan göra',
         'Från skärmbilder och skärminspelning till igenkänning och delning — alla visuella verktyg samlade.',
       ],
-      changelog: ['Versionsnyheter', 'Se nya funktioner, förbättringar och rättningar i Shotera.'],
+      changelog: ['Versionsnyheter', 'Se nya funktioner, förbättringar och rättningar i SnipX.'],
       notFound: ['Sidan hittades inte', 'Adressen kan ha ändrats. Gå tillbaka till startsidan.'],
     },
     scenarios: scenarios(
@@ -1672,14 +1672,14 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
         'Personligt arbetsflöde',
         'För SaaS-team',
         'För startups',
-        'Upptäck Shotera',
+        'Upptäck SnipX',
         'Snabbare feedback',
         'Kommer snart',
         'Produktinformation',
         'Visa värdet tydligt',
         'Utgåvor och planer',
       ],
-      Array(10).fill('Upptäck hur Shotera förenklar skärmbildstagning, förklaring och delning.')
+      Array(10).fill('Upptäck hur SnipX förenklar skärmbildstagning, förklaring och delning.')
     ),
     labels: {
       learnMore: 'Läs mer',
@@ -1713,7 +1713,7 @@ export const localizedSiteContent: Record<LocalizedLocale, LocalizedSiteContent>
       tagline: 'Effektivare vid varje skärmbild och inspelning.',
       newLabel: 'NYTT',
       announcement:
-        'Shotera v{version}+ är här — AI-frilägg, AI-radering, offline-OCR och bildöversättning! (Webbplatsen byggs, detta är bara förhandsgranskning: slutgiltig version gäller) »',
+        'SnipX v{version}+ är här — AI-frilägg, AI-radering, offline-OCR och bildöversättning! (Webbplatsen byggs, detta är bara förhandsgranskning: slutgiltig version gäller) »',
     },
   },
 };

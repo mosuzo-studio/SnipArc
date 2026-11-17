@@ -66,10 +66,10 @@ export const getFooterData = async (lang: Lang) => {
     // Brand accounts (X / Bilibili / WeChat) join this list once they are live;
     // the site does not ship links that go nowhere.
     socialLinks: [
-      { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mosuzo-studio/Shotera' },
+      { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mosuzo-studio/SnipX' },
     ],
     footNote: `
-      <span class="font-semibold">Shotera</span> · ${t('footer.tagline')}
+      <span class="font-semibold">SnipX</span> · ${t('footer.tagline')}
     `,
   };
 };

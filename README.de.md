@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="Shotera-Logo" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX-Logo" />
 </p>
 
-<h1 align="center">Shotera</h1>
+<h1 align="center">SnipX</h1>
 
 <p align="center">
   <strong>Präzise erfassen. Klar erklären. Im Arbeitsfluss bleiben.</strong><br/>
@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com"><img src="https://img.shields.io/badge/Website-shotera.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Offizielle Shotera-Website besuchen" /></a>
-  <a href="https://shotera.mosuzo.com/de/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="FAQ lesen" /></a>
-  <a href="https://shotera.mosuzo.com/de/changelog"><img src="https://img.shields.io/badge/Versionshinweise-3F7C73?style=for-the-badge" height="40" alt="Shotera-Versionshinweise lesen" /></a>
+  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/Website-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Offizielle SnipX-Website besuchen" /></a>
+  <a href="https://snipx.mosuzo.com/de/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="FAQ lesen" /></a>
+  <a href="https://snipx.mosuzo.com/de/changelog"><img src="https://img.shields.io/badge/Versionshinweise-3F7C73?style=for-the-badge" height="40" alt="SnipX-Versionshinweise lesen" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/Shotera?display_name=tag&label=Release&color=4c72b0" alt="Neueste Version" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/Shotera/total?label=Downloads&color=dd8452" alt="Downloads insgesamt" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="Neueste Version" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=Downloads&color=dd8452" alt="Downloads insgesamt" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 Oberflächensprachen" />
 </p>
@@ -48,12 +48,12 @@
 <br/>
 
 <p align="center">
-  <strong>Shotera herunterladen</strong> · Windows 10 / 11 (64-Bit)
+  <strong>SnipX herunterladen</strong> · Windows 10 / 11 (64-Bit)
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-Shotera_herunterladen-0067b8?style=for-the-badge" height="40" alt="Shotera aus dem Microsoft Store herunterladen" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Weitere_Versionen-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Weitere Versionen auf GitHub Releases" /></a>
+  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-SnipX_herunterladen-0067b8?style=for-the-badge" height="40" alt="SnipX aus dem Microsoft Store herunterladen" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Weitere_Versionen-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Weitere Versionen auf GitHub Releases" /></a>
 </p>
 
 <details open>
@@ -61,22 +61,22 @@
 
 | Was es kann | Mehr erfahren | Erste Schritte |
 | --- | --- | --- |
-| [Kernfunktionen](#kernfunktionen): Screenshot · Langer Screenshot · Auf Desktop anheften · Bildschirmaufnahme & GIF · Offline-OCR & Bildübersetzung · AI-Freistellen & AI-Radierer<br/>[Weitere Funktionen](#weitere-funktionen): Anmerkungen & Unkenntlichmachung · Emoji-Sticker · Präsentationsmodus · Dunkler Modus · Multi-Monitor | [Für die Arbeit nach dem Screenshot](#für-die-arbeit-nach-dem-screenshot)<br/>[FAQ](#faq)<br/>[Windows-Ablauf](#ein-fokussierter-windows-ablauf)<br/>[Datenschutz und Kontrolle](#datenschutz-und-kontrolle)<br/>[Unterstützte Sprachen](#unterstützte-sprachen) | [Download und Editionen](#download-und-editionen)<br/>[Support und Feedback](#support-und-feedback)<br/>[Shotera auf Ko-fi unterstützen](#shotera-auf-ko-fi-unterstützen) |
+| [Kernfunktionen](#kernfunktionen): Screenshot · Langer Screenshot · Auf Desktop anheften · Bildschirmaufnahme & GIF · Offline-OCR & Bildübersetzung · AI-Freistellen & AI-Radierer<br/>[Weitere Funktionen](#weitere-funktionen): Anmerkungen & Unkenntlichmachung · Emoji-Sticker · Präsentationsmodus · Dunkler Modus · Multi-Monitor | [Für die Arbeit nach dem Screenshot](#für-die-arbeit-nach-dem-screenshot)<br/>[FAQ](#faq)<br/>[Windows-Ablauf](#ein-fokussierter-windows-ablauf)<br/>[Datenschutz und Kontrolle](#datenschutz-und-kontrolle)<br/>[Unterstützte Sprachen](#unterstützte-sprachen) | [Download und Editionen](#download-und-editionen)<br/>[Support und Feedback](#support-und-feedback)<br/>[SnipX auf Ko-fi unterstützen](#snipx-auf-ko-fi-unterstützen) |
 
 </details>
 
 > **Drei Schritte zum Start:** ① installieren → ② `F1` drücken und den Bereich auswählen → ③ annotieren und kopieren oder mit `F3` auf dem Desktop anheften.
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="Shotera im Überblick" />
-  <p align="center"><strong>Shotera auf einen Blick.</strong> Von Screenshots und langen Seiten über Anheften und Bildschirmaufnahme bis Texterfassung und AI-Aufbereitung — alles in einem Fenster.</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipX im Überblick" />
+  <p align="center"><strong>SnipX auf einen Blick.</strong> Von Screenshots und langen Seiten über Anheften und Bildschirmaufnahme bis Texterfassung und AI-Aufbereitung — alles in einem Fenster.</p>
 </figure>
 
 <br/>
 
 ## Für die Arbeit nach dem Screenshot
 
-Das Schwierige ist selten die Aufnahme — es ist das, was danach kommt: annotieren, unkenntlich machen, eine lange Seite zusammenfügen, Text extrahieren, eine Referenz im Blick behalten. Shotera fasst diese Arbeit in einem einzigen Ablauf zusammen — die Aufnahme ist bereit, sobald Sie sie gemacht haben.
+Das Schwierige ist selten die Aufnahme — es ist das, was danach kommt: annotieren, unkenntlich machen, eine lange Seite zusammenfügen, Text extrahieren, eine Referenz im Blick behalten. SnipX fasst diese Arbeit in einem einzigen Ablauf zusammen — die Aufnahme ist bereit, sobald Sie sie gemacht haben.
 
 - **Kein zweiter Durchgang:** annotieren, unkenntlich machen und vergrößern in derselben Leiste
 - **Alles Lange in einem Bild:** lange Seiten, Chats und Dokumente, automatisch zusammengefügt
@@ -90,7 +90,7 @@ Typische Anwendungsfälle: Produktfeedback, Fehlerberichte, Tutorials und Dokume
 
 ### 📸 Screenshot · Aufnehmen mit einem Tastendruck, exakt im Rahmen
 
-Drücken Sie `F1`: Beim Überfahren dockt Shotera automatisch an das Fenster oder Element unter dem Zeiger an; die Kanten justieren Sie mit der Lupe fein nach.
+Drücken Sie `F1`: Beim Überfahren dockt SnipX automatisch an das Fenster oder Element unter dem Zeiger an; die Kanten justieren Sie mit der Lupe fein nach.
 
 - Pfeile, Nummerierung, Text und Mosaik — sofort angewendet
 - Feste Größe, Seitenverhältnis, Koordinaten und Verzögerung für wiederholbare Aufnahmen
@@ -98,7 +98,7 @@ Drücken Sie `F1`: Beim Überfahren dockt Shotera automatisch an das Fenster ode
 <sub>**Im Detail:** Andocken an Fenster- und UI-Elementkanten, pixelgenaues Feinjustieren, gespeicherte Vorlagen und verzögerte Aufnahmen.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="Shotera Arbeitsbereich für intelligente Aufnahme und Anmerkungen" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX Arbeitsbereich für intelligente Aufnahme und Anmerkungen" />
   <p align="center"><strong>Intelligente Aufnahme.</strong> Fenster oder UI-Element wählen und direkt in der Leiste annotieren.</p>
 </figure>
 
@@ -107,7 +107,7 @@ Drücken Sie `F1`: Beim Überfahren dockt Shotera automatisch an das Fenster ode
 > **Elegant:** kopiert beim Loslassen sofort in die Zwischenablage; die Meldung unten rechts öffnet den Editor. **Direkt kommentieren:** die Leiste erscheint mit der Auswahl, sodass Sie vor dem Kopieren annotieren. Beides finden Sie unter Einstellungen → Screenshot.
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="Shotera: Zwei Fertig-Modi — Elegant und Direkt kommentieren" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX: Zwei Fertig-Modi — Elegant und Direkt kommentieren" />
   <p align="center"><strong>Zwei Fertig-Modi.</strong> Links: Elegant; rechts: Direkt kommentieren.</p>
 </figure>
 
@@ -122,7 +122,7 @@ Lange Seiten, Chats und Dokumente — von oben bis unten in einem einzigen Bild 
 <sub>**Im Detail:** Gemacht für lange Webseiten, Chatverläufe und komplette Dokumente; die fertige Aufnahme landet direkt in Dokumentation und Issues.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="Shotera Langer Screenshot" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX Langer Screenshot" />
   <p align="center"><strong>Langer Screenshot.</strong> Lange Seiten und Chats, zu einem Bild zusammengefügt.</p>
 </figure>
 
@@ -136,7 +136,7 @@ Mit `F3` bleibt eine Aufnahme über allem anderen — vergleichen und nachschlag
 <sub>**Im Detail:** An jeder Kante oder Ecke ziehen, um mit fixiertem Seitenverhältnis zu skalieren; angeheftete Aufnahmen bleiben über Ihren Fenstern und blockieren keine Klicks.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="Shotera Auf Desktop anheften" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipX Auf Desktop anheften" />
   <p align="center"><strong>Auf Desktop anheften.</strong> Referenzen bleiben oben, während Sie weiterarbeiten.</p>
 </figure>
 
@@ -150,7 +150,7 @@ Aus „schwer zu erklären“ wird ein Video, dem jeder folgen kann.
 <sub>**Im Detail:** GIFs bleiben klein genug für Dokumentation, Issues und Chats, und die hohen Auflösungen überzeugen auch auf HiDPI-Displays.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="Shotera Bildschirmaufnahme und GIF-Export" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipX Bildschirmaufnahme und GIF-Export" />
   <p align="center"><strong>Bildschirmaufnahme & GIF.</strong> Einmal zeigen statt zweimal erklären.</p>
 </figure>
 
@@ -163,7 +163,7 @@ Aus „schwer zu erklären“ wird ein Video, dem jeder folgen kann.
 <sub>**Im Detail:** Die Erkennung läuft auf Ihrem Gerät; die Ergebnisse sind nur einen Klick von der Zwischenablage entfernt.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="Shotera Offline-OCR und Bildübersetzung" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX Offline-OCR und Bildübersetzung" />
   <p align="center"><strong>Offline-OCR & Bildübersetzung.</strong> Erfassen und übersetzen, ohne den Aufnahmeablauf zu verlassen.</p>
 </figure>
 
@@ -175,7 +175,7 @@ Aus „schwer zu erklären“ wird ein Video, dem jeder folgen kann.
 <sub>**Im Detail:** Beide laufen auf lokalen Modellen — das Originalbild wird nie hochgeladen. Freistellungen lassen sich kopieren oder als transparentes PNG speichern.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Shotera AI-Freistellen" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX AI-Freistellen" />
   <p align="center"><strong>AI-Freistellen.</strong> Motiv und Hintergrund, in einem Schritt getrennt.</p>
 </figure>
 
@@ -190,7 +190,7 @@ Pfeile, Text, Pinsel, Textmarker, Nummerierung, Lupe; Mosaik und Gauß-Weichzeic
 <sub>**Im Detail:** Anmerkungen lassen sich verschieben, skalieren und drehen — mit Rückgängig und Wiederholen, wenn Sie es sich anders überlegen.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Shotera Anmerkungs- und Unkenntlichmachungswerkzeuge" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX Anmerkungs- und Unkenntlichmachungswerkzeuge" />
   <p align="center"><strong>Anmerkungen & Unkenntlichmachung.</strong> Schritte klar erklären, Sensibles privat halten.</p>
 </figure>
 
@@ -199,7 +199,7 @@ Pfeile, Text, Pinsel, Textmarker, Nummerierung, Lupe; Mosaik und Gauß-Weichzeic
 Hunderte Emoji-Sticker, frei skalierbar und beliebig platzierbar — ein bisschen Spaß und deutlich mehr Nachdruck.
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Shotera Emoji-Sticker" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX Emoji-Sticker" />
   <p align="center"><strong>Emoji-Sticker.</strong> Lenken Sie den Blick genau auf das Wesentliche.</p>
 </figure>
 
@@ -208,7 +208,7 @@ Hunderte Emoji-Sticker, frei skalierbar und beliebig platzierbar — ein bissche
 Mit `Pause` räumen Sie vor einer Demo oder Aufnahme den Desktop auf; anschließend wird alles wiederhergestellt.
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Shotera Präsentationsmodus" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX Präsentationsmodus" />
   <p align="center"><strong>Präsentationsmodus.</strong> Ein Tastendruck räumt auf, ein Tastendruck macht es rückgängig.</p>
 </figure>
 
@@ -232,7 +232,7 @@ Screenshots und Bearbeitung erfolgen auf Ihrem Rechner; Offline-OCR, AI-Freistel
 **Wie erfasse ich eine lange Seite?**
 Wechseln Sie zum Langen Screenshot und scrollen Sie — die Frames werden automatisch zu einem Bild zusammengefügt.
 
-Weitere Antworten finden Sie in den [FAQ auf der Website](https://shotera.mosuzo.com/de/faq).
+Weitere Antworten finden Sie in den [FAQ auf der Website](https://snipx.mosuzo.com/de/faq).
 
 <br/>
 
@@ -246,13 +246,13 @@ Weitere Antworten finden Sie in den [FAQ auf der Website](https://shotera.mosuzo
 
 ## Datenschutz und Kontrolle
 
-Screenshots werden lokal gespeichert; Offline-OCR, AI-Freistellen und AI-Radierer laufen auf Ihrem Gerät, sodass bei der Verarbeitung keine Screenshots hochgeladen werden. Details finden Sie in der [Datenschutzerklärung](https://shotera.mosuzo.com/de/privacy).
+Screenshots werden lokal gespeichert; Offline-OCR, AI-Freistellen und AI-Radierer laufen auf Ihrem Gerät, sodass bei der Verarbeitung keine Screenshots hochgeladen werden. Details finden Sie in der [Datenschutzerklärung](https://snipx.mosuzo.com/de/privacy).
 
 <br/>
 
 ## Unterstützte Sprachen
 
-Shotera ist in **15 Oberflächensprachen** verfügbar:
+SnipX ist in **15 Oberflächensprachen** verfügbar:
 
 <p>
   <kbd>Englisch</kbd>
@@ -276,7 +276,7 @@ Shotera ist in **15 Oberflächensprachen** verfügbar:
 
 ## Schlüsselwörter
 
-Shotera; Shotera AI; Mosuzo Studio; Screenshot-Tool; Langer Screenshot; Scrolling-Screenshot; Screenshot-Anmerkung; Auf Desktop anheften; Bildschirmaufnahme; GIF-Aufnahme; AI-Freistellen; AI-Radierer; Offline-OCR; Bildübersetzung
+SnipX; SnipX AI; Mosuzo Studio; Screenshot-Tool; Langer Screenshot; Scrolling-Screenshot; Screenshot-Anmerkung; Auf Desktop anheften; Bildschirmaufnahme; GIF-Aufnahme; AI-Freistellen; AI-Radierer; Offline-OCR; Bildübersetzung
 
 <br/>
 
@@ -284,16 +284,16 @@ Shotera; Shotera AI; Mosuzo Studio; Screenshot-Tool; Langer Screenshot; Scrollin
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Shotera im Microsoft Store" />
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="SnipX im Microsoft Store" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.de.svg" height="44" alt="Weitere Versionen auf GitHub Releases" />
   </a>
 </p>
 
 > **Systemanforderungen:** Windows 10 / 11 (64-Bit).
 >
-> **Editionen:** Standard und Lite — siehe [Versionsvergleich](https://shotera.mosuzo.com/de/versions).
+> **Editionen:** Standard und Lite — siehe [Versionsvergleich](https://snipx.mosuzo.com/de/versions).
 
 <br/>
 
@@ -302,14 +302,14 @@ Shotera; Shotera AI; Mosuzo Studio; Screenshot-Tool; Langer Screenshot; Scrollin
 Fragen, Vorschläge und Rückmeldungen sind jederzeit willkommen.
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Offizielle Shotera-Website besuchen" />
+  <a href="https://snipx.mosuzo.com">
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Offizielle SnipX-Website besuchen" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">
     <img src="https://img.shields.io/badge/Feedback%20%26%20Fehler-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Feedback geben oder einen Fehler melden" />
   </a>
-  <a href="https://shotera.mosuzo.com/de/changelog">
-    <img src="https://img.shields.io/badge/Versionshinweise-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Shotera-Versionshinweise lesen" />
+  <a href="https://snipx.mosuzo.com/de/changelog">
+    <img src="https://img.shields.io/badge/Versionshinweise-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="SnipX-Versionshinweise lesen" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/E--Mail%20an%20uns-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="E-Mail an Mosuzo Studio senden" />
@@ -318,31 +318,31 @@ Fragen, Vorschläge und Rückmeldungen sind jederzeit willkommen.
 
 <br/>
 
-## Shotera auf Ko-fi unterstützen
+## SnipX auf Ko-fi unterstützen
 
-Wenn Shotera Ihre Arbeit erleichtert, unterstützen Sie uns gern auf Ko-fi — dort teilen wir auch Entwicklungsneuigkeiten.
+Wenn SnipX Ihre Arbeit erleichtert, unterstützen Sie uns gern auf Ko-fi — dort teilen wir auch Entwicklungsneuigkeiten.
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Shotera auf Ko-fi unterstützen" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="SnipX auf Ko-fi unterstützen" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
+  <a href="https://snipx.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio-Logo" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 Alle Rechte vorbehalten<br/>
-  Shotera wurde für Windows entwickelt, um Screenshots, visuelle Kommunikation und Desktop-Referenzen effizienter zu machen.
+  SnipX wurde für Windows entwickelt, um Screenshots, visuelle Kommunikation und Desktop-Referenzen effizienter zu machen.
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">Website</a> ·
-  <a href="https://shotera.mosuzo.com/de/versions">Versionen</a> ·
-  <a href="https://shotera.mosuzo.com/de/changelog">Versionshinweise</a> ·
-  <a href="https://shotera.mosuzo.com/de/faq">FAQ</a> ·
-  <a href="https://shotera.mosuzo.com/de/privacy">Datenschutz</a> ·
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">Feedback</a>
+  <a href="https://snipx.mosuzo.com">Website</a> ·
+  <a href="https://snipx.mosuzo.com/de/versions">Versionen</a> ·
+  <a href="https://snipx.mosuzo.com/de/changelog">Versionshinweise</a> ·
+  <a href="https://snipx.mosuzo.com/de/faq">FAQ</a> ·
+  <a href="https://snipx.mosuzo.com/de/privacy">Datenschutz</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">Feedback</a>
 </p>

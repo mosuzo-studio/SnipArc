@@ -2,7 +2,7 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Brazilian Portuguese copy that brings the home and about pages to parity
- * with the English pages. Terminology follows the Shotera app's pt-BR
+ * with the English pages. Terminology follows the SnipX app's pt-BR
  * language pack.
  */
 export const content: LocaleExtras = {
@@ -10,12 +10,12 @@ export const content: LocaleExtras = {
 
   home: {
     heroAlt:
-      'Ferramentas do Shotera na tela: captura, captura longa, anotação, gravação de tela, recorte com AI, OCR offline, leitura de QR Code e código de barras, tradução de imagens e fixação na área de trabalho',
+      'Ferramentas do SnipX na tela: captura, captura longa, anotação, gravação de tela, recorte com AI, OCR offline, leitura de QR Code e código de barras, tradução de imagens e fixação na área de trabalho',
     cards: [
       {
         title: 'Captura longa',
         description:
-          'Uma página mais alta que a tela ainda cabe em uma única imagem. Role você mesmo ou deixe o Shotera rolar sozinho e veja a imagem longa se montar enquanto cresce.',
+          'Uma página mais alta que a tela ainda cabe em uma única imagem. Role você mesmo ou deixe o SnipX rolar sozinho e veja a imagem longa se montar enquanto cresce.',
       },
       {
         title: 'Leitura de QR Code e código de barras',
@@ -37,7 +37,7 @@ export const content: LocaleExtras = {
         {
           title: 'Rolagem automática ou manual',
           description:
-            'Deixe o Shotera percorrer a página ou role com as próprias mãos. De qualquer forma, cada quadro é capturado durante o processo.',
+            'Deixe o SnipX percorrer a página ou role com as próprias mãos. De qualquer forma, cada quadro é capturado durante o processo.',
         },
         {
           title: 'Veja a montagem enquanto ela cresce',
@@ -64,12 +64,12 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'Da tela ao compartilhamento em três passos.',
-      alt: 'Fluxo de trabalho do Shotera',
+      alt: 'Fluxo de trabalho do SnipX',
       steps: [
         {
           title: 'Pressione o atalho',
           description:
-            'Chame o Shotera em qualquer lugar e passe o mouse: a janela ou o elemento que você quer já está detectado.',
+            'Chame o SnipX em qualquer lugar e passe o mouse: a janela ou o elemento que você quer já está detectado.',
         },
         {
           title: 'Anote, extraia ou edite',
@@ -85,16 +85,16 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'Shotera em números',
+    statsTitle: 'SnipX em números',
     metaDescription:
-      'Conheça a equipe por trás do Shotera e os princípios que guiam cada atalho, cada seleção e cada captura.',
+      'Conheça a equipe por trás do SnipX e os princípios que guiam cada atalho, cada seleção e cada captura.',
     hero: {
       tagline: 'Sobre nós',
       title: 'Capturas de tela',
       accent: 'tão boas que desaparecem',
       subtitle:
-        'O Shotera começou com uma frustração simples: as capturas que fazemos dezenas de vezes por dia deveriam ser mais rápidas e fluidas. Somos uma equipe pequena de profissionais de produto e engenheiros que dependem de ferramentas de captura tanto quanto qualquer pessoa — e colocamos essa obsessão em cada atalho, cada seleção, cada quadro.',
-      alt: 'Ferramentas de anotação do Shotera sobre uma área de trabalho do Windows',
+        'O SnipX começou com uma frustração simples: as capturas que fazemos dezenas de vezes por dia deveriam ser mais rápidas e fluidas. Somos uma equipe pequena de profissionais de produto e engenheiros que dependem de ferramentas de captura tanto quanto qualquer pessoa — e colocamos essa obsessão em cada atalho, cada seleção, cada quadro.',
+      alt: 'Ferramentas de anotação do SnipX sobre uma área de trabalho do Windows',
     },
     stats: [
       { title: 'Idiomas', amount: '15' },
@@ -127,7 +127,7 @@ export const content: LocaleExtras = {
       title: 'Capacidades principais',
       subtitle:
         'Captura, captura longa, fixar na área de trabalho, gravação de tela, OCR offline e AI no dispositivo — as seis coisas que você usa o dia todo, a um atalho de distância.',
-      alt: 'Ferramentas de anotação do Shotera sobre uma área de trabalho do Windows: seleção, barra de ferramentas e blocos de vidro',
+      alt: 'Ferramentas de anotação do SnipX sobre uma área de trabalho do Windows: seleção, barra de ferramentas e blocos de vidro',
       items: [
         {
           title: 'Captura',
@@ -137,7 +137,7 @@ export const content: LocaleExtras = {
         {
           title: 'Captura longa',
           description:
-            'Role uma página ou uma conversa longa e deixe o Shotera montar uma única imagem — rolagem automática ou manual, com prévia ao vivo.',
+            'Role uma página ou uma conversa longa e deixe o SnipX montar uma única imagem — rolagem automática ou manual, com prévia ao vivo.',
         },
         {
           title: 'Fixar na área de trabalho',
@@ -237,7 +237,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Como chegamos até aqui',
       subtitle: 'De uma ferramenta que criamos para nós a uma que as pessoas usam todos os dias.',
-      cta: 'Baixar o Shotera grátis',
+      cta: 'Baixar o SnipX grátis',
       items: [
         {
           title: 'Começou de uma necessidade nossa',
@@ -252,7 +252,7 @@ export const content: LocaleExtras = {
         {
           title: 'Alcançando mais pessoas',
           description:
-            'Hoje o Shotera fala 15 idiomas de interface e continua crescendo — com o mesmo objetivo: simplificar as capturas de tela.',
+            'Hoje o SnipX fala 15 idiomas de interface e continua crescendo — com o mesmo objetivo: simplificar as capturas de tela.',
         },
       ],
     },
@@ -263,7 +263,7 @@ export const content: LocaleExtras = {
         {
           title: 'Comunidade',
           description:
-            'Entre na comunidade do Shotera para acompanhar lançamentos e dicas, e falar diretamente com a gente.',
+            'Entre na comunidade do SnipX para acompanhar lançamentos e dicas, e falar diretamente com a gente.',
         },
         {
           title: 'Suporte por e-mail',

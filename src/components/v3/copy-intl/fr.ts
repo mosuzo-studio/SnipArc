@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * French copy for the v3 pages. Terminology follows the Shotera app's fr
+ * French copy for the v3 pages. Terminology follows the SnipX app's fr
  * language pack.
  */
 export default {
-  home: 'Shotera — Des captures et enregistrements plus rapides et plus intelligents',
+  home: 'SnipX — Des captures et enregistrements plus rapides et plus intelligents',
   nav: {
     features: 'Fonctions',
     versions: 'Versions',
@@ -51,7 +51,7 @@ export default {
       [{ text: 'Captures, enregistrement d’écran, ' }, { text: 'magie de l’IA', hl: true }],
       [{ text: 'le tout en un seul raccourci' }],
     ],
-    sub: 'Shotera est un outil de capture d’écran conçu pour celles et ceux qui capturent toute la journée\u00A0: annoter, assembler des pages entières en une longue capture, enregistrer en GIF, détourer un sujet avec l’IA, lancer l’OCR hors ligne, traduire des images et épingler des références — sans interrompre votre travail.',
+    sub: 'SnipX est un outil de capture d’écran conçu pour celles et ceux qui capturent toute la journée\u00A0: annoter, assembler des pages entières en une longue capture, enregistrer en GIF, détourer un sujet avec l’IA, lancer l’OCR hors ligne, traduire des images et épingler des références — sans interrompre votre travail.',
     primary: 'Télécharger gratuitement',
     secondary: 'Voir comment ça marche',
     metaStrong: 'Windows 10/11+',
@@ -63,7 +63,7 @@ export default {
   download: {
     more: 'Plus d’options de téléchargement',
     menu: 'Options de téléchargement',
-    edition: 'Shotera Standard',
+    edition: 'SnipX Standard',
     setup: 'Programme d’installation (.exe)',
     portable: 'Version portable (.7z)',
     msi: 'Installateur MSI',
@@ -126,7 +126,7 @@ export default {
       title: 'Une seule pression, un cadrage exact',
       lead: 'Déclenchez-le par un raccourci, puis capturez, annotez et copiez d’un seul geste, sans interruption.',
       rows: [
-        'Survolez\u00A0: Shotera s’accroche à la fenêtre ou à l’élément situé juste en dessous',
+        'Survolez\u00A0: SnipX s’accroche à la fenêtre ou à l’élément situé juste en dessous',
         'Flèches, rectangles, texte, numéros d’étape, emoji, loupe — annotez au moment même de la capture',
         'Deux façons de terminer\u00A0: copie directe dans le presse-papiers, ou annotation immédiate (Élégant / Annotation directe)',
       ],
@@ -234,7 +234,7 @@ export default {
     faqLink: 'Consulter la FAQ',
     soon: 'Bientôt disponible',
     mail: {
-      subject: 'Retour sur Shotera — ',
+      subject: 'Retour sur SnipX — ',
       body: [
         'Bonjour,',
         '',
@@ -243,7 +243,7 @@ export default {
         '',
         'Si possible, ces précisions nous aideront à aller plus vite\u00A0:',
         '',
-        '\u00b7 Édition de Shotera (Lite / Standard)\u00A0:',
+        '\u00b7 Édition de SnipX (Lite / Standard)\u00A0:',
         '\u00b7 Version de Windows\u00A0:',
         '\u00b7 Étapes pour reproduire\u00A0:',
         '',
@@ -269,16 +269,16 @@ export default {
           {
             key: 'github',
             name: 'GitHub',
-            handle: 'mosuzo-studio/Shotera',
+            handle: 'mosuzo-studio/SnipX',
             note: 'Signalements de bugs, demandes de fonctionnalités, anciennes versions.',
             icon: 'tabler:brand-github',
-            href: 'https://github.com/mosuzo-studio/Shotera',
+            href: 'https://github.com/mosuzo-studio/SnipX',
             tint: '#24292f',
           },
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Échangez avec les autres utilisateurs de Shotera.',
+            note: 'Échangez avec les autres utilisateurs de SnipX.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

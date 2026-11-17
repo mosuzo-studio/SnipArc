@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="Shotera-logo" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX-logo" />
 </p>
 
-<h1 align="center">Shotera</h1>
+<h1 align="center">SnipX</h1>
 
 <p align="center">
   <strong>Leg nauwkeurig vast. Leg helder uit. Blijf doorwerken.</strong><br/>
@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com"><img src="https://img.shields.io/badge/Website-shotera.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Bezoek de officiële Shotera-website" /></a>
-  <a href="https://shotera.mosuzo.com/nl/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="Bekijk de FAQ" /></a>
-  <a href="https://shotera.mosuzo.com/nl/changelog"><img src="https://img.shields.io/badge/Updates-3F7C73?style=for-the-badge" height="40" alt="Bekijk de updates van Shotera" /></a>
+  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/Website-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Bezoek de officiële SnipX-website" /></a>
+  <a href="https://snipx.mosuzo.com/nl/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="Bekijk de FAQ" /></a>
+  <a href="https://snipx.mosuzo.com/nl/changelog"><img src="https://img.shields.io/badge/Updates-3F7C73?style=for-the-badge" height="40" alt="Bekijk de updates van SnipX" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/Shotera?display_name=tag&label=Release&color=4c72b0" alt="Nieuwste versie" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/Shotera/total?label=downloads&color=dd8452" alt="Totale downloads" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="Nieuwste versie" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=downloads&color=dd8452" alt="Totale downloads" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 interfacetalen" />
 </p>
@@ -48,12 +48,12 @@
 <br/>
 
 <p align="center">
-  <strong>Shotera downloaden</strong> · Windows 10 / 11 (64-bit)
+  <strong>SnipX downloaden</strong> · Windows 10 / 11 (64-bit)
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-Shotera_downloaden-0067b8?style=for-the-badge" height="40" alt="Shotera downloaden via de Microsoft Store" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Meer_versies-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Meer versies op GitHub Releases" /></a>
+  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-SnipX_downloaden-0067b8?style=for-the-badge" height="40" alt="SnipX downloaden via de Microsoft Store" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Meer_versies-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Meer versies op GitHub Releases" /></a>
 </p>
 
 <details open>
@@ -61,22 +61,22 @@
 
 | Wat het doet | Meer weten | Aan de slag |
 | --- | --- | --- |
-| [Kernfuncties](#kernfuncties): Schermafbeelding · Lange schermafbeelding · Vastpinnen op bureaublad · Schermopname & GIF · Offline OCR · AI-uitsnede & AI-gum<br/>[Meer functies](#meer-functies): annotatie en afscherming · Emoji-stickers · Presentatiemodus · donkere modus · meerdere monitoren | [Gemaakt voor het werk na elke schermafbeelding](#gemaakt-voor-het-werk-na-elke-schermafbeelding)<br/>[FAQ](#faq)<br/>[Windows-workflow](#een-gerichte-windows-workflow)<br/>[Privacy en controle](#privacy-en-controle)<br/>[Ondersteunde talen](#ondersteunde-talen) | [Download en edities](#download-en-edities)<br/>[Ondersteuning en feedback](#ondersteuning-en-feedback)<br/>[Steun Shotera op Ko-fi](#steun-shotera-op-ko-fi) |
+| [Kernfuncties](#kernfuncties): Schermafbeelding · Lange schermafbeelding · Vastpinnen op bureaublad · Schermopname & GIF · Offline OCR · AI-uitsnede & AI-gum<br/>[Meer functies](#meer-functies): annotatie en afscherming · Emoji-stickers · Presentatiemodus · donkere modus · meerdere monitoren | [Gemaakt voor het werk na elke schermafbeelding](#gemaakt-voor-het-werk-na-elke-schermafbeelding)<br/>[FAQ](#faq)<br/>[Windows-workflow](#een-gerichte-windows-workflow)<br/>[Privacy en controle](#privacy-en-controle)<br/>[Ondersteunde talen](#ondersteunde-talen) | [Download en edities](#download-en-edities)<br/>[Ondersteuning en feedback](#ondersteuning-en-feedback)<br/>[Steun SnipX op Ko-fi](#steun-snipx-op-ko-fi) |
 
 </details>
 
 > **Drie stappen om te beginnen:** ① installeren → ② op `F1` drukken en het gebied afbakenen → ③ annoteren en kopiëren, of op `F3` drukken om de opname op je bureaublad vast te pinnen.
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="Shotera-overzicht" />
-  <p align="center"><strong>Shotera in één oogopslag.</strong> Van schermafbeeldingen en lange pagina’s tot vastpinnen, opnemen, tekstextractie en AI-afwerking — alles in één venster.</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipX-overzicht" />
+  <p align="center"><strong>SnipX in één oogopslag.</strong> Van schermafbeeldingen en lange pagina’s tot vastpinnen, opnemen, tekstextractie en AI-afwerking — alles in één venster.</p>
 </figure>
 
 <br/>
 
 ## Gemaakt voor het werk na elke schermafbeelding
 
-Het moeilijke zit zelden in het vastleggen zelf — het zit in alles daarna: annoteren, afschermen, een lange pagina aan elkaar zetten, tekst eruit halen, een referentie in het zicht houden. Shotera brengt dat werk samen in één flow, zodat een opname klaar is zodra je hem maakt.
+Het moeilijke zit zelden in het vastleggen zelf — het zit in alles daarna: annoteren, afschermen, een lange pagina aan elkaar zetten, tekst eruit halen, een referentie in het zicht houden. SnipX brengt dat werk samen in één flow, zodat een opname klaar is zodra je hem maakt.
 
 - **Geen tweede ronde nodig:** annoteer, scherm af en vergroot vanuit dezelfde werkbalk
 - **Alles wat lang is in één afbeelding:** lange pagina’s, chats en documenten, automatisch samengevoegd
@@ -90,7 +90,7 @@ Veelgebruikte toepassingen: productfeedback, bugmeldingen, tutorials en document
 
 ### 📸 Schermafbeelding · Eén toets, precies het juiste kader
 
-Druk op `F1`; beweeg de muis en Shotera klikt vast op het venster of de knop eronder — daarna stel je de randen bij met de loep.
+Druk op `F1`; beweeg de muis en SnipX klikt vast op het venster of de knop eronder — daarna stel je de randen bij met de loep.
 
 - Pijlen, nummering, tekst en mozaïek, direct toegepast
 - Vaste afmetingen, verhouding, coördinaten en vertraging voor herhaalbare opnamen
@@ -98,7 +98,7 @@ Druk op `F1`; beweeg de muis en Shotera klikt vast op het venster of de knop ero
 <sub>**Details:** het automatisch vastklikken op vensters en UI-elementen, bijstellen tot op de pixel, opgeslagen voorinstellingen en vertraagde opname.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="Shotera slim vastleggen en annoteren" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX slim vastleggen en annoteren" />
   <p align="center"><strong>Slim vastleggen.</strong> Kies een venster of element en annoteer direct in de werkbalk.</p>
 </figure>
 
@@ -107,7 +107,7 @@ Druk op `F1`; beweeg de muis en Shotera klikt vast op het venster of de knop ero
 > **Strak en simpel:** direct gekopieerd zodra je loslaat; de melding rechtsonder opent de editor. **Direct annoteren:** de werkbalk verschijnt met de selectie, zodat je eerst tekent en dan kopieert. Je vindt beide in Instellingen → Schermafbeelding.
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="Shotera twee manieren om af te ronden: Strak en simpel en Direct annoteren" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX twee manieren om af te ronden: Strak en simpel en Direct annoteren" />
   <p align="center"><strong>Twee manieren om af te ronden.</strong> Links: Strak en simpel; rechts: Direct annoteren.</p>
 </figure>
 
@@ -122,7 +122,7 @@ Lange pagina’s, lange chats en complete documenten — van boven tot onder vas
 <sub>**Details:** gemaakt voor lange webpagina’s, chatgesprekken en complete documenten; het resultaat gaat direct naar documentatie en issues.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="Shotera lange schermafbeelding" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX lange schermafbeelding" />
   <p align="center"><strong>Lange schermafbeelding.</strong> Lange pagina’s en chats, aan elkaar gezet tot één afbeelding.</p>
 </figure>
 
@@ -136,7 +136,7 @@ Druk op `F3` om een opname bovenop alles te houden — vergelijk en raadpleeg zo
 <sub>**Details:** sleep elke rand of hoek om te schalen met vergrendelde beeldverhouding; vastgepinde opnamen blijven boven je vensters en blokkeren nooit je klikken.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="Shotera vastpinnen op bureaublad" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipX vastpinnen op bureaublad" />
   <p align="center"><strong>Vastpinnen op bureaublad.</strong> Houd referenties bovenop terwijl je werkt.</p>
 </figure>
 
@@ -150,7 +150,7 @@ Maak van «moeilijk uit te leggen» een opname die iedereen kan volgen.
 <sub>**Details:** GIF’s blijven klein genoeg voor documentatie, issues en chat, en de hoge resoluties blijven scherp op HiDPI-schermen.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="Shotera schermopname en GIF-export" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipX schermopname en GIF-export" />
   <p align="center"><strong>Schermopname & GIF.</strong> Laat het één keer zien in plaats van het twee keer uit te leggen.</p>
 </figure>
 
@@ -163,7 +163,7 @@ Maak van «moeilijk uit te leggen» een opname die iedereen kan volgen.
 <sub>**Details:** de herkenning draait op je apparaat, en resultaten staan met één klik op het klembord.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="Shotera offline OCR en beeldvertaling" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX offline OCR en beeldvertaling" />
   <p align="center"><strong>Offline OCR & beeldvertaling.</strong> Extraheer en vertaal zonder de opnameflow te verlaten.</p>
 </figure>
 
@@ -175,7 +175,7 @@ Maak van «moeilijk uit te leggen» een opname die iedereen kan volgen.
 <sub>**Details:** beide draaien op lokale modellen — de originele afbeelding wordt nooit geüpload. Uitsnedes kun je kopiëren of opslaan als transparante PNG.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Shotera AI-uitsnede" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX AI-uitsnede" />
   <p align="center"><strong>AI-uitsnede.</strong> Onderwerp en achtergrond in één stap gescheiden.</p>
 </figure>
 
@@ -190,7 +190,7 @@ Pijlen, tekst, penseel, markeerstift, nummering en loep; mozaïek en Gaussiaanse
 <sub>**Details:** annotaties kun je verplaatsen, schalen en roteren, met ongedaan maken en opnieuw uitvoeren wanneer je van gedachten verandert.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Shotera annotatie- en afschermingstools" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX annotatie- en afschermingstools" />
   <p align="center"><strong>Annotatie en afscherming.</strong> Leg stappen duidelijk uit en houd gevoelige delen privé.</p>
 </figure>
 
@@ -199,7 +199,7 @@ Pijlen, tekst, penseel, markeerstift, nummering en loep; mozaïek en Gaussiaanse
 Honderden stickers, overal te schalen en te plaatsen — een beetje plezier, en veel meer nadruk.
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Shotera Emoji-stickers" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX Emoji-stickers" />
   <p align="center"><strong>Emoji-stickers.</strong> Trek de blik precies naar wat belangrijk is.</p>
 </figure>
 
@@ -208,7 +208,7 @@ Honderden stickers, overal te schalen en te plaatsen — een beetje plezier, en 
 Druk op `Pause` om rommel op te ruimen voor een demo of een opname; daarna wordt alles weer teruggezet.
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Shotera presentatiemodus" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX presentatiemodus" />
   <p align="center"><strong>Presentatiemodus.</strong> Eén druk om het bureaublad op te ruimen, één druk om het terug te draaien.</p>
 </figure>
 
@@ -232,7 +232,7 @@ Schermafbeeldingen en het bewerken ervan gebeuren op je pc; offline OCR, AI-uits
 **Hoe leg ik een lange pagina vast?**
 Schakel over naar Lange schermafbeelding en scroll — de beelden worden automatisch aan elkaar gezet tot één afbeelding.
 
-Meer antwoorden vind je in de [FAQ op de website](https://shotera.mosuzo.com/nl/faq).
+Meer antwoorden vind je in de [FAQ op de website](https://snipx.mosuzo.com/nl/faq).
 
 <br/>
 
@@ -246,13 +246,13 @@ Meer antwoorden vind je in de [FAQ op de website](https://shotera.mosuzo.com/nl/
 
 ## Privacy en controle
 
-Schermafbeeldingen worden lokaal opgeslagen; offline OCR, AI-uitsnede en AI-gum draaien op je apparaat, zodat die verwerking je schermafbeeldingen niet uploadt. Lees het [privacybeleid](https://shotera.mosuzo.com/nl/privacy) voor de details.
+Schermafbeeldingen worden lokaal opgeslagen; offline OCR, AI-uitsnede en AI-gum draaien op je apparaat, zodat die verwerking je schermafbeeldingen niet uploadt. Lees het [privacybeleid](https://snipx.mosuzo.com/nl/privacy) voor de details.
 
 <br/>
 
 ## Ondersteunde talen
 
-Shotera wordt geleverd met **15 interfacetalen**:
+SnipX wordt geleverd met **15 interfacetalen**:
 
 <p>
   <kbd>Engels</kbd>
@@ -276,7 +276,7 @@ Shotera wordt geleverd met **15 interfacetalen**:
 
 ## Trefwoorden
 
-Shotera; Shotera AI; Mosuzo Studio; schermafbeeldingstool; scrollende schermafbeelding; lange schermafbeelding; schermafbeeldingen annoteren; vastpinnen op bureaublad; schermopname; GIF-opname; AI-uitsnede; AI-gum; offline OCR; beeldvertaling
+SnipX; SnipX AI; Mosuzo Studio; schermafbeeldingstool; scrollende schermafbeelding; lange schermafbeelding; schermafbeeldingen annoteren; vastpinnen op bureaublad; schermopname; GIF-opname; AI-uitsnede; AI-gum; offline OCR; beeldvertaling
 
 <br/>
 
@@ -284,16 +284,16 @@ Shotera; Shotera AI; Mosuzo Studio; schermafbeeldingstool; scrollende schermafbe
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Shotera downloaden via de Microsoft Store" />
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="SnipX downloaden via de Microsoft Store" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.nl.svg" height="44" alt="Meer versies op GitHub Releases" />
   </a>
 </p>
 
 > **Systeemvereisten:** Windows 10 / 11 (64-bit).
 >
-> **Edities:** Standard en Lite — zie de [versievergelijking](https://shotera.mosuzo.com/nl/versions).
+> **Edities:** Standard en Lite — zie de [versievergelijking](https://snipx.mosuzo.com/nl/versions).
 
 <br/>
 
@@ -302,14 +302,14 @@ Shotera; Shotera AI; Mosuzo Studio; schermafbeeldingstool; scrollende schermafbe
 Vragen, suggesties en feedback zijn altijd welkom.
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Bezoek de officiële Shotera-website" />
+  <a href="https://snipx.mosuzo.com">
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Bezoek de officiële SnipX-website" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">
     <img src="https://img.shields.io/badge/Feedback%20%26%20bugs-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Deel feedback of meld een bug" />
   </a>
-  <a href="https://shotera.mosuzo.com/nl/changelog">
-    <img src="https://img.shields.io/badge/Updates-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Bekijk de updates van Shotera" />
+  <a href="https://snipx.mosuzo.com/nl/changelog">
+    <img src="https://img.shields.io/badge/Updates-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Bekijk de updates van SnipX" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/E--mail%20ons-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="E-mail Mosuzo Studio" />
@@ -318,20 +318,20 @@ Vragen, suggesties en feedback zijn altijd welkom.
 
 <br/>
 
-## Steun Shotera op Ko-fi
+## Steun SnipX op Ko-fi
 
-Als Shotera je werk makkelijker maakt, steun ons dan op Ko-fi — we delen daar ook ontwikkelupdates.
+Als SnipX je werk makkelijker maakt, steun ons dan op Ko-fi — we delen daar ook ontwikkelupdates.
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Steun Shotera op Ko-fi" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Steun SnipX op Ko-fi" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
+  <a href="https://snipx.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio-logo" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 Alle rechten voorbehouden<br/>
@@ -339,10 +339,10 @@ Als Shotera je werk makkelijker maakt, steun ons dan op Ko-fi — we delen daar 
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">Website</a> ·
-  <a href="https://shotera.mosuzo.com/nl/versions">Versies</a> ·
-  <a href="https://shotera.mosuzo.com/nl/changelog">Updates</a> ·
-  <a href="https://shotera.mosuzo.com/nl/faq">FAQ</a> ·
-  <a href="https://shotera.mosuzo.com/nl/privacy">Privacy</a> ·
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">Feedback</a>
+  <a href="https://snipx.mosuzo.com">Website</a> ·
+  <a href="https://snipx.mosuzo.com/nl/versions">Versies</a> ·
+  <a href="https://snipx.mosuzo.com/nl/changelog">Updates</a> ·
+  <a href="https://snipx.mosuzo.com/nl/faq">FAQ</a> ·
+  <a href="https://snipx.mosuzo.com/nl/privacy">Privacy</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">Feedback</a>
 </p>

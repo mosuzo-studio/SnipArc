@@ -3,7 +3,7 @@ import type { HomeFeaturesContent } from '~/i18n/home-features-types';
 /**
  * Japanese copy for the homepage feature blocks.
  * Mirrors the English homepage in `src/pages/index.astro`, the source of truth;
- * terminology follows the Shotera app's ja language pack.
+ * terminology follows the SnipX app's ja language pack.
  */
 export const content: HomeFeaturesContent = {
   features: {
@@ -126,7 +126,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'その他の機能',
     title: '気づけば手放せなくなる小さな機能',
-    subtitle: '細部に隠れた小さな配慮が、Shotera を手放せなくさせます。',
+    subtitle: '細部に隠れた小さな配慮が、SnipX を手放せなくさせます。',
     items: [
       {
         title: '絵文字ステッカー',

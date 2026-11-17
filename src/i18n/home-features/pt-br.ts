@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Recursos principais',
     title: 'Um app para todo tipo de captura de tela',
     subtitle:
-      'Da captura rápida ao trabalho criativo mais sério, o Shotera reúne suas necessidades mais frequentes de captura, gravação, OCR e anotação em um app leve.',
+      'Da captura rápida ao trabalho criativo mais sério, o SnipX reúne suas necessidades mais frequentes de captura, gravação, OCR e anotação em um app leve.',
     items: [
       {
         title: 'Captura inteligente',
         description:
-          'Capture uma região, janela ou tela inteira com um atalho. O Shotera detecta janelas e elementos de interface automaticamente, com precisão de pixel.',
+          'Capture uma região, janela ou tela inteira com um atalho. O SnipX detecta janelas e elementos de interface automaticamente, com precisão de pixel.',
       },
       {
         title: 'Gravação de tela e GIF',
@@ -122,7 +122,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Mais recursos',
     title: 'Os pequenos detalhes com que você vai contar',
-    subtitle: 'Os pequenos toques escondidos nos detalhes são o que fazem o Shotera ser difícil de largar.',
+    subtitle: 'Os pequenos toques escondidos nos detalhes são o que fazem o SnipX ser difícil de largar.',
     items: [
       {
         title: 'Adesivos de emoji',

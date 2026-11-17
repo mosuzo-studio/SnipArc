@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Arabic copy for the v3 pages. Terminology follows the Shotera app's ar
+ * Arabic copy for the v3 pages. Terminology follows the SnipX app's ar
  * language pack.
  */
 export default {
-  home: 'Shotera — لقطات شاشة وتسجيل أسرع وأكثر ذكاءً',
+  home: 'SnipX — لقطات شاشة وتسجيل أسرع وأكثر ذكاءً',
   nav: {
     features: 'الميزات',
     versions: 'الإصدارات',
@@ -50,7 +50,7 @@ export default {
       [{ text: 'لقطات الشاشة وتسجيل الشاشة و' }, { text: 'قدرات الذكاء الاصطناعي', hl: true }],
       [{ text: 'كلها من اختصار واحد' }],
     ],
-    sub: 'Shotera أداة التقاط لسطح المكتب صُمّمت لمن يلتقطون الشاشة طوال اليوم: علّق على اللقطات، والتقط الصفحات الطويلة بالتمرير، وسجّل بصيغة GIF، وأزل الخلفية بالذكاء الاصطناعي، وشغّل OCR دون اتصال، وترجم الصور، وثبّت المراجع — دون مغادرة سير عملك.',
+    sub: 'SnipX أداة التقاط لسطح المكتب صُمّمت لمن يلتقطون الشاشة طوال اليوم: علّق على اللقطات، والتقط الصفحات الطويلة بالتمرير، وسجّل بصيغة GIF، وأزل الخلفية بالذكاء الاصطناعي، وشغّل OCR دون اتصال، وترجم الصور، وثبّت المراجع — دون مغادرة سير عملك.',
     primary: 'تنزيل مجاني',
     secondary: 'شاهد طريقة الاستخدام',
     metaStrong: 'Windows 10/11+',
@@ -62,7 +62,7 @@ export default {
   download: {
     more: 'خيارات تنزيل إضافية',
     menu: 'خيارات التنزيل',
-    edition: 'Shotera النسخة القياسية',
+    edition: 'SnipX النسخة القياسية',
     setup: 'المثبّت (.exe)',
     portable: 'النسخة المحمولة (.7z)',
     msi: 'مثبّت MSI',
@@ -121,7 +121,7 @@ export default {
       title: 'التقط بضغطة واحدة، وحدّد الإطار بدقة',
       lead: 'استدعِه باختصار، ثم التقط وعلّق وانسخ في حركة واحدة متواصلة.',
       rows: [
-        'مرّر المؤشر، فيلتصق Shotera بالنافذة أو العنصر تحته',
+        'مرّر المؤشر، فيلتصق SnipX بالنافذة أو العنصر تحته',
         'أسهم ومستطيلات ونصوص وترقيم وملصقات إيموجي ومكبّر — علّق لحظة الالتقاط',
         'طريقتان لإنهاء اللقطة: نسخ مباشر إلى الحافظة، أو التعليق في الحال (أنيق / تعليق فوري)',
       ],
@@ -228,7 +228,7 @@ export default {
     faqLink: 'اطّلع على الأسئلة الشائعة',
     soon: 'قريبًا',
     mail: {
-      subject: 'ملاحظات Shotera — ',
+      subject: 'ملاحظات SnipX — ',
       body: [
         'مرحبًا،',
         '',
@@ -237,7 +237,7 @@ export default {
         '',
         'إن أمكن، تساعدنا هذه التفاصيل على الوصول إلى حل أسرع:',
         '',
-        '· نسخة Shotera (Lite / القياسية):',
+        '· نسخة SnipX (Lite / القياسية):',
         '· إصدار Windows:',
         '· خطوات إعادة المشكلة:',
         '',
@@ -263,16 +263,16 @@ export default {
           {
             key: 'github',
             name: 'GitHub',
-            handle: 'mosuzo-studio/Shotera',
+            handle: 'mosuzo-studio/SnipX',
             note: 'تقارير الأخطاء وطلبات الميزات والإصدارات السابقة.',
             icon: 'tabler:brand-github',
-            href: 'https://github.com/mosuzo-studio/Shotera',
+            href: 'https://github.com/mosuzo-studio/SnipX',
             tint: '#24292f',
           },
           {
             key: 'discord',
             name: 'Discord',
-            note: 'تحدّث مع مستخدمي Shotera الآخرين.',
+            note: 'تحدّث مع مستخدمي SnipX الآخرين.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

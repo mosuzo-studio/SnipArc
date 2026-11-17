@@ -5,15 +5,15 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 _Last updated_: August 2, 2026
 
-## Shotera End User License Agreement
+## SnipX End User License Agreement
 
 **Copyright © Mosuzo Studio. All rights reserved.**
 
-Website: [https://shotera.mosuzo.com](https://shotera.mosuzo.com) · Email: mosuzo.studio@gmail.com
+Website: [https://snipx.mosuzo.com](https://snipx.mosuzo.com) · Email: mosuzo.studio@gmail.com
 
 ---
 
-Thank you for choosing Shotera (the "Software"). This Agreement is a legal agreement between you and Mosuzo Studio ("we", "us", or "our"). Please take a moment to read it before installing or using the Software. By installing, copying, or using the Software, you acknowledge that you have read and agree to these terms. If you do not agree, please do not install or use the Software.
+Thank you for choosing SnipX (the "Software"). This Agreement is a legal agreement between you and Mosuzo Studio ("we", "us", or "our"). Please take a moment to read it before installing or using the Software. By installing, copying, or using the Software, you acknowledge that you have read and agree to these terms. If you do not agree, please do not install or use the Software.
 
 ### 1. License Grant
 

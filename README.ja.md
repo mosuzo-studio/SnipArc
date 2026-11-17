@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="Shotera ロゴ" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX ロゴ" />
 </p>
 
-<h1 align="center">Shotera</h1>
+<h1 align="center">SnipX</h1>
 
 <p align="center">
   <strong>正確にキャプチャし、わかりやすく伝え、仕事を前へ。</strong><br/>
@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com"><img src="https://img.shields.io/badge/%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88-shotera.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Shotera 公式サイトを見る" /></a>
-  <a href="https://shotera.mosuzo.com/ja/faq"><img src="https://img.shields.io/badge/%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F-4c72b0?style=for-the-badge" height="40" alt="よくある質問を読む" /></a>
-  <a href="https://shotera.mosuzo.com/ja/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4-3F7C73?style=for-the-badge" height="40" alt="Shotera の更新履歴を読む" /></a>
+  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="SnipX 公式サイトを見る" /></a>
+  <a href="https://snipx.mosuzo.com/ja/faq"><img src="https://img.shields.io/badge/%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F-4c72b0?style=for-the-badge" height="40" alt="よくある質問を読む" /></a>
+  <a href="https://snipx.mosuzo.com/ja/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4-3F7C73?style=for-the-badge" height="40" alt="SnipX の更新履歴を読む" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/Shotera?display_name=tag&label=Release&color=4c72b0" alt="最新リリース" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/Shotera/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=dd8452" alt="累計ダウンロード数" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="最新リリース" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=dd8452" alt="累計ダウンロード数" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 のインターフェイス言語" />
 </p>
@@ -48,12 +48,12 @@
 <br/>
 
 <p align="center">
-  <strong>Shotera をダウンロード</strong> · Windows 10 / 11 (64-bit)
+  <strong>SnipX をダウンロード</strong> · Windows 10 / 11 (64-bit)
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-Shotera_%E3%82%92%E5%85%A5%E6%89%8B-0067b8?style=for-the-badge" height="40" alt="Microsoft Store から Shotera を入手" /></a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="GitHub Releases からその他のバージョンを入手" /></a>
+  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-SnipX_%E3%82%92%E5%85%A5%E6%89%8B-0067b8?style=for-the-badge" height="40" alt="Microsoft Store から SnipX を入手" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="GitHub Releases からその他のバージョンを入手" /></a>
 </p>
 
 <details open>
@@ -61,22 +61,22 @@
 
 | 主な機能 | 詳しく見る | はじめる |
 | --- | --- | --- |
-| [コア機能](#コア機能)：スクリーンショット · 長尺キャプチャ · 画面に固定 · 画面録画 & GIF · オフライン OCR · AI 切り抜き & AI 消去<br/>[その他の機能](#その他の機能)：注釈と墨消し · 絵文字ステッカー · デモモード · ダークモード · マルチモニター | [スクリーンショットの次の作業のために](#スクリーンショットの次の作業のために)<br/>[よくある質問](#よくある質問)<br/>[Windows ワークフロー](#集中できる-windows-ワークフロー)<br/>[プライバシーと管理](#プライバシーと管理)<br/>[対応言語](#対応言語) | [ダウンロードとエディション](#ダウンロードとエディション)<br/>[サポートとフィードバック](#サポートとフィードバック)<br/>[Ko-fi で Shotera を応援](#ko-fi-で-shotera-を応援) |
+| [コア機能](#コア機能)：スクリーンショット · 長尺キャプチャ · 画面に固定 · 画面録画 & GIF · オフライン OCR · AI 切り抜き & AI 消去<br/>[その他の機能](#その他の機能)：注釈と墨消し · 絵文字ステッカー · デモモード · ダークモード · マルチモニター | [スクリーンショットの次の作業のために](#スクリーンショットの次の作業のために)<br/>[よくある質問](#よくある質問)<br/>[Windows ワークフロー](#集中できる-windows-ワークフロー)<br/>[プライバシーと管理](#プライバシーと管理)<br/>[対応言語](#対応言語) | [ダウンロードとエディション](#ダウンロードとエディション)<br/>[サポートとフィードバック](#サポートとフィードバック)<br/>[Ko-fi で SnipX を応援](#ko-fi-で-snipx-を応援) |
 
 </details>
 
 > **はじめの3ステップ：** ① インストール → ② `F1` を押して範囲を選択 → ③ 注釈を付けてコピー、または `F3` で画面に固定。
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="Shotera の概要" />
-  <p align="center"><strong>Shotera の全体像。</strong> スクリーンショットから長尺キャプチャ、画面に固定、画面録画、文字抽出、AI 処理まで——すべてひとつのウィンドウで。</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipX の概要" />
+  <p align="center"><strong>SnipX の全体像。</strong> スクリーンショットから長尺キャプチャ、画面に固定、画面録画、文字抽出、AI 処理まで——すべてひとつのウィンドウで。</p>
 </figure>
 
 <br/>
 
 ## スクリーンショットの次の作業のために
 
-難しいのは、撮ることそのものより、そのあとの作業です。注釈、墨消し、長いページのつなぎ合わせ、文字の抽出、参考資料を視界に保つこと。Shotera はそのすべてをひとつの流れにまとめ、撮ったその瞬間から使える状態にします。
+難しいのは、撮ることそのものより、そのあとの作業です。注釈、墨消し、長いページのつなぎ合わせ、文字の抽出、参考資料を視界に保つこと。SnipX はそのすべてをひとつの流れにまとめ、撮ったその瞬間から使える状態にします。
 
 - **後工程なし：** 注釈、墨消し、拡大まで、同じツールバーで
 - **長い内容も 1 枚に：** 長いページ、チャット、文書を自動でつなぎ合わせ
@@ -98,7 +98,7 @@
 <sub>**詳細：** ウィンドウと UI 要素の境界への吸着、ピクセル単位の微調整、プリセットの保存、遅延キャプチャに対応します。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="Shotera のスマートキャプチャと注釈ワークスペース" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX のスマートキャプチャと注釈ワークスペース" />
   <p align="center"><strong>スマートキャプチャ。</strong> ウィンドウやコントロールを選んだら、そのままツールバーで注釈できます。</p>
 </figure>
 
@@ -107,7 +107,7 @@
 > **エレガント**：範囲を離した瞬間にクリップボードへコピー。右下の通知をクリックすると、エディターで注釈を続けられます。**その場で注釈**：範囲を選ぶとツールバーが開き、コピーする前にそのまま描き込めます。どちらも「設定 → キャプチャ」で切り替えられます。
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="Shotera の2つの完了モード：エレガントとその場で注釈" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX の2つの完了モード：エレガントとその場で注釈" />
   <p align="center"><strong>2つの完了モード。</strong> 左：エレガント、右：その場で注釈。</p>
 </figure>
 
@@ -122,7 +122,7 @@
 <sub>**詳細：** 長いウェブページ、長いチャット、文書まるごとのために。仕上がった長い画像は、ドキュメントや Issue にそのまま使えます。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="Shotera の長尺キャプチャ" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX の長尺キャプチャ" />
   <p align="center"><strong>長尺キャプチャ。</strong> 長いページもチャットも、1枚の画像につなぎ合わせます。</p>
 </figure>
 
@@ -136,7 +136,7 @@
 <sub>**詳細：** どの辺や角からでもリサイズでき、縦横比は固定。固定した画像は常にウィンドウの上に表示され、クリックを遮りません。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="Shotera の画面に固定" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipX の画面に固定" />
   <p align="center"><strong>画面に固定。</strong> 参考資料を最前面に置いたまま、作業を続けられます。</p>
 </figure>
 
@@ -150,7 +150,7 @@
 <sub>**詳細：** GIF はドキュメントや Issue、チャットに貼れる軽さ。高解像度モードは高 DPI のディスプレイでも鮮明さを保ちます。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="Shotera の画面録画と GIF 書き出し" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipX の画面録画と GIF 書き出し" />
   <p align="center"><strong>画面録画 & GIF。</strong> 一度見せれば、二度説明する必要はありません。</p>
 </figure>
 
@@ -163,7 +163,7 @@
 <sub>**詳細：** 認識は端末上で実行され、結果はワンクリックでクリップボードへ。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="Shotera のオフライン OCR と画像翻訳" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX のオフライン OCR と画像翻訳" />
   <p align="center"><strong>オフライン OCR と画像翻訳。</strong> キャプチャの流れを離れずに、文字を抽出し、翻訳できます。</p>
 </figure>
 
@@ -175,7 +175,7 @@
 <sub>**詳細：** どちらもローカルモデルで動作し、元の画像がアップロードされることはありません。切り抜き結果はコピー、または透明 PNG として保存できます。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Shotera の AI 切り抜き" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX の AI 切り抜き" />
   <p align="center"><strong>AI 切り抜き。</strong> 被写体と背景を、ワンステップで分離。</p>
 </figure>
 
@@ -190,7 +190,7 @@
 <sub>**詳細：** 注釈は移動、拡大縮小、回転ができ、気が変わったときはいつでも元に戻す・やり直しができます。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Shotera の注釈と墨消しツール" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX の注釈と墨消しツール" />
   <p align="center"><strong>注釈と墨消し。</strong> 手順はわかりやすく、見せたくない部分は安全に。</p>
 </figure>
 
@@ -199,7 +199,7 @@
 数百種類のステッカーを、サイズも置き場所も自由に——少しの遊び心と、もっと強い強調を。
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Shotera の絵文字ステッカー" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX の絵文字ステッカー" />
   <p align="center"><strong>絵文字ステッカー。</strong> 見てほしいポイントへ、視線を導きます。</p>
 </figure>
 
@@ -208,7 +208,7 @@
 デモや録画の前に `Pause` を押すと、散らかったデスクトップを片付けられます。終わったあとは、すべて元どおりに戻ります。
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Shotera のデモモード" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX のデモモード" />
   <p align="center"><strong>デモモード。</strong> ひと押しでデスクトップを片付け、もうひと押しで元どおり。</p>
 </figure>
 
@@ -232,7 +232,7 @@
 **長いページはどうやって撮りますか？**
 長尺キャプチャに切り替えてスクロールするだけ。フレームは自動で1枚の画像につなぎ合わされます。
 
-そのほかのご質問は、[公式サイトのよくある質問](https://shotera.mosuzo.com/ja/faq)をご覧ください。
+そのほかのご質問は、[公式サイトのよくある質問](https://snipx.mosuzo.com/ja/faq)をご覧ください。
 
 <br/>
 
@@ -246,13 +246,13 @@
 
 ## プライバシーと管理
 
-スクリーンショットはローカルに保存されます。オフライン OCR、AI 切り抜き、AI 消去は端末上で実行されるため、その処理でスクリーンショットがアップロードされることはありません。詳しくは[プライバシーポリシー](https://shotera.mosuzo.com/ja/privacy)をご覧ください。
+スクリーンショットはローカルに保存されます。オフライン OCR、AI 切り抜き、AI 消去は端末上で実行されるため、その処理でスクリーンショットがアップロードされることはありません。詳しくは[プライバシーポリシー](https://snipx.mosuzo.com/ja/privacy)をご覧ください。
 
 <br/>
 
 ## 対応言語
 
-Shotera は **15 のインターフェイス言語**に対応しています：
+SnipX は **15 のインターフェイス言語**に対応しています：
 
 <p>
   <kbd>英語</kbd>
@@ -276,7 +276,7 @@ Shotera は **15 のインターフェイス言語**に対応しています：
 
 ## キーワード
 
-Shotera；Shotera AI；Mosuzo Studio；スクリーンショットツール；長尺キャプチャ；長いスクリーンショット；スクリーンショット注釈；画面に固定；画面録画；GIF 録画；AI 切り抜き；AI 消去；オフライン OCR；画像翻訳
+SnipX；SnipX AI；Mosuzo Studio；スクリーンショットツール；長尺キャプチャ；長いスクリーンショット；スクリーンショット注釈；画面に固定；画面録画；GIF 録画；AI 切り抜き；AI 消去；オフライン OCR；画像翻訳
 
 <br/>
 
@@ -284,16 +284,16 @@ Shotera；Shotera AI；Mosuzo Studio；スクリーンショットツール；�
 
 <p align="center">
   <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Microsoft Store から Shotera を入手" />
+    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Microsoft Store から SnipX を入手" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.ja.svg" height="44" alt="GitHub Releases からその他のバージョンを入手" />
   </a>
 </p>
 
 > **システム要件：** Windows 10 / 11 (64-bit)。
 >
-> **エディション：** Standard 版と Lite 版があります。機能の違いは[バージョン比較](https://shotera.mosuzo.com/ja/versions)をご覧ください。
+> **エディション：** Standard 版と Lite 版があります。機能の違いは[バージョン比較](https://snipx.mosuzo.com/ja/versions)をご覧ください。
 
 <br/>
 
@@ -302,14 +302,14 @@ Shotera；Shotera AI；Mosuzo Studio；スクリーンショットツール；�
 ご質問、ご提案、フィードバックをいつでもお寄せください。
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Shotera 公式サイトを見る" />
+  <a href="https://snipx.mosuzo.com">
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="SnipX 公式サイトを見る" />
   </a>
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">
     <img src="https://img.shields.io/badge/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF%20%26%20%E4%B8%8D%E5%85%B7%E5%90%88%E5%A0%B1%E5%91%8A-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="フィードバックや不具合報告を送る" />
   </a>
-  <a href="https://shotera.mosuzo.com/ja/changelog">
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Shotera の更新履歴を読む" />
+  <a href="https://snipx.mosuzo.com/ja/changelog">
+    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E5%B1%A5%E6%AD%B4-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="SnipX の更新履歴を読む" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/%E3%83%A1%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="Mosuzo Studio にメール" />
@@ -318,31 +318,31 @@ Shotera；Shotera AI；Mosuzo Studio；スクリーンショットツール；�
 
 <br/>
 
-## Ko-fi で Shotera を応援
+## Ko-fi で SnipX を応援
 
-Shotera がお仕事を楽にしてくれるなら、Ko-fi でのご支援をお願いします。開発の最新情報もそこで共有しています。
+SnipX がお仕事を楽にしてくれるなら、Ko-fi でのご支援をお願いします。開発の最新情報もそこで共有しています。
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Ko-fi で Shotera を応援" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Ko-fi で SnipX を応援" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">
+  <a href="https://snipx.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio ロゴ" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 All rights reserved<br/>
-  Shotera は Windows のために作られ、スクリーンショット、視覚的な説明、デスクトップ参照をより速くします。
+  SnipX は Windows のために作られ、スクリーンショット、視覚的な説明、デスクトップ参照をより速くします。
 </p>
 
 <p align="center">
-  <a href="https://shotera.mosuzo.com">公式サイト</a> ·
-  <a href="https://shotera.mosuzo.com/ja/versions">バージョン比較</a> ·
-  <a href="https://shotera.mosuzo.com/ja/changelog">更新履歴</a> ·
-  <a href="https://shotera.mosuzo.com/ja/faq">よくある質問</a> ·
-  <a href="https://shotera.mosuzo.com/ja/privacy">プライバシーポリシー</a> ·
-  <a href="https://github.com/mosuzo-studio/Shotera/issues">フィードバック</a>
+  <a href="https://snipx.mosuzo.com">公式サイト</a> ·
+  <a href="https://snipx.mosuzo.com/ja/versions">バージョン比較</a> ·
+  <a href="https://snipx.mosuzo.com/ja/changelog">更新履歴</a> ·
+  <a href="https://snipx.mosuzo.com/ja/faq">よくある質問</a> ·
+  <a href="https://snipx.mosuzo.com/ja/privacy">プライバシーポリシー</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipX/issues">フィードバック</a>
 </p>

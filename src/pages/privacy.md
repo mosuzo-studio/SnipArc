@@ -7,7 +7,7 @@ _Last updated_: August 2, 2026
 
 ## Our Commitment to Privacy
 
-At Mosuzo Studio, we understand that screenshots and recordings often contain your most sensitive information. **Privacy is not an add-on feature — it is a core design principle of Shotera.** This Privacy Policy explains, in the clearest terms possible, how we handle (or more accurately, don't handle) your data.
+At Mosuzo Studio, we understand that screenshots and recordings often contain your most sensitive information. **Privacy is not an add-on feature — it is a core design principle of SnipX.** This Privacy Policy explains, in the clearest terms possible, how we handle (or more accurately, don't handle) your data.
 
 ---
 
@@ -15,7 +15,7 @@ At Mosuzo Studio, we understand that screenshots and recordings often contain yo
 
 ### Screenshots & Recordings — Always Local
 
-All screenshots, recordings, annotations, and pinned images you create with Shotera are **stored entirely on your device**. We do not, and cannot, access this content. No cloud uploads, no background sync, no remote storage of any kind. Your content is 100% yours.
+All screenshots, recordings, annotations, and pinned images you create with SnipX are **stored entirely on your device**. We do not, and cannot, access this content. No cloud uploads, no background sync, no remote storage of any kind. Your content is 100% yours.
 
 ### AI Features — Fully Offline & Local
 
@@ -29,15 +29,11 @@ The following AI features run **entirely on your device**, with no internet conn
 
 This means even if you're working with confidential contracts, personal IDs, medical records, or other highly sensitive content, there is no risk of data leakage — because the data never left your device in the first place.
 
-### Image Translation — Cloud API
-
-The image translation feature is processed through cloud service providers' translation APIs. We strictly comply with the respective cloud providers' privacy policies and data protection standards, **never share** your translation data with any third party, and do not retain temporary translation data after processing. You can choose whether to enable cloud translation features in the app settings.
-
 ---
 
 ## The Limited Data We Collect
 
-To make Shotera better, we collect **a minimal amount of anonymous usage data**, including:
+To make SnipX better, we collect **a minimal amount of anonymous usage data**, including:
 
 - **Feature usage statistics** (e.g., how often a feature is used) — helps us understand what to improve first
 - **Error and crash logs** — helps us find and fix bugs
@@ -59,20 +55,19 @@ To make Shotera better, we collect **a minimal amount of anonymous usage data**,
 
 ## Third-Party Services
 
-Some Shotera features may rely on the following third-party services:
+SnipX's local AI features run entirely on-device. The following external services are used:
 
-- **Translation APIs**: Image translation uses cloud provider translation interfaces
-- **Auto-updates**: Version update checks are served through GitHub
+- **Auto-updates**: Version checks are served through GitHub
 
 We only work with reputable service providers and ensure their privacy protection standards meet applicable regulatory requirements.
 
 ## Data Security
 
-We take reasonable technical and administrative measures to protect the limited anonymous data collected through Shotera, preventing unauthorized access, use, or disclosure.
+We take reasonable technical and administrative measures to protect the limited anonymous data collected through SnipX, preventing unauthorized access, use, or disclosure.
 
 ## Children's Privacy
 
-Shotera is not directed at children under the age of 13. We do not knowingly collect personal information from children.
+SnipX is not directed at children under the age of 13. We do not knowingly collect personal information from children.
 
 ## Changes to This Privacy Policy
 
@@ -85,7 +80,7 @@ We may update this Privacy Policy from time to time. Updated versions will be po
 If you have any questions, concerns, or suggestions about this Privacy Policy, we'd love to hear from you:
 
 - **Email**: mosuzo.studio@gmail.com
-- **Website**: [https://shotera.mosuzo.com](https://shotera.mosuzo.com)
+- **Website**: [https://snipx.mosuzo.com](https://snipx.mosuzo.com)
 
 ---
 

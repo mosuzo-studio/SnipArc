@@ -7,7 +7,7 @@ import type { FaqContent } from '../faq-types';
 export const content: FaqContent = {
   metaTitle: 'Domande frequenti',
   metaDescription:
-    'Risposte brevi su Shotera: quali piattaforme e lingue dell’interfaccia supporta, cosa funziona offline, cosa resta gratuito, come funzionano esportazione e prestazioni, e i dettagli come temi e scorciatoie.',
+    'Risposte brevi su SnipX: quali piattaforme e lingue dell’interfaccia supporta, cosa funziona offline, cosa resta gratuito, come funzionano esportazione e prestazioni, e i dettagli come temi e scorciatoie.',
   title: 'Domande frequenti',
   lead: 'Piattaforme, lingue, privacy offline, edizioni, esportazione e dettagli — la versione breve.',
   groups: [
@@ -16,12 +16,12 @@ export const content: FaqContent = {
       label: 'Piattaforme e lingue',
       items: [
         {
-          q: 'Quali sistemi operativi supporta Shotera?',
-          a: 'Shotera supporta attualmente Windows desktop con un installer piccolo che si avvia rapidamente e funziona offline — scarica e inizia subito. macOS, Linux e altre piattaforme sono in programma.',
+          q: 'Quali sistemi operativi supporta SnipX?',
+          a: 'SnipX supporta attualmente Windows desktop con un installer piccolo che si avvia rapidamente e funziona offline — scarica e inizia subito. macOS, Linux e altre piattaforme sono in programma.',
         },
         {
-          q: 'Quali lingue dell’interfaccia supporta Shotera?',
-          a: 'Shotera ora supporta cinese tradizionale, giapponese, portoghese brasiliano, spagnolo, tedesco, francese, italiano, coreano, russo, arabo, olandese, polacco e svedese. Insieme a inglese e cinese semplificato, Shotera supporta 15 lingue dell’interfaccia.',
+          q: 'Quali lingue dell’interfaccia supporta SnipX?',
+          a: 'SnipX ora supporta cinese tradizionale, giapponese, portoghese brasiliano, spagnolo, tedesco, francese, italiano, coreano, russo, arabo, olandese, polacco e svedese. Insieme a inglese e cinese semplificato, SnipX supporta 15 lingue dell’interfaccia.',
         },
       ],
     },
@@ -34,7 +34,7 @@ export const content: FaqContent = {
           a: 'No. Il riconoscimento testo OCR, lo scontorno AI e la cancellazione AI funzionano interamente offline sul tuo dispositivo — nulla viene caricato, i tuoi dati restano privati. La traduzione immagini usa API cloud e rispetta le informative sulla privacy dei rispettivi fornitori cloud.',
         },
         {
-          q: 'Posso usare Shotera senza alcuna connessione?',
+          q: 'Posso usare SnipX senza alcuna connessione?',
           a: 'Sì. Cattura, annotazione, registrazione, OCR, scontorno AI, cancellazione AI e visualizzatore di immagini funzionano tutti offline, e nulla di ciò che catturi lascia il tuo PC. La traduzione immagini è l’unica funzione che chiama un’API cloud, quindi richiede una connessione.',
         },
       ],
@@ -44,8 +44,8 @@ export const content: FaqContent = {
       label: 'Edizioni, esportazione e prestazioni',
       items: [
         {
-          q: 'Shotera è gratuito?',
-          a: 'Cattura, annotazione e fissaggio di base sono gratuiti per sempre. Se ti serve solo la cattura e l’annotazione di ogni giorno, Shotera Lite è la versione più leggera — senza registrazione schermo e AI. Registrazione, scontorno AI, cancellazione AI e traduzione immagini sono incluse nella versione Standard — vedi il confronto tra le versioni per i dettagli.',
+          q: 'SnipX è gratuito?',
+          a: 'Cattura, annotazione e fissaggio di base sono gratuiti per sempre. Se ti serve solo la cattura e l’annotazione di ogni giorno, SnipX Lite è la versione più leggera — senza registrazione schermo e AI. Registrazione, scontorno AI, cancellazione AI e traduzione immagini sono incluse nella versione Standard — vedi il confronto tra le versioni per i dettagli.',
         },
         {
           q: 'Quali risoluzioni e frame rate supporta la registrazione?',
@@ -57,7 +57,7 @@ export const content: FaqContent = {
         },
         {
           q: 'Rallenterà il mio computer?',
-          a: 'No. Shotera è pensato per restare leggero — memoria minima e avvio istantaneo, impercettibile anche quando resta in background.',
+          a: 'No. SnipX è pensato per restare leggero — memoria minima e avvio istantaneo, impercettibile anche quando resta in background.',
         },
       ],
     },
@@ -66,7 +66,7 @@ export const content: FaqContent = {
       label: 'Dettagli e personalizzazione',
       items: [
         {
-          q: 'Shotera ha la modalità scura?',
+          q: 'SnipX ha la modalità scura?',
           a: 'Sì. Impostazioni → Generali → Tema dell’interfaccia permette di scegliere tra «Segui sistema», «Chiaro» e «Scuro»; «Segui sistema» segue automaticamente l’impostazione chiara/scura di Windows.',
         },
         {
@@ -75,11 +75,11 @@ export const content: FaqContent = {
         },
         {
           q: 'Posso cambiare le scorciatoie da tastiera?',
-          a: 'Sì. Cattura, Screenshot personalizzato, Fissa sul desktop e Modalità presentazione si possono riassegnare in Impostazioni → Scorciatoie; se un tasto è già occupato da un’altra app, Shotera te lo segnala, e puoi ripristinare tutti i valori predefiniti con un clic.',
+          a: 'Sì. Cattura, Screenshot personalizzato, Fissa sul desktop e Modalità presentazione si possono riassegnare in Impostazioni → Scorciatoie; se un tasto è già occupato da un’altra app, SnipX te lo segnala, e puoi ripristinare tutti i valori predefiniti con un clic.',
         },
         {
           q: 'Come aggiorno all’ultima versione?',
-          a: 'Shotera si aggiorna da solo: per impostazione predefinita controlla all’avvio, può scaricare e installare in background, oppure puoi controllare manualmente in Impostazioni → Aggiornamenti. La versione di Microsoft Store resta aggiornata tramite lo Store.',
+          a: 'SnipX si aggiorna da solo: per impostazione predefinita controlla all’avvio, può scaricare e installare in background, oppure puoi controllare manualmente in Impostazioni → Aggiornamenti. La versione di Microsoft Store resta aggiornata tramite lo Store.',
         },
       ],
     },

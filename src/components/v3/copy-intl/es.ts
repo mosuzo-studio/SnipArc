@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Spanish copy for the v3 pages. Terminology follows the Shotera app's es
+ * Spanish copy for the v3 pages. Terminology follows the SnipX app's es
  * language pack.
  */
 export default {
-  home: 'Shotera — Capturas y grabaciones de pantalla más rápidas e inteligentes',
+  home: 'SnipX — Capturas y grabaciones de pantalla más rápidas e inteligentes',
   nav: {
     features: 'Funciones',
     versions: 'Versiones',
@@ -52,7 +52,7 @@ export default {
       [{ text: 'Capturas, grabación de pantalla y ' }, { text: 'magia de la IA', hl: true }],
       [{ text: 'todo con un solo atajo' }],
     ],
-    sub: 'Shotera es una herramienta de captura de escritorio pensada para quienes hacen capturas todo el día: anota, captura páginas largas de arriba abajo, graba en GIF, recorta sujetos con IA, extrae texto con OCR sin conexión, traduce imágenes y fija referencias, todo sin salir de tu flujo de trabajo.',
+    sub: 'SnipX es una herramienta de captura de escritorio pensada para quienes hacen capturas todo el día: anota, captura páginas largas de arriba abajo, graba en GIF, recorta sujetos con IA, extrae texto con OCR sin conexión, traduce imágenes y fija referencias, todo sin salir de tu flujo de trabajo.',
     primary: 'Descargar gratis',
     secondary: 'Ver cómo funciona',
     metaStrong: 'Windows 10/11+',
@@ -64,7 +64,7 @@ export default {
   download: {
     more: 'Más opciones de descarga',
     menu: 'Opciones de descarga',
-    edition: 'Shotera Estándar',
+    edition: 'SnipX Estándar',
     setup: 'Instalador (.exe)',
     portable: 'Portátil (.7z)',
     msi: 'Instalador MSI',
@@ -123,7 +123,7 @@ export default {
       title: 'Captura con una tecla, encuadre exacto',
       lead: 'Invócala con un atajo y captura, anota y copia en un solo movimiento, sin interrupciones.',
       rows: [
-        'Pasa el cursor y Shotera se ajusta a la ventana o al elemento que hay debajo',
+        'Pasa el cursor y SnipX se ajusta a la ventana o al elemento que hay debajo',
         'Flechas, recuadros, texto, numeración, emoji, lupa: anota en el momento de capturar',
         'Dos formas de terminar: copiar directamente al portapapeles o anotar al momento (Elegante / Anotación al momento)',
       ],
@@ -230,7 +230,7 @@ export default {
     faqLink: 'Ver las preguntas frecuentes',
     soon: 'Próximamente',
     mail: {
-      subject: 'Comentarios sobre Shotera — ',
+      subject: 'Comentarios sobre SnipX — ',
       body: [
         'Hola:',
         '',
@@ -239,7 +239,7 @@ export default {
         '',
         'Si puedes, estos datos nos ayudan a resolverlo más rápido:',
         '',
-        '\u00b7 Edición de Shotera (Lite / Estándar):',
+        '\u00b7 Edición de SnipX (Lite / Estándar):',
         '\u00b7 Versión de Windows:',
         '\u00b7 Pasos para reproducir el problema:',
         '',
@@ -265,16 +265,16 @@ export default {
           {
             key: 'github',
             name: 'GitHub',
-            handle: 'mosuzo-studio/Shotera',
+            handle: 'mosuzo-studio/SnipX',
             note: 'Informes de errores, sugerencias de funciones y versiones anteriores.',
             icon: 'tabler:brand-github',
-            href: 'https://github.com/mosuzo-studio/Shotera',
+            href: 'https://github.com/mosuzo-studio/SnipX',
             tint: '#24292f',
           },
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Habla con otros usuarios de Shotera.',
+            note: 'Habla con otros usuarios de SnipX.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },
