@@ -128,7 +128,7 @@ export interface V3Copy {
 
 export const v3Copy: Record<V3Lang, V3Copy> = {
   en: {
-    home: 'SnipX — Faster, smarter screenshots and screen recording',
+    home: 'SnipX — Fast, local-first screenshots and annotation for Windows',
     nav: {
       features: 'Features',
       versions: 'Versions',
@@ -428,7 +428,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
       ],
     },
     footer: {
-      blurb: 'Faster, smarter screenshots and screen recording — pinned, annotated and understood in one shortcut.',
+      blurb: 'Fast region capture, annotation and on-device AI — all from one shortcut, entirely on your machine.',
       cols: [
         {
           title: 'Product',
@@ -462,7 +462,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
   },
 
   'zh-cn': {
-    home: 'SnipX — 更快、更聪明的截图与录屏工具',
+    home: 'SnipX — 快速、本地优先的 Windows 截图与标注工具',
     nav: {
       features: '功能',
       versions: '版本对比',
@@ -731,7 +731,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
       ],
     },
     footer: {
-      blurb: '更快、更聪明的截图与录屏工具——截图、贴图、识别，一个快捷键全搞定。',
+      blurb: '快速区域截图、标注与本地 AI——一个快捷键搞定，全程在本机运行。',
       cols: [
         {
           title: '产品',
