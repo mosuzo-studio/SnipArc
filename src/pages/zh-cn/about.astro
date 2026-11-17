@@ -1,0 +1,253 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import AboutBannerRandom from '~/components/common/AboutBannerRandom.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayoutV3.astro';
+import { getSetupDownloadUrl } from '~/utils/download';
+
+const setupUrl = await getSetupDownloadUrl();
+
+const metadata = {
+  title: '关于 Shotera',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="关于我们"
+    image={{
+      src: '~/assets/images/about-hero.png',
+      alt: 'Shotera 能力全景：截图与标注、长截图拼接、贴图并排与 AI 抠图',
+    }}
+  >
+    <Fragment slot="title">
+      把截图这件小事，<br />
+      <span class="text-accent dark:text-white">做到极致</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Shotera 诞生于一个朴素的念头：每天都要用无数次的截图和录屏，理应更快、更顺手。
+      我们是一群自己也重度依赖截图工具的产品人和工程师，把对效率的执念，做进了每一个快捷键、每一次框选、每一帧录制里。
+    </Fragment>
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="Shotera 数据一览"
+    stats={[
+      { title: '界面语言', amount: '15 种' },
+      { title: '好评率', amount: '4.9 / 5' },
+      { title: '离线 AI 处理', amount: '100%' },
+      { title: '快捷键唤起', amount: '<0.1s' },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="我们坚持的事"
+    subtitle="工具越顺手，你越感觉不到它的存在。这是 Shotera 每一个设计决策背后的准则。"
+    columns={3}
+    isBeforeContent={true}
+    items={[
+      {
+        title: '快，是第一位的',
+        description: '一个快捷键唤起，窗口与元素自动识别，框选即所得。从想截图到截完图，不超过一秒。',
+        icon: 'tabler:bolt',
+      },
+      {
+        title: '本地优先，隐私安心',
+        description: 'OCR、抠图等能力尽可能在本地完成，你的截图默认不上传云端。敏感内容，留在你自己的电脑里。',
+        icon: 'tabler:lock',
+      },
+      {
+        title: '克制的设计',
+        description: '不堆砌功能，不打扰工作流。常用的一键可达，进阶的需要时才出现。',
+        icon: 'tabler:sparkles',
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget — L1 核心能力 ************** -->
+
+  <Features3
+    title="核心能力"
+    subtitle="从截图到录屏，从贴图到 OCR 与 AI——六件高频的事，一个快捷键全都在。"
+    columns={3}
+    isAfterContent={true}
+    items={[
+      {
+        title: '截图',
+        description:
+          '智能识别窗口与界面元素，要截的范围自动选好。框选完成后可以自动复制，也可以立刻打开标注工具栏——两种完成模式随你挑。',
+        icon: 'tabler:capture',
+      },
+      {
+        title: '长截图',
+        description: '网页、长聊天记录一次截全：自动滚或自己滚，边滚边拼成一张长图，拼到哪实时可见。',
+        icon: 'local:longshot',
+      },
+      {
+        title: '贴图',
+        description: '把截图钉在屏幕最上层，随时对照参考，多图排布也不乱。',
+        icon: 'tabler:pin',
+      },
+      {
+        title: '录屏 & GIF',
+        description: '录制屏幕并一键导出轻量 GIF，光标高亮、点击提示，演示教程格外清晰。',
+        icon: 'tabler:video',
+      },
+      {
+        title: '离线 OCR',
+        description: '截图里的文字就地提取成可编辑文本，中英日等多语言，全程在本地完成，复制粘贴即用。',
+        icon: 'tabler:text-recognition',
+      },
+      {
+        title: 'AI 抠图与擦图',
+        description: 'AI 抠图一键去背景、导出透明底图；AI 擦图擦掉画面里的杂物和水印。都用本地模型，不上传。',
+        icon: 'tabler:wand',
+      },
+    ]}
+    image={{
+      src: '~/assets/images/about-cat-1.webp',
+      alt: '小猫与浮空的玻璃截图卡片',
+    }}
+  />
+
+  <AboutBannerRandom />
+
+  <!-- Features3 Widget — L2 更多能力 ************** -->
+
+  <Features3
+    title="更多能力"
+    subtitle="工具感藏在细节里：标注、识别、查看，还有让桌面更顺手的那些设定。"
+    columns={3}
+    items={[
+      {
+        title: '标注工具',
+        description:
+          '矩形/椭圆、直线/箭头、画笔、荧光笔、马赛克/模糊、文字、序号、表情贴纸、放大镜、橡皮擦——截完即标。',
+        icon: 'tabler:pencil',
+      },
+      {
+        title: 'Emoji 贴纸',
+        description: '数百种表情贴纸随手贴上：点赞、比心、吐槽、庆祝，随意缩放、任意摆放，给截图加点乐子。',
+        icon: 'tabler:mood-smile',
+      },
+      {
+        title: '图片查看与编辑',
+        description: '截图和图片文件都在独立窗口里打开：同目录翻页、缩放细看、顺手改两笔；常见格式都能直接看。',
+        icon: 'tabler:photo',
+      },
+      {
+        title: '图片翻译',
+        description: '截图里的外文就地翻成你的语言，译文直接复制走。',
+        icon: 'tabler:language',
+      },
+      {
+        title: '二维码识别',
+        description: '二维码、条码就地识别：链接、WiFi、联系人、商品条码，结果一键复制，全程离线。',
+        icon: 'tabler:qrcode',
+      },
+      {
+        title: '自定义截图',
+        description: '固定尺寸、比例、延迟与屏幕坐标，做素材和批量截图更省事。',
+        icon: 'tabler:crop',
+      },
+      {
+        title: '多显示器',
+        description: '多屏按统一坐标系工作，副屏、扩展屏都能正常框选；高 DPI 屏幕下界面与截图保持清晰。',
+        icon: 'tabler:devices',
+      },
+      {
+        title: '深色模式',
+        description: '跟随系统自动切换，也可以在浅色与深色之间手动选择。',
+        icon: 'tabler:moon',
+      },
+      {
+        title: '演示模式',
+        description: '一键收起杂乱窗口、隐藏桌面图标、切换干净壁纸；收工后原样还给你。',
+        icon: 'tabler:presentation',
+      },
+    ]}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="我们的价值观"
+    subtitle="做一款工具，和用一款工具，是同一件事。我们用自己做出来的东西，每天工作。"
+    items={[
+      {
+        title: '为真实场景而造',
+        description:
+          '每个功能都来自真实的使用痛点——写文档、做设计稿标注、录 Bug 复现、翻外文资料。我们先自己用，再交给你。',
+      },
+      {
+        title: '持续打磨',
+        description: '快捷键的手感、框选的边缘吸附、录屏的体积与清晰度——这些细节我们会一直调，直到顺手为止。',
+      },
+      {
+        title: '尊重用户',
+        description: '不捆绑、不弹窗骚扰、不偷偷上传数据。核心功能长期免费，是我们对用户的承诺。',
+      },
+    ]}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="一路走来"
+    subtitle="从一个自用的小工具，到越来越多人每天在用的截图利器。"
+    isReversed={true}
+    callToAction={{
+      text: '免费下载 Shotera',
+      href: setupUrl,
+    }}
+    items={[
+      {
+        title: '始于自己的需求',
+        description: '因为找不到一款足够快、足够顺手的截图工具，我们决定自己写一个。',
+        icon: 'tabler:seeding',
+      },
+      {
+        title: '被用户推着长大',
+        description: '长截图、AI 抠图、离线 OCR、图片翻译……很多功能，都是用户在反馈里「点」出来的。',
+        icon: 'tabler:users',
+      },
+      {
+        title: '走向更多人',
+        description: '如今 Shotera 支持 15 种界面语言，还在继续增加，但初心没变：让截图更简单。',
+        icon: 'tabler:world',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="联系我们"
+    tagline="随时找到我们"
+    columns={2}
+    items={[
+      {
+        title: 'GitHub',
+        description:
+          '<a class="font-semibold text-blue-700 underline underline-offset-4 dark:text-blue-300" href="https://github.com/mosuzo-studio/Shotera">mosuzo-studio/Shotera</a>：提交问题与建议，下载历史版本。',
+        icon: 'tabler:brand-github',
+      },
+      {
+        title: '邮件支持',
+        description:
+          '遇到问题或有功能建议？发邮件到 <a class="font-semibold text-blue-700 underline underline-offset-4 dark:text-blue-300" href="mailto:mosuzo.studio@gmail.com">mosuzo.studio@gmail.com</a>，我们会认真回复每一封。',
+        icon: 'tabler:mail',
+      },
+    ]}
+  />
+</Layout>

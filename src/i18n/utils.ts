@@ -1,0 +1,111 @@
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+import { ui, defaultLang, languages, type Lang, type UIKey } from './ui';
+import { getLocaleDirection } from './locales';
+
+export { languages, defaultLang, getLocaleDirection, type Lang, type UIKey };
+
+/**
+ * Extract the active language from a URL. With `prefixDefaultLocale: false`,
+ * English lives at the root (`/about`) and Simplified Chinese under
+ * `/zh-cn` (`/zh-cn/about`).
+ *
+ * `Astro.url.pathname` includes the configured `base` (e.g. `/template`), so we
+ * strip that first before reading the locale segment. Prefer `Astro.currentLocale`
+ * in `.astro` files; this helper exists for utilities that only have the URL.
+ */
+export function getLangFromUrl(url: URL): Lang {
+  let pathname = url.pathname;
+  const normalizedBase = import.meta.env.BASE_URL.replace(/\/$/, '');
+  if (normalizedBase && pathname.startsWith(normalizedBase)) {
+    pathname = pathname.slice(normalizedBase.length) || '/';
+  }
+  const [, seg] = pathname.split('/');
+  if (seg in ui) return seg as Lang;
+  return defaultLang;
+}
+
+/**
+ * Returns a translator bound to `lang`, falling back to the default language
+ * for any key missing in that locale.
+ */
+export function useTranslations(lang: Lang) {
+  return function t(key: UIKey, replacements?: Record<string, string>): string {
+    let text = ui[lang][key] ?? (ui[defaultLang][key] as string);
+    // `split`/`join` rather than `replace`, so neither the placeholder name nor
+    // the value is treated as a pattern (`$&` and friends stay literal).
+    if (replacements) {
+      for (const [placeholder, value] of Object.entries(replacements)) {
+        text = text.split(`{${placeholder}}`).join(value);
+      }
+    }
+    return text;
+  };
+}
+
+/**
+ * Build a locale-aware, base-prefixed absolute path for an internal route.
+ * Wraps Astro's `getRelativeLocaleUrl` so callers pass a plain path
+ * (`/about`, `#features`, `/`) and get back e.g. `/template/zh-cn/about`.
+ *
+ * External URLs, hash links and protocol-relative links pass through
+ * untouched — those are never localized.
+ */
+export function localizedPath(lang: Lang, path = '/'): string {
+  if (
+    path.startsWith('http://') ||
+    path.startsWith('https://') ||
+    path.startsWith('://') ||
+    path.startsWith('#') ||
+    path.startsWith('mailto:') ||
+    path.startsWith('tel:') ||
+    path.startsWith('javascript:')
+  ) {
+    return path;
+  }
+
+  // Pure-anchor targets like `/#features` should keep the hash but still be
+  // rooted at the current locale's home.
+  const [pathname, hash] = path.split('#');
+  const localeUrl = getRelativeLocaleUrl(lang, pathname === '' ? '/' : pathname);
+  const localized = localeUrl !== '/' && localeUrl.endsWith('/') ? localeUrl.slice(0, -1) : localeUrl;
+  return hash ? `${localized.replace(/\/$/, '')}#${hash}` : localized;
+}
+
+/** Routes only EN and zh-CN publish; every other locale links to the English one. */
+const ENGLISH_ONLY_PATHS = new Set(['/privacy', '/terms']);
+
+/**
+ * Locale-aware path for a page, honouring the split routes: the legal pages
+ * exist for EN and zh-CN only, so the other locales link to the English ones
+ * instead of a 404.
+ */
+export function localizedPagePath(lang: Lang, path: string): string {
+  if (ENGLISH_ONLY_PATHS.has(path) && lang !== 'en' && lang !== 'zh-cn') return path;
+  return localizedPath(lang, path);
+}
+
+/**
+ * Given the current URL, return the equivalent path in `targetLang`, used by
+ * the language switcher. Strips any existing locale prefix, then re-localizes.
+ */
+export function switchLocalePath(url: URL, targetLang: Lang): string {
+  let pathname = url.pathname;
+
+  // Remove the base prefix (e.g. `/template`) so we work with app-relative paths.
+  const normalizedBase = import.meta.env.BASE_URL.replace(/\/$/, '');
+  if (normalizedBase && pathname.startsWith(normalizedBase)) {
+    pathname = pathname.slice(normalizedBase.length) || '/';
+  }
+
+  // Strip a leading locale segment for any known non-default language.
+  const segments = pathname.split('/').filter(Boolean);
+  if (segments.length && segments[0] in ui && segments[0] !== defaultLang) {
+    segments.shift();
+  }
+
+  const appPath = '/' + segments.join('/');
+  // The 13 other locales publish neither the legal pages nor an FAQ of their
+  // own, so those links fall back to the English ones (the footer does the same).
+  return localizedPagePath(targetLang, appPath === '/' ? '/' : appPath);
+}

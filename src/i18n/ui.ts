@@ -1,0 +1,231 @@
+import { defaultLocale, localeRegistry, publishedLocales, type PublishedLocale } from './locales';
+import { localizedSiteContent, type LocalizedLocale } from './site-content';
+import { versionsContent } from './versions-content';
+import { localeExtras } from './locale-extras';
+
+export const languages = Object.fromEntries(
+  publishedLocales.map((locale) => [locale, localeRegistry[locale].label])
+) as Record<PublishedLocale, string>;
+
+export type Lang = PublishedLocale;
+
+export const defaultLang: Lang = defaultLocale;
+
+/**
+ * UI strings for global chrome (header, footer, announcement, buttons, blog
+ * taxonomy labels). Page body copy lives in the per-language page files under
+ * `src/pages` and `src/pages/zh-cn`, not here — this dictionary is for shared,
+ * reused fragments only.
+ */
+const baseUi = {
+  en: {
+    'nav.homes': 'Homes',
+    'nav.homes.saas': 'SaaS',
+    'nav.homes.startup': 'Startup',
+    'nav.homes.mobileApp': 'Mobile App',
+    'nav.homes.personal': 'Personal',
+    'nav.pages': 'Pages',
+    'nav.pages.features': 'Features (Anchor Link)',
+    'nav.pages.services': 'Services',
+    'nav.pages.pricing': 'Pricing',
+    'nav.pages.about': 'About us',
+    'nav.pages.contact': 'Contact',
+    'nav.pages.terms': 'Terms',
+    'nav.pages.privacy': 'Privacy policy',
+    'nav.landing': 'Landing',
+    'nav.landing.leadGeneration': 'Lead Generation',
+    'nav.landing.sales': 'Long-form Sales',
+    'nav.landing.clickThrough': 'Click-Through',
+    'nav.landing.product': 'Product Details (or Services)',
+    'nav.landing.preLaunch': 'Coming Soon or Pre-Launch',
+    'nav.landing.subscription': 'Subscription',
+    'nav.widgets': 'Widgets',
+    'action.download': 'Download',
+
+    'nav.features': 'Features',
+    'nav.pricing': 'Pricing',
+    'nav.versions': 'Versions',
+    'nav.changelog': 'Changelog',
+    'nav.about': 'About',
+    'nav.download': 'More versions',
+
+    'footer.product': 'Product',
+    'footer.platform': 'Platform',
+    'footer.support': 'Support',
+    'footer.company': 'Company',
+    'footer.terms': 'Terms',
+    'footer.privacy': 'Privacy Policy',
+    'footer.features': 'Features',
+    'footer.security': 'Security',
+    'footer.team': 'Team',
+    'footer.enterprise': 'Enterprise',
+    'footer.customerStories': 'Customer stories',
+    'footer.pricing': 'Pricing',
+    'footer.resources': 'Resources',
+    'footer.developerApi': 'Developer API',
+    'footer.partners': 'Partners',
+    'footer.docs': 'Docs',
+    'footer.communityForum': 'Community Forum',
+    'footer.professionalServices': 'Professional Services',
+    'footer.skills': 'Skills',
+    'footer.status': 'Status',
+    'footer.about': 'About',
+    'footer.careers': 'Careers',
+    'footer.press': 'Press',
+    'footer.inclusion': 'Inclusion',
+    'footer.socialImpact': 'Social Impact',
+    'footer.shop': 'Shop',
+    'footer.contact': 'Contact',
+
+    'footer.feat.screenshot': 'Screenshot',
+    'footer.feat.scrolling': 'Scrolling Capture',
+    'footer.feat.record': 'Recording',
+    'footer.feat.cutout': 'AI Cutout',
+    'footer.feat.ocr': 'Offline OCR',
+    'footer.feat.translate': 'Image Translation',
+    'footer.feat.pin': 'Pin to Desktop',
+    'footer.download': 'Download',
+    'footer.faq': 'FAQ',
+    'footer.changelog': 'Changelog',
+    'footer.feedback': 'Feedback',
+    'footer.tagline': 'Make every screenshot and recording more efficient.',
+
+    'announcement.new': 'NEW',
+    'announcement.text':
+      'Shotera v{version}+ is here — AI cutout, AI eraser, offline OCR, and image translation. (Site in progress; preview only — the final release prevails.) »',
+
+
+    'lang.label': 'Language',
+  },
+  'zh-cn': {
+    'nav.homes': '首页',
+    'nav.homes.saas': 'SaaS',
+    'nav.homes.startup': '创业公司',
+    'nav.homes.mobileApp': '移动应用',
+    'nav.homes.personal': '个人',
+    'nav.pages': '页面',
+    'nav.pages.features': '功能（锚点链接）',
+    'nav.pages.services': '服务',
+    'nav.pages.pricing': '价格',
+    'nav.pages.about': '关于我们',
+    'nav.pages.contact': '联系我们',
+    'nav.pages.terms': '条款',
+    'nav.pages.privacy': '隐私政策',
+    'nav.landing': '落地页',
+    'nav.landing.leadGeneration': '获取线索',
+    'nav.landing.sales': '长文销售',
+    'nav.landing.clickThrough': '点击转化',
+    'nav.landing.product': '产品详情（或服务）',
+    'nav.landing.preLaunch': '即将上线 / 预发布',
+    'nav.landing.subscription': '订阅',
+    'nav.widgets': '组件',
+    'action.download': '下载',
+
+    'nav.features': '功能',
+    'nav.pricing': '价格',
+    'nav.versions': '版本对比',
+    'nav.changelog': '更新日志',
+    'nav.about': '关于',
+    'nav.download': '更多版本',
+
+    'footer.product': '产品',
+    'footer.platform': '平台',
+    'footer.support': '支持',
+    'footer.company': '公司',
+    'footer.terms': '条款',
+    'footer.privacy': '隐私政策',
+    'footer.features': '功能',
+    'footer.security': '安全',
+    'footer.team': '团队',
+    'footer.enterprise': '企业版',
+    'footer.customerStories': '客户案例',
+    'footer.pricing': '价格',
+    'footer.resources': '资源',
+    'footer.developerApi': '开发者 API',
+    'footer.partners': '合作伙伴',
+    'footer.docs': '文档',
+    'footer.communityForum': '社区论坛',
+    'footer.professionalServices': '专业服务',
+    'footer.skills': '技能',
+    'footer.status': '状态',
+    'footer.about': '关于',
+    'footer.careers': '招聘',
+    'footer.press': '媒体',
+    'footer.inclusion': '包容',
+    'footer.socialImpact': '社会影响',
+    'footer.shop': '商店',
+    'footer.contact': '联系我们',
+
+    'footer.feat.screenshot': '截图',
+    'footer.feat.scrolling': '长截图',
+    'footer.feat.record': '录屏',
+    'footer.feat.cutout': 'AI 抠图',
+    'footer.feat.ocr': '离线 OCR',
+    'footer.feat.translate': '图片翻译',
+    'footer.feat.pin': '贴图',
+    'footer.download': '下载',
+    'footer.faq': '常见问题',
+    'footer.changelog': '更新日志',
+    'footer.feedback': '意见反馈',
+    'footer.tagline': '让每一次截图与录屏都更高效。',
+
+    'announcement.new': '新',
+    'announcement.text':
+      'Shotera v{version}+ 发布 —— 新增 AI 抠图、AI 擦图、离线 OCR 与图片翻译。（官网建设中，当前为预览版，以最终发布为准）»',
+
+
+    'lang.label': '语言',
+  },
+} as const;
+
+export type UIKey = keyof (typeof baseUi)[typeof defaultLang];
+
+/**
+ * Nav-only label overrides, for locales whose regular label is long enough to
+ * push the header nav into the language switcher on narrow desktop widths.
+ */
+const navLabelOverrides: Partial<Record<Exclude<Lang, 'en' | 'zh-cn'>, string>> = {
+  de: 'Änderungen',
+  fr: 'Nouveautés',
+};
+
+const localizedUi = Object.fromEntries(
+  Object.entries(localizedSiteContent).map(([locale, content]) => [
+    locale,
+    {
+      'action.download': content.labels.download,
+      'nav.features': content.labels.features,
+      'nav.pricing': content.labels.pricing,
+      'nav.versions': versionsContent[locale as LocalizedLocale].metaTitle,
+      'nav.changelog': navLabelOverrides[locale as LocalizedLocale] ?? content.labels.changelog,
+      'nav.about': content.labels.about,
+      'nav.download': content.moreVersions,
+      'footer.product': content.labels.product,
+      'footer.support': content.labels.support,
+      'footer.company': content.labels.company,
+      'footer.terms': content.labels.terms,
+      'footer.privacy': content.labels.privacy,
+      'footer.about': content.labels.about,
+      'footer.contact': content.pages.contact[0],
+      'footer.feat.screenshot': content.labels.screenshot,
+      'footer.feat.scrolling': localeExtras[locale as LocalizedLocale].footerScrolling,
+      'footer.feat.record': content.labels.recording,
+      'footer.feat.cutout': content.labels.cutout,
+      'footer.feat.ocr': content.labels.ocr,
+      'footer.feat.translate': content.labels.translation,
+      'footer.feat.pin': content.labels.pin,
+      'footer.download': content.labels.download,
+      'footer.faq': content.labels.faq,
+      'footer.changelog': content.labels.changelog,
+      'footer.feedback': content.labels.feedback,
+      'footer.tagline': content.labels.tagline,
+      'announcement.new': content.labels.newLabel,
+      'announcement.text': content.labels.announcement,
+    },
+  ])
+) as Record<Exclude<Lang, 'en' | 'zh-cn'>, Partial<Record<UIKey, string>>>;
+
+export const ui: Record<Lang, Partial<Record<UIKey, string>>> = {
+  ...baseUi,
+  ...localizedUi,
+};

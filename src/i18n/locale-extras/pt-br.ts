@@ -1,0 +1,276 @@
+import type { LocaleExtras } from '../locale-extras-types';
+
+/**
+ * Brazilian Portuguese copy that brings the home and about pages to parity
+ * with the English pages. Terminology follows the Shotera app's pt-BR
+ * language pack.
+ */
+export const content: LocaleExtras = {
+  footerScrolling: 'Captura longa',
+
+  home: {
+    heroAlt:
+      'Ferramentas do Shotera na tela: captura, captura longa, anotação, gravação de tela, recorte com AI, OCR offline, leitura de QR Code e código de barras, tradução de imagens e fixação na área de trabalho',
+    cards: [
+      {
+        title: 'Captura longa',
+        description:
+          'Uma página mais alta que a tela ainda cabe em uma única imagem. Role você mesmo ou deixe o Shotera rolar sozinho e veja a imagem longa se montar enquanto cresce.',
+      },
+      {
+        title: 'Leitura de QR Code e código de barras',
+        description:
+          'Leia o código dentro da captura — links, Wi-Fi, contatos, códigos de barras — e copie o que ele contém. Tudo offline.',
+      },
+      {
+        title: 'Visualizador de imagens',
+        description:
+          'Abra uma captura ou qualquer arquivo de imagem na própria janela do visualizador: navegue pela pasta, amplie e ajuste o que precisar — sem precisar de outro app. Os formatos comuns abrem na hora.',
+      },
+    ],
+    scrolling: {
+      tagline: 'Captura longa',
+      title: 'Uma página mais alta que a tela, em uma só imagem',
+      text: 'Páginas inteiras, conversas longas e documentos completos — capturados de ponta a ponta em uma única imagem.',
+      alt: 'Captura longa montando uma página longa em uma única imagem',
+      items: [
+        {
+          title: 'Rolagem automática ou manual',
+          description:
+            'Deixe o Shotera percorrer a página ou role com as próprias mãos. De qualquer forma, cada quadro é capturado durante o processo.',
+        },
+        {
+          title: 'Veja a montagem enquanto ela cresce',
+          description:
+            'Uma prévia ao vivo fica ao lado da seleção e cresce a cada quadro, para você parar no momento em que a página inteira estiver ali.',
+        },
+        {
+          title: 'Sem emendas visíveis',
+          description:
+            'Os quadros vizinhos são combinados e mesclados, então a imagem longa final lê como uma página contínua.',
+        },
+        {
+          title: 'Copie ou salve',
+          description:
+            'Envie a imagem longa direto para a área de transferência ou salve no disco — pronta para documentação, chat e relatos de bug.',
+        },
+      ],
+    },
+    stats: [
+      { title: 'Idiomas', amount: '15' },
+      { title: 'Avaliação', amount: '4.9 / 5' },
+      { title: 'AI offline', amount: '100%' },
+      { title: 'Abertura por atalho', amount: '<0.1s' },
+    ],
+    workflow: {
+      title: 'Da tela ao compartilhamento em três passos.',
+      alt: 'Fluxo de trabalho do Shotera',
+      steps: [
+        {
+          title: 'Pressione o atalho',
+          description:
+            'Chame o Shotera em qualquer lugar e passe o mouse: a janela ou o elemento que você quer já está detectado.',
+        },
+        {
+          title: 'Anote, extraia ou edite',
+          description: 'Marque o que importa, rode OCR, recorte um assunto, traduza — na mesma janela.',
+        },
+        {
+          title: 'Copie, salve ou fixe',
+          description:
+            'Envie para a área de transferência, salve no computador ou fixe na área de trabalho para consultar rapidamente.',
+        },
+      ],
+    },
+  },
+
+  about: {
+    statsTitle: 'Shotera em números',
+    metaDescription:
+      'Conheça a equipe por trás do Shotera e os princípios que guiam cada atalho, cada seleção e cada captura.',
+    hero: {
+      tagline: 'Sobre nós',
+      title: 'Capturas de tela',
+      accent: 'tão boas que desaparecem',
+      subtitle:
+        'O Shotera começou com uma frustração simples: as capturas que fazemos dezenas de vezes por dia deveriam ser mais rápidas e fluidas. Somos uma equipe pequena de profissionais de produto e engenheiros que dependem de ferramentas de captura tanto quanto qualquer pessoa — e colocamos essa obsessão em cada atalho, cada seleção, cada quadro.',
+      alt: 'Ferramentas de anotação do Shotera sobre uma área de trabalho do Windows',
+    },
+    stats: [
+      { title: 'Idiomas', amount: '15' },
+      { title: 'Avaliação', amount: '4.9 / 5' },
+      { title: 'AI offline', amount: '100%' },
+      { title: 'Abertura por atalho', amount: '<0.1s' },
+    ],
+    stand: {
+      title: 'Nossos princípios',
+      subtitle: 'Quanto melhor a ferramenta, menos você a nota — essa ideia está por trás de cada decisão que tomamos.',
+      items: [
+        {
+          title: 'Velocidade em primeiro lugar',
+          description:
+            'Um atalho para chamar, detecção automática de janelas e elementos e exatamente o enquadramento que você queria. Menos de um segundo entre a intenção e a captura.',
+        },
+        {
+          title: 'Local em primeiro lugar, privado por padrão',
+          description:
+            'OCR, recorte e muito mais rodam no dispositivo sempre que possível. Suas capturas ficam fora da nuvem a menos que você permita.',
+        },
+        {
+          title: 'Contenção por princípio',
+          description:
+            'Sem excesso de recursos e sem interromper seu fluxo. O que é comum está a um clique; o avançado aparece só quando você precisa.',
+        },
+      ],
+    },
+    core: {
+      title: 'Capacidades principais',
+      subtitle:
+        'Captura, captura longa, fixar na área de trabalho, gravação de tela, OCR offline e AI no dispositivo — as seis coisas que você usa o dia todo, a um atalho de distância.',
+      alt: 'Ferramentas de anotação do Shotera sobre uma área de trabalho do Windows: seleção, barra de ferramentas e blocos de vidro',
+      items: [
+        {
+          title: 'Captura',
+          description:
+            'Detecção inteligente de janelas e elementos: o enquadramento que você quer já vem selecionado, então quase nunca é preciso desenhar a caixa à mão. Ao terminar, copie direto ou abra a barra de ferramentas de anotação — dois modos de conclusão, você escolhe.',
+        },
+        {
+          title: 'Captura longa',
+          description:
+            'Role uma página ou uma conversa longa e deixe o Shotera montar uma única imagem — rolagem automática ou manual, com prévia ao vivo.',
+        },
+        {
+          title: 'Fixar na área de trabalho',
+          description:
+            'Mantenha qualquer captura flutuando por cima para consulta, organizada lado a lado sem bagunça.',
+        },
+        {
+          title: 'Gravação de tela e GIF',
+          description:
+            'Grave a tela e exporte um GIF leve; os realces do cursor e as indicações de clique mantêm a demonstração clara.',
+        },
+        {
+          title: 'OCR offline',
+          description:
+            'Transforme o texto dentro de uma captura em texto editável, em vários idiomas — reconhecido no seu dispositivo e pronto para colar.',
+        },
+        {
+          title: 'Recorte e apagamento com AI',
+          description:
+            "O recorte com AI remove o fundo com um clique e exporta um PNG transparente; o apagamento com AI elimina objetos indesejados e marcas d'água. Ambos rodam em modelos locais — nada é enviado.",
+        },
+      ],
+    },
+    more: {
+      title: 'Mais capacidades',
+      subtitle:
+        'Os detalhes que fazem a diferença: anotação, reconhecimento, visualização e os ajustes ao redor deles.',
+      items: [
+        {
+          title: 'Ferramentas de anotação',
+          description:
+            'Retângulo/elipse, linha/seta, pincel, marcador, mosaico/desfoque, texto, numeração, adesivos de emoji, lupa e borracha — anote no momento da captura.',
+        },
+        {
+          title: 'Adesivos de emoji',
+          description:
+            'Centenas de adesivos de emoji — joinha, corações, risadas, confete — redimensione e posicione onde quiser para dar um toque de diversão.',
+        },
+        {
+          title: 'Visualizador e editor de imagens',
+          description:
+            'Abra uma captura ou qualquer arquivo de imagem na própria janela do visualizador — navegue pela pasta, amplie e ajuste o que precisar. Os formatos comuns abrem na hora.',
+        },
+        {
+          title: 'Tradução de imagens',
+          description:
+            'Reconheça e traduza textos dentro de qualquer captura na hora — documentos, gráficos e interfaces em outro idioma ficam legíveis. Copie a tradução e siga em frente.',
+        },
+        {
+          title: 'Leitura de QR Code e código de barras',
+          description:
+            'Leia QR Codes e códigos de barras na hora: links, Wi-Fi, contatos, códigos de produtos — copie o resultado com um clique, tudo offline.',
+        },
+        {
+          title: 'Captura personalizada',
+          description:
+            'Tamanho, proporção, atraso e coordenadas de tela fixos — prático para materiais gráficos e capturas em lote.',
+        },
+        {
+          title: 'Suporte a vários monitores',
+          description:
+            'Todas as telas compartilham um único sistema de coordenadas, então monitores secundários e estendidos são selecionados corretamente — e as capturas continuam nítidas em telas de alto DPI.',
+        },
+        {
+          title: 'Modo escuro',
+          description: 'Siga o sistema ou alterne entre claro e escuro manualmente.',
+        },
+        {
+          title: 'Modo apresentação',
+          description:
+            'Organize a área de trabalho com uma única tecla — janelas, ícones e papel de parede — e devolva tudo como estava depois.',
+        },
+      ],
+    },
+    values: {
+      title: 'Nossos valores',
+      subtitle:
+        'Construir uma ferramenta e usá-la são a mesma coisa para nós. Trabalhamos todos os dias com o que criamos.',
+      items: [
+        {
+          title: 'Feito para trabalho de verdade',
+          description:
+            'Cada recurso nasce de um problema real: escrever documentação, anotar especificações de design, gravar reproduções, ler material em outro idioma. Usamos primeiro e depois entregamos a você.',
+        },
+        {
+          title: 'Sempre refinando',
+          description:
+            'A sensação dos atalhos, o encaixe nas bordas das seleções, tamanho versus nitidez na gravação — seguimos ajustando os detalhes até que fiquem certos.',
+        },
+        {
+          title: 'Respeito pelo usuário',
+          description:
+            'Sem programas indesejados, sem pop-ups irritantes e sem enviar seus dados às escondidas. Os recursos principais continuam gratuitos — essa é a nossa promessa.',
+        },
+      ],
+    },
+    history: {
+      title: 'Como chegamos até aqui',
+      subtitle: 'De uma ferramenta que criamos para nós a uma que as pessoas usam todos os dias.',
+      cta: 'Baixar o Shotera grátis',
+      items: [
+        {
+          title: 'Começou de uma necessidade nossa',
+          description:
+            'Não encontrávamos uma ferramenta de captura rápida e fluida o bastante, então escrevemos a nossa.',
+        },
+        {
+          title: 'Crescemos com nossos usuários',
+          description:
+            'Captura longa, recorte com AI, OCR offline, tradução de imagens — muitos recursos vieram direto do feedback dos usuários.',
+        },
+        {
+          title: 'Alcançando mais pessoas',
+          description:
+            'Hoje o Shotera fala 15 idiomas de interface e continua crescendo — com o mesmo objetivo: simplificar as capturas de tela.',
+        },
+      ],
+    },
+    contact: {
+      title: 'Fale com a gente',
+      tagline: 'Estamos sempre disponíveis',
+      items: [
+        {
+          title: 'Comunidade',
+          description:
+            'Entre na comunidade do Shotera para acompanhar lançamentos e dicas, e falar diretamente com a gente.',
+        },
+        {
+          title: 'Suporte por e-mail',
+          description:
+            'Encontrou um problema ou tem uma ideia de recurso? Escreva para mosuzo.studio@gmail.com — lemos e respondemos a todos.',
+        },
+      ],
+    },
+  },
+};

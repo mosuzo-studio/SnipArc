@@ -1,0 +1,75 @@
+import { getAsset } from './utils/permalinks';
+import { localizedPath, useTranslations, type Lang } from './i18n/utils';
+import { getSetupDownloadUrl } from './utils/download';
+
+export const getHeaderData = async (lang: Lang) => {
+  const t = useTranslations(lang);
+  const l = (path: string) => localizedPath(lang, path);
+  const setupUrl = await getSetupDownloadUrl();
+
+  return {
+    links: [
+      { text: t('nav.features'), href: l('/#features') },
+      // { text: t('nav.pricing'), href: l('/pricing') },  // 临时屏蔽价格链接
+      { text: t('nav.versions'), href: l('/versions') },
+      { text: t('nav.changelog'), href: l('/changelog') },
+      { text: t('nav.about'), href: l('/about') },
+    ],
+    actions: [{ text: t('action.download'), href: setupUrl, icon: 'tabler:download' }],
+  };
+};
+
+export const getFooterData = async (lang: Lang) => {
+  const t = useTranslations(lang);
+  const l = (path: string) => localizedPath(lang, path);
+  const hasLocalizedLegalPages = lang === 'en' || lang === 'zh-cn';
+  const legal = (path: '/terms' | '/privacy') => (hasLocalizedLegalPages ? l(path) : path);
+  // Unlike the legal pages, the FAQ exists for every published locale.
+  const faqHref = l('/faq');
+  const setupUrl = await getSetupDownloadUrl();
+
+  return {
+    links: [
+      {
+        title: t('footer.product'),
+        links: [
+          { text: t('footer.feat.screenshot'), href: l('/#features') },
+          { text: t('footer.feat.scrolling'), href: l('/#features') },
+          { text: t('footer.feat.record'), href: l('/#features') },
+          { text: t('footer.feat.cutout'), href: l('/#features') },
+          { text: t('footer.feat.ocr'), href: l('/#features') },
+          { text: t('footer.feat.translate'), href: l('/#features') },
+          { text: t('footer.feat.pin'), href: l('/#features') },
+        ],
+      },
+      {
+        title: t('footer.support'),
+        links: [
+          { text: t('footer.download'), href: setupUrl },
+          { text: t('footer.faq'), href: faqHref },
+          { text: t('footer.changelog'), href: l('/changelog') },
+          { text: t('footer.feedback'), href: l('/contact') },
+        ],
+      },
+      {
+        title: t('footer.company'),
+        links: [
+          { text: t('footer.about'), href: l('/about') },
+          { text: t('footer.contact'), href: l('/contact') },
+        ],
+      },
+    ],
+    secondaryLinks: [
+      { text: t('footer.terms'), href: legal('/terms') },
+      { text: t('footer.privacy'), href: legal('/privacy') },
+    ],
+    // Brand accounts (X / Bilibili / WeChat) join this list once they are live;
+    // the site does not ship links that go nowhere.
+    socialLinks: [
+      { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mosuzo-studio/Shotera' },
+    ],
+    footNote: `
+      <span class="font-semibold">Shotera</span> · ${t('footer.tagline')}
+    `,
+  };
+};

@@ -1,0 +1,382 @@
+---
+import { Icon } from 'astro-icon/components';
+import { getReleaseDownloads, RELEASES_URL } from '~/utils/download';
+
+interface Props {
+  language?: string;
+  downloadLabel?: string;
+  moreVersionsLabel?: string;
+  storeAriaLabel?: string;
+  downloadAriaLabel?: string;
+  moreVersionsAriaLabel?: string;
+  msiLabel?: string;
+  portableLabel?: string;
+  allVersionsLabel?: string;
+  setupLabel?: string;
+  /** Small muted line rendered under the buttons, e.g. a link to the versions page. */
+  footnoteLabel?: string;
+  footnoteHref?: string;
+  /** Pill on the `.exe` row, marking the format most people should pick. */
+  recommendLabel?: string;
+}
+
+const {
+  language = 'en-us',
+  downloadLabel = 'Download',
+  moreVersionsLabel = 'More versions',
+  storeAriaLabel = 'Get Shotera from Microsoft Store',
+  downloadAriaLabel = 'Download the latest Shotera installer for Windows',
+  moreVersionsAriaLabel = 'More download options',
+  msiLabel = 'MSI installer',
+  portableLabel = 'Portable (.7z)',
+  allVersionsLabel = 'All versions',
+  setupLabel = 'Installer (.exe)',
+  footnoteLabel,
+  footnoteHref,
+  recommendLabel,
+} = Astro.props;
+
+const { urls, resolved } = await getReleaseDownloads();
+
+type MenuEntry =
+  | { kind: 'group'; label: string }
+  | { kind: 'link'; label: string; href: string; icon: string; external?: boolean; recommended?: boolean };
+
+const setupItem = (href: string, recommended = false): MenuEntry => ({
+  kind: 'link',
+  label: setupLabel,
+  href,
+  icon: 'tabler:download',
+  recommended,
+});
+const msiItem = (href: string): MenuEntry => ({ kind: 'link', label: msiLabel, href, icon: 'tabler:package' });
+const portableItem = (href: string): MenuEntry => ({
+  kind: 'link',
+  label: portableLabel,
+  href,
+  icon: 'tabler:file-zip',
+});
+
+/* Only offer specific formats when the release actually resolved; otherwise the
+   menu links to the Releases page, where every asset is listed anyway. */
+const menuItems: MenuEntry[] = [];
+if (resolved) {
+  // Installer first: most visitors just want the one-click `.exe`, so it leads
+  // the list and carries the recommendation pill when one is given.
+  menuItems.push(setupItem(urls.setup, true), portableItem(urls.portable), msiItem(urls.msi));
+}
+menuItems.push({
+  kind: 'link',
+  label: allVersionsLabel,
+  href: RELEASES_URL,
+  icon: 'tabler:brand-github',
+  external: true,
+});
+---
+
+<div class="download-area">
+  <div class="download-buttons">
+    <div class="dropdown split">
+      <a class="btn-primary split-main" href={urls.setup} aria-label={downloadAriaLabel}>
+        <Icon name="tabler:download" class="h-6 w-6" aria-hidden="true" />
+        <span>{downloadLabel}</span>
+      </a>
+
+      {
+        /* The menu opens purely from CSS :hover / :focus-within, so there is no
+          state to sync into aria-expanded; aria-haspopup alone describes it
+          honestly. Hovering or tabbing to this control reveals the list. */
+      }
+      <button type="button" class="btn-primary split-toggle" aria-haspopup="true" aria-label={moreVersionsAriaLabel}>
+        <Icon name="tabler:chevron-down" class="h-5 w-5" aria-hidden="true" />
+      </button>
+
+      <ul class="dropdown-menu split-menu" aria-label={moreVersionsLabel}>
+        {
+          menuItems.map((item) =>
+            item.kind === 'group' ? (
+              <li class="menu-group">{item.label}</li>
+            ) : (
+              <li>
+                <a
+                  href={item.href}
+                  target={item.external ? '_blank' : undefined}
+                  rel={item.external ? 'noopener noreferrer' : undefined}
+                >
+                  <Icon name={item.icon} class="h-5 w-5" aria-hidden="true" />
+                  <span>{item.label}</span>
+                  {item.recommended && recommendLabel && <span class="menu-recommend">{recommendLabel}</span>}
+                </a>
+              </li>
+            )
+          )
+        }
+      </ul>
+    </div>
+
+    <div class="store-badge" role="group" aria-label={storeAriaLabel}>
+      <ms-store-badge
+        productid="9n73ldhrmc8v"
+        cid="743e47fd-8675-403d-9631-82e7e0"
+        window-mode="full"
+        theme="auto"
+        size="large"
+        language={language}
+        animation="on"
+      >
+      </ms-store-badge>
+    </div>
+  </div>
+
+  {
+    footnoteLabel && footnoteHref && (
+      <p class="download-footnote">
+        <a href={footnoteHref}>{footnoteLabel}</a>
+      </p>
+    )
+  }
+</div>
+
+<style>
+  .download-area {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-width: 100%;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  /* Inherits the surrounding text color, so the line stays legible both on the
+     light hero and inside the dark closing section. */
+  .download-footnote {
+    margin: 0;
+    opacity: 0.72;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .download-footnote a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .download-footnote a:hover {
+    opacity: 1;
+  }
+
+  .download-buttons {
+    display: flex;
+    /* Below ~810px the fixed-width split button and the Store badge no longer
+       fit side by side, so the badge drops onto its own centered line instead
+       of pushing the row past the viewport. */
+    flex-wrap: wrap;
+    width: max-content;
+    max-width: 100%;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .store-badge {
+    display: flex;
+    flex: none;
+    min-width: 190px;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ms-store-badge {
+    display: block;
+  }
+
+  /* The two halves read as one control: the seam between them is squared off
+     and marked only by a hairline, while the outer corners keep the global
+     button radius. Colors and font come from .btn-primary. */
+  .split {
+    position: relative;
+    z-index: 30;
+    display: inline-flex;
+    flex: none;
+    /* Matches the Microsoft Store badge (full window-mode, large size), which
+       renders at a fixed 381px across locales, so the two controls line up. */
+    width: 381px;
+    align-items: stretch;
+  }
+
+  .split-main,
+  .split-toggle {
+    min-height: 60px;
+    border-radius: 0;
+  }
+
+  .split-main {
+    flex: 1 1 auto;
+    gap: 0.625rem;
+    min-width: 176px;
+    font-size: 1.125rem;
+    border-start-start-radius: 0.5rem;
+    border-end-start-radius: 0.5rem;
+  }
+
+  .split-toggle {
+    padding-inline: 0.875rem;
+    border-inline-start: 1px solid rgb(255 255 255 / 25%);
+    border-start-end-radius: 0.5rem;
+    border-end-end-radius: 0.5rem;
+  }
+
+  .split:hover .split-main,
+  .split:hover .split-toggle,
+  .split:focus-within .split-main,
+  .split:focus-within .split-toggle {
+    box-shadow: 0 6px 18px rgb(0 0 0 / 18%);
+  }
+
+  .split-main:focus-visible,
+  .split-toggle:focus-visible {
+    outline: 3px solid rgb(54 137 251 / 55%);
+    outline-offset: 3px;
+  }
+
+  .split-toggle :global(svg) {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .split:hover .split-toggle :global(svg),
+  .split:focus-within .split-toggle :global(svg) {
+    transform: rotate(180deg);
+  }
+
+  /* Hidden by default; the global .dropdown rules in tailwind.css flip this to
+     `display: block` on :hover and :focus-within, with no JavaScript. */
+  .split-menu {
+    display: none;
+    position: absolute;
+    inset-inline-start: 0;
+    top: 100%;
+    min-width: 100%;
+    padding-block: 0.375rem;
+    border-radius: 0.5rem;
+    background-color: rgb(255 255 255 / 97%);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 18%);
+    backdrop-filter: blur(8px);
+    font-weight: 500;
+    text-align: start;
+    white-space: nowrap;
+  }
+
+  :global(.dark) .split-menu {
+    background-color: rgb(3 6 32 / 97%);
+    box-shadow: 0 10px 30px rgb(0 0 0 / 45%);
+  }
+
+  .split-menu a {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem 1.125rem;
+    color: var(--aw-color-text-default);
+    font-size: 0.9375rem;
+  }
+
+  .split-menu a:hover,
+  .split-menu a:focus-visible {
+    background-color: rgb(0 0 0 / 6%);
+  }
+
+  /* Sits at the far end of its row, so the pill reads as a tag on the format
+     rather than part of the label. */
+  .split-menu .menu-recommend {
+    margin-inline-start: auto;
+    padding: 0.0625rem 0.4375rem;
+    border-radius: 9999px;
+    background-color: color-mix(in srgb, var(--aw-color-primary) 12%, transparent);
+    color: var(--aw-color-primary);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  /* Edition caption rows inside the menu (Standard / Lite). */
+  .split-menu .menu-group {
+    padding: 0.5rem 1.125rem 0.25rem;
+    color: var(--aw-color-text-muted);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+
+  .split-menu .menu-group:not(:first-child) {
+    margin-block-start: 0.25rem;
+    border-block-start: 1px solid rgb(0 0 0 / 7%);
+    padding-block-start: 0.625rem;
+  }
+
+  :global(.dark) .split-menu .menu-group:not(:first-child) {
+    border-block-start-color: rgb(255 255 255 / 12%);
+  }
+
+  :global(.dark) .split-menu a:hover,
+  :global(.dark) .split-menu a:focus-visible {
+    background-color: rgb(255 255 255 / 10%);
+  }
+
+  @media (max-width: 639px) {
+    .download-area {
+      width: 100%;
+    }
+
+    .download-buttons {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .split {
+      flex-direction: column;
+      width: min(100%, 250px);
+    }
+
+    /* The menu is always open here, so the toggle has nothing left to do. */
+    .split-toggle {
+      display: none;
+    }
+
+    .split-main {
+      flex: 1 1 auto;
+      min-width: 0;
+      border-radius: 0.5rem;
+    }
+
+    /* No hover on touch, so the menu sits open beneath the button as a plain
+       list rather than hiding behind an unreachable interaction. */
+    .split-menu {
+      display: block;
+      position: static;
+      margin-block-start: 0.5rem;
+      background-color: transparent;
+      box-shadow: none;
+      backdrop-filter: none;
+    }
+
+    :global(.dark) .split-menu {
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    .store-badge {
+      width: min(100%, 250px);
+      min-width: 0;
+      min-height: 84px;
+      overflow: hidden;
+    }
+
+    ms-store-badge {
+      transform: scale(0.82);
+      transform-origin: center;
+    }
+  }
+</style>

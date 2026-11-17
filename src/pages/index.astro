@@ -1,0 +1,28 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import Header from '~/components/v3/Header.astro';
+import Home from '~/components/v3/Home.astro';
+import Footer from '~/components/v3/Footer.astro';
+import { v3Copy } from '~/components/v3/copy';
+import { getSetupDownloadUrl } from '~/utils/download';
+
+import '~/assets/styles/v3-home.css';
+
+const lang = 'en' as const;
+const metadata = {
+  title: v3Copy[lang].home,
+  ignoreTitleTemplate: true,
+};
+
+const downloadUrl = await getSetupDownloadUrl();
+---
+
+<Layout metadata={metadata} language={lang}>
+  <div class="v3">
+    <Header lang={lang} downloadUrl={downloadUrl} />
+    <main>
+      <Home lang={lang} downloadUrl={downloadUrl} />
+    </main>
+    <Footer lang={lang} />
+  </div>
+</Layout>

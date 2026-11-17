@@ -1,0 +1,91 @@
+---
+import PageLayoutV3 from '~/layouts/PageLayoutV3.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import VersionCompare from '~/components/widgets/VersionCompare.astro';
+import DownloadFormats from '~/components/widgets/DownloadFormats.astro';
+import { getReleaseDownloads } from '~/utils/download';
+import { downloadFormatsContent } from '~/i18n/download-formats';
+import { downloadMenuContent } from '~/i18n/download-menu-content';
+import type { LocalizedLocale } from '~/i18n/site-content';
+import type { VersionsPageContent } from '~/i18n/versions-content';
+
+interface Props {
+  locale: LocalizedLocale;
+  content: VersionsPageContent;
+}
+
+const { locale, content } = Astro.props;
+const { urls, liteUrls } = await getReleaseDownloads();
+const formats = downloadFormatsContent[locale];
+const menu = downloadMenuContent[locale];
+
+// Icons belong to the component, not to the copy: they follow the row order.
+const formatIcons = ['tabler:download', 'tabler:file-zip', 'tabler:package', 'tabler:brand-windows'];
+
+const metadata = {
+  title: content.metaTitle,
+  description: content.metaDescription,
+};
+---
+
+<PageLayoutV3 metadata={metadata} lang={locale}>
+  <HeroText tagline={content.hero.tagline} title={content.hero.title} subtitle={content.hero.subtitle} />
+
+  <VersionCompare
+    id="compare-editions"
+    title={content.section.title}
+    subtitle={content.section.subtitle}
+    cards={[
+      {
+        title: content.cards.lite.title,
+        tagline: content.cards.lite.tagline,
+        badge: content.cards.lite.badge,
+        description: content.cards.lite.description,
+        cta: { text: content.cards.lite.cta, href: liteUrls.setup, icon: 'tabler:download' },
+        extra: {
+          label: menu.otherFormats,
+          links: [
+            { text: menu.setup, href: liteUrls.setup },
+            { text: menu.portable, href: liteUrls.portable },
+            { text: menu.msi, href: liteUrls.msi },
+          ],
+        },
+      },
+      {
+        title: content.cards.standard.title,
+        tagline: content.cards.standard.tagline,
+        badge: menu.recommended,
+        badgeTone: 'primary' as const,
+        description: content.cards.standard.description,
+        cta: { text: content.cards.standard.cta, href: urls.setup, variant: 'primary' as const, icon: 'tabler:download' },
+        extra: {
+          label: menu.otherFormats,
+          links: [
+            { text: menu.setup, href: urls.setup },
+            { text: menu.portable, href: urls.portable },
+            { text: menu.msi, href: urls.msi },
+          ],
+        },
+      },
+    ]}
+    groups={content.table.groups.map((group) => ({
+      title: group.title,
+      rows: group.rows.map((feature) => ({ feature, support: group.support })),
+    }))}
+    featureHeader={content.table.featureHeader}
+    includedLabel={content.table.includedLabel}
+    excludedLabel={content.table.excludedLabel}
+    note={content.note}
+    footnote={content.footnote}
+  />
+
+  <DownloadFormats
+    id="download-formats"
+    tagline={formats.tagline}
+    title={formats.title}
+    subtitle={formats.subtitle}
+    headers={formats.headers}
+    recommendLabel={formats.recommendLabel}
+    rows={formats.rows.map((row, index) => ({ ...row, icon: formatIcons[index], recommended: index === 0 }))}
+  />
+</PageLayoutV3>
