@@ -41,24 +41,25 @@ const { urls: downloadUrls } = await getReleaseDownloads();
 const downloadTotal = await getTotalDownloads();
 const downloadTotalText = downloadTotal === null ? null : new Intl.NumberFormat(lang).format(downloadTotal);
 
-/* Real SnipX v7.20.9 captures replace the inherited renders on the two locales
-   this round covers; the other 13 keep the images they already ship. */
-const hasRealShots = lang === 'en' || lang === 'zh-cn';
+/* Real SnipX v7.20.9 captures. Only the zh-CN UI was captured this round, so
+   only /zh-cn takes them; en and the other 13 locales keep the images they
+   already ship until an English-UI set exists. */
+const realShots = lang === 'zh-cn';
 
 const shotSources = {
-  capture: hasRealShots ? captureWideZhCn : captureWide,
+  capture: realShots ? captureWideZhCn : captureWide,
   long: longshotWide,
-  pin: hasRealShots ? annotateWideZhCn : pinWide,
+  pin: pinWide,
   record: recordingWide,
-  ai: hasRealShots ? aiWideZhCn : aiWide,
+  ai: realShots ? aiWideZhCn : aiWide,
 } as const;
 
 const featureSources = {
-  capture: hasRealShots ? captureDemoZhCn : captureDemo,
+  capture: realShots ? captureDemoZhCn : captureDemo,
   longshot: longshotDemo,
   pin: pinDemo,
   recording: recordingDemo,
-  ai: aiDemo,
+  ai: realShots ? annotateWideZhCn : aiDemo,
   modes: modesDemo,
 } as const;
 
