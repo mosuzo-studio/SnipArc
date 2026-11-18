@@ -1,7 +1,7 @@
 ---
 import type { Lang } from '~/i18n/utils';
 import { localizedPath } from '~/i18n/utils';
-import { PUBLIC_RELEASES_URL } from '~/data/snipx-distribution';
+import { PUBLIC_RELEASES_URL } from '~/data/sniparc-distribution';
 interface Props {
   lang: Lang;
 }
@@ -39,7 +39,7 @@ const formats = zh
 ---
 
 <section class="sx-page-head v3-wrap">
-  <p class="v3-eyebrow">SNIPX / WINDOWS</p>
+  <p class="v3-eyebrow">SNIPARC / WINDOWS</p>
   <h1>{zh ? '准备好，开始截图。' : 'Ready for your next capture.'}</h1>
   <p class="v3-lead">
     {
@@ -106,7 +106,10 @@ const formats = zh
     }
   </div>
   <div class="sx-download-note">
-    <h3>{zh ? '已经在使用 SnipX？' : 'Already using SnipX?'}</h3><p>
+    <a class="sx-text-link" href={localizedPath(lang, '/guide')}
+      >{zh ? '第一次使用？查看快速开始' : 'First time here? Read the quick start'} ↗</a
+    >
+    <h3>{zh ? '已经在使用 SnipArc？' : 'Already using SnipArc?'}</h3><p>
       {
         zh
           ? '先查看当前软件版本，再阅读发行说明。升级前妥善保存进行中的截图、编辑或录制。'

@@ -37,8 +37,8 @@ const {
     </div>
     {
       image && (
-        <!-- Kept in flow: `cover` fills the column but crops the artwork, and the column height follows the text. -->
         <div class="md:basis-1/2 md:self-center">
+          {/* Kept in flow: `cover` fills the column but crops the artwork, and the column height follows the text. */}
           {typeof image === 'string' ? (
             <Fragment set:html={image} />
           ) : (

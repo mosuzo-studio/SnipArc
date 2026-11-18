@@ -1,6 +1,6 @@
 site:
-  name: SnipX
-  site: 'https://snipx.mosuzo.com'
+  name: SnipArc
+  site: 'https://sniparc.mosuzo.com'
   base: '/'
   trailingSlash: ignore
 
@@ -9,22 +9,20 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: SnipX — Fast, local-first screenshots and annotation for Windows
-    template: '%s — SnipX'
-  description: 'SnipX is a native Windows capture tool for region screenshots, annotation, clipboard workflow, global hotkeys, and on-device AI for OCR, cutout, and object erase.'
+    default: SnipArc — Fast, local-first screenshots and annotation for Windows
+    template: '%s — SnipArc'
+  description: 'SnipArc is a native Windows capture tool for region screenshots, annotation, clipboard workflow, global hotkeys, and on-device AI for OCR, cutout, and object erase.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: SnipX
+    site_name: SnipArc
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@snipx'
-    site: '@snipx'
     cardType: summary_large_image
 
 i18n:

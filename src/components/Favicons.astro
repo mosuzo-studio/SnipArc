@@ -2,9 +2,11 @@
 import favIcon from '~/assets/favicons/favicon.ico';
 import favIconSvg from '~/assets/favicons/favicon.svg';
 import appleTouchIcon from '~/assets/favicons/apple-touch-icon.png';
+import { getImage } from 'astro:assets';
+const touchIcon = await getImage({ src: appleTouchIcon, width: 180, height: 180, format: 'png' });
 ---
 
 <link rel="shortcut icon" href={favIcon} />
 <link rel="icon" type="image/svg+xml" href={favIconSvg.src} />
-<link rel="mask-icon" href={favIconSvg.src} color="#42B950" />
-<link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon.src} />
+<link rel="mask-icon" href={favIconSvg.src} color="#FF7B22" />
+<link rel="apple-touch-icon" sizes="180x180" href={touchIcon.src} />

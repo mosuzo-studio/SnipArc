@@ -73,7 +73,14 @@ export function localizedPath(lang: Lang, path = '/'): string {
 }
 
 /** Routes only EN and zh-CN publish; every other locale links to the English one. */
-const ENGLISH_ONLY_PATHS = new Set(['/privacy', '/terms', '/download']);
+const ENGLISH_ONLY_PATHS = new Set([
+  '/privacy',
+  '/terms',
+  '/download',
+  '/guide',
+  '/guide/shortcuts',
+  '/guide/troubleshooting',
+]);
 
 /**
  * Locale-aware path for a page, honouring the split routes: the legal pages

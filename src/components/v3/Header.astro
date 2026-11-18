@@ -53,9 +53,9 @@ const localeEntries = Object.entries(languages) as [Lang, string][];
 
 <header class="v3-header">
   <div class="v3-wrap v3-nav">
-    <a class="v3-logo" href={l('/')} aria-label="SnipX">
+    <a class="v3-logo" href={l('/')} aria-label="SnipArc">
       <img src={appMark.src} width="26" height="26" alt="" />
-      SnipX
+      SnipArc
     </a>
 
     {
@@ -106,7 +106,7 @@ const localeEntries = Object.entries(languages) as [Lang, string][];
         !refreshed && (
           <a
             class="v3-ghost-icon"
-            href="https://github.com/mosuzo-studio/SnipX"
+            href="https://github.com/mosuzo-studio/SnipArc"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -117,7 +117,18 @@ const localeEntries = Object.entries(languages) as [Lang, string][];
           </a>
         )
       }
-      <a class="v3-pill-dark" href={refreshed ? l('/download') : downloadUrl}>{downloadLabel}</a>
+      <a class="v3-pill-dark" href={refreshed ? l('/download') : downloadUrl}>
+        {
+          refreshed ? (
+            <>
+              <span class="v3-cta-full">{downloadLabel}</span>
+              <span class="v3-cta-short">{lang === 'zh-cn' ? '下载' : 'Download'}</span>
+            </>
+          ) : (
+            downloadLabel
+          )
+        }
+      </a>
 
       <button
         class="v3-burger"

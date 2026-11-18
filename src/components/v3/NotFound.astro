@@ -1,0 +1,25 @@
+---
+import { localizedPath, type Lang } from '~/i18n/utils';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const zh = lang === 'zh-cn';
+---
+
+<section class="v3-wrap sx-not-found">
+  <p class="v3-eyebrow">404 / SNIPARC</p><h1>{zh ? '这个页面暂时找不到。' : 'This page could not be found.'}</h1><p
+    class="v3-lead"
+  >
+    {
+      zh
+        ? '链接可能已经变更。你可以从下面的入口继续。'
+        : 'The link may have changed. Choose a destination below to keep going.'
+    }
+  </p><div class="sx-not-found-links">
+    <a class="v3-btn v3-btn-main" href={localizedPath(lang, '/')}>{zh ? '返回首页' : 'Back to home'}</a><a
+      class="sx-text-link"
+      href={localizedPath(lang, '/download')}>{zh ? '下载' : 'Download'} ↗</a
+    ><a class="sx-text-link" href={localizedPath(lang, '/faq')}>{zh ? '使用帮助' : 'Help center'} ↗</a>
+  </div>
+</section>

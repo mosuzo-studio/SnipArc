@@ -25,12 +25,12 @@ export function getHomeCopy(lang: string): V3Copy {
         {
           key: 'capture',
           label: zh ? '截图与标注' : 'Capture',
-          caption: zh ? '真实 SnipX 界面 · 选区与标注工具栏' : 'Actual SnipX capture interface · Chinese UI shown',
+          caption: zh ? '真实 SnipArc 界面 · 选区与标注工具栏' : 'Actual SnipArc capture interface · Chinese UI shown',
         },
         {
           key: 'ai',
           label: zh ? '文字提取' : 'Extract text',
-          caption: zh ? '真实 SnipX 界面 · 识别图片中的文字' : 'Actual SnipX text extraction · Chinese UI shown',
+          caption: zh ? '真实 SnipArc 界面 · 识别图片中的文字' : 'Actual SnipArc text extraction · Chinese UI shown',
         },
       ],
     },
@@ -162,7 +162,7 @@ export function getHomeCopy(lang: string): V3Copy {
         ],
     cta: {
       ...base.cta,
-      eyebrow: zh ? '开始使用 SnipX' : 'YOUR NEXT SCREENSHOT',
+      eyebrow: zh ? '开始使用 SnipArc' : 'YOUR NEXT SCREENSHOT',
       title: zh ? '让下一张截图，更有用。' : 'Make your next screenshot count.',
       lead: zh ? '选择适合你的 Windows 版本，开始截图。' : 'Choose the Windows edition that fits your workflow.',
       primary: zh ? '下载 Windows 版' : 'Download for Windows',

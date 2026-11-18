@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX 标志" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipArc 标志" />
 </p>
 
-<h1 align="center">SnipX</h1>
+<h1 align="center">SnipArc</h1>
 
 <p align="center">
   <strong>精准截图，清晰表达，让工作持续向前。</strong><br/>
@@ -15,14 +15,12 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="访问 SnipX 官网" /></a>
-  <a href="https://snipx.mosuzo.com/zh-cn/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-4c72b0?style=for-the-badge" height="40" alt="查看常见问题" /></a>
-  <a href="https://snipx.mosuzo.com/zh-cn/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-3F7C73?style=for-the-badge" height="40" alt="查看 SnipX 更新日志" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E7%BD%91-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="访问 SnipArc 官网" /></a>
+  <a href="https://sniparc.mosuzo.com/zh-cn/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-4c72b0?style=for-the-badge" height="40" alt="查看常见问题" /></a>
+  <a href="https://sniparc.mosuzo.com/zh-cn/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-3F7C73?style=for-the-badge" height="40" alt="查看 SnipArc 更新日志" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="最新版本" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F&color=dd8452" alt="累计下载量" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="支持 15 种界面语言" />
 </p>
@@ -48,12 +46,11 @@
 <br/>
 
 <p align="center">
-  <strong>下载 SnipX</strong> · Windows 10 / 11（64 位）
+  <strong>下载 SnipArc</strong> · Windows 10 / 11（64 位）
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-%E8%8E%B7%E5%8F%96_SnipX-0067b8?style=for-the-badge" height="40" alt="从 Microsoft Store 获取 SnipX" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BD%BD%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="从 GitHub Releases 下载更多版本" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BD%BD%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="从 GitHub Releases 下载更多版本" /></a>
 </p>
 
 <details open>
@@ -61,22 +58,22 @@
 
 | 主要功能 | 了解更多 | 开始使用 |
 | --- | --- | --- |
-| [核心能力](#核心能力)：截图 · 长截图 · 贴图 · 录屏 & GIF · 离线 OCR · AI 抠图与擦图<br/>[更多能力](#更多能力)：标注与脱敏 · Emoji 贴纸 · 演示模式 · 深色模式 · 多显示器 | [为截图之后的工作而生](#为截图之后的工作而生)<br/>[常见问题](#常见问题)<br/>[Windows 工作流](#专注的-windows-工作流)<br/>[隐私与掌控感](#隐私与掌控感)<br/>[支持语言](#支持语言) | [下载与版本](#下载与版本)<br/>[支持与反馈](#支持与反馈)<br/>[在 Ko-fi 上支持 SnipX](#在-ko-fi-上支持-snipx) |
+| [核心能力](#核心能力)：截图 · 长截图 · 贴图 · 录屏 & GIF · 离线 OCR · AI 抠图与擦图<br/>[更多能力](#更多能力)：标注与脱敏 · Emoji 贴纸 · 演示模式 · 深色模式 · 多显示器 | [为截图之后的工作而生](#为截图之后的工作而生)<br/>[常见问题](#常见问题)<br/>[Windows 工作流](#专注的-windows-工作流)<br/>[隐私与掌控感](#隐私与掌控感)<br/>[支持语言](#支持语言) | [下载与版本](#下载与版本)<br/>[支持与反馈](#支持与反馈)<br/>[在 Ko-fi 上支持 SnipArc](#在-ko-fi-上支持-sniparc) |
 
 </details>
 
 > **三步上手：** ① 下载安装 → ② 按 `F1` 框选区域 → ③ 标注、复制，或按 `F3` 钉在桌面上。
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="SnipX 产品概览" />
-  <p align="center"><strong>SnipX 一览。</strong> 从截图、长图到贴图、录屏、提字与 AI 处理，一个窗口全都有。</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipArc 产品概览" />
+  <p align="center"><strong>SnipArc 一览。</strong> 从截图、长图到贴图、录屏、提字与 AI 处理，一个窗口全都有。</p>
 </figure>
 
 <br/>
 
 ## 为截图之后的工作而生
 
-麻烦的往往不是「截」，而是截完之后：标注、打码、拼长图、提文字、放参考。SnipX 把这些收进一条流畅的流程——截完就能用。
+麻烦的往往不是「截」，而是截完之后：标注、打码、拼长图、提文字、放参考。SnipArc 把这些收进一条流畅的流程——截完就能用。
 
 - **截完不用二次加工：** 标注、打码、放大，都在同一个工具栏
 - **长内容一张装下：** 长网页、长聊天、整份文档，自动拼成一张
@@ -98,7 +95,7 @@
 <sub>**详解：** 悬停即吸附窗口与界面控件边界，支持像素级微调、常用预设与延时截图。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX 智能截图与标注工作区" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipArc 智能截图与标注工作区" />
   <p align="center"><strong>智能截图。</strong> 选好窗口或控件，直接在工具栏里完成标注。</p>
 </figure>
 
@@ -107,7 +104,7 @@
 > **优雅简洁**：截完即复制，右下角通知点开进编辑器。**所见即所得**：工具栏随选区出现，画完再复制。可在「设置 → 截图」切换。
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX 两种完成模式：优雅简洁与所见即所得" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipArc 两种完成模式：优雅简洁与所见即所得" />
   <p align="center"><strong>两种完成模式。</strong> 左：优雅简洁；右：所见即所得。</p>
 </figure>
 
@@ -122,7 +119,7 @@
 <sub>**详解：** 适合长网页、长聊天记录与整份文档；成品可直接进文档与 Issue。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX 长截图" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipArc 长截图" />
   <p align="center"><strong>长截图。</strong> 长网页、长聊天与整份文档，一张到底。</p>
 </figure>
 
@@ -136,7 +133,7 @@
 <sub>**详解：** 拖拽边缘或四角即可缩放并锁定宽高比；贴图始终置顶，不打断手上的操作。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="SnipX 贴图" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipArc 贴图" />
   <p align="center"><strong>贴图。</strong> 参考钉在屏幕最上层，边看边做。</p>
 </figure>
 
@@ -150,7 +147,7 @@
 <sub>**详解：** GIF 体积小巧，适合贴进文档、Issue 与聊天窗口；高分辨率屏也够用。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="SnipX 录屏与 GIF" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipArc 录屏与 GIF" />
   <p align="center"><strong>录屏 & GIF。</strong> 操作一遍，比说十遍更快。</p>
 </figure>
 
@@ -163,7 +160,7 @@
 <sub>**详解：** 识别在本机完成，结果可一键复制或打开。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX 离线 OCR 与图片翻译" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipArc 离线 OCR 与图片翻译" />
   <p align="center"><strong>离线 OCR 与图片翻译。</strong> 截完就地提字，外文一眼看懂。</p>
 </figure>
 
@@ -175,7 +172,7 @@
 <sub>**详解：** 本地模型处理，不上传原图；抠图结果可直接复制或另存为透明 PNG。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX AI 抠图" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipArc AI 抠图" />
   <p align="center"><strong>AI 抠图。</strong> 透明底图，一步到手。</p>
 </figure>
 
@@ -190,7 +187,7 @@
 <sub>**详解：** 标注可移动、缩放、旋转并调整样式，支持撤销与重做。</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX 标注与脱敏工具" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipArc 标注与脱敏工具" />
   <p align="center"><strong>标注与脱敏。</strong> 说明操作更清楚，敏感内容更安全。</p>
 </figure>
 
@@ -199,7 +196,7 @@
 几百种表情随手贴，可缩放、任意摆放。
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX Emoji 表情贴纸" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipArc Emoji 表情贴纸" />
   <p align="center"><strong>Emoji 贴纸。</strong> 给截图加点乐子，重点也更醒目。</p>
 </figure>
 
@@ -208,7 +205,7 @@
 按 `Pause` 收起杂乱窗口、隐藏桌面图标；结束后原样恢复。
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX 演示模式" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipArc 演示模式" />
   <p align="center"><strong>演示模式。</strong> 会议与录屏前，一键清场。</p>
 </figure>
 
@@ -232,7 +229,7 @@
 **长截图怎么用？**
 切到长截图，滚动页面，自动拼成一张长图。
 
-更多问题见[常见问题（官网）](https://snipx.mosuzo.com/zh-cn/faq)。
+更多问题见[常见问题（官网）](https://sniparc.mosuzo.com/zh-cn/faq)。
 
 <br/>
 
@@ -246,13 +243,13 @@
 
 ## 隐私与掌控感
 
-截图保存在本地；离线 OCR 与 AI 处理在设备上运行，处理时不上传截图。详情见[隐私政策](https://snipx.mosuzo.com/zh-cn/privacy)。
+截图保存在本地；离线 OCR 与 AI 处理在设备上运行，处理时不上传截图。详情见[隐私政策](https://sniparc.mosuzo.com/zh-cn/privacy)。
 
 <br/>
 
 ## 支持语言
 
-SnipX 支持 **15 种界面语言**：
+SnipArc 支持 **15 种界面语言**：
 
 <p>
   <kbd>英语</kbd>
@@ -276,24 +273,21 @@ SnipX 支持 **15 种界面语言**：
 
 ## 关键词
 
-SnipX；SnipX AI；Mosuzo Studio；截图工具；长截图；滚动截图；截图标注；桌面贴图；录屏；GIF 录制；AI 抠图；AI 擦图；离线 OCR；图片翻译
+SnipArc；SnipArc AI；Mosuzo Studio；截图工具；长截图；滚动截图；截图标注；桌面贴图；录屏；GIF 录制；AI 抠图；AI 擦图；离线 OCR；图片翻译
 
 <br/>
 
 ## 下载与版本
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="从 Microsoft Store 获取 SnipX" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.zh-CN.svg" height="44" alt="从 GitHub Releases 下载更多版本" />
   </a>
 </p>
 
 > **系统要求：** Windows 10 / 11（64 位）。
 >
-> **版本说明：** 基础版与标准版的功能差异见[版本对比](https://snipx.mosuzo.com/zh-cn/versions)，以实际发布版本为准。
+> **版本说明：** 基础版与标准版的功能差异见[版本对比](https://sniparc.mosuzo.com/zh-cn/versions)，以实际发布版本为准。
 
 <br/>
 
@@ -302,14 +296,14 @@ SnipX；SnipX AI；Mosuzo Studio；截图工具；长截图；滚动截图；截
 有问题或想法，欢迎告诉我们。
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.zh-CN.svg" height="40" alt="访问 SnipX 官方网站" />
+  <a href="https://sniparc.mosuzo.com">
+    <img src="src/assets/images/readme/official-website-badge.zh-CN.svg" height="40" alt="访问 SnipArc 官方网站" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/%E5%BB%BA%E8%AE%AE%E4%B8%8E%E5%8F%8D%E9%A6%88%20%26%20Bug-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="提出建议、反馈问题或报告 Bug" />
   </a>
-  <a href="https://snipx.mosuzo.com/zh-cn/changelog">
-    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="查看 SnipX 更新日志" />
+  <a href="https://sniparc.mosuzo.com/zh-cn/changelog">
+    <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="查看 SnipArc 更新日志" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E9%82%AE%E7%AE%B1-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="发送邮件至 Mosuzo Studio" />
@@ -318,31 +312,31 @@ SnipX；SnipX AI；Mosuzo Studio；截图工具；长截图；滚动截图；截
 
 <br/>
 
-## 在 Ko-fi 上支持 SnipX
+## 在 Ko-fi 上支持 SnipArc
 
 觉得好用的话，欢迎在 Ko-fi 支持我们；产品进展也会在那里更新。
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="在 Ko-fi 上支持 SnipX" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="在 Ko-fi 上支持 SnipArc" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio 标志" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 保留所有权利<br/>
-  SnipX 专为 Windows 打造，让截图、视觉表达与桌面参考更加高效。
+  SnipArc 专为 Windows 打造，让截图、视觉表达与桌面参考更加高效。
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">官网</a> ·
-  <a href="https://snipx.mosuzo.com/zh-cn/versions">版本对比</a> ·
-  <a href="https://snipx.mosuzo.com/zh-cn/changelog">更新日志</a> ·
-  <a href="https://snipx.mosuzo.com/zh-cn/faq">常见问题</a> ·
-  <a href="https://snipx.mosuzo.com/zh-cn/privacy">隐私政策</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">反馈与建议</a>
+  <a href="https://sniparc.mosuzo.com">官网</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-cn/versions">版本对比</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-cn/changelog">更新日志</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-cn/faq">常见问题</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-cn/privacy">隐私政策</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">反馈与建议</a>
 </p>

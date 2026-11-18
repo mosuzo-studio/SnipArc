@@ -7,7 +7,7 @@ export interface LocaleDefinition {
 }
 
 /**
- * Registry for every interface language supported by SnipX.
+ * Registry for every interface language supported by SnipArc.
  *
  * Published locales are enabled in Astro and shown in the language switcher.
  * Keeping route codes here provides one source of truth for URLs, labels,

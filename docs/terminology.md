@@ -1,12 +1,16 @@
-# SnipX 术语与卖点口径
+# SnipArc 术语与卖点口径
 
 ## 当前中英文页面补充口径（2026-11-17）
 
-本节对当前 SnipX 中英文网站优先适用。下文继承资料中涉及旧 ShotxAI 路径、Lite/Standard 差异、价格、安装包大小与系统最低版本的内容，不可直接当作已确认事实发布。
+帮助导航采用：帮助中心 / Help center、快速开始 / Quick start、快捷键速查 / Keyboard shortcuts、问题排查 / Troubleshooting。它们是网站内容分类，不新增软件能力。默认 F1、F3 依据 `src/core/AppSettings.cpp`；保存、复制和退出操作的上下文依据 `src/capture/OverlayController.cpp`，不能套用其他截图软件的键位。
+
+本节对当前 SnipArc 中英文网站优先适用。下文继承资料中涉及旧 ShotxAI 路径、Lite/Standard 差异、价格、安装包大小与系统最低版本的内容，不可直接当作已确认事实发布。
+
+品牌迁移（2026-11-18）：官网品牌名为 SnipArc，正式域名为 https://sniparc.mosuzo.com；历史文案中的 SnipX 是更名前的产品名。真实安装包、可执行文件名（如 SnipX.exe）、历史版本记录和现有实机截图仍按实际素材保留，登记新词或替换素材前不得据新名字猜测文件名。
 
 - 当前源码参考：`D:\project\research\SnipX`；网站现有实机素材来自 `dist\SnipX_v7.20.9_2026-11-16_1609_win64\SnipX.exe`。
 - v7.20.9 表示截图对应的软件版本，不自动等于最新正式发行版本；v7.20.8 更新条目保留为历史记录，不标为 Current。
-- 产品名称 SnipX；Windows 截图与标注工具 / screenshot and annotation tool for Windows；Qt 原生实现。
+- 产品名称 SnipArc（原 SnipX）；Windows 截图与标注工具 / screenshot and annotation tool for Windows；Qt 原生实现。
 - 下载 Windows 版 / Download for Windows 导向下载选择页；前往 GitHub 下载页 / View downloads on GitHub 表示打开发行列表，不能冒充已核实的直接安装包下载。
 - 安装版与便携版是分发方式，不据此推断授权与功能差异。不展示未经核实的 Lite/Standard 比较、免费期限、安装包大小或未来平台路线图。
 - 文字提取 / Extract text 是下文离线 OCR 的用户操作表达，不新增独立软件能力。其他功能名沿用下文约定。

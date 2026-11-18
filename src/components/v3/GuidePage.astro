@@ -1,0 +1,202 @@
+---
+import type { Lang } from '~/i18n/utils';
+import { localizedPath } from '~/i18n/utils';
+import { getImage } from 'astro:assets';
+import capture from '~/assets/images/real/annotate-full.zh-cn.png';
+import { getGuideContent, type GuideKind } from './guide-content';
+interface Props {
+  lang: Lang;
+  kind: GuideKind;
+}
+const { lang, kind } = Astro.props;
+const zh = lang === 'zh-cn';
+const c = getGuideContent(lang);
+const current = c.nav.find((item) => item.key === kind)!;
+const shot = kind === 'start' ? await getImage({ src: capture, width: 1400, format: 'webp' }) : null;
+---
+
+<div class="v3-wrap sx-guide-shell">
+  <nav class="sx-guide-sidebar" aria-label={zh ? '使用指南' : 'Usage guides'}>
+    <a class="sx-back-link" href={localizedPath(lang, '/faq')}>← {zh ? '帮助中心' : 'Help center'}</a>{
+      c.nav.map((item) => (
+        <a href={localizedPath(lang, item.path)} aria-current={item.key === kind ? 'page' : undefined}>
+          {item.title}
+        </a>
+      ))
+    }
+  </nav>
+  <article class="sx-guide-article">
+    <p class="v3-eyebrow">SNIPARC / {zh ? '使用指南' : 'GUIDES'}</p><h1>
+      {kind === 'start' ? c.title : current.title}
+    </h1><p class="v3-lead">{kind === 'start' ? c.lead : current.note}</p>
+    {
+      kind === 'start' && (
+        <>
+          <ol class="sx-guide-steps">
+            {c.steps.map((step, i) => (
+              <li>
+                <span aria-hidden="true">0{i + 1}</span>
+                <div>
+                  <h2>{step.title}</h2>
+                  <p>{step.text}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+          {shot && (
+            <figure class="sx-guide-figure">
+              <a href={shot.src} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={shot.src}
+                  width={shot.attributes.width}
+                  height={shot.attributes.height}
+                  alt={
+                    zh
+                      ? 'SnipArc 选区、矩形、箭头与工具栏实机截图'
+                      : 'Actual SnipArc selection, rectangle, arrow, and toolbar, Chinese UI'
+                  }
+                  loading="lazy"
+                />
+              </a>
+              <figcaption>
+                {zh
+                  ? 'SnipArc v7.20.9 中文界面实机截图 · 点击可在新标签页查看。'
+                  : 'Actual SnipArc v7.20.9, Chinese UI · Open the image in a new tab.'}
+              </figcaption>
+            </figure>
+          )}
+        </>
+      )
+    }
+    {
+      kind === 'shortcuts' && (
+        <>
+          <p class="sx-guide-notice">
+            {zh
+              ? '下表列出默认值。自定义全局快捷键以软件设置为准，复制和 Esc 的行为取决于当前工具状态。'
+              : 'These are defaults. Custom global bindings are shown in app settings. Copy and Escape depend on the active tool.'}
+          </p>
+          <div class="sx-shortcut-controls">
+            <>
+              <label for="sx-shortcut-search">
+                {zh ? '搜索操作或按键' : 'Find an action or key'}
+                <input
+                  id="sx-shortcut-search"
+                  type="search"
+                  placeholder={zh ? '例如：保存、F3、Ctrl' : 'For example: save, F3, Ctrl'}
+                  aria-controls="sx-shortcut-rows"
+                />
+              </label>
+              <button type="button" data-guide-print>
+                {zh ? '打印速查表' : 'Print shortcuts'}
+              </button>
+            </>
+          </div>
+          <p class="sx-search-count" data-guide-count aria-live="polite">
+            {zh ? '共 6 项快捷键' : '6 shortcuts'}
+          </p>
+          <div class="sx-shortcut-table">
+            <table>
+              <>
+                <caption class="sr-only">{zh ? 'SnipArc 默认快捷键' : 'Default SnipArc keyboard shortcuts'}</caption>
+                <thead>
+                  <tr>
+                    <>
+                      <th scope="col">{zh ? '操作与范围' : 'Action and context'}</th>
+                      <th scope="col">{zh ? '按键' : 'Keys'}</th>
+                    </>
+                  </tr>
+                </thead>
+                <tbody id="sx-shortcut-rows">
+                  {c.shortcuts.map((row) => (
+                    <tr data-shortcut-row>
+                      <td>
+                        <span class="sx-shortcut-group">{row.group}</span>
+                        <strong>{row.action}</strong>
+                        <p>{row.note}</p>
+                      </td>
+                      <td>
+                        {row.keys.map((key) => (
+                          <kbd>{key}</kbd>
+                        ))}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </>
+            </table>
+          </div>
+          <p data-guide-empty hidden>
+            {zh
+              ? '没有匹配项。请换个关键词，或清空搜索。'
+              : 'No matching shortcuts. Try another word or clear your search.'}
+          </p>
+        </>
+      )
+    }
+    {
+      kind === 'troubleshooting' && (
+        <>
+          <>
+            <p class="sx-guide-notice">
+              {zh
+                ? '以下是排查顺序，不保证适用于所有环境。先保存工作，保留错误信息，再尝试对应检查。'
+                : 'These checks are a starting point, rather than a guaranteed fix. Save your work and keep any error message before trying them.'}
+            </p>
+            <div class="sx-problem-list">
+              {c.problems.map((problem) => (
+                <section id={problem.id}>
+                  <h2>{problem.title}</h2>
+                  <ol>
+                    {problem.checks.map((check) => (
+                      <li>{check}</li>
+                    ))}
+                  </ol>
+                </section>
+              ))}
+            </div>
+          </>
+        </>
+      )
+    }
+    <div class="sx-guide-next">
+      <h2>{zh ? '接下来' : 'Next steps'}</h2>{
+        c.nav
+          .filter((item) => item.key !== kind)
+          .map((item) => (
+            <a class="sx-text-link" href={localizedPath(lang, item.path)}>
+              {item.title} ↗
+            </a>
+          ))
+      }<a class="sx-text-link" href={localizedPath(lang, '/contact')}>{zh ? '联系与反馈' : 'Contact and feedback'} ↗</a>
+    </div>
+  </article>
+</div>
+<script>
+  function initGuideTools() {
+    const search = document.getElementById('sx-shortcut-search') as HTMLInputElement | null;
+    if (!search || search.dataset.wired) return;
+    search.dataset.wired = 'true';
+    const rows = Array.from(document.querySelectorAll<HTMLElement>('[data-shortcut-row]'));
+    const count = document.querySelector('[data-guide-count]');
+    const empty = document.querySelector<HTMLElement>('[data-guide-empty]');
+    const filter = () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      let visible = 0;
+      for (const row of rows) {
+        const match = (row.textContent ?? '').toLocaleLowerCase().includes(query);
+        row.hidden = !match;
+        if (match) visible++;
+      }
+      if (count)
+        count.textContent =
+          document.documentElement.lang === 'zh-cn' ? `找到 ${visible} 项快捷键` : `${visible} shortcuts found`;
+      if (empty) empty.hidden = visible !== 0;
+    };
+    search.addEventListener('input', filter);
+    filter();
+    document.querySelector('[data-guide-print]')?.addEventListener('click', () => window.print());
+  }
+  initGuideTools();
+  document.addEventListener('astro:page-load', initGuideTools);
+</script>

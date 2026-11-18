@@ -1,4 +1,3 @@
-import { getAsset } from './utils/permalinks';
 import { localizedPath, useTranslations, type Lang } from './i18n/utils';
 import { getSetupDownloadUrl } from './utils/download';
 
@@ -66,10 +65,10 @@ export const getFooterData = async (lang: Lang) => {
     // Brand accounts (X / Bilibili / WeChat) join this list once they are live;
     // the site does not ship links that go nowhere.
     socialLinks: [
-      { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mosuzo-studio/SnipX' },
+      { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/mosuzo-studio/SnipArc' },
     ],
     footNote: `
-      <span class="font-semibold">SnipX</span> · ${t('footer.tagline')}
+      <span class="font-semibold">SnipArc</span> · ${t('footer.tagline')}
     `,
   };
 };

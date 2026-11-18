@@ -38,7 +38,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-  site: 'https://snipx.mosuzo.com',
+  site: 'https://sniparc.mosuzo.com',
   base: '/',
   redirects,
 

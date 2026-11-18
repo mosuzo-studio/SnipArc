@@ -128,7 +128,7 @@ export interface V3Copy {
 
 export const v3Copy: Record<V3Lang, V3Copy> = {
   en: {
-    home: 'SnipX — Fast, local-first screenshots and annotation for Windows',
+    home: 'SnipArc — Fast, local-first screenshots and annotation for Windows',
     nav: {
       features: 'Features',
       versions: 'Versions',
@@ -169,7 +169,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
         [{ text: 'Screenshots, screen recording, ' }, { text: 'AI magic', hl: true }],
         [{ text: 'all from a single shortcut' }],
       ],
-      sub: 'SnipX is a desktop capture tool built for people who screenshot all day: annotate, scroll-capture long pages, record to GIF, cut out subjects with AI, run offline OCR, translate images, and pin references — without leaving your flow.',
+      sub: 'SnipArc is a desktop capture tool built for people who screenshot all day: annotate, scroll-capture long pages, record to GIF, cut out subjects with AI, run offline OCR, translate images, and pin references — without leaving your flow.',
       primary: 'Download free',
       secondary: 'See how it works',
       metaStrong: 'Windows 10/11+',
@@ -181,7 +181,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
     download: {
       more: 'More download options',
       menu: 'Download options',
-      edition: 'SnipX Standard',
+      edition: 'SnipArc Standard',
       setup: 'Installer (.exe)',
       portable: 'Portable (.7z)',
       msi: 'MSI installer',
@@ -240,7 +240,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
         title: 'Grab it in one press, frame it exactly',
         lead: 'Trigger it with a shortcut, then capture, annotate and copy in one uninterrupted motion.',
         rows: [
-          'Hover, and SnipX locks onto the window or element underneath',
+          'Hover, and SnipArc locks onto the window or element underneath',
           'Arrows, boxes, text, step numbers, emoji, magnifier — annotate the moment you capture',
           'Two ways to finish: copy straight to the clipboard, or annotate right away (Elegant / Live annotate)',
         ],
@@ -347,7 +347,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
       faqLink: 'Read the FAQ',
       soon: 'Coming soon',
       mail: {
-        subject: 'SnipX feedback — ',
+        subject: 'SnipArc feedback — ',
         body: [
           'Hi,',
           '',
@@ -356,7 +356,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
           '',
           'If you can, these details help us get there faster:',
           '',
-          '\u00b7 SnipX edition (Lite / Standard):',
+          '\u00b7 SnipArc edition (Lite / Standard):',
           '\u00b7 Windows version:',
           '\u00b7 Steps to reproduce:',
           '',
@@ -382,16 +382,16 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
             {
               key: 'github',
               name: 'GitHub',
-              handle: 'mosuzo-studio/SnipX',
-              note: 'Bug reports, feature requests, older releases.',
+              handle: 'mosuzo-studio/SnipArc',
+              note: 'Bug reports and feature requests.',
               icon: 'tabler:brand-github',
-              href: 'https://github.com/mosuzo-studio/SnipX',
+              href: 'https://github.com/mosuzo-studio/SnipArc',
               tint: '#24292f',
             },
             {
               key: 'discord',
               name: 'Discord',
-              note: 'Chat with other SnipX users.',
+              note: 'Chat with other SnipArc users.',
               icon: 'tabler:brand-discord',
               tint: '#5865f2',
             },
@@ -462,7 +462,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
   },
 
   'zh-cn': {
-    home: 'SnipX — 快速、本地优先的 Windows 截图与标注工具',
+    home: 'SnipArc — 快速、本地优先的 Windows 截图与标注工具',
     nav: {
       features: '功能',
       versions: '版本对比',
@@ -496,7 +496,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
     download: {
       more: '更多下载选项',
       menu: '下载选项',
-      edition: 'SnipX 标准版',
+      edition: 'SnipArc 标准版',
       setup: '安装版（.exe）',
       portable: '免安装版（.7z）',
       msi: 'MSI 安装包',
@@ -650,7 +650,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
       faqLink: '看看常见问题',
       soon: '即将开放',
       mail: {
-        subject: 'SnipX 反馈 — ',
+        subject: 'SnipArc 反馈 — ',
         body: [
           '你好，',
           '',
@@ -659,7 +659,7 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
           '',
           '如果方便，补充下面这些信息会帮我们更快定位：',
           '',
-          '· SnipX 版本（Lite 版 / 标准版）：',
+          '· SnipArc 版本（Lite 版 / 标准版）：',
           '· Windows 版本：',
           '· 复现步骤：',
           '',
@@ -685,10 +685,10 @@ export const v3Copy: Record<V3Lang, V3Copy> = {
             {
               key: 'github',
               name: 'GitHub',
-              handle: 'mosuzo-studio/SnipX',
-              note: '提交问题、功能建议、历史版本。',
+              handle: 'mosuzo-studio/SnipArc',
+              note: '提交问题与功能建议。',
               icon: 'tabler:brand-github',
-              href: 'https://github.com/mosuzo-studio/SnipX',
+              href: 'https://github.com/mosuzo-studio/SnipArc',
               tint: '#24292f',
             },
             {

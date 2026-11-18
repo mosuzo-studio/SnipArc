@@ -7,7 +7,7 @@ _Last updated_: August 2, 2026
 
 ## Our Commitment to Privacy
 
-At Mosuzo Studio, we understand that screenshots and recordings often contain your most sensitive information. **Privacy is not an add-on feature — it is a core design principle of SnipX.** This Privacy Policy explains, in the clearest terms possible, how we handle (or more accurately, don't handle) your data.
+At Mosuzo Studio, we understand that screenshots and recordings often contain your most sensitive information. **Privacy is not an add-on feature — it is a core design principle of SnipArc.** This Privacy Policy explains, in the clearest terms possible, how we handle (or more accurately, don't handle) your data.
 
 ---
 
@@ -15,7 +15,7 @@ At Mosuzo Studio, we understand that screenshots and recordings often contain yo
 
 ### Screenshots & Recordings — Always Local
 
-All screenshots, recordings, annotations, and pinned images you create with SnipX are **stored entirely on your device**. We do not, and cannot, access this content. No cloud uploads, no background sync, no remote storage of any kind. Your content is 100% yours.
+All screenshots, recordings, annotations, and pinned images you create with SnipArc are **stored entirely on your device**. We do not, and cannot, access this content. No cloud uploads, no background sync, no remote storage of any kind. Your content is 100% yours.
 
 ### AI Features — Fully Offline & Local
 
@@ -33,7 +33,7 @@ This means even if you're working with confidential contracts, personal IDs, med
 
 ## The Limited Data We Collect
 
-To make SnipX better, we collect **a minimal amount of anonymous usage data**, including:
+To make SnipArc better, we collect **a minimal amount of anonymous usage data**, including:
 
 - **Feature usage statistics** (e.g., how often a feature is used) — helps us understand what to improve first
 - **Error and crash logs** — helps us find and fix bugs
@@ -55,7 +55,7 @@ To make SnipX better, we collect **a minimal amount of anonymous usage data**, i
 
 ## Third-Party Services
 
-SnipX's local AI features run entirely on-device. The following external services are used:
+SnipArc's local AI features run entirely on-device. The following external services are used:
 
 - **Auto-updates**: Version checks are served through GitHub
 
@@ -63,11 +63,11 @@ We only work with reputable service providers and ensure their privacy protectio
 
 ## Data Security
 
-We take reasonable technical and administrative measures to protect the limited anonymous data collected through SnipX, preventing unauthorized access, use, or disclosure.
+We take reasonable technical and administrative measures to protect the limited anonymous data collected through SnipArc, preventing unauthorized access, use, or disclosure.
 
 ## Children's Privacy
 
-SnipX is not directed at children under the age of 13. We do not knowingly collect personal information from children.
+SnipArc is not directed at children under the age of 13. We do not knowingly collect personal information from children.
 
 ## Changes to This Privacy Policy
 
@@ -80,7 +80,7 @@ We may update this Privacy Policy from time to time. Updated versions will be po
 If you have any questions, concerns, or suggestions about this Privacy Policy, we'd love to hear from you:
 
 - **Email**: mosuzo.studio@gmail.com
-- **Website**: [https://snipx.mosuzo.com](https://snipx.mosuzo.com)
+- **Website**: [https://sniparc.mosuzo.com](https://sniparc.mosuzo.com)
 
 ---
 

@@ -24,14 +24,6 @@ const c = refreshed
           lang === 'zh-cn'
             ? '欢迎提供具体的使用场景与复现步骤，方便定位问题。'
             : 'Include your workflow and reproduction steps so we can understand the issue.',
-        groups: baseCopy.contact.groups
-          .map((group) => ({
-            ...group,
-            channels: group.channels.filter(
-              (channel) => channel.href && !channel.href.includes('github.com/mosuzo-studio/SnipX')
-            ),
-          }))
-          .filter((group) => group.channels.length),
       },
     }
   : baseCopy;

@@ -1,0 +1,41 @@
+---
+import type { Lang } from '~/i18n/utils';
+import { localizedPath } from '~/i18n/utils';
+import { getGuideContent } from './guide-content';
+import QuickHelp from './QuickHelp.astro';
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const c = getGuideContent(lang);
+const zh = lang === 'zh-cn';
+---
+
+<section class="sx-page-head v3-wrap">
+  <p class="v3-eyebrow">SNIPARC / {zh ? '帮助中心' : 'HELP CENTER'}</p><h1>
+    {zh ? '从开始使用，到顺手使用。' : 'From getting started to getting things done.'}
+  </h1><p class="v3-lead">
+    {
+      zh
+        ? '第一次截图、查找按键，或按现象解决问题。'
+        : 'Take your first capture, find a shortcut, or troubleshoot an issue.'
+    }
+  </p>
+</section>
+<section class="v3-wrap sx-guide-cards" aria-label={zh ? '帮助主题' : 'Help topics'}>
+  {
+    c.nav.map((item, i) => (
+      <a href={localizedPath(lang, item.path)}>
+        <>
+          <span class="v3-eyebrow">0{i + 1}</span>
+          <h2>
+            {item.title}
+            <span aria-hidden="true">↗</span>
+          </h2>
+          <p>{item.note}</p>
+        </>
+      </a>
+    ))
+  }
+</section>
+<QuickHelp lang={lang} />

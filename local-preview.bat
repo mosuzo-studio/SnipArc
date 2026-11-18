@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-title SnipX - Local Preview
+title SnipArc - Local Preview
 cd /d "%~dp0"
 
 echo ============================================================

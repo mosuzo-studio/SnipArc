@@ -17,7 +17,7 @@ import pinDemo from '~/assets/images/pin-demo.png';
 import modesDemo from '~/assets/images/modes-demo.png';
 import taskbarStripSrc from '~/assets/images/taskbar.png';
 
-/* Real SnipX screenshots for en and zh-cn only */
+/* Real SnipArc screenshots for en and zh-cn only */
 import captureWideZhCn from '~/assets/images/real/capture-wide.zh-cn.png';
 import captureDemoZhCn from '~/assets/images/real/capture-demo.zh-cn.png';
 import annotateWideZhCn from '~/assets/images/real/annotate-wide.zh-cn.png';
@@ -166,7 +166,7 @@ const shotData = JSON.stringify({
           <div class="sx-preview-bar">
             <>
               <span class="sx-preview-brand">
-                SnipX <span>/ {zh ? '实际界面' : 'IN ACTION'}</span>
+                SnipArc <span>/ {zh ? '实际界面' : 'IN ACTION'}</span>
               </span>
               <span class="sx-live-dot" aria-hidden="true" />
             </>
@@ -504,8 +504,8 @@ const shotData = JSON.stringify({
                 height={featureImages[section.image].height}
                 alt={
                   zh
-                    ? `${section.title}：SnipX 中文界面实机截图`
-                    : `${section.title}: actual SnipX screenshot, Chinese UI`
+                    ? `${section.title}：SnipArc 中文界面实机截图`
+                    : `${section.title}: actual SnipArc screenshot, Chinese UI`
                 }
                 loading="lazy"
                 decoding="async"
@@ -633,7 +633,7 @@ const shotData = JSON.stringify({
     <dialog class="sx-image-dialog" id="sx-image-dialog" aria-labelledby="sx-image-dialog-title">
       <div class="sx-dialog-head">
         <>
-          <h2 id="sx-image-dialog-title">{zh ? 'SnipX 实机截图' : 'Actual SnipX screenshot'}</h2>
+          <h2 id="sx-image-dialog-title">{zh ? 'SnipArc 实机截图' : 'Actual SnipArc screenshot'}</h2>
           <button type="button" data-sx-close autofocus>
             {zh ? '关闭' : 'Close'} <span aria-hidden="true">×</span>
           </button>
@@ -768,7 +768,7 @@ const shotData = JSON.stringify({
     if (!el || el.dataset.wired === '1') return;
     el.dataset.wired = '1';
 
-    fetch('https://api.github.com/repos/mosuzo-studio/SnipX/releases?per_page=100', {
+    fetch('https://api.github.com/repos/mosuzo-studio/SnipArc/releases?per_page=100', {
       headers: { Accept: 'application/vnd.github+json' },
     })
       .then((response) => (response.ok ? response.json() : Promise.reject(new Error(String(response.status)))))

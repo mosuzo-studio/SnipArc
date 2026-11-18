@@ -13,7 +13,7 @@ export function getSupportCopy(lang: string) {
           {
             id: 'start',
             q: '如何开始截图？',
-            a: '运行 SnipX 后，默认按 F1 开始截图。框选区域后，在工具栏中标注、复制或保存。若快捷键已被修改，请在软件设置中查看。',
+            a: '运行 SnipArc 后，默认按 F1 开始截图。框选区域后，在工具栏中标注、复制或保存。若快捷键已被修改，请在软件设置中查看。',
           },
           {
             id: 'offline',
@@ -40,7 +40,7 @@ export function getSupportCopy(lang: string) {
           {
             id: 'start',
             q: 'How do I take my first screenshot?',
-            a: 'Run SnipX and press F1, the default capture shortcut. Select a region, then annotate, copy, or save from the toolbar. If you changed the shortcut, check the app’s settings.',
+            a: 'Run SnipArc and press F1, the default capture shortcut. Select a region, then annotate, copy, or save from the toolbar. If you changed the shortcut, check the app’s settings.',
           },
           {
             id: 'offline',
@@ -55,7 +55,7 @@ export function getSupportCopy(lang: string) {
           {
             id: 'feedback',
             q: 'What should I include in a bug report?',
-            a: 'Include your SnipX version, Windows version, and steps to reproduce the problem. A screenshot can help, but check it for personal information before sharing.',
+            a: 'Include your SnipArc version, Windows version, and steps to reproduce the problem. A screenshot can help, but check it for personal information before sharing.',
           },
         ],
   };

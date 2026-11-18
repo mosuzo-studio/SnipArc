@@ -1,20 +1,14 @@
 /**
- * Resolves direct download URLs for the latest release assets.
+ * Resolves the latest release tag for display and keeps every download button
+ * pointed at the public Releases page.
  *
- * Deliberately avoids `api.github.com`: that endpoint is rate limited to 60
- * requests/hour per IP for unauthenticated callers, which is easy to exhaust on
- * shared or CI egress addresses. Instead this follows the `/releases/latest`
- * redirect, which is plain github.com and not rate limited, to learn the current
- * tag, then derives each asset URL from the project's stable naming scheme.
- *
- * Release assets follow `SnipX-<version>-windows-x64<suffix>`, e.g. for v7.3.0:
- *   SnipX-7.3.0-windows-x64-setup.exe
- *   SnipX-7.3.0-windows-x64.msi
- *   SnipX-7.3.0-windows-x64-portable.7z
+ * Direct asset URLs are intentionally not derived from the release tag: the
+ * SnipArc repository is new, and guessing package names would produce links
+ * that 404. Once release assets are published and their names confirmed, the
+ * lookup below can be extended to map them explicitly.
  *
  * This runs at build time only (the site is `output: 'static'`), so visitors
- * never touch GitHub metadata — their button href is a baked-in literal that
- * points straight at the asset. Every failure path falls back to the Releases
+ * never touch GitHub metadata. Every failure path falls back to the Releases
  * page, so the build never breaks and the buttons always stay usable.
  */
 
@@ -22,14 +16,12 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 /** Releases list page — also the fallback target when resolution fails. */
-export const RELEASES_URL = 'https://github.com/mosuzo-studio/SnipX/releases';
+export const RELEASES_URL = 'https://github.com/mosuzo-studio/SnipArc/releases';
 
-/** Microsoft Store listing for the app. */
-export const STORE_URL = 'https://apps.microsoft.com/detail/TBD_SNIPX_STORE_ID';
+/** Microsoft Store listing for the app; hidden until a real listing exists. */
+export const STORE_URL = 'https://apps.microsoft.com/detail/TBD_SNIPARC_STORE_ID';
 
 const LATEST_RELEASE_URL = `${RELEASES_URL}/latest`;
-
-const DOWNLOAD_BASE = `${RELEASES_URL}/download`;
 
 const FETCH_TIMEOUT_MS = 8000;
 
@@ -37,29 +29,20 @@ const FETCH_TIMEOUT_MS = 8000;
 const FALLBACK_DISPLAY_VERSION = '7.20.8';
 
 /** Asset kinds exposed on the site, in the order they should be offered. */
-const ASSET_SUFFIXES = {
-  setup: '-windows-x64-setup.exe',
-  msi: '-windows-x64.msi',
-  portable: '-windows-x64-portable.7z',
-} as const;
+const ASSET_KINDS = ['setup', 'msi', 'portable'] as const;
 
-export type AssetKind = keyof typeof ASSET_SUFFIXES;
-
-/** Lite-edition assets carry a `-Lite` marker before the platform suffix. */
-const LITE_ASSET_SUFFIXES = Object.fromEntries(
-  Object.entries(ASSET_SUFFIXES).map(([kind, suffix]) => [kind, `-Lite${suffix}`])
-) as Record<AssetKind, string>;
+export type AssetKind = (typeof ASSET_KINDS)[number];
 
 export interface ReleaseDownloads {
   /** Release tag, e.g. `v7.3.0`; null when it could not be resolved. */
   tag: string | null;
   /** Version without the leading `v`, e.g. `7.3.0`; null when unresolved. */
   version: string | null;
-  /** Direct asset URLs, falling back to the Releases page when unresolved. */
+  /** Public download URLs; every entry points at the Releases page for now. */
   urls: Record<AssetKind, string>;
-  /** Direct asset URLs for the Lite edition, same fallback behaviour. */
+  /** Public download URLs for the Lite edition, same behaviour. */
   liteUrls: Record<AssetKind, string>;
-  /** True when `urls` are real asset links rather than the fallback page. */
+  /** True when `urls` are verified direct asset links rather than the Releases page. */
   resolved: boolean;
 }
 
@@ -77,13 +60,8 @@ const tagFromLocation = (location: string): string | null => {
   return match ? decodeURIComponent(match[1]) : null;
 };
 
-const buildAssetUrl = (tag: string, version: string, suffix: string): string =>
-  `${DOWNLOAD_BASE}/${encodeURIComponent(tag)}/SnipX-${version}${suffix}`;
-
-const buildUrls = (tag: string, version: string, suffixes: Record<AssetKind, string>): Record<AssetKind, string> =>
-  Object.fromEntries(
-    Object.entries(suffixes).map(([kind, suffix]) => [kind, buildAssetUrl(tag, version, suffix)])
-  ) as Record<AssetKind, string>;
+const buildReleasePageUrls = (): Record<AssetKind, string> =>
+  Object.fromEntries(ASSET_KINDS.map((kind) => [kind, RELEASES_URL])) as Record<AssetKind, string>;
 
 /**
  * Node's `fetch` ignores the usual proxy env vars, so on a build machine that
@@ -109,7 +87,7 @@ const resolveLatestRelease = async (): Promise<ReleaseDownloads> => {
   // downloading the release page itself.
   const response = await fetch(LATEST_RELEASE_URL, {
     redirect: 'manual',
-    headers: { 'User-Agent': 'snipx-site-build' },
+    headers: { 'User-Agent': 'sniparc-site-build' },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
 
@@ -130,14 +108,14 @@ const resolveLatestRelease = async (): Promise<ReleaseDownloads> => {
   }
 
   const version = tag.replace(/^v/i, '');
-  console.info(`[download] Resolved release ${tag}; linking assets for ${version}.`);
+  console.info(`[download] Resolved release ${tag}; download buttons link to the Releases page.`);
 
   return {
     tag,
     version,
-    urls: buildUrls(tag, version, ASSET_SUFFIXES),
-    liteUrls: buildUrls(tag, version, LITE_ASSET_SUFFIXES),
-    resolved: true,
+    urls: buildReleasePageUrls(),
+    liteUrls: buildReleasePageUrls(),
+    resolved: false,
   };
 };
 
@@ -211,7 +189,7 @@ const writeCountCache = (total: number): void => {
 };
 
 /** One page is enough while the project stays under 100 releases. */
-const RELEASES_API_URL = 'https://api.github.com/repos/mosuzo-studio/SnipX/releases?per_page=100';
+const RELEASES_API_URL = 'https://api.github.com/repos/mosuzo-studio/SnipArc/releases?per_page=100';
 
 interface ReleaseAsset {
   name?: string;
@@ -233,7 +211,7 @@ const fetchTotalDownloads = async (): Promise<number> => {
   await installProxyDispatcher();
 
   const response = await fetch(RELEASES_API_URL, {
-    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'snipx-site-build' },
+    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'sniparc-site-build' },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
 
@@ -253,7 +231,9 @@ let cachedDownloads: Promise<number | null> | null = null;
  * Total downloads GitHub reports across every release. The site is static, so
  * this is the number the build bakes in; the homepage refreshes it from the
  * same endpoint in the visitor's browser. A failed lookup falls back to the
- * last cached value, and to nothing when there is no cache to fall back to.
+ * last cached value, and to nothing when there is no positive cache to fall
+ * back to (a new repository starts at zero, which would otherwise look like a
+ * real figure on the trust bar).
  */
 export const getTotalDownloads = (): Promise<number | null> => {
   cachedDownloads ??= fetchTotalDownloads().catch((error: unknown) => {
@@ -261,10 +241,10 @@ export const getTotalDownloads = (): Promise<number | null> => {
     const cached = readCountCache();
     console.warn(
       `[download] Could not read the download totals (${reason}); using the last cached count${
-        cached ? ` (${cached.total})` : ' — none cached yet'
+        cached?.total ? ` (${cached.total})` : ' — none cached yet'
       }.`
     );
-    return cached?.total ?? null;
+    return cached?.total ? cached.total : null;
   });
   return cachedDownloads;
 };

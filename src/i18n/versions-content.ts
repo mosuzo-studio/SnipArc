@@ -3,7 +3,7 @@ import type { LocalizedLocale } from './site-content';
 /**
  * Localized copy for the versions comparison page (`/xx/versions`).
  *
- * Feature names mirror the SnipX app's own UI catalogs (modebar / toolbar /
+ * Feature names mirror the SnipArc app's own UI catalogs (modebar / toolbar /
  * settings), so the table reads the same as the app in every language.
  * The English and Simplified Chinese pages live in `src/pages` and are the
  * source of truth for this content.
