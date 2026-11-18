@@ -5,6 +5,7 @@ import type { Lang } from '~/i18n/utils';
 import { getReleaseDownloads, getTotalDownloads, RELEASES_URL, STORE_URL } from '~/utils/download';
 import { getHomeCopy } from './home-copy';
 import QuickHelp from './QuickHelp.astro';
+import WorksWellWith from './WorksWellWith.astro';
 import captureFull from '~/assets/images/real/capture-full.zh-cn.png';
 import annotateFull from '~/assets/images/real/annotate-full.zh-cn.png';
 import ocrFull from '~/assets/images/real/ocr-full.zh-cn.png';
@@ -526,6 +527,8 @@ const shotData = JSON.stringify({
     </section>
   ))
 }
+
+{refreshed && <WorksWellWith lang={lang} current="sniparc" />}
 
 {refreshed && <QuickHelp lang={lang} />}
 

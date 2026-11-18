@@ -26,7 +26,11 @@ for (const prefix of ['', 'zh-cn/']) {
     assert(!html.includes('TBD_SNIPARC_STORE_ID'), `${current}: store placeholder`);
     assert(!/SnipX(?!\.exe)/.test(html), `${current}: old brand`);
     assert(!/snipx\.mosuzo\.com/i.test(html), `${current}: old domain`);
-    assert(!/Shotera/i.test(html), `${current}: old Shotera brand`);
+    assert(html.includes('data-v3-studio-trigger'), `${current}: studio menu trigger`);
+    assert(
+      html.includes('https://github.com/mosuzo-studio/Shotera/releases'),
+      `${current}: Shotera releases fallback`
+    );
     assert(html.includes('https://sniparc.mosuzo.com'), `${current}: production canonical domain`);
     const header = html.match(/<header[\s\S]*?<\/header>/)?.[0] || '';
     assert.equal((header.match(/class="v3-navlink"/g) || []).length, 3, `${current}: primary navigation`);
