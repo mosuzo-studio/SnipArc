@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="造訪 SnipX 官方網站" /></a>
-  <a href="https://snipx.mosuzo.com/zh-tw/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-4c72b0?style=for-the-badge" height="40" alt="查看常見問題" /></a>
-  <a href="https://snipx.mosuzo.com/zh-tw/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge" height="40" alt="查看 SnipX 更新紀錄" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="造訪 SnipX 官方網站" /></a>
+  <a href="https://sniparc.mosuzo.com/zh-tw/faq"><img src="https://img.shields.io/badge/%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C-4c72b0?style=for-the-badge" height="40" alt="查看常見問題" /></a>
+  <a href="https://sniparc.mosuzo.com/zh-tw/changelog"><img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge" height="40" alt="查看 SnipX 更新紀錄" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="最新版本" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%E4%B8%8B%E8%BC%89%E9%87%8F&color=dd8452" alt="累計下載量" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipArc?display_name=tag&label=Release&color=4c72b0" alt="最新版本" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipArc/total?label=%E4%B8%8B%E8%BC%89%E9%87%8F&color=dd8452" alt="累計下載量" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="支援 15 種介面語言" />
 </p>
@@ -52,8 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-%E5%8F%96%E5%BE%97_SnipX-0067b8?style=for-the-badge" height="40" alt="從 Microsoft Store 取得 SnipX" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BC%89%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="從 GitHub Releases 下載更多版本" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%E4%B8%8B%E8%BC%89%E6%9B%B4%E5%A4%9A%E7%89%88%E6%9C%AC-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="從 GitHub Releases 下載更多版本" /></a>
 </p>
 
 <details open>
@@ -232,7 +231,7 @@
 **長頁面要怎麼截？**
 切到長截圖，滾動頁面，畫面會自動拼接成一張長圖。
 
-更多問題都能在[官網的常見問題](https://snipx.mosuzo.com/zh-tw/faq)找到解答。
+更多問題都能在[官網的常見問題](https://sniparc.mosuzo.com/zh-tw/faq)找到解答。
 
 <br/>
 
@@ -246,7 +245,7 @@
 
 ## 隱私與掌控
 
-截圖儲存在本機；離線 OCR、AI 去背與 AI 擦除在你的裝置上執行，因此處理過程不會上傳你的截圖。詳情請參閱[隱私權政策](https://snipx.mosuzo.com/zh-tw/privacy)。
+截圖儲存在本機；離線 OCR、AI 去背與 AI 擦除在你的裝置上執行，因此處理過程不會上傳你的截圖。詳情請參閱[隱私權政策](https://sniparc.mosuzo.com/zh-tw/privacy)。
 
 <br/>
 
@@ -283,17 +282,14 @@ SnipX；SnipX AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截
 ## 下載與版本
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="從 Microsoft Store 取得 SnipX" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.zh-TW.svg" height="44" alt="從 GitHub Releases 下載更多版本" />
   </a>
 </p>
 
 > **系統需求：** Windows 10 / 11（64 位元）。
 >
-> **版本說明：** 標準版與 Lite 版差異，詳見[版本對比](https://snipx.mosuzo.com/zh-tw/versions)。
+> **版本說明：** 標準版與 Lite 版差異，詳見[版本對比](https://sniparc.mosuzo.com/zh-tw/versions)。
 
 <br/>
 
@@ -302,13 +298,13 @@ SnipX；SnipX AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截
 有問題、有建議或想分享心得，都歡迎告訴我們。
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="造訪 SnipX 官方網站" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/%E6%84%8F%E8%A6%8B%E5%9B%9E%E9%A5%8B%E8%88%87%20Bug-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="提供意見回饋或回報問題" />
   </a>
-  <a href="https://snipx.mosuzo.com/zh-tw/changelog">
+  <a href="https://sniparc.mosuzo.com/zh-tw/changelog">
     <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E7%B4%80%E9%8C%84-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="查看 SnipX 更新紀錄" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
@@ -331,7 +327,7 @@ SnipX；SnipX AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio 標誌" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 保留所有權利<br/>
@@ -339,10 +335,10 @@ SnipX；SnipX AI；Mosuzo Studio；截圖工具；滾動擷取；長截圖；截
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">官方網站</a> ·
-  <a href="https://snipx.mosuzo.com/zh-tw/versions">版本對比</a> ·
-  <a href="https://snipx.mosuzo.com/zh-tw/changelog">更新紀錄</a> ·
-  <a href="https://snipx.mosuzo.com/zh-tw/faq">常見問題</a> ·
-  <a href="https://snipx.mosuzo.com/zh-tw/privacy">隱私權政策</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">意見回饋</a>
+  <a href="https://sniparc.mosuzo.com">官方網站</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-tw/versions">版本對比</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-tw/changelog">更新紀錄</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-tw/faq">常見問題</a> ·
+  <a href="https://sniparc.mosuzo.com/zh-tw/privacy">隱私權政策</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">意見回饋</a>
 </p>

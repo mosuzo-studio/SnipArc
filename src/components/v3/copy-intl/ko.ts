@@ -256,10 +256,10 @@ export default {
           {
             key: 'github',
             name: 'GitHub',
-            handle: 'mosuzo-studio/SnipX',
+            handle: 'mosuzo-studio/SnipArc',
             note: '버그 리포트, 기능 제안, 이전 버전.',
             icon: 'tabler:brand-github',
-            href: 'https://github.com/mosuzo-studio/SnipX',
+            href: 'https://github.com/mosuzo-studio/SnipArc',
             tint: '#24292f',
           },
           {

@@ -263,10 +263,10 @@ export default {
           {
             key: 'github',
             name: 'GitHub',
-            handle: 'mosuzo-studio/SnipX',
+            handle: 'mosuzo-studio/SnipArc',
             note: 'تقارير الأخطاء وطلبات الميزات والإصدارات السابقة.',
             icon: 'tabler:brand-github',
-            href: 'https://github.com/mosuzo-studio/SnipX',
+            href: 'https://github.com/mosuzo-studio/SnipArc',
             tint: '#24292f',
           },
           {

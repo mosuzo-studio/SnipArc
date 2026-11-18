@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Официальный сайт SnipX" /></a>
-  <a href="https://snipx.mosuzo.com/ru/faq"><img src="https://img.shields.io/badge/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-4c72b0?style=for-the-badge" height="40" alt="Читайте раздел «Вопросы»" /></a>
-  <a href="https://snipx.mosuzo.com/ru/changelog"><img src="https://img.shields.io/badge/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-3F7C73?style=for-the-badge" height="40" alt="Читайте обновления SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Официальный сайт SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com/ru/faq"><img src="https://img.shields.io/badge/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B-4c72b0?style=for-the-badge" height="40" alt="Читайте раздел «Вопросы»" /></a>
+  <a href="https://sniparc.mosuzo.com/ru/changelog"><img src="https://img.shields.io/badge/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-3F7C73?style=for-the-badge" height="40" alt="Читайте обновления SnipX" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="Последняя версия" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8&color=dd8452" alt="Всего загрузок" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipArc?display_name=tag&label=Release&color=4c72b0" alt="Последняя версия" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipArc/total?label=%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8&color=dd8452" alt="Всего загрузок" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 языков интерфейса" />
 </p>
@@ -52,8 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C_SnipX-0067b8?style=for-the-badge" height="40" alt="Скачать SnipX из Microsoft Store" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Другие версии на GitHub Releases" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5_%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Другие версии на GitHub Releases" /></a>
 </p>
 
 <details open>
@@ -232,7 +231,7 @@
 **Как сделать снимок длинной страницы?**
 Переключитесь на длинный снимок и прокручивайте — кадры автоматически сшиваются в одно изображение.
 
-Больше ответов — в [разделе «Вопросы» на сайте](https://snipx.mosuzo.com/ru/faq).
+Больше ответов — в [разделе «Вопросы» на сайте](https://sniparc.mosuzo.com/ru/faq).
 
 <br/>
 
@@ -246,7 +245,7 @@
 
 ## Конфиденциальность и контроль
 
-Снимки хранятся локально; офлайн-OCR, AI-удаление фона и AI-стирание работают на вашем устройстве — при обработке снимки никуда не отправляются. Подробнее — в [политике конфиденциальности](https://snipx.mosuzo.com/ru/privacy).
+Снимки хранятся локально; офлайн-OCR, AI-удаление фона и AI-стирание работают на вашем устройстве — при обработке снимки никуда не отправляются. Подробнее — в [политике конфиденциальности](https://sniparc.mosuzo.com/ru/privacy).
 
 <br/>
 
@@ -283,17 +282,14 @@ SnipX; SnipX AI; Mosuzo Studio; снимок экрана; скриншот; д�
 ## Загрузка и версии
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Скачать SnipX из Microsoft Store" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.ru.svg" height="44" alt="Другие версии на GitHub Releases" />
   </a>
 </p>
 
 > **Системные требования:** Windows 10 / 11 (64-разрядная).
 >
-> **Версии:** Lite и Стандартная версия — см. [сравнение версий](https://snipx.mosuzo.com/ru/versions).
+> **Версии:** Lite и Стандартная версия — см. [сравнение версий](https://sniparc.mosuzo.com/ru/versions).
 
 <br/>
 
@@ -302,13 +298,13 @@ SnipX; SnipX AI; Mosuzo Studio; снимок экрана; скриншот; д�
 Мы всегда рады вопросам, предложениям и отзывам.
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Официальный сайт SnipX" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B%20%D0%B8%20%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B8-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Поделиться отзывом или сообщить об ошибке" />
   </a>
-  <a href="https://snipx.mosuzo.com/ru/changelog">
+  <a href="https://sniparc.mosuzo.com/ru/changelog">
     <img src="https://img.shields.io/badge/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Читайте обновления SnipX" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
@@ -331,7 +327,7 @@ SnipX; SnipX AI; Mosuzo Studio; снимок экрана; скриншот; д�
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Логотип Mosuzo Studio" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 Все права защищены<br/>
@@ -339,10 +335,10 @@ SnipX; SnipX AI; Mosuzo Studio; снимок экрана; скриншот; д�
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">Сайт</a> ·
-  <a href="https://snipx.mosuzo.com/ru/versions">Версии</a> ·
-  <a href="https://snipx.mosuzo.com/ru/changelog">Обновления</a> ·
-  <a href="https://snipx.mosuzo.com/ru/faq">Вопросы</a> ·
-  <a href="https://snipx.mosuzo.com/ru/privacy">Конфиденциальность</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">Обратная связь</a>
+  <a href="https://sniparc.mosuzo.com">Сайт</a> ·
+  <a href="https://sniparc.mosuzo.com/ru/versions">Версии</a> ·
+  <a href="https://sniparc.mosuzo.com/ru/changelog">Обновления</a> ·
+  <a href="https://sniparc.mosuzo.com/ru/faq">Вопросы</a> ·
+  <a href="https://sniparc.mosuzo.com/ru/privacy">Конфиденциальность</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">Обратная связь</a>
 </p>

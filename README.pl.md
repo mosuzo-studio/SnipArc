@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/Witryna-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Odwiedź oficjalną witrynę SnipX" /></a>
-  <a href="https://snipx.mosuzo.com/pl/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="Przeczytaj FAQ" /></a>
-  <a href="https://snipx.mosuzo.com/pl/changelog"><img src="https://img.shields.io/badge/Historia_zmian-3F7C73?style=for-the-badge" height="40" alt="Przeczytaj historię zmian SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Witryna-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Odwiedź oficjalną witrynę SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com/pl/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="Przeczytaj FAQ" /></a>
+  <a href="https://sniparc.mosuzo.com/pl/changelog"><img src="https://img.shields.io/badge/Historia_zmian-3F7C73?style=for-the-badge" height="40" alt="Przeczytaj historię zmian SnipX" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="Najnowsza wersja" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=Pobrania&color=dd8452" alt="Łączna liczba pobrań" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipArc?display_name=tag&label=Release&color=4c72b0" alt="Najnowsza wersja" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipArc/total?label=Pobrania&color=dd8452" alt="Łączna liczba pobrań" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 języków interfejsu" />
 </p>
@@ -52,8 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-Pobierz_SnipX-0067b8?style=for-the-badge" height="40" alt="Pobierz SnipX z Microsoft Store" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Wi%C4%99cej_wersji-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Więcej wersji w GitHub Releases" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Wi%C4%99cej_wersji-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Więcej wersji w GitHub Releases" /></a>
 </p>
 
 <details open>
@@ -232,7 +231,7 @@ Zrzuty ekranu i edycja odbywają się na Twoim komputerze; OCR offline, wycinani
 **Jak zrobić zrzut długiej strony?**
 Przełącz na Długi zrzut i przewijaj — ujęcia zostaną automatycznie scalone w jeden obraz.
 
-Więcej odpowiedzi znajdziesz w [FAQ na stronie internetowej](https://snipx.mosuzo.com/pl/faq).
+Więcej odpowiedzi znajdziesz w [FAQ na stronie internetowej](https://sniparc.mosuzo.com/pl/faq).
 
 <br/>
 
@@ -246,7 +245,7 @@ Więcej odpowiedzi znajdziesz w [FAQ na stronie internetowej](https://snipx.mosu
 
 ## Prywatność i kontrola
 
-Zrzuty ekranu są przechowywane lokalnie; OCR offline, wycinanie AI i wymazywanie AI działają na Twoim urządzeniu, więc przetwarzanie nie wysyła zrzutów. Szczegóły znajdziesz w [polityce prywatności](https://snipx.mosuzo.com/pl/privacy).
+Zrzuty ekranu są przechowywane lokalnie; OCR offline, wycinanie AI i wymazywanie AI działają na Twoim urządzeniu, więc przetwarzanie nie wysyła zrzutów. Szczegóły znajdziesz w [polityce prywatności](https://sniparc.mosuzo.com/pl/privacy).
 
 <br/>
 
@@ -283,17 +282,14 @@ SnipX; SnipX AI; Mosuzo Studio; narzędzie do zrzutów ekranu; długi zrzut; zrz
 ## Pobieranie i edycje
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Pobierz SnipX z Microsoft Store" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.pl.svg" height="44" alt="Więcej wersji w GitHub Releases" />
   </a>
 </p>
 
 > **Wymagania:** Windows 10 / 11 (64-bit).
 >
-> **Edycje:** Standard i Lite — zobacz [porównanie wersji](https://snipx.mosuzo.com/pl/versions).
+> **Edycje:** Standard i Lite — zobacz [porównanie wersji](https://sniparc.mosuzo.com/pl/versions).
 
 <br/>
 
@@ -302,13 +298,13 @@ SnipX; SnipX AI; Mosuzo Studio; narzędzie do zrzutów ekranu; długi zrzut; zrz
 Pytania, sugestie i opinie są zawsze mile widziane.
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Odwiedź oficjalną witrynę SnipX" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/Opinie%20i%20b%C5%82%C4%99dy-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Podziel się opinią lub zgłoś błąd" />
   </a>
-  <a href="https://snipx.mosuzo.com/pl/changelog">
+  <a href="https://sniparc.mosuzo.com/pl/changelog">
     <img src="https://img.shields.io/badge/Historia%20zmian-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Przeczytaj historię zmian SnipX" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
@@ -331,7 +327,7 @@ Jeśli SnipX ułatwia Ci pracę, wesprzyj nas na Ko-fi — dzielimy się tam tak
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Logo Mosuzo Studio" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 Wszelkie prawa zastrzeżone<br/>
@@ -339,10 +335,10 @@ Jeśli SnipX ułatwia Ci pracę, wesprzyj nas na Ko-fi — dzielimy się tam tak
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">Witryna</a> ·
-  <a href="https://snipx.mosuzo.com/pl/versions">Wersje</a> ·
-  <a href="https://snipx.mosuzo.com/pl/changelog">Historia zmian</a> ·
-  <a href="https://snipx.mosuzo.com/pl/faq">FAQ</a> ·
-  <a href="https://snipx.mosuzo.com/pl/privacy">Prywatność</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">Opinie</a>
+  <a href="https://sniparc.mosuzo.com">Witryna</a> ·
+  <a href="https://sniparc.mosuzo.com/pl/versions">Wersje</a> ·
+  <a href="https://sniparc.mosuzo.com/pl/changelog">Historia zmian</a> ·
+  <a href="https://sniparc.mosuzo.com/pl/faq">FAQ</a> ·
+  <a href="https://sniparc.mosuzo.com/pl/privacy">Prywatność</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">Opinie</a>
 </p>

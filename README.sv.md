@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/Webbplats-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Besök SnipXs officiella webbplats" /></a>
-  <a href="https://snipx.mosuzo.com/sv/faq"><img src="https://img.shields.io/badge/Vanliga%20fr%C3%A5gor-4c72b0?style=for-the-badge" height="40" alt="Läs vanliga frågor" /></a>
-  <a href="https://snipx.mosuzo.com/sv/changelog"><img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge" height="40" alt="Läs SnipXs uppdateringar" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Webbplats-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Besök SnipXs officiella webbplats" /></a>
+  <a href="https://sniparc.mosuzo.com/sv/faq"><img src="https://img.shields.io/badge/Vanliga%20fr%C3%A5gor-4c72b0?style=for-the-badge" height="40" alt="Läs vanliga frågor" /></a>
+  <a href="https://sniparc.mosuzo.com/sv/changelog"><img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge" height="40" alt="Läs SnipXs uppdateringar" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="Senaste versionen" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=Nedladdningar&color=dd8452" alt="Totalt antal nedladdningar" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipArc?display_name=tag&label=Release&color=4c72b0" alt="Senaste versionen" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipArc/total?label=Nedladdningar&color=dd8452" alt="Totalt antal nedladdningar" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15 gränssnittsspråk" />
 </p>
@@ -52,8 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-H%C3%A4mta_SnipX-0067b8?style=for-the-badge" height="40" alt="Hämta SnipX från Microsoft Store" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Fler_versioner-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Fler versioner på GitHub Releases" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-Fler_versioner-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Fler versioner på GitHub Releases" /></a>
 </p>
 
 <details open>
@@ -232,7 +231,7 @@ Skärmbilder och redigering sker på din dator; offline-OCR, AI-frilägg och AI-
 **Hur fångar jag en lång sida?**
 Växla till rullande skärmbild och rulla — bildrutorna fogas automatiskt samman till en enda bild.
 
-Fler frågor besvaras i [vanliga frågor på webbplatsen](https://snipx.mosuzo.com/sv/faq).
+Fler frågor besvaras i [vanliga frågor på webbplatsen](https://sniparc.mosuzo.com/sv/faq).
 
 <br/>
 
@@ -246,7 +245,7 @@ Fler frågor besvaras i [vanliga frågor på webbplatsen](https://snipx.mosuzo.c
 
 ## Integritet och kontroll
 
-Skärmbilder sparas lokalt; offline-OCR, AI-frilägg och AI-radering körs på din enhet, så att bearbetningen inte laddar upp dina skärmbilder. Läs [integritetspolicyn](https://snipx.mosuzo.com/sv/privacy) för mer information.
+Skärmbilder sparas lokalt; offline-OCR, AI-frilägg och AI-radering körs på din enhet, så att bearbetningen inte laddar upp dina skärmbilder. Läs [integritetspolicyn](https://sniparc.mosuzo.com/sv/privacy) för mer information.
 
 <br/>
 
@@ -283,17 +282,14 @@ SnipX; SnipX AI; Mosuzo Studio; skärmbildsverktyg; rullande skärmbild; lång s
 ## Hämtning och utgåvor
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Hämta SnipX från Microsoft Store" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.sv.svg" height="44" alt="Fler versioner på GitHub Releases" />
   </a>
 </p>
 
 > **Systemkrav:** Windows 10 / 11 (64-bit).
 >
-> **Utgåvor:** Standard och Lite — se [jämförelsen av utgåvorna](https://snipx.mosuzo.com/sv/versions).
+> **Utgåvor:** Standard och Lite — se [jämförelsen av utgåvorna](https://sniparc.mosuzo.com/sv/versions).
 
 <br/>
 
@@ -302,13 +298,13 @@ SnipX; SnipX AI; Mosuzo Studio; skärmbildsverktyg; rullande skärmbild; lång s
 Frågor, förslag och feedback är alltid välkomna.
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Besök SnipXs officiella webbplats" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/Feedback%20%26%20felrapporter-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Lämna feedback eller rapportera ett fel" />
   </a>
-  <a href="https://snipx.mosuzo.com/sv/changelog">
+  <a href="https://sniparc.mosuzo.com/sv/changelog">
     <img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Läs SnipXs uppdateringar" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
@@ -331,7 +327,7 @@ Om SnipX gör ditt arbete enklare, stöd oss på Ko-fi — där delar vi också 
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio-logotyp" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 Alla rättigheter förbehållna<br/>
@@ -339,10 +335,10 @@ Om SnipX gör ditt arbete enklare, stöd oss på Ko-fi — där delar vi också 
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">Webbplats</a> ·
-  <a href="https://snipx.mosuzo.com/sv/versions">Versioner</a> ·
-  <a href="https://snipx.mosuzo.com/sv/changelog">Uppdateringar</a> ·
-  <a href="https://snipx.mosuzo.com/sv/faq">Vanliga frågor</a> ·
-  <a href="https://snipx.mosuzo.com/sv/privacy">Integritet</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">Feedback</a>
+  <a href="https://sniparc.mosuzo.com">Webbplats</a> ·
+  <a href="https://sniparc.mosuzo.com/sv/versions">Versioner</a> ·
+  <a href="https://sniparc.mosuzo.com/sv/changelog">Uppdateringar</a> ·
+  <a href="https://sniparc.mosuzo.com/sv/faq">Vanliga frågor</a> ·
+  <a href="https://sniparc.mosuzo.com/sv/privacy">Integritet</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">Feedback</a>
 </p>

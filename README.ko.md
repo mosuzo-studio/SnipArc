@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com"><img src="https://img.shields.io/badge/%EA%B3%B5%EC%8B%9D_%EC%82%AC%EC%9D%B4%ED%8A%B8-snipx.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="SnipX 공식 사이트 방문" /></a>
-  <a href="https://snipx.mosuzo.com/ko/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="FAQ 보기" /></a>
-  <a href="https://snipx.mosuzo.com/ko/changelog"><img src="https://img.shields.io/badge/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-3F7C73?style=for-the-badge" height="40" alt="SnipX 업데이트 보기" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/%EA%B3%B5%EC%8B%9D_%EC%82%AC%EC%9D%B4%ED%8A%B8-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="SnipX 공식 사이트 방문" /></a>
+  <a href="https://sniparc.mosuzo.com/ko/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="FAQ 보기" /></a>
+  <a href="https://sniparc.mosuzo.com/ko/changelog"><img src="https://img.shields.io/badge/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-3F7C73?style=for-the-badge" height="40" alt="SnipX 업데이트 보기" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipX?display_name=tag&label=Release&color=4c72b0" alt="최신 릴리스" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipX/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=dd8452" alt="누적 다운로드" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/v/release/mosuzo-studio/SnipArc?display_name=tag&label=Release&color=4c72b0" alt="최신 릴리스" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases"><img src="https://img.shields.io/github/downloads/mosuzo-studio/SnipArc/total?label=%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C&color=dd8452" alt="누적 다운로드" /></a>
   <img src="https://img.shields.io/badge/platform-Windows_10%2F11%2B-748aa0?logo=windows&logoColor=white" alt="Windows 10/11+" />
   <img src="https://img.shields.io/badge/languages-15-55a868" alt="15개 인터페이스 언어" />
 </p>
@@ -52,8 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Microsoft_Store-SnipX_%EB%B0%9B%EA%B8%B0-0067b8?style=for-the-badge" height="40" alt="Microsoft Store에서 SnipX 받기" /></a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%EB%8B%A4%EB%A5%B8_%EB%B2%84%EC%A0%84-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="GitHub Releases에서 다른 버전 다운로드" /></a>
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self"><img src="https://img.shields.io/badge/GitHub_Releases-%EB%8B%A4%EB%A5%B8_%EB%B2%84%EC%A0%84-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="GitHub Releases에서 다른 버전 다운로드" /></a>
 </p>
 
 <details open>
@@ -232,7 +231,7 @@
 **긴 페이지는 어떻게 캡처하나요?**
 스크롤 캡처로 전환한 뒤 스크롤하면 프레임이 자동으로 이어 붙어 한 장의 이미지가 됩니다.
 
-더 궁금한 점은 [웹사이트 FAQ](https://snipx.mosuzo.com/ko/faq)에서 확인할 수 있습니다.
+더 궁금한 점은 [웹사이트 FAQ](https://sniparc.mosuzo.com/ko/faq)에서 확인할 수 있습니다.
 
 <br/>
 
@@ -246,7 +245,7 @@
 
 ## 개인정보 보호와 제어
 
-스크린샷은 로컬에 저장됩니다. 오프라인 OCR, AI 배경 제거, AI 지우기는 기기에서 실행되므로 해당 처리 과정에서 스크린샷이 업로드되지 않습니다. 자세한 내용은 [개인정보 처리방침](https://snipx.mosuzo.com/ko/privacy)에서 확인하세요.
+스크린샷은 로컬에 저장됩니다. 오프라인 OCR, AI 배경 제거, AI 지우기는 기기에서 실행되므로 해당 처리 과정에서 스크린샷이 업로드되지 않습니다. 자세한 내용은 [개인정보 처리방침](https://sniparc.mosuzo.com/ko/privacy)에서 확인하세요.
 
 <br/>
 
@@ -283,17 +282,14 @@ SnipX; SnipX AI; Mosuzo Studio; 스크린샷 도구; 스크롤 캡처; 긴 스�
 ## 다운로드와 에디션
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9n73ldhrmc8v?referrer=appbadge&amp;cid=743e47fd-8675-403d-9631-82e7e0&amp;mode=full" target="_blank" rel="noopener noreferrer">
-    <img src="https://get.microsoft.com/images/en-us%20dark.svg" height="44" alt="Microsoft Store에서 SnipX 받기" />
-  </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/releases" target="_self">
+  <a href="https://github.com/mosuzo-studio/SnipArc/releases" target="_self">
     <img src="src/assets/images/readme/github-releases-badge.ko.svg" height="44" alt="GitHub Releases에서 다른 버전 다운로드" />
   </a>
 </p>
 
 > **시스템 요구 사항:** Windows 10 / 11 (64비트).
 >
-> **에디션:** Standard 버전과 Lite 버전 — [버전 비교](https://snipx.mosuzo.com/ko/versions)에서 차이를 확인하세요.
+> **에디션:** Standard 버전과 Lite 버전 — [버전 비교](https://sniparc.mosuzo.com/ko/versions)에서 차이를 확인하세요.
 
 <br/>
 
@@ -302,13 +298,13 @@ SnipX; SnipX AI; Mosuzo Studio; 스크린샷 도구; 스크롤 캡처; 긴 스�
 질문, 제안, 피드백을 언제든 환영합니다.
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="SnipX 공식 사이트 방문" />
   </a>
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/%ED%94%BC%EB%93%9C%EB%B0%B1%20%26%20%EB%B2%84%EA%B7%B8-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="피드백 보내기 또는 버그 신고" />
   </a>
-  <a href="https://snipx.mosuzo.com/ko/changelog">
+  <a href="https://sniparc.mosuzo.com/ko/changelog">
     <img src="https://img.shields.io/badge/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="SnipX 업데이트 보기" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
@@ -331,7 +327,7 @@ SnipX가 업무를 더 쉽게 만들어 준다면 Ko-fi에서 후원해 주세�
 ---
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">
+  <a href="https://sniparc.mosuzo.com">
     <img src="src/assets/images/readme/mosuzo-studio-logo.svg" width="24" align="middle" alt="Mosuzo Studio 로고" />
   </a>
   <strong>Mosuzo Studio</strong> · © 2026 모든 권리 보유<br/>
@@ -339,10 +335,10 @@ SnipX가 업무를 더 쉽게 만들어 준다면 Ko-fi에서 후원해 주세�
 </p>
 
 <p align="center">
-  <a href="https://snipx.mosuzo.com">공식 사이트</a> ·
-  <a href="https://snipx.mosuzo.com/ko/versions">버전 비교</a> ·
-  <a href="https://snipx.mosuzo.com/ko/changelog">업데이트</a> ·
-  <a href="https://snipx.mosuzo.com/ko/faq">FAQ</a> ·
-  <a href="https://snipx.mosuzo.com/ko/privacy">개인정보 처리방침</a> ·
-  <a href="https://github.com/mosuzo-studio/SnipX/issues">피드백</a>
+  <a href="https://sniparc.mosuzo.com">공식 사이트</a> ·
+  <a href="https://sniparc.mosuzo.com/ko/versions">버전 비교</a> ·
+  <a href="https://sniparc.mosuzo.com/ko/changelog">업데이트</a> ·
+  <a href="https://sniparc.mosuzo.com/ko/faq">FAQ</a> ·
+  <a href="https://sniparc.mosuzo.com/ko/privacy">개인정보 처리방침</a> ·
+  <a href="https://github.com/mosuzo-studio/SnipArc/issues">피드백</a>
 </p>
