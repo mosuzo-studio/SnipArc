@@ -26,7 +26,7 @@ const LATEST_RELEASE_URL = `${RELEASES_URL}/latest`;
 const FETCH_TIMEOUT_MS = 8000;
 
 /** Shown in copy when the release lookup fails; bump alongside real releases. */
-const FALLBACK_DISPLAY_VERSION = '7.20.8';
+const FALLBACK_DISPLAY_VERSION = '8.0.0';
 
 /** Asset kinds exposed on the site, in the order they should be offered. */
 const ASSET_KINDS = ['setup', 'msi', 'portable'] as const;
