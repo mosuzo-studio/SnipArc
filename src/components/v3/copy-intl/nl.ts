@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Dutch copy for the v3 pages. Terminology follows the SnipX app's nl
+ * Dutch copy for the v3 pages. Terminology follows the SnipArc app's nl
  * language pack.
  */
 export default {
-  home: 'SnipX — Snellere, slimmere schermafbeeldingen en schermopnames',
+  home: 'SnipArc — Snellere, slimmere schermafbeeldingen en schermopnames',
   nav: {
     features: 'Functies',
     versions: 'Versies',
@@ -47,7 +47,7 @@ export default {
       [{ text: 'Schermafbeeldingen, schermopnames, ' }, { text: 'AI-magie', hl: true }],
       [{ text: 'allemaal met één sneltoets' }],
     ],
-    sub: 'SnipX is een desktop-app voor vastleggen, gemaakt voor wie de hele dag schermafbeeldingen maakt: annoteren, lange pagina’s scrollend vastleggen, opnemen als GIF, onderwerpen uitsnijden met AI, offline OCR, afbeeldingen vertalen en referenties vastpinnen — zonder je te onderbreken.',
+    sub: 'SnipArc is een desktop-app voor vastleggen, gemaakt voor wie de hele dag schermafbeeldingen maakt: annoteren, lange pagina’s scrollend vastleggen, opnemen als GIF, onderwerpen uitsnijden met AI, offline OCR, afbeeldingen vertalen en referenties vastpinnen — zonder je te onderbreken.',
     primary: 'Gratis downloaden',
     secondary: 'Bekijk hoe het werkt',
     metaStrong: 'Windows 10/11+',
@@ -59,7 +59,7 @@ export default {
   download: {
     more: 'Meer downloadopties',
     menu: 'Downloadopties',
-    edition: 'SnipX Standard',
+    edition: 'SnipArc Standard',
     setup: 'Installatieprogramma (.exe)',
     portable: 'Draagbare versie (.7z)',
     msi: 'MSI-installer',
@@ -122,7 +122,7 @@ export default {
       title: 'Eén toets, precies het juiste kader',
       lead: 'Roep het op met een sneltoets en leg vast, annoteer en kopieer in één vloeiende beweging.',
       rows: [
-        'Beweeg de muis en SnipX klikt vast op het venster of interface-element onder de cursor',
+        'Beweeg de muis en SnipArc klikt vast op het venster of interface-element onder de cursor',
         'Pijlen, kaders, tekst, nummering, emoji, loep — annoteer op het moment van vastleggen',
         'Twee manieren om af te ronden: direct naar het klembord kopiëren, of meteen annoteren (Strak en simpel / Direct annoteren)',
       ],
@@ -229,7 +229,7 @@ export default {
     faqLink: 'Bekijk de FAQ',
     soon: 'Binnenkort beschikbaar',
     mail: {
-      subject: 'SnipX-feedback — ',
+      subject: 'SnipArc-feedback — ',
       body: [
         'Hallo,',
         '',
@@ -238,7 +238,7 @@ export default {
         '',
         'Deze gegevens helpen ons sneller op weg, als je ze bij de hand hebt:',
         '',
-        '\u00b7 SnipX-editie (Lite / Standard):',
+        '\u00b7 SnipArc-editie (Lite / Standard):',
         '\u00b7 Windows-versie:',
         '\u00b7 Stappen om het te reproduceren:',
         '',
@@ -273,7 +273,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Praat met andere SnipX-gebruikers.',
+            note: 'Praat met andere SnipArc-gebruikers.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

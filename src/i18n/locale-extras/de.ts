@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * German copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's German language pack.
+ * English pages. Terminology follows the SnipArc app's German language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Langer Screenshot',
 
   home: {
     heroAlt:
-      'SnipX-Werkzeuge auf dem Bildschirm: Aufnahme, Langer Screenshot, Anmerkungen, Bildschirmaufnahme, AI-Freistellen, Offline-OCR, QR- und Barcode-Erkennung, Übersetzung und Anheften',
+      'SnipArc-Werkzeuge auf dem Bildschirm: Aufnahme, Langer Screenshot, Anmerkungen, Bildschirmaufnahme, AI-Freistellen, Offline-OCR, QR- und Barcode-Erkennung, Übersetzung und Anheften',
     cards: [
       {
         title: 'Langer Screenshot',
         description:
-          'Eine Seite, die höher ist als der Bildschirm, passt trotzdem in eine Aufnahme. Scrollen Sie selbst oder lassen Sie SnipX automatisch scrollen – der lange Screenshot wird dabei Stück für Stück zusammengesetzt.',
+          'Eine Seite, die höher ist als der Bildschirm, passt trotzdem in eine Aufnahme. Scrollen Sie selbst oder lassen Sie SnipArc automatisch scrollen – der lange Screenshot wird dabei Stück für Stück zusammengesetzt.',
       },
       {
         title: 'QR- und Barcode-Erkennung',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: 'Automatisch oder selbst scrollen',
           description:
-            'Lassen Sie SnipX die Seite abfahren oder scrollen Sie von Hand. Jeder Abschnitt wird dabei sofort erfasst.',
+            'Lassen Sie SnipArc die Seite abfahren oder scrollen Sie von Hand. Jeder Abschnitt wird dabei sofort erfasst.',
         },
         {
           title: 'Beim Zusammensetzen zusehen',
@@ -63,12 +63,12 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'In drei Schritten vom Bildschirm zum Teilen.',
-      alt: 'SnipX-Workflow',
+      alt: 'SnipArc-Workflow',
       steps: [
         {
           title: 'Tastenkürzel drücken',
           description:
-            'SnipX überall aufrufen und den Zeiger über das Ziel bewegen – das gewünschte Fenster oder Element ist bereits erkannt.',
+            'SnipArc überall aufrufen und den Zeiger über das Ziel bewegen – das gewünschte Fenster oder Element ist bereits erkannt.',
         },
         {
           title: 'Annotieren, extrahieren oder bearbeiten',
@@ -85,16 +85,16 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX auf einen Blick',
+    statsTitle: 'SnipArc auf einen Blick',
     metaDescription:
-      'Über SnipX: warum wir ein schnelles, unaufdringliches Screenshot-Tool für Windows entwickelt haben – und was uns dabei leitet.',
+      'Über SnipArc: warum wir ein schnelles, unaufdringliches Screenshot-Tool für Windows entwickelt haben – und was uns dabei leitet.',
     hero: {
       tagline: 'Über uns',
       title: 'Screenshots machen,',
       accent: 'die einfach verschwinden',
       subtitle:
-        'SnipX entstand aus einem einfachen Frust: Screenshots, die man dutzendfach pro Tag macht, sollten sich schneller und flüssiger anfühlen. Wir sind ein kleines Team aus Produktleuten und Entwicklern, die täglich genauso intensiv mit Screenshot-Tools arbeiten wie Sie – und diese Hingabe steckt in jedem Tastenkürzel, jeder Auswahl, jedem Frame.',
-      alt: 'SnipX-Werkzeuge für Anmerkungen auf einem Windows-Desktop',
+        'SnipArc entstand aus einem einfachen Frust: Screenshots, die man dutzendfach pro Tag macht, sollten sich schneller und flüssiger anfühlen. Wir sind ein kleines Team aus Produktleuten und Entwicklern, die täglich genauso intensiv mit Screenshot-Tools arbeiten wie Sie – und diese Hingabe steckt in jedem Tastenkürzel, jeder Auswahl, jedem Frame.',
+      alt: 'SnipArc-Werkzeuge für Anmerkungen auf einem Windows-Desktop',
     },
     stats: [
       { title: 'Sprachen', amount: '15' },
@@ -128,7 +128,7 @@ export const content: LocaleExtras = {
       title: 'Kernfunktionen',
       subtitle:
         'Screenshot, Langer Screenshot, Anheften, Bildschirmaufnahme, Offline-OCR und AI auf dem Gerät – die sechs Dinge für den Alltag, nur ein Tastenkürzel entfernt.',
-      alt: 'SnipX-Anmerkungswerkzeuge auf einem Windows-Desktop: Auswahl, Werkzeugleiste und schwebende Kacheln',
+      alt: 'SnipArc-Anmerkungswerkzeuge auf einem Windows-Desktop: Auswahl, Werkzeugleiste und schwebende Kacheln',
       items: [
         {
           title: 'Screenshot',
@@ -138,7 +138,7 @@ export const content: LocaleExtras = {
         {
           title: 'Langer Screenshot',
           description:
-            'Eine Seite oder einen langen Chat scrollen und von SnipX zu einem langen Screenshot zusammensetzen lassen – automatisch oder von Hand, mit Live-Vorschau.',
+            'Eine Seite oder einen langen Chat scrollen und von SnipArc zu einem langen Screenshot zusammensetzen lassen – automatisch oder von Hand, mit Live-Vorschau.',
         },
         {
           title: 'Auf Desktop anheften',
@@ -238,7 +238,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Wie wir hierher kamen',
       subtitle: 'Von einem Werkzeug für uns selbst zu einem, auf das sich täglich viele verlassen.',
-      cta: 'SnipX kostenlos herunterladen',
+      cta: 'SnipArc kostenlos herunterladen',
       items: [
         {
           title: 'Begann mit unserem eigenen Bedarf',
@@ -253,7 +253,7 @@ export const content: LocaleExtras = {
         {
           title: 'Mehr Menschen erreichen',
           description:
-            'Heute spricht SnipX 15 Oberflächensprachen und es werden stetig mehr – mit demselben Ziel: Screenshots einfach zu machen.',
+            'Heute spricht SnipArc 15 Oberflächensprachen und es werden stetig mehr – mit demselben Ziel: Screenshots einfach zu machen.',
         },
       ],
     },
@@ -264,7 +264,7 @@ export const content: LocaleExtras = {
         {
           title: 'Community',
           description:
-            'Werden Sie Teil der SnipX-Community: neue Versionen, Tipps und ein direkter Draht für Ihr Feedback.',
+            'Werden Sie Teil der SnipArc-Community: neue Versionen, Tipps und ein direkter Draht für Ihr Feedback.',
         },
         {
           title: 'E-Mail-Support',

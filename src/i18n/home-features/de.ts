@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Kernfunktionen',
     title: 'Eine App für jede Art von Screenshot',
     subtitle:
-      'Vom schnellen Schnappschuss bis zur anspruchsvollen kreativen Arbeit: SnipX bündelt Ihre häufigsten Aufgaben rund um Aufnahme, Bildschirmaufnahme, OCR und Anmerkungen in einer schlanken App.',
+      'Vom schnellen Schnappschuss bis zur anspruchsvollen kreativen Arbeit: SnipArc bündelt Ihre häufigsten Aufgaben rund um Aufnahme, Bildschirmaufnahme, OCR und Anmerkungen in einer schlanken App.',
     items: [
       {
         title: 'Intelligente Aufnahme',
         description:
-          'Erfassen Sie einen Bereich, ein Fenster oder den gesamten Bildschirm mit einem Tastendruck. SnipX erkennt Fenster und UI-Elemente pixelgenau.',
+          'Erfassen Sie einen Bereich, ein Fenster oder den gesamten Bildschirm mit einem Tastendruck. SnipArc erkennt Fenster und UI-Elemente pixelgenau.',
       },
       {
         title: 'Bildschirmaufnahme & GIF',
@@ -123,7 +123,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Weitere Funktionen',
     title: 'Die kleinen Dinge, auf die Sie sich verlassen werden',
-    subtitle: 'Gerade die kleinen Details machen SnipX zu einem Werkzeug, das man nicht mehr missen möchte.',
+    subtitle: 'Gerade die kleinen Details machen SnipArc zu einem Werkzeug, das man nicht mehr missen möchte.',
     items: [
       {
         title: 'Emoji-Sticker',

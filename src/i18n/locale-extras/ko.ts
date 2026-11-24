@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Korean copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's ko language pack.
+ * English pages. Terminology follows the SnipArc app's ko language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: '스크롤 캡처',
 
   home: {
     heroAlt:
-      '화면 위의 SnipX 도구: 캡처, 스크롤 캡처, 주석, 화면 녹화, AI 배경 제거, 오프라인 OCR, QR 코드·바코드 인식, 이미지 번역, 바탕 화면에 고정',
+      '화면 위의 SnipArc 도구: 캡처, 스크롤 캡처, 주석, 화면 녹화, AI 배경 제거, 오프라인 OCR, QR 코드·바코드 인식, 이미지 번역, 바탕 화면에 고정',
     cards: [
       {
         title: '스크롤 캡처',
         description:
-          '화면보다 긴 페이지도 한 장에 담습니다. 직접 스크롤하거나 SnipX가 자동으로 내려가면, 긴 이미지가 이어 붙는 과정을 지켜볼 수 있습니다.',
+          '화면보다 긴 페이지도 한 장에 담습니다. 직접 스크롤하거나 SnipArc가 자동으로 내려가면, 긴 이미지가 이어 붙는 과정을 지켜볼 수 있습니다.',
       },
       {
         title: 'QR 코드·바코드 인식',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: '자동 스크롤 또는 직접 스크롤',
           description:
-            'SnipX가 페이지를 내려가게 하거나 직접 스크롤하세요. 어느 쪽이든 진행되는 동안 모든 프레임이 캡처됩니다.',
+            'SnipArc가 페이지를 내려가게 하거나 직접 스크롤하세요. 어느 쪽이든 진행되는 동안 모든 프레임이 캡처됩니다.',
         },
         {
           title: '이어 붙는 과정을 실시간으로',
@@ -63,11 +63,11 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: '화면에서 공유까지, 세 단계.',
-      alt: 'SnipX 작업 흐름',
+      alt: 'SnipArc 작업 흐름',
       steps: [
         {
           title: '단축키 누르기',
-          description: '어디서든 SnipX를 불러내고 마우스를 올리면 원하는 창이나 요소가 이미 감지되어 있습니다.',
+          description: '어디서든 SnipArc를 불러내고 마우스를 올리면 원하는 창이나 요소가 이미 감지되어 있습니다.',
         },
         {
           title: '주석 달기, 추출하기, 편집하기',
@@ -82,15 +82,15 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX 한눈에 보기',
-    metaDescription: '빠르고 정확한 캡처 도구를 만드는 SnipX 팀의 이야기와 우리가 지켜 온 원칙을 소개합니다.',
+    statsTitle: 'SnipArc 한눈에 보기',
+    metaDescription: '빠르고 정확한 캡처 도구를 만드는 SnipArc 팀의 이야기와 우리가 지켜 온 원칙을 소개합니다.',
     hero: {
       tagline: '회사 소개',
       title: '스크린샷을',
       accent: '없는 듯 자연스럽게',
       subtitle:
-        'SnipX는 작은 불편에서 시작했습니다. 하루에도 수십 번 하는 캡처가 더 빠르고 매끄러워야 한다는 생각이었습니다. 우리는 누구보다 캡처 도구를 자주 쓰는 제품 기획자와 엔지니어로 이루어진 작은 팀이며, 그 집념을 모든 단축키와 선택, 프레임 하나하나에 담았습니다.',
-      alt: 'Windows 바탕 화면 위의 SnipX 주석 도구',
+        'SnipArc는 작은 불편에서 시작했습니다. 하루에도 수십 번 하는 캡처가 더 빠르고 매끄러워야 한다는 생각이었습니다. 우리는 누구보다 캡처 도구를 자주 쓰는 제품 기획자와 엔지니어로 이루어진 작은 팀이며, 그 집념을 모든 단축키와 선택, 프레임 하나하나에 담았습니다.',
+      alt: 'Windows 바탕 화면 위의 SnipArc 주석 도구',
     },
     stats: [
       { title: '지원 언어', amount: '15' },
@@ -123,7 +123,7 @@ export const content: LocaleExtras = {
       title: '핵심 기능',
       subtitle:
         '스크린샷, 스크롤 캡처, 바탕 화면에 고정, 화면 녹화, 오프라인 OCR과 온디바이스 AI까지. 하루에도 몇 번씩 손이 가는 여섯 가지가 단축키 하나에 담겨 있습니다.',
-      alt: 'Windows 바탕 화면 위의 SnipX 주석 도구: 선택 영역, 도구 모음과 반투명 타일',
+      alt: 'Windows 바탕 화면 위의 SnipArc 주석 도구: 선택 영역, 도구 모음과 반투명 타일',
       items: [
         {
           title: '스크린샷',
@@ -133,7 +133,7 @@ export const content: LocaleExtras = {
         {
           title: '스크롤 캡처',
           description:
-            '페이지나 긴 대화를 스크롤하면 SnipX가 하나의 긴 이미지로 이어 붙입니다. 자동·수동 스크롤과 실시간 미리보기를 지원합니다.',
+            '페이지나 긴 대화를 스크롤하면 SnipArc가 하나의 긴 이미지로 이어 붙입니다. 자동·수동 스크롤과 실시간 미리보기를 지원합니다.',
         },
         {
           title: '바탕 화면에 고정',
@@ -228,7 +228,7 @@ export const content: LocaleExtras = {
     history: {
       title: '여기까지 오기까지',
       subtitle: '우리를 위해 만든 도구에서, 매일 사람들이 쓰는 도구가 되기까지.',
-      cta: 'SnipX 무료 다운로드',
+      cta: 'SnipArc 무료 다운로드',
       items: [
         {
           title: '우리 필요에서 시작했습니다',
@@ -242,7 +242,7 @@ export const content: LocaleExtras = {
         {
           title: '더 많은 사람에게 다가갑니다',
           description:
-            '이제 SnipX는 15개 언어를 지원하며 계속 성장하고 있습니다. 목표는 늘 같습니다. 스크린샷을 간단하게 만드는 것.',
+            '이제 SnipArc는 15개 언어를 지원하며 계속 성장하고 있습니다. 목표는 늘 같습니다. 스크린샷을 간단하게 만드는 것.',
         },
       ],
     },
@@ -252,7 +252,7 @@ export const content: LocaleExtras = {
       items: [
         {
           title: '커뮤니티',
-          description: 'SnipX 커뮤니티에 참여해 새 버전과 팁을 받아 보고, 하고 싶은 말을 바로 전해 주세요.',
+          description: 'SnipArc 커뮤니티에 참여해 새 버전과 팁을 받아 보고, 하고 싶은 말을 바로 전해 주세요.',
         },
         {
           title: '이메일 지원',

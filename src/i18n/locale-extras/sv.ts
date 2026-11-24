@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Swedish copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's Swedish language pack.
+ * English pages. Terminology follows the SnipArc app's Swedish language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Rullande skärmbild',
 
   home: {
     heroAlt:
-      'SnipXs verktyg på skärmen: skärmbild, rullande skärmbild, anteckningar, skärminspelning, AI-frilägg, offline-OCR, QR- och streckkodsläsning, översättning och fäst på skrivbordet',
+      'SnipArcs verktyg på skärmen: skärmbild, rullande skärmbild, anteckningar, skärminspelning, AI-frilägg, offline-OCR, QR- och streckkodsläsning, översättning och fäst på skrivbordet',
     cards: [
       {
         title: 'Rullande skärmbild',
         description:
-          'En sida som är högre än skärmen får plats i en enda bild. Rulla själv eller låt SnipX rulla automatiskt — och se den långa bilden fogas samman allt eftersom.',
+          'En sida som är högre än skärmen får plats i en enda bild. Rulla själv eller låt SnipArc rulla automatiskt — och se den långa bilden fogas samman allt eftersom.',
       },
       {
         title: 'QR- och streckkodsläsning',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: 'Rulla automatiskt eller själv',
           description:
-            'Låt SnipX vandra nedåt på sidan eller rulla för hand. Hur du än gör fångas varje bildruta på vägen.',
+            'Låt SnipArc vandra nedåt på sidan eller rulla för hand. Hur du än gör fångas varje bildruta på vägen.',
         },
         {
           title: 'Se den fogas samman medan den växer',
@@ -63,12 +63,12 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'Från skärm till delat i tre steg.',
-      alt: 'SnipXs arbetsflöde',
+      alt: 'SnipArcs arbetsflöde',
       steps: [
         {
           title: 'Tryck på snabbtangenten',
           description:
-            'Växla fram SnipX var som helst och håll muspekaren över — fönstret eller elementet du vill ha är redan identifierat.',
+            'Växla fram SnipArc var som helst och håll muspekaren över — fönstret eller elementet du vill ha är redan identifierat.',
         },
         {
           title: 'Anteckna, extrahera eller redigera',
@@ -83,15 +83,15 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX i korthet',
-    metaDescription: 'Om teamet bakom SnipX och varför vi bygger snabba, enkla och diskreta skärmbilder.',
+    statsTitle: 'SnipArc i korthet',
+    metaDescription: 'Om teamet bakom SnipArc och varför vi bygger snabba, enkla och diskreta skärmbilder.',
     hero: {
       tagline: 'Om oss',
       title: 'Gör skärmbilder',
       accent: 'så bra att de försvinner',
       subtitle:
-        'SnipX började med en enkel frustration: skärmbilderna vi tar dussintals gånger om dagen borde kännas snabbare och smidigare. Vi är ett litet team av produktmänniskor och ingenjörer som lutar oss mot skärmbildsverktyg lika mycket som någon annan — och den besattheten byggde vi in i varje snabbtangent, varje markering, varje bildruta.',
-      alt: 'SnipXs anteckningsverktyg över ett Windows-skrivbord',
+        'SnipArc började med en enkel frustration: skärmbilderna vi tar dussintals gånger om dagen borde kännas snabbare och smidigare. Vi är ett litet team av produktmänniskor och ingenjörer som lutar oss mot skärmbildsverktyg lika mycket som någon annan — och den besattheten byggde vi in i varje snabbtangent, varje markering, varje bildruta.',
+      alt: 'SnipArcs anteckningsverktyg över ett Windows-skrivbord',
     },
     stats: [
       { title: 'Språk', amount: '15' },
@@ -125,7 +125,7 @@ export const content: LocaleExtras = {
       title: 'Kärnfunktioner',
       subtitle:
         'Skärmbild, rullande skärmbild, fäst på skrivbordet, skärminspelning, offline-OCR och AI — de sex sakerna du använder hela dagen, bara en snabbtangent bort.',
-      alt: 'SnipXs anteckningsverktyg över ett Windows-skrivbord: markering, verktygsfält och glaspaneler',
+      alt: 'SnipArcs anteckningsverktyg över ett Windows-skrivbord: markering, verktygsfält och glaspaneler',
       items: [
         {
           title: 'Skärmbild',
@@ -135,7 +135,7 @@ export const content: LocaleExtras = {
         {
           title: 'Rullande skärmbild',
           description:
-            'Rulla en sida eller en lång chatt och låt SnipX sy ihop den till en enda lång bild — automatiskt eller för hand, med förhandsvisning i realtid.',
+            'Rulla en sida eller en lång chatt och låt SnipArc sy ihop den till en enda lång bild — automatiskt eller för hand, med förhandsvisning i realtid.',
         },
         {
           title: 'Fäst på skrivbordet',
@@ -232,7 +232,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Hur vi hamnade här',
       subtitle: 'Från ett verktyg vi byggde för oss själva till ett som människor litar på varje dag.',
-      cta: 'Ladda ner SnipX gratis',
+      cta: 'Ladda ner SnipArc gratis',
       items: [
         {
           title: 'Började med vårt eget behov',
@@ -246,7 +246,7 @@ export const content: LocaleExtras = {
         {
           title: 'Når fler människor',
           description:
-            'I dag talar SnipX 15 gränssnittsspråk och växer vidare — med samma mål: att göra skärmbilder enkla.',
+            'I dag talar SnipArc 15 gränssnittsspråk och växer vidare — med samma mål: att göra skärmbilder enkla.',
         },
       ],
     },
@@ -257,7 +257,7 @@ export const content: LocaleExtras = {
         {
           title: 'Community',
           description:
-            'Gå med i SnipXs community för nya versioner, tips och en direkt kanal för att säga vad du tycker.',
+            'Gå med i SnipArcs community för nya versioner, tips och en direkt kanal för att säga vad du tycker.',
         },
         {
           title: 'E-postsupport',

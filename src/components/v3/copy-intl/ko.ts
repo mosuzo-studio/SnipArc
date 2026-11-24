@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Korean copy for the v3 pages. Terminology follows the SnipX app's ko
+ * Korean copy for the v3 pages. Terminology follows the SnipArc app's ko
  * language pack.
  */
 export default {
-  home: 'SnipX — 더 빠르고 스마트한 스크린샷과 화면 녹화',
+  home: 'SnipArc — 더 빠르고 스마트한 스크린샷과 화면 녹화',
   nav: {
     features: '기능',
     versions: '버전 비교',
@@ -43,7 +43,7 @@ export default {
       { key: 'ai', label: 'AI', caption: 'AI 배경 제거, AI 지우기, 오프라인 OCR — 모두 기기에서 처리합니다.' },
     ],
     h1: [[{ text: '스크린샷, 화면 녹화, ' }, { text: 'AI의 마법', hl: true }], [{ text: '단축키 하나로 모두 해결' }]],
-    sub: 'SnipX는 하루에도 수십 번 스크린샷을 찍는 사람을 위한 데스크톱 캡처 도구입니다. 주석 달기, 긴 페이지 스크롤 캡처, GIF 녹화, AI 배경 제거, 오프라인 OCR, 이미지 번역, 바탕 화면에 고정까지 — 작업 흐름을 벗어나지 않고 모두 처리합니다.',
+    sub: 'SnipArc는 하루에도 수십 번 스크린샷을 찍는 사람을 위한 데스크톱 캡처 도구입니다. 주석 달기, 긴 페이지 스크롤 캡처, GIF 녹화, AI 배경 제거, 오프라인 OCR, 이미지 번역, 바탕 화면에 고정까지 — 작업 흐름을 벗어나지 않고 모두 처리합니다.',
     primary: '무료 다운로드',
     secondary: '사용 방법 보기',
     metaStrong: 'Windows 10/11+',
@@ -55,7 +55,7 @@ export default {
   download: {
     more: '다운로드 옵션 더 보기',
     menu: '다운로드 옵션',
-    edition: 'SnipX Standard 버전',
+    edition: 'SnipArc Standard 버전',
     setup: '설치 버전(.exe)',
     portable: '포터블 버전(.7z)',
     msi: 'MSI 설치 프로그램',
@@ -114,7 +114,7 @@ export default {
       title: '한 번의 키로, 정확한 경계까지',
       lead: '단축키로 불러내 캡처와 주석, 복사까지 한 번에 끝냅니다.',
       rows: [
-        '마우스를 올리면 아래에 있는 창이나 UI 요소에 SnipX가 자동으로 붙습니다',
+        '마우스를 올리면 아래에 있는 창이나 UI 요소에 SnipArc가 자동으로 붙습니다',
         '화살표, 박스, 텍스트, 번호, 이모지, 돋보기 — 캡처한 순간 바로 주석을 답니다',
         '마무리 방식은 두 가지 — 클립보드로 바로 복사하기(우아하고 간결) 또는 주석 도구 모음 바로 열기(바로 주석 달기)',
       ],
@@ -221,7 +221,7 @@ export default {
     faqLink: 'FAQ 보기',
     soon: '오픈 예정',
     mail: {
-      subject: 'SnipX 피드백 — ',
+      subject: 'SnipArc 피드백 — ',
       body: [
         '안녕하세요,',
         '',
@@ -230,7 +230,7 @@ export default {
         '',
         '가능하시면 아래 정보를 함께 보내 주세요. 더 빠르게 확인할 수 있습니다:',
         '',
-        '\u00b7 SnipX 버전(Lite / Standard):',
+        '\u00b7 SnipArc 버전(Lite / Standard):',
         '\u00b7 Windows 버전:',
         '\u00b7 문제 재현 방법:',
         '',
@@ -265,7 +265,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: '다른 SnipX 사용자와 대화를 나눠 보세요.',
+            note: '다른 SnipArc 사용자와 대화를 나눠 보세요.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

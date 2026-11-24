@@ -7,7 +7,7 @@ import type { FaqContent } from '../faq-types';
 export const content: FaqContent = {
   metaTitle: 'Preguntas frecuentes',
   metaDescription:
-    'Respuestas breves sobre SnipX: qué plataformas e idiomas de interfaz admite, qué funciona sin conexión, qué sigue siendo gratis, cómo funcionan la exportación y el rendimiento, y detalles como los temas y los atajos.',
+    'Respuestas breves sobre SnipArc: qué plataformas e idiomas de interfaz admite, qué funciona sin conexión, qué sigue siendo gratis, cómo funcionan la exportación y el rendimiento, y detalles como los temas y los atajos.',
   title: 'Preguntas frecuentes',
   lead: 'Plataformas, idiomas, privacidad sin conexión, versiones, exportación y detalles: la versión corta.',
   groups: [
@@ -16,12 +16,12 @@ export const content: FaqContent = {
       label: 'Plataforma e idiomas',
       items: [
         {
-          q: '¿Qué sistemas operativos admite SnipX?',
-          a: 'Actualmente, SnipX admite Windows de escritorio: un instalador pequeño que se inicia rápido y funciona sin conexión — descárgalo y empieza de inmediato. macOS, Linux y más plataformas están en la hoja de ruta.',
+          q: '¿Qué sistemas operativos admite SnipArc?',
+          a: 'Actualmente, SnipArc admite Windows de escritorio: un instalador pequeño que se inicia rápido y funciona sin conexión — descárgalo y empieza de inmediato. macOS, Linux y más plataformas están en la hoja de ruta.',
         },
         {
-          q: '¿Qué idiomas de interfaz admite SnipX?',
-          a: 'SnipX ahora admite chino tradicional, japonés, portugués de Brasil, español, alemán, francés, italiano, coreano, ruso, árabe, neerlandés, polaco y sueco. Junto con el inglés y el chino simplificado, SnipX admite 15 idiomas de interfaz.',
+          q: '¿Qué idiomas de interfaz admite SnipArc?',
+          a: 'SnipArc ahora admite chino tradicional, japonés, portugués de Brasil, español, alemán, francés, italiano, coreano, ruso, árabe, neerlandés, polaco y sueco. Junto con el inglés y el chino simplificado, SnipArc admite 15 idiomas de interfaz.',
         },
       ],
     },
@@ -34,7 +34,7 @@ export const content: FaqContent = {
           a: 'No. El reconocimiento de texto OCR, el recorte con IA y el borrado con IA se ejecutan por completo sin conexión en tu dispositivo — no se sube nada y tus datos quedan protegidos. La traducción de imágenes usa API en la nube y cumple las políticas de privacidad de los proveedores correspondientes.',
         },
         {
-          q: '¿Puedo usar SnipX sin ninguna conexión?',
+          q: '¿Puedo usar SnipArc sin ninguna conexión?',
           a: 'Sí. La captura, la anotación, la grabación de pantalla, el OCR sin conexión, el recorte con IA, el borrado con IA y el visor de imágenes funcionan sin conexión, y nada de lo que capturas sale de tu PC. La traducción de imágenes es la única función que llama a una API en la nube, así que necesita conexión.',
         },
       ],
@@ -44,7 +44,7 @@ export const content: FaqContent = {
       label: 'Versiones, exportación y rendimiento',
       items: [
         {
-          q: '¿SnipX es gratis?',
+          q: '¿SnipArc es gratis?',
           a: 'La captura, la anotación y la fijación en el escritorio son gratis para siempre. Si lo único que necesitas es capturar y anotar a diario, la versión Lite está disponible como una opción más ligera: deja fuera la grabación de pantalla y la IA. La grabación de pantalla, el recorte con IA, el borrado con IA y la traducción de imágenes vienen con la versión Estándar; consulta la comparación de versiones para más detalles.',
         },
         {
@@ -57,7 +57,7 @@ export const content: FaqContent = {
         },
         {
           q: '¿Va a ralentizar mi PC?',
-          a: 'No. SnipX está pensado para mantenerse ligero: consumo mínimo de memoria y arranque instantáneo, imperceptible incluso en segundo plano.',
+          a: 'No. SnipArc está pensado para mantenerse ligero: consumo mínimo de memoria y arranque instantáneo, imperceptible incluso en segundo plano.',
         },
       ],
     },
@@ -66,7 +66,7 @@ export const content: FaqContent = {
       label: 'Detalles y personalización',
       items: [
         {
-          q: '¿SnipX tiene modo oscuro?',
+          q: '¿SnipArc tiene modo oscuro?',
           a: 'Sí. En Configuración → General → Tema de la interfaz puedes elegir entre «Seguir al sistema», «Claro» y «Oscuro»; «Seguir al sistema» adopta automáticamente el ajuste claro/oscuro de Windows.',
         },
         {
@@ -75,11 +75,11 @@ export const content: FaqContent = {
         },
         {
           q: '¿Puedo cambiar los atajos de teclado?',
-          a: 'Sí. La captura, la captura personalizada, fijar en el escritorio y el Modo presentación se pueden reasignar en Configuración → Atajos; si otra aplicación ya usa una tecla, SnipX te lo indica, y puedes restaurar todos los valores predeterminados con un clic.',
+          a: 'Sí. La captura, la captura personalizada, fijar en el escritorio y el Modo presentación se pueden reasignar en Configuración → Atajos; si otra aplicación ya usa una tecla, SnipArc te lo indica, y puedes restaurar todos los valores predeterminados con un clic.',
         },
         {
           q: '¿Cómo actualizo a una nueva versión?',
-          a: 'SnipX se actualiza solo: por defecto busca actualizaciones al iniciar, puede descargar e instalar en segundo plano, o puedes buscarlas manualmente en Configuración → Actualización. La edición de Microsoft Store se mantiene al día a través de la Store.',
+          a: 'SnipArc se actualiza solo: por defecto busca actualizaciones al iniciar, puede descargar e instalar en segundo plano, o puedes buscarlas manualmente en Configuración → Actualización. La edición de Microsoft Store se mantiene al día a través de la Store.',
         },
       ],
     },

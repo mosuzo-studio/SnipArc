@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="Logo SnipX" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="Logo SnipArc" />
 </p>
 
-<h1 align="center">SnipX</h1>
+<h1 align="center">SnipArc</h1>
 
 <p align="center">
   <strong>Cattura con precisione. Spiega con chiarezza. Continua a lavorare.</strong><br/>
@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Sito_web-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Visita il sito ufficiale di SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Sito_web-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Visita il sito ufficiale di SnipArc" /></a>
   <a href="https://sniparc.mosuzo.com/it/faq"><img src="https://img.shields.io/badge/FAQ-4c72b0?style=for-the-badge" height="40" alt="Leggi le FAQ" /></a>
-  <a href="https://sniparc.mosuzo.com/it/changelog"><img src="https://img.shields.io/badge/Aggiornamenti-3F7C73?style=for-the-badge" height="40" alt="Leggi gli aggiornamenti di SnipX" /></a>
+  <a href="https://sniparc.mosuzo.com/it/changelog"><img src="https://img.shields.io/badge/Aggiornamenti-3F7C73?style=for-the-badge" height="40" alt="Leggi gli aggiornamenti di SnipArc" /></a>
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@
 <br/>
 
 <p align="center">
-  <strong>Scarica SnipX</strong> · Windows 10 / 11 (64-bit)
+  <strong>Scarica SnipArc</strong> · Windows 10 / 11 (64-bit)
 </p>
 
 <p align="center">
@@ -60,22 +60,22 @@
 
 | Cosa fa | Scopri di più | Per iniziare |
 | --- | --- | --- |
-| [Funzioni principali](#funzioni-principali): Screenshot · Screenshot lungo · Fissa sul desktop · Registrazione schermo e GIF · OCR offline · Scontorno AI e cancellazione AI<br/>[Altre funzioni](#altre-funzioni): annotazione e oscuramento · Adesivi Emoji · Modalità presentazione · modalità scura · multi-monitor | [Pensato per il lavoro dopo ogni screenshot](#pensato-per-il-lavoro-dopo-ogni-screenshot)<br/>[FAQ](#faq)<br/>[Un flusso Windows mirato](#un-flusso-windows-mirato)<br/>[Privacy e controllo](#privacy-e-controllo)<br/>[Lingue supportate](#lingue-supportate) | [Download ed edizioni](#download-ed-edizioni)<br/>[Supporto e feedback](#supporto-e-feedback)<br/>[Supporta SnipX su Ko-fi](#supporta-snipx-su-ko-fi) |
+| [Funzioni principali](#funzioni-principali): Screenshot · Screenshot lungo · Fissa sul desktop · Registrazione schermo e GIF · OCR offline · Scontorno AI e cancellazione AI<br/>[Altre funzioni](#altre-funzioni): annotazione e oscuramento · Adesivi Emoji · Modalità presentazione · modalità scura · multi-monitor | [Pensato per il lavoro dopo ogni screenshot](#pensato-per-il-lavoro-dopo-ogni-screenshot)<br/>[FAQ](#faq)<br/>[Un flusso Windows mirato](#un-flusso-windows-mirato)<br/>[Privacy e controllo](#privacy-e-controllo)<br/>[Lingue supportate](#lingue-supportate) | [Download ed edizioni](#download-ed-edizioni)<br/>[Supporto e feedback](#supporto-e-feedback)<br/>[Supporta SnipArc su Ko-fi](#supporta-sniparc-su-ko-fi) |
 
 </details>
 
 > **Tre passi per iniziare:** ① installa → ② premi `F1` e inquadra l’area → ③ annota e copia, oppure premi `F3` per fissare la cattura sul desktop.
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="Panoramica di SnipX" />
-  <p align="center"><strong>SnipX in breve.</strong> Dagli screenshot alle immagini lunghe, dal fissaggio alla registrazione, fino all’estrazione del testo e al ritocco AI: tutto in un’unica finestra.</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="Panoramica di SnipArc" />
+  <p align="center"><strong>SnipArc in breve.</strong> Dagli screenshot alle immagini lunghe, dal fissaggio alla registrazione, fino all’estrazione del testo e al ritocco AI: tutto in un’unica finestra.</p>
 </figure>
 
 <br/>
 
 ## Pensato per il lavoro dopo ogni screenshot
 
-La parte difficile non è quasi mai la cattura: è tutto quello che viene dopo — annotare, oscurare, unire una pagina lunga, estrarre il testo, tenere un riferimento sotto gli occhi. SnipX raccoglie questo lavoro in un unico flusso, così la cattura è pronta nel momento stesso in cui la fai.
+La parte difficile non è quasi mai la cattura: è tutto quello che viene dopo — annotare, oscurare, unire una pagina lunga, estrarre il testo, tenere un riferimento sotto gli occhi. SnipArc raccoglie questo lavoro in un unico flusso, così la cattura è pronta nel momento stesso in cui la fai.
 
 - **Niente passaggi aggiuntivi:** annota, oscura e ingrandisci nella stessa barra degli strumenti
 - **Tutto ciò che è lungo, in un’unica immagine:** pagine lunghe, chat e documenti, uniti automaticamente
@@ -89,7 +89,7 @@ Usi comuni: feedback sul prodotto, segnalazioni di bug, tutorial e documentazion
 
 ### 📸 Screenshot · Un tasto, l’inquadratura esatta
 
-Premi `F1`; passa il mouse e SnipX si aggancia alla finestra o al pulsante sotto il cursore, poi ritocca i bordi con la lente d’ingrandimento.
+Premi `F1`; passa il mouse e SnipArc si aggancia alla finestra o al pulsante sotto il cursore, poi ritocca i bordi con la lente d’ingrandimento.
 
 - Frecce, numerazione, testo e mosaico, applicati all’istante
 - Dimensioni fisse, proporzioni, coordinate e ritardo per catture ripetibili
@@ -97,7 +97,7 @@ Premi `F1`; passa il mouse e SnipX si aggancia alla finestra o al pulsante sotto
 <sub>**In dettaglio:** aggancio ai bordi di finestre ed elementi dell’interfaccia, regolazioni al pixel, preset salvati e cattura con ritardo.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="Cattura intelligente e area di annotazione di SnipX" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="Cattura intelligente e area di annotazione di SnipArc" />
   <p align="center"><strong>Cattura intelligente.</strong> Scegli una finestra o un elemento, poi annota direttamente nella barra degli strumenti.</p>
 </figure>
 
@@ -106,7 +106,7 @@ Premi `F1`; passa il mouse e SnipX si aggancia alla finestra o al pulsante sotto
 > **Elegante:** copiato all’istante, con una scheda in basso a destra che apre l’editor. **Annotazione immediata:** la barra compare insieme alla selezione, così annoti prima di copiare. Entrambe si trovano in Impostazioni → Cattura.
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX due modi per concludere: Elegante e Annotazione immediata" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipArc due modi per concludere: Elegante e Annotazione immediata" />
   <p align="center"><strong>Due modi per concludere.</strong> A sinistra: Elegante; a destra: Annotazione immediata.</p>
 </figure>
 
@@ -114,14 +114,14 @@ Premi `F1`; passa il mouse e SnipX si aggancia alla finestra o al pulsante sotto
 
 Pagine lunghe, chat e documenti, catturati dall’alto verso il basso in un’unica immagine.
 
-- Lascia scorrere SnipX o scorri tu: ogni fotogramma viene catturato
+- Lascia scorrere SnipArc o scorri tu: ogni fotogramma viene catturato
 - I fotogrammi adiacenti vengono allineati e fusi, così non ci sono cuciture visibili
 - Anteprima della composizione in tempo reale: fermati appena è completa
 
 <sub>**In dettaglio:** pensato per pagine web lunghe, conversazioni e documenti interi; il risultato finisce direttamente in documenti e issue.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="Screenshot lungo di SnipX" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="Screenshot lungo di SnipArc" />
   <p align="center"><strong>Screenshot lungo.</strong> Pagine e chat lunghe, unite in un’unica immagine.</p>
 </figure>
 
@@ -135,7 +135,7 @@ Premi `F3` per tenere una cattura sopra tutto il resto: confronta e prendi spunt
 <sub>**In dettaglio:** trascina un bordo o un angolo per ridimensionare con le proporzioni bloccate; le immagini fissate restano sopra le finestre e non bloccano mai i clic.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="SnipX Fissa sul desktop" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipArc Fissa sul desktop" />
   <p align="center"><strong>Fissa sul desktop.</strong> Tieni i riferimenti in primo piano mentre lavori.</p>
 </figure>
 
@@ -149,7 +149,7 @@ Trasforma ciò che è “difficile da spiegare” in una clip che chiunque può 
 <sub>**In dettaglio:** le GIF restano leggere per documenti, issue e chat, e le modalità ad alta risoluzione reggono anche sugli schermi HiDPI.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="Registrazione schermo ed esportazione GIF con SnipX" />
+  <img src="src/assets/images/readme/11-recording.png" alt="Registrazione schermo ed esportazione GIF con SnipArc" />
   <p align="center"><strong>Registrazione schermo e GIF.</strong> Mostralo una volta invece di spiegarlo due.</p>
 </figure>
 
@@ -162,7 +162,7 @@ Trasforma ciò che è “difficile da spiegare” in una clip che chiunque può 
 <sub>**In dettaglio:** il riconoscimento avviene sul tuo dispositivo e i risultati sono a un clic dagli appunti.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="OCR offline e traduzione immagini di SnipX" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="OCR offline e traduzione immagini di SnipArc" />
   <p align="center"><strong>OCR offline e traduzione immagini.</strong> Estrai e traduci senza uscire dal flusso di cattura.</p>
 </figure>
 
@@ -174,7 +174,7 @@ Trasforma ciò che è “difficile da spiegare” in una clip che chiunque può 
 <sub>**In dettaglio:** entrambi si basano su modelli locali: l’immagine originale non viene mai caricata. Lo scontorno si può copiare o salvare come PNG trasparente.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Scontorno AI di SnipX" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="Scontorno AI di SnipArc" />
   <p align="center"><strong>Scontorno AI.</strong> Soggetto e sfondo, separati in un unico passaggio.</p>
 </figure>
 
@@ -189,7 +189,7 @@ Frecce, testo, penna, evidenziatore, numerazione, lente d’ingrandimento; mosai
 <sub>**In dettaglio:** le annotazioni si spostano, si ridimensionano e si ruotano, con annulla e ripristina quando cambi idea.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Strumenti di annotazione e oscuramento di SnipX" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="Strumenti di annotazione e oscuramento di SnipArc" />
   <p align="center"><strong>Annotazione e oscuramento.</strong> Spiega i passaggi con chiarezza e mantieni privato ciò che è sensibile.</p>
 </figure>
 
@@ -198,7 +198,7 @@ Frecce, testo, penna, evidenziatore, numerazione, lente d’ingrandimento; mosai
 Centinaia di adesivi, da ridimensionare e posizionare dove vuoi: un po’ di divertimento e molta più enfasi.
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Adesivi Emoji di SnipX" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="Adesivi Emoji di SnipArc" />
   <p align="center"><strong>Adesivi Emoji.</strong> Attira l’attenzione esattamente su ciò che conta.</p>
 </figure>
 
@@ -207,7 +207,7 @@ Centinaia di adesivi, da ridimensionare e posizionare dove vuoi: un po’ di div
 Premi `Pause` per liberare il desktop dal disordine prima di una demo o di una registrazione; al termine tutto torna al suo posto.
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Modalità presentazione di SnipX" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="Modalità presentazione di SnipArc" />
   <p align="center"><strong>Modalità presentazione.</strong> Una pressione per mettere in ordine il desktop, una per ripristinarlo.</p>
 </figure>
 
@@ -251,7 +251,7 @@ Gli screenshot vengono salvati in locale; OCR offline, scontorno AI e cancellazi
 
 ## Lingue supportate
 
-SnipX è disponibile in **15 lingue dell’interfaccia**:
+SnipArc è disponibile in **15 lingue dell’interfaccia**:
 
 <p>
   <kbd>Inglese</kbd>
@@ -275,7 +275,7 @@ SnipX è disponibile in **15 lingue dell’interfaccia**:
 
 ## Parole chiave
 
-SnipX; SnipX AI; Mosuzo Studio; strumento per screenshot; cattura con scorrimento; screenshot lungo; annotazione di screenshot; fissaggio sul desktop; registrazione schermo; registrazione GIF; scontorno AI; cancellazione AI; OCR offline; traduzione immagini
+SnipArc; SnipArc AI; Mosuzo Studio; strumento per screenshot; cattura con scorrimento; screenshot lungo; annotazione di screenshot; fissaggio sul desktop; registrazione schermo; registrazione GIF; scontorno AI; cancellazione AI; OCR offline; traduzione immagini
 
 <br/>
 
@@ -299,13 +299,13 @@ Domande, suggerimenti e feedback sono sempre benvenuti.
 
 <p align="center">
   <a href="https://sniparc.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Visita il sito ufficiale di SnipX" />
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Visita il sito ufficiale di SnipArc" />
   </a>
   <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/Feedback%20e%20bug-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Invia feedback o segnala un bug" />
   </a>
   <a href="https://sniparc.mosuzo.com/it/changelog">
-    <img src="https://img.shields.io/badge/Aggiornamenti-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Leggi gli aggiornamenti di SnipX" />
+    <img src="https://img.shields.io/badge/Aggiornamenti-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Leggi gli aggiornamenti di SnipArc" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/Scrivici-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="Scrivi a Mosuzo Studio" />
@@ -314,13 +314,13 @@ Domande, suggerimenti e feedback sono sempre benvenuti.
 
 <br/>
 
-## Supporta SnipX su Ko-fi
+## Supporta SnipArc su Ko-fi
 
-Se SnipX ti rende il lavoro più semplice, sostienici su Ko-fi: lì condividiamo anche gli aggiornamenti sullo sviluppo.
+Se SnipArc ti rende il lavoro più semplice, sostienici su Ko-fi: lì condividiamo anche gli aggiornamenti sullo sviluppo.
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Supporta SnipX su Ko-fi" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Supporta SnipArc su Ko-fi" />
   </a>
 </p>
 

@@ -7,7 +7,7 @@ import type { FaqContent } from '../faq-types';
 export const content: FaqContent = {
   metaTitle: 'Perguntas frequentes',
   metaDescription:
-    'Respostas curtas sobre o SnipX: quais plataformas e idiomas de interface ele suporta, o que funciona offline, o que continua gratuito, como funcionam exportação e desempenho, e os detalhes como temas e atalhos.',
+    'Respostas curtas sobre o SnipArc: quais plataformas e idiomas de interface ele suporta, o que funciona offline, o que continua gratuito, como funcionam exportação e desempenho, e os detalhes como temas e atalhos.',
   title: 'Perguntas frequentes',
   lead: 'Plataformas, idiomas, privacidade offline, versões, exportação e detalhes — a resposta curta.',
   groups: [
@@ -16,12 +16,12 @@ export const content: FaqContent = {
       label: 'Plataforma e idiomas',
       items: [
         {
-          q: 'Quais sistemas operacionais o SnipX suporta?',
-          a: 'No momento, o SnipX é compatível com o Windows para desktop: o instalador é pequeno e abre rápido, e funciona offline — baixe e comece a usar na hora. macOS, Linux e outras plataformas estão no roteiro.',
+          q: 'Quais sistemas operacionais o SnipArc suporta?',
+          a: 'No momento, o SnipArc é compatível com o Windows para desktop: o instalador é pequeno e abre rápido, e funciona offline — baixe e comece a usar na hora. macOS, Linux e outras plataformas estão no roteiro.',
         },
         {
-          q: 'Quais idiomas de interface o SnipX suporta?',
-          a: 'O SnipX agora oferece suporte a chinês tradicional, japonês, português (Brasil), espanhol, alemão, francês, italiano, coreano, russo, árabe, holandês, polonês e sueco. Com o inglês e o chinês simplificado, são 15 idiomas de interface.',
+          q: 'Quais idiomas de interface o SnipArc suporta?',
+          a: 'O SnipArc agora oferece suporte a chinês tradicional, japonês, português (Brasil), espanhol, alemão, francês, italiano, coreano, russo, árabe, holandês, polonês e sueco. Com o inglês e o chinês simplificado, são 15 idiomas de interface.',
         },
       ],
     },
@@ -34,7 +34,7 @@ export const content: FaqContent = {
           a: 'Não. O reconhecimento de texto (OCR), o recorte com AI e o apagamento com AI rodam totalmente offline no seu dispositivo — nada é enviado, e seus dados ficam privados. A tradução de imagens usa APIs na nuvem e segue as políticas de privacidade dos respectivos provedores de nuvem.',
         },
         {
-          q: 'Consigo usar o SnipX sem nenhuma conexão?',
+          q: 'Consigo usar o SnipArc sem nenhuma conexão?',
           a: 'Sim. Captura, anotação, gravação de tela, OCR, recorte com AI, apagamento com AI e o visualizador de imagens funcionam offline, e nada do que você captura sai do seu computador. A tradução de imagens é o único recurso que chama uma API na nuvem, então precisa de conexão.',
         },
       ],
@@ -44,8 +44,8 @@ export const content: FaqContent = {
       label: 'Versões, exportação e desempenho',
       items: [
         {
-          q: 'O SnipX é gratuito?',
-          a: 'Captura, anotação e fixação na área de trabalho são gratuitas para sempre. Se você só precisa de captura e anotação no dia a dia, o SnipX Lite é uma opção mais leve — ele deixa de fora a gravação de tela e os recursos de AI. Gravação de tela, recorte com AI, apagamento com AI e tradução de imagens fazem parte da versão Standard — veja a comparação de versões para mais detalhes.',
+          q: 'O SnipArc é gratuito?',
+          a: 'Captura, anotação e fixação na área de trabalho são gratuitas para sempre. Se você só precisa de captura e anotação no dia a dia, o SnipArc Lite é uma opção mais leve — ele deixa de fora a gravação de tela e os recursos de AI. Gravação de tela, recorte com AI, apagamento com AI e tradução de imagens fazem parte da versão Standard — veja a comparação de versões para mais detalhes.',
         },
         {
           q: 'Quais resoluções e taxas de quadros as gravações podem usar?',
@@ -56,8 +56,8 @@ export const content: FaqContent = {
           a: 'Sim. Exporte qualquer gravação para MP4 — de 720p a 4K, a 30 ou 60 fps — ou para um GIF compacto, ideal para documentação, chat e relatos de bug. Nenhuma das opções limita a duração da gravação.',
         },
         {
-          q: 'O SnipX deixa meu computador lento?',
-          a: 'Não. O SnipX foi feito para se manter leve: uso mínimo de memória e inicialização instantânea, imperceptível mesmo rodando em segundo plano.',
+          q: 'O SnipArc deixa meu computador lento?',
+          a: 'Não. O SnipArc foi feito para se manter leve: uso mínimo de memória e inicialização instantânea, imperceptível mesmo rodando em segundo plano.',
         },
       ],
     },
@@ -66,7 +66,7 @@ export const content: FaqContent = {
       label: 'Detalhes e personalização',
       items: [
         {
-          q: 'O SnipX tem modo escuro?',
+          q: 'O SnipArc tem modo escuro?',
           a: 'Sim. Em Configurações → Geral → Tema da interface, você alterna entre Seguir o sistema, Claro e Escuro; a opção Seguir o sistema acompanha automaticamente o modo claro/escuro do Windows.',
         },
         {
@@ -75,11 +75,11 @@ export const content: FaqContent = {
         },
         {
           q: 'Posso alterar os atalhos de teclado?',
-          a: 'Sim. Captura, captura personalizada, fixação e modo de apresentação podem ser alterados em Configurações → Atalhos; se outro programa já estiver usando uma tecla, o SnipX avisa, e você pode restaurar todos os padrões com um clique.',
+          a: 'Sim. Captura, captura personalizada, fixação e modo de apresentação podem ser alterados em Configurações → Atalhos; se outro programa já estiver usando uma tecla, o SnipArc avisa, e você pode restaurar todos os padrões com um clique.',
         },
         {
           q: 'Como faço para atualizar para uma nova versão?',
-          a: 'O SnipX se atualiza sozinho: por padrão, verifica atualizações ao iniciar, pode baixar e instalar em segundo plano, ou você pode verificar manualmente em Configurações → Atualização. A versão da Microsoft Store se mantém atualizada pela própria loja.',
+          a: 'O SnipArc se atualiza sozinho: por padrão, verifica atualizações ao iniciar, pode baixar e instalar em segundo plano, ou você pode verificar manualmente em Configurações → Atualização. A versão da Microsoft Store se mantém atualizada pela própria loja.',
         },
       ],
     },

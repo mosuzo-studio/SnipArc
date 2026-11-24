@@ -15,7 +15,7 @@
 
 ## 快捷键证据
 
-仅只读核对 `D:\project\research\SnipX`，没有修改软件。
+仅只读核对 `D:\project\research_mosuzo\SnipArc`，没有修改软件。
 
 - `src/core/AppSettings.cpp`：`snipHotkeyText()` 默认 F1，`pasteHotkeyText()` 默认 F3。
 - `src/capture/OverlayController.cpp`：有效选区下 Ctrl+S 保存，Ctrl+Shift+S 快捷保存；`QKeySequence::Copy` 根据 OCR 状态复制识别文字或截图。

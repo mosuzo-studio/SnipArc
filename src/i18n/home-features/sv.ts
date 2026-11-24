@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Kärnfunktioner',
     title: 'En app för alla typer av skärmbilder',
     subtitle:
-      'Från en snabb skärmbild till seriöst kreativt arbete: SnipX samlar dina vanligaste behov av skärmbild, skärminspelning, OCR och anteckningar i en enda lätt app.',
+      'Från en snabb skärmbild till seriöst kreativt arbete: SnipArc samlar dina vanligaste behov av skärmbild, skärminspelning, OCR och anteckningar i en enda lätt app.',
     items: [
       {
         title: 'Smart skärmbild',
         description:
-          'Fånga ett område, ett fönster eller hela skärmen med ett tangenttryck. SnipX identifierar fönster och gränssnittselement in på pixeln.',
+          'Fånga ett område, ett fönster eller hela skärmen med ett tangenttryck. SnipArc identifierar fönster och gränssnittselement in på pixeln.',
       },
       {
         title: 'Skärminspelning och GIF',
@@ -122,7 +122,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Fler funktioner',
     title: 'De små detaljerna du kommer att lita på',
-    subtitle: 'Det är de små detaljerna som gör SnipX svår att lägga ifrån sig.',
+    subtitle: 'Det är de små detaljerna som gör SnipArc svår att lägga ifrån sig.',
     items: [
       {
         title: 'Emoji-klistermärken',

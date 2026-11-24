@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Polish copy for the v3 pages. Terminology follows the SnipX app's pl
+ * Polish copy for the v3 pages. Terminology follows the SnipArc app's pl
  * language pack.
  */
 export default {
-  home: 'SnipX — Szybsze i inteligentniejsze zrzuty ekranu oraz nagrywanie',
+  home: 'SnipArc — Szybsze i inteligentniejsze zrzuty ekranu oraz nagrywanie',
   nav: {
     features: 'Funkcje',
     versions: 'Wersje',
@@ -51,7 +51,7 @@ export default {
       [{ text: 'Zrzuty ekranu, nagrywanie, ' }, { text: 'magia AI', hl: true }],
       [{ text: 'wszystko z jednego skrótu' }],
     ],
-    sub: 'SnipX to narzędzie do przechwytywania dla osób, które robią zrzuty przez cały dzień: adnotacje, długie zrzuty stron, nagrywanie do GIF, wycinanie obiektów z pomocą AI, OCR offline, tłumaczenie obrazów i przypinanie materiałów — bez wychodzenia z rytmu pracy.',
+    sub: 'SnipArc to narzędzie do przechwytywania dla osób, które robią zrzuty przez cały dzień: adnotacje, długie zrzuty stron, nagrywanie do GIF, wycinanie obiektów z pomocą AI, OCR offline, tłumaczenie obrazów i przypinanie materiałów — bez wychodzenia z rytmu pracy.',
     primary: 'Pobierz za darmo',
     secondary: 'Zobacz, jak to działa',
     metaStrong: 'Windows 10/11+',
@@ -63,7 +63,7 @@ export default {
   download: {
     more: 'Więcej opcji pobierania',
     menu: 'Opcje pobierania',
-    edition: 'SnipX Standard',
+    edition: 'SnipArc Standard',
     setup: 'Instalator (.exe)',
     portable: 'Wersja przenośna (.7z)',
     msi: 'Instalator MSI',
@@ -126,7 +126,7 @@ export default {
       title: 'Jedno naciśnięcie i ramka co do piksela',
       lead: 'Wywołaj skrótem, a potem przechwyć, dodaj adnotacje i skopiuj jednym płynnym ruchem.',
       rows: [
-        'Najedź kursorem, a SnipX przyciągnie się do okna lub elementu pod spodem',
+        'Najedź kursorem, a SnipArc przyciągnie się do okna lub elementu pod spodem',
         'Strzałki, prostokąty, tekst, numeracja kroków, emoji, lupa — adnotacje dodasz w momencie przechwytywania',
         'Dwa tryby zakończenia: kopiuj od razu do schowka albo przejdź do adnotacji (Elegancko / Adnotacje od razu)',
       ],
@@ -242,7 +242,7 @@ export default {
         '',
         'Jeśli możesz, dopisz te informacje — pomogą nam szybciej dotrzeć do rozwiązania:',
         '',
-        '\u00b7 Wersja SnipX (Lite / Standard):',
+        '\u00b7 Wersja SnipArc (Lite / Standard):',
         '\u00b7 Wersja Windows:',
         '\u00b7 Kroki do odtworzenia:',
         '',
@@ -277,7 +277,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Rozmowy z innymi użytkownikami SnipX.',
+            note: 'Rozmowy z innymi użytkownikami SnipArc.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

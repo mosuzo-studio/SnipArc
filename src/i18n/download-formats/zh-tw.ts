@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const zhTwFormats: DownloadFormatsContent = {
   tagline: '下載格式',
   title: '該下載哪個檔案？',
-  subtitle: '四種格式都是同一個 SnipX，只是安裝與更新方式不同。',
+  subtitle: '四種格式都是同一個 SnipArc，只是安裝與更新方式不同。',
   headers: ['格式', '安裝與更新', '適合誰'],
   recommendLabel: '推薦',
   rows: [

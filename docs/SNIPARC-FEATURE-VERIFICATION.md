@@ -1,9 +1,9 @@
-# SnipX Feature Verification
+# SnipArc Feature Verification
 
-**Program**: SnipX.exe v7.20.8 (Release, Qt 6.8.3)
-**Distribution**: Portable (7Z/ZIP)
+**Program**: Windows executable v7.20.8 (Release, Qt 6.8.3)
+**Distribution**: Portable (7z)
 **Verification date**: 2026-11-17
-**Base directory**: `D:\project\research\mosuzo-studio\SnipX_v7.20.8_2026-11-16_1019_win64`
+**Base directory**: Historical v7.20.8 build directory
 
 ## Verified Core Features
 
@@ -19,14 +19,14 @@
 
 ### 2. Selection & Region Tools ✅ VERIFIED
 - **Method**: Mouse-driven rectangular selection with real-time feedback
-- **Evidence**: `[SnipX探针] 手势=selection 时长=578ms` — low-latency selection gesture tracking
+- **Evidence**: `[截图探针] 手势=selection 时长=578ms` — low-latency selection gesture tracking
 - **Performance**: Average 18ms event interval, sub-1ms input latency
 - **Pages affected**: features comparison with Shotera
 
 ### 3. Annotation Tools ✅ VERIFIED
 - **Method**: Drawing mode with layer cache system
 - **Evidence**: 
-  - `[SnipX探针] 手势=draw` — drawing gestures recorded
+  - `[截图探针] 手势=draw` — drawing gestures recorded
   - `[D屏检] annotEnter sel(610,70 3171x1381)` — annotation mode entry
   - `[层缓存] recompose rect=3840x2400 ms=14 frag=1 items=6` — layer composition
 - **Tools confirmed**: Drawing/markup capability present
@@ -81,7 +81,7 @@
 - **Evidence**: `portable.marker` file present, logs show portable mode active
 - **Pages affected**: download page, installation-free claims
 
-## NOT Verified (Not in SnipX Logs/Config)
+## NOT Verified (Not in SnipArc Logs/Config)
 
 ### Video Recording
 - ❌ **Evidence**: Config shows `[Record]` section with recording settings
@@ -100,7 +100,7 @@
 
 ## Feature Mapping to Website Sections
 
-| Website Section | SnipX Reality | Status |
+| Website Section | SnipArc Reality | Status |
 |----------------|---------------|--------|
 | Screenshot Capture | Core feature, verified working | ✅ Keep |
 | Annotation Tools | Verified with layer system | ✅ Keep |
@@ -117,7 +117,7 @@
 
 ## Differences from Shotera Claims
 
-1. **Platform**: SnipX is Windows-only (PE32+ exe, Qt6 Win DLLs). Shotera may claim Mac/Linux.
+1. **Platform**: SnipArc is Windows-only (PE32+ exe, Qt6 Win DLLs). Shotera may claim Mac/Linux.
    - **Action**: Remove or adjust cross-platform claims
    
 2. **AI Models**: All AI is local ONNX models, not cloud-based
@@ -127,7 +127,7 @@
    - **Action**: Remove Shotera's Free/Pro/Team pricing structure
 
 4. **Update Channel**: Points to `mosuzo-studio/Shotera` repo (minimum 8.0.0)
-   - **Action**: Fix update endpoint to SnipX repo when available
+   - **Action**: Fix update endpoint to SnipArc repo when available
 
 ## Recommendations for Website
 
@@ -147,5 +147,5 @@
 
 1. Recording feature active status (config present, not tested)
 2. Scrolling capture feature (hinted in config but not verified)
-3. Official download URLs for SnipX
+3. Official download URLs for SnipArc
 4. Target platform claims (Windows-only vs multi-platform)

@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const jaFormats: DownloadFormatsContent = {
   tagline: 'ダウンロード形式',
   title: 'どのファイルをダウンロードすればいい？',
-  subtitle: '4つの形式はいずれも同じ SnipX で、インストールと更新の方法だけが違います。',
+  subtitle: '4つの形式はいずれも同じ SnipArc で、インストールと更新の方法だけが違います。',
   headers: ['形式', 'インストールと更新', '向いている人'],
   recommendLabel: 'おすすめ',
   rows: [

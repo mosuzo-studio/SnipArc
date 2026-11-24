@@ -30,7 +30,7 @@ export function getGuideContent(lang: string) {
       ? [
           {
             title: '运行 SnipArc',
-            text: '便携版需要先完整解压，再运行 SnipX.exe。程序运行后会提供托盘入口；具体安装包与系统要求以对应版本说明为准。',
+            text: '便携版需要先完整解压，再运行 SnipArc.exe。程序运行后会提供托盘入口；具体安装包与系统要求以对应版本说明为准。',
           },
           {
             title: '按 F1，框选需要的内容',
@@ -52,7 +52,7 @@ export function getGuideContent(lang: string) {
       : [
           {
             title: 'Run SnipArc',
-            text: 'For a portable build, extract the complete package before running SnipX.exe. The running app provides a tray entry. Check the release information for package availability and system requirements.',
+            text: 'For a portable build, extract the complete package before running SnipArc.exe. The running app provides a tray entry. Check the release information for package availability and system requirements.',
           },
           {
             title: 'Press F1 and select a region',

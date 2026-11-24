@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const arFormats: DownloadFormatsContent = {
   tagline: 'صيغ التنزيل',
   title: 'أي ملف تنزّله؟',
-  subtitle: 'هو SnipX نفسه في الصيغ الأربع، والفرق فقط في طريقة التثبيت والتحديث.',
+  subtitle: 'هو SnipArc نفسه في الصيغ الأربع، والفرق فقط في طريقة التثبيت والتحديث.',
   headers: ['الصيغة', 'التثبيت والتحديث', 'الأنسب لـ'],
   recommendLabel: 'موصى به',
   rows: [

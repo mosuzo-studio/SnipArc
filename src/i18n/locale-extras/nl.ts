@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Dutch copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's Dutch language pack.
+ * English pages. Terminology follows the SnipArc app's Dutch language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Lange schermafbeelding',
 
   home: {
     heroAlt:
-      'SnipX-gereedschap op het scherm: vastleggen, lange schermafbeelding, annoteren, opnemen, AI-uitsnede, offline OCR, QR- en barcodes scannen, vertaling en vastpinnen',
+      'SnipArc-gereedschap op het scherm: vastleggen, lange schermafbeelding, annoteren, opnemen, AI-uitsnede, offline OCR, QR- en barcodes scannen, vertaling en vastpinnen',
     cards: [
       {
         title: 'Lange schermafbeelding',
         description:
-          'Een pagina die langer is dan het scherm past toch in één opname. Scroll zelf of laat SnipX automatisch scrollen en zie de lange opname al groeiend aan elkaar worden gezet.',
+          'Een pagina die langer is dan het scherm past toch in één opname. Scroll zelf of laat SnipArc automatisch scrollen en zie de lange opname al groeiend aan elkaar worden gezet.',
       },
       {
         title: 'QR- en barcodes scannen',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: 'Automatisch scrollen of zelf scrollen',
           description:
-            'Laat SnipX de pagina stap voor stap naar beneden gaan of scroll met de hand. Hoe dan ook wordt elk beeld onderweg vastgelegd.',
+            'Laat SnipArc de pagina stap voor stap naar beneden gaan of scroll met de hand. Hoe dan ook wordt elk beeld onderweg vastgelegd.',
         },
         {
           title: 'Zie het groeien tijdens het samenvoegen',
@@ -63,12 +63,12 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'Van scherm naar gedeeld in drie stappen.',
-      alt: 'SnipX-workflow',
+      alt: 'SnipArc-workflow',
       steps: [
         {
           title: 'Druk op de sneltoets',
           description:
-            'Roep SnipX overal op en zweef met de muis — het venster of element dat je wilt, is al gedetecteerd.',
+            'Roep SnipArc overal op en zweef met de muis — het venster of element dat je wilt, is al gedetecteerd.',
         },
         {
           title: 'Annoteer, extraheer of bewerk',
@@ -84,15 +84,15 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX in één oogopslag',
-    metaDescription: 'Over het team achter SnipX en waarom we snelle, eenvoudige en onopvallende screenshots bouwen.',
+    statsTitle: 'SnipArc in één oogopslag',
+    metaDescription: 'Over het team achter SnipArc en waarom we snelle, eenvoudige en onopvallende screenshots bouwen.',
     hero: {
       tagline: 'Over ons',
       title: 'Maak screenshots',
       accent: 'goed genoeg om te verdwijnen',
       subtitle:
-        'SnipX begon met een simpele frustratie: de opnamen die we dagelijks tientallen keren maken, zouden sneller en soepeler moeten voelen. We zijn een klein team van productmensen en engineers die net zo zwaar op vastleggereedschap leunen als iedereen — en die obsessie zit in elke sneltoets, elke selectie, elk beeld.',
-      alt: 'SnipX-annotatietools over een Windows-bureaublad',
+        'SnipArc begon met een simpele frustratie: de opnamen die we dagelijks tientallen keren maken, zouden sneller en soepeler moeten voelen. We zijn een klein team van productmensen en engineers die net zo zwaar op vastleggereedschap leunen als iedereen — en die obsessie zit in elke sneltoets, elke selectie, elk beeld.',
+      alt: 'SnipArc-annotatietools over een Windows-bureaublad',
     },
     stats: [
       { title: 'Talen', amount: '15' },
@@ -126,7 +126,7 @@ export const content: LocaleExtras = {
       title: 'Kernmogelijkheden',
       subtitle:
         'Schermafbeelding, lange schermafbeelding, vastpinnen, schermopname, offline OCR en AI op je apparaat — de zes dingen waar je de hele dag naar grijpt, op één sneltoets afstand.',
-      alt: 'SnipX-annotatietools over een Windows-bureaublad: selectie, werkbalk en glazen tegels.',
+      alt: 'SnipArc-annotatietools over een Windows-bureaublad: selectie, werkbalk en glazen tegels.',
       items: [
         {
           title: 'Schermafbeelding',
@@ -136,7 +136,7 @@ export const content: LocaleExtras = {
         {
           title: 'Lange schermafbeelding',
           description:
-            'Scroll een pagina of een lange chat en laat SnipX er één lange opname van maken — automatisch of met de hand, met live voorbeeld.',
+            'Scroll een pagina of een lange chat en laat SnipArc er één lange opname van maken — automatisch of met de hand, met live voorbeeld.',
         },
         {
           title: 'Vastpinnen op bureaublad',
@@ -233,7 +233,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Hoe we hier kwamen',
       subtitle: 'Van een tool die we voor onszelf bouwden tot een waar mensen dagelijks op vertrouwen.',
-      cta: 'Download SnipX gratis',
+      cta: 'Download SnipArc gratis',
       items: [
         {
           title: 'Begon met onze eigen behoefte',
@@ -248,7 +248,7 @@ export const content: LocaleExtras = {
         {
           title: 'Steeds meer mensen bereiken',
           description:
-            'Vandaag spreekt SnipX 15 interfacetalen en het groeit door — met hetzelfde doel: screenshots eenvoudig maken.',
+            'Vandaag spreekt SnipArc 15 interfacetalen en het groeit door — met hetzelfde doel: screenshots eenvoudig maken.',
         },
       ],
     },
@@ -259,7 +259,7 @@ export const content: LocaleExtras = {
         {
           title: 'Community',
           description:
-            'Sluit je aan bij de SnipX-community voor nieuwe releases, tips en een directe lijn om te laten weten wat je ervan vindt.',
+            'Sluit je aan bij de SnipArc-community voor nieuwe releases, tips en een directe lijn om te laten weten wat je ervan vindt.',
         },
         {
           title: 'E-mailsupport',

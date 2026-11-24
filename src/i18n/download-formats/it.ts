@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const itFormats: DownloadFormatsContent = {
   tagline: 'Formati di download',
   title: 'Quale file scaricare?',
-  subtitle: 'Lo stesso SnipX in ogni formato: cambia solo il modo in cui si installa e si aggiorna.',
+  subtitle: 'Lo stesso SnipArc in ogni formato: cambia solo il modo in cui si installa e si aggiorna.',
   headers: ['Formato', 'Installazione e aggiornamenti', 'Per chi'],
   recommendLabel: 'Consigliato',
   rows: [

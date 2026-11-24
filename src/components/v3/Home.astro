@@ -1,4 +1,5 @@
 ---
+import LatestReleaseLinks from './LatestReleaseLinks.astro';
 import QqGroup from '../QqGroup.astro';
 import { getImage } from 'astro:assets';
 import { localizedPath } from '~/i18n/utils';
@@ -45,7 +46,7 @@ const zh = lang === 'zh-cn';
 const storeAvailable = !STORE_URL.includes('TBD_');
 const l = (path: string) => localizedPath(lang, path);
 
-const { urls: downloadUrls } = await getReleaseDownloads();
+const { urls: downloadUrls, tag: releaseTag } = await getReleaseDownloads();
 /* null when the lookup failed and nothing is cached; the slot then stays out. */
 const downloadTotal = await getTotalDownloads();
 const downloadTotalText = downloadTotal === null ? null : new Intl.NumberFormat(lang).format(downloadTotal);
@@ -156,18 +157,15 @@ const shotData = JSON.stringify({
             <a class="v3-btn v3-btn-sub" href={downloadUrls.portable} data-release-asset="portable">
               {zh ? '便携版（7z）' : 'Portable (7z)'}
             </a>
-            <a class="sx-text-link" href="#features" data-astro-reload>
-              {c.hero.secondary}
-              <span aria-hidden="true">↗</span>
-            </a>
           </div>
-          <p class="sx-platform">
-            {c.hero.metaStrong}
-            <span aria-hidden="true"> · </span>
-            {c.hero.metaRest}
+          <p class="hero-release-meta">
+            <span data-release-version>{releaseTag}</span>
+            <span>Windows 10 / 11 · x64</span>
           </p>
-          <p class="sx-platform"><a href={l('/changelog')}>v8.2.0 · {zh ? '更新日志' : 'Changelog'}</a></p>
-          <QqGroup />
+          <div class="hero-release-links">
+            <a href={l('/changelog')}>{zh ? '更新日志' : 'Changelog'}</a>
+            <QqGroup />
+          </div>
         </div>
         <figure class="sx-preview">
           <div class="sx-preview-bar">
@@ -910,26 +908,35 @@ const shotData = JSON.stringify({
   document.addEventListener('astro:page-load', initV3SplitMenus);
 </script>
 
-<script>
-  import { LATEST_RELEASE_API, readReleaseAssets } from '~/utils/release-assets';
+<LatestReleaseLinks />
 
-  const buttons = document.querySelectorAll<HTMLAnchorElement>('[data-release-asset]');
-  if (buttons.length) {
-    fetch(LATEST_RELEASE_API, { signal: AbortSignal.timeout(5000) })
-      .then((response) => {
-        if (!response.ok) throw new Error(`GitHub status ${response.status}`);
-        return response.json();
-      })
-      .then((release) => {
-        const assets = readReleaseAssets(release);
-        if (!assets.tag) return;
-        for (const button of buttons) {
-          const kind = button.dataset.releaseAsset === 'setup' ? 'setup' : 'portable';
-          button.href = assets[kind] ?? 'https://github.com/mosuzo-studio/SnipArc/releases/latest';
-        }
-      })
-      .catch(() => {
-        // Keep the links resolved during the static build.
-      });
+
+<style>
+  .hero-release-meta,
+  .hero-release-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 14px;
   }
-</script>
+  .hero-release-meta {
+    margin-top: 12px;
+    color: #526479;
+    font-size: 13px;
+  }
+  .hero-release-meta [data-release-version]:empty {
+    display: none;
+  }
+  .hero-release-meta [data-release-version] {
+    font-weight: 650;
+  }
+  .hero-release-links {
+    margin-top: 8px;
+  }
+  .hero-release-links > a {
+    color: #34485e;
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+</style>

@@ -2,10 +2,10 @@ import type { V3LocaleCopy } from './types';
 
 /**
  * Traditional Chinese (Taiwan) copy for the v3 pages. Terminology follows the
- * SnipX app's zh-TW language pack.
+ * SnipArc app's zh-TW language pack.
  */
 export default {
-  home: 'SnipX — 更快、更聰明的截圖與錄製螢幕工具',
+  home: 'SnipArc — 更快、更聰明的截圖與錄製螢幕工具',
   nav: {
     features: '功能',
     versions: '版本對比',
@@ -47,7 +47,7 @@ export default {
       },
     ],
     h1: [[{ text: '截圖、錄製螢幕、' }, { text: 'AI 能力', hl: true }], [{ text: '一個快速鍵全部搞定' }]],
-    sub: 'SnipX 是為天天都要截圖的人打造的桌面擷取工具：標註、長截圖、錄製螢幕與 GIF、AI 去背、離線 OCR、圖片翻譯、釘在桌面——不用離開手邊的工作。',
+    sub: 'SnipArc 是為天天都要截圖的人打造的桌面擷取工具：標註、長截圖、錄製螢幕與 GIF、AI 去背、離線 OCR、圖片翻譯、釘在桌面——不用離開手邊的工作。',
     primary: '免費下載',
     secondary: '看看怎麼用',
     metaStrong: 'Windows 10/11+',
@@ -59,7 +59,7 @@ export default {
   download: {
     more: '更多下載選項',
     menu: '下載選項',
-    edition: 'SnipX 標準版',
+    edition: 'SnipArc 標準版',
     setup: '安裝版（.exe）',
     portable: '免安裝版（.7z）',
     msi: 'MSI 安裝程式',
@@ -118,7 +118,7 @@ export default {
       title: '一按就到手，邊界剛剛好',
       lead: '快速鍵隨手喚起，截圖、標註、複製一氣呵成，把打斷思緒的操作降到最低。',
       rows: [
-        '滑鼠掃過，SnipX 就自動吸附底下的視窗或介面元素',
+        '滑鼠掃過，SnipArc 就自動吸附底下的視窗或介面元素',
         '箭頭、方框、文字、編號、Emoji、放大鏡——截完立刻就能標註',
         '兩種完成模式：直接複製到剪貼簿，或立刻開啟標註工具列（優雅簡潔 / 所見即所得）',
       ],
@@ -219,7 +219,7 @@ export default {
     faqLink: '查看常見問題',
     soon: '即將開放',
     mail: {
-      subject: 'SnipX 回饋與建議 — ',
+      subject: 'SnipArc 回饋與建議 — ',
       body: [
         '你好，',
         '',
@@ -228,7 +228,7 @@ export default {
         '',
         '如果方便，補充以下資訊，可以幫我們更快找到問題：',
         '',
-        '· SnipX 版本（Lite 版 / 標準版）：',
+        '· SnipArc 版本（Lite 版 / 標準版）：',
         '· Windows 版本：',
         '· 重現步驟：',
         '',
@@ -263,7 +263,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: '和其他 SnipX 使用者交流。',
+            note: '和其他 SnipArc 使用者交流。',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

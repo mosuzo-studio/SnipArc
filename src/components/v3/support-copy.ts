@@ -23,7 +23,7 @@ export function getSupportCopy(lang: string) {
           {
             id: 'portable',
             q: '安装版和便携版有什么区别？',
-            a: '安装版通过安装向导设置软件；便携版解压后运行 SnipX.exe。它们描述的是分发方式，不能据此推断功能或授权差异。',
+            a: '安装版通过安装向导设置软件；便携版解压后运行 SnipArc.exe。它们描述的是分发方式，不能据此推断功能或授权差异。',
           },
           {
             id: 'feedback',
@@ -50,7 +50,7 @@ export function getSupportCopy(lang: string) {
           {
             id: 'portable',
             q: 'What is the difference between installer and portable?',
-            a: 'An installer sets up the app through a wizard. A portable package is extracted before running SnipX.exe. These are distribution formats, rather than a statement about features or licensing.',
+            a: 'An installer sets up the app through a wizard. A portable package is extracted before running SnipArc.exe. These are distribution formats, rather than a statement about features or licensing.',
           },
           {
             id: 'feedback',

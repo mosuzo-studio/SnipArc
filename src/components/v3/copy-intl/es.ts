@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Spanish copy for the v3 pages. Terminology follows the SnipX app's es
+ * Spanish copy for the v3 pages. Terminology follows the SnipArc app's es
  * language pack.
  */
 export default {
-  home: 'SnipX — Capturas y grabaciones de pantalla más rápidas e inteligentes',
+  home: 'SnipArc — Capturas y grabaciones de pantalla más rápidas e inteligentes',
   nav: {
     features: 'Funciones',
     versions: 'Versiones',
@@ -52,7 +52,7 @@ export default {
       [{ text: 'Capturas, grabación de pantalla y ' }, { text: 'magia de la IA', hl: true }],
       [{ text: 'todo con un solo atajo' }],
     ],
-    sub: 'SnipX es una herramienta de captura de escritorio pensada para quienes hacen capturas todo el día: anota, captura páginas largas de arriba abajo, graba en GIF, recorta sujetos con IA, extrae texto con OCR sin conexión, traduce imágenes y fija referencias, todo sin salir de tu flujo de trabajo.',
+    sub: 'SnipArc es una herramienta de captura de escritorio pensada para quienes hacen capturas todo el día: anota, captura páginas largas de arriba abajo, graba en GIF, recorta sujetos con IA, extrae texto con OCR sin conexión, traduce imágenes y fija referencias, todo sin salir de tu flujo de trabajo.',
     primary: 'Descargar gratis',
     secondary: 'Ver cómo funciona',
     metaStrong: 'Windows 10/11+',
@@ -64,7 +64,7 @@ export default {
   download: {
     more: 'Más opciones de descarga',
     menu: 'Opciones de descarga',
-    edition: 'SnipX Estándar',
+    edition: 'SnipArc Estándar',
     setup: 'Instalador (.exe)',
     portable: 'Portátil (.7z)',
     msi: 'Instalador MSI',
@@ -123,7 +123,7 @@ export default {
       title: 'Captura con una tecla, encuadre exacto',
       lead: 'Invócala con un atajo y captura, anota y copia en un solo movimiento, sin interrupciones.',
       rows: [
-        'Pasa el cursor y SnipX se ajusta a la ventana o al elemento que hay debajo',
+        'Pasa el cursor y SnipArc se ajusta a la ventana o al elemento que hay debajo',
         'Flechas, recuadros, texto, numeración, emoji, lupa: anota en el momento de capturar',
         'Dos formas de terminar: copiar directamente al portapapeles o anotar al momento (Elegante / Anotación al momento)',
       ],
@@ -230,7 +230,7 @@ export default {
     faqLink: 'Ver las preguntas frecuentes',
     soon: 'Próximamente',
     mail: {
-      subject: 'Comentarios sobre SnipX — ',
+      subject: 'Comentarios sobre SnipArc — ',
       body: [
         'Hola:',
         '',
@@ -239,7 +239,7 @@ export default {
         '',
         'Si puedes, estos datos nos ayudan a resolverlo más rápido:',
         '',
-        '\u00b7 Edición de SnipX (Lite / Estándar):',
+        '\u00b7 Edición de SnipArc (Lite / Estándar):',
         '\u00b7 Versión de Windows:',
         '\u00b7 Pasos para reproducir el problema:',
         '',
@@ -274,7 +274,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Habla con otros usuarios de SnipX.',
+            note: 'Habla con otros usuarios de SnipArc.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * German copy for the v3 pages. Terminology follows the SnipX app's de
+ * German copy for the v3 pages. Terminology follows the SnipArc app's de
  * language pack.
  */
 export default {
-  home: 'SnipX — Schnellere, intelligentere Screenshots und Bildschirmaufnahmen',
+  home: 'SnipArc — Schnellere, intelligentere Screenshots und Bildschirmaufnahmen',
   nav: {
     features: 'Funktionen',
     versions: 'Versionen',
@@ -52,7 +52,7 @@ export default {
       [{ text: 'Screenshots, Bildschirmaufnahmen, ' }, { text: 'AI-Magie', hl: true }],
       [{ text: 'alles mit einem einzigen Tastenkürzel' }],
     ],
-    sub: 'SnipX ist ein Aufnahmewerkzeug für den Desktop, gemacht für alle, die den ganzen Tag Screenshots erstellen: annotieren, lange Seiten durchgehend festhalten, als GIF aufnehmen, Motive mit AI freistellen, Offline-OCR laufen lassen, Bilder übersetzen und Referenzen anheften — ohne den Arbeitsfluss zu verlassen.',
+    sub: 'SnipArc ist ein Aufnahmewerkzeug für den Desktop, gemacht für alle, die den ganzen Tag Screenshots erstellen: annotieren, lange Seiten durchgehend festhalten, als GIF aufnehmen, Motive mit AI freistellen, Offline-OCR laufen lassen, Bilder übersetzen und Referenzen anheften — ohne den Arbeitsfluss zu verlassen.',
     primary: 'Kostenlos herunterladen',
     secondary: 'So funktioniert es',
     metaStrong: 'Windows 10/11+',
@@ -64,7 +64,7 @@ export default {
   download: {
     more: 'Weitere Download-Optionen',
     menu: 'Download-Optionen',
-    edition: 'SnipX Standard',
+    edition: 'SnipArc Standard',
     setup: 'Installer (.exe)',
     portable: 'Portable-Version (.7z)',
     msi: 'MSI-Installer',
@@ -127,7 +127,7 @@ export default {
       title: 'Aufnehmen mit einem Tastendruck, exakt im Rahmen',
       lead: 'Per Tastenkürzel aufrufen und in einem Zug aufnehmen, annotieren und kopieren.',
       rows: [
-        'Beim Überfahren dockt SnipX automatisch an das Fenster oder Element unter dem Zeiger an',
+        'Beim Überfahren dockt SnipArc automatisch an das Fenster oder Element unter dem Zeiger an',
         'Pfeile, Rechtecke, Text, Nummerierung, Emoji-Sticker, Lupe — annotieren direkt beim Aufnehmen',
         'Zwei Wege zum Abschluss: direkt in die Zwischenablage kopieren oder sofort annotieren (Elegant / Direkt kommentieren)',
       ],
@@ -234,7 +234,7 @@ export default {
     faqLink: 'Häufige Fragen lesen',
     soon: 'Demnächst verfügbar',
     mail: {
-      subject: 'SnipX-Feedback — ',
+      subject: 'SnipArc-Feedback — ',
       body: [
         'Guten Tag,',
         '',
@@ -243,7 +243,7 @@ export default {
         '',
         'Wenn möglich, helfen uns diese Angaben, das Problem schneller einzugrenzen:',
         '',
-        '\u00b7 SnipX-Edition (Lite / Standard):',
+        '\u00b7 SnipArc-Edition (Lite / Standard):',
         '\u00b7 Windows-Version:',
         '\u00b7 Schritte zum Nachvollziehen:',
         '',
@@ -278,7 +278,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Austausch mit anderen SnipX-Nutzern.',
+            note: 'Austausch mit anderen SnipArc-Nutzern.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

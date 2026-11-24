@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const svFormats: DownloadFormatsContent = {
   tagline: 'Nedladdningsformat',
   title: 'Vilken fil ska du ladda ner?',
-  subtitle: 'Samma SnipX i alla fyra formaten — det är bara installationen och uppdateringarna som skiljer.',
+  subtitle: 'Samma SnipArc i alla fyra formaten — det är bara installationen och uppdateringarna som skiljer.',
   headers: ['Format', 'Installation och uppdateringar', 'Bäst för'],
   recommendLabel: 'Rekommenderas',
   rows: [

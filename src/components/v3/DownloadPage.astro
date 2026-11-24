@@ -1,4 +1,5 @@
 ---
+import LatestReleaseLinks from './LatestReleaseLinks.astro';
 import type { Lang } from '~/i18n/utils';
 import { localizedPath } from '~/i18n/utils';
 import { PUBLIC_RELEASES_URL } from '~/data/sniparc-distribution';
@@ -8,16 +9,16 @@ interface Props {
 }
 const { lang } = Astro.props;
 const zh = lang === 'zh-cn';
-const { tag: publicReleaseTag } = await getReleaseDownloads();
-const releaseAvailable = Boolean(publicReleaseTag);
+const { tag, urls } = await getReleaseDownloads();
+const latestReleaseUrl = PUBLIC_RELEASES_URL + '/latest';
 const formats = zh
   ? [
       { n: '01', title: '安装版', format: '.exe', note: '适合日常使用，通过安装向导完成设置。', label: '日常使用' },
       {
         n: '02',
         title: '便携版',
-        format: '.7z / .zip',
-        note: '解压后运行 SnipX.exe，适合希望免安装使用的用户。',
+        format: '.7z',
+        note: '解压后运行 SnipArc.exe，适合希望免安装使用的用户。',
         label: '解压即用',
       },
     ]
@@ -32,8 +33,8 @@ const formats = zh
       {
         n: '02',
         title: 'Portable',
-        format: '.7z / .zip',
-        note: 'Extract the package and run SnipX.exe. A convenient option without an installation step.',
+        format: '.7z',
+        note: 'Extract the package and run SnipArc.exe. A convenient option without an installation step.',
         label: 'EXTRACT & RUN',
       },
     ];
@@ -42,60 +43,18 @@ const formats = zh
 <section class="sx-page-head v3-wrap">
   <p class="v3-eyebrow">SNIPARC / WINDOWS</p>
   <h1>{zh ? '准备好，开始截图。' : 'Ready for your next capture.'}</h1>
-  <p class="v3-lead">
-    {
-      zh
-        ? '在发行页面选择实际提供的下载包，并查看该版本的系统要求和更新说明。'
-        : 'Choose an available package on the release page, and check its system requirements and release notes.'
-    }
-  </p>
-  {
-    PUBLIC_RELEASES_URL && releaseAvailable ? (
-      <>
-        <a
-          class="v3-btn v3-btn-main sx-download-primary"
-          href={PUBLIC_RELEASES_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {zh ? '前往下载页' : 'View release downloads'} <span aria-hidden="true">↗</span>
-        </a>
-        <p class="sx-download-hint">{zh ? '将在新标签页打开发行列表。' : 'Opens the release list in a new tab.'}</p>
-      </>
-    ) : (
-      <div class="sx-release-status" role="status">
-        <>
-          <strong>
-            {PUBLIC_RELEASES_URL
-              ? zh
-                ? '请在 GitHub 查看发行状态'
-                : 'Check release availability on GitHub'
-              : zh
-                ? '公开下载链接待提供'
-                : 'Public download link pending'}
-          </strong>
-          <p>
-            {PUBLIC_RELEASES_URL
-              ? zh
-                ? '请以 GitHub 发行页面列出的安装包为准。'
-                : 'See the GitHub releases page for available packages.'
-              : zh
-                ? '目前没有已确认的公开下载链接。你可以先了解下载包类型，或联系开发者获取发布信息。'
-                : 'A confirmed public download link is not available yet. Explore the package options below, or contact the developer for release information.'}
-          </p>
-          {PUBLIC_RELEASES_URL ? (
-            <a class="sx-text-link" href={PUBLIC_RELEASES_URL} target="_blank" rel="noopener noreferrer">
-              {zh ? '查看发行页面' : 'View the releases page'} ↗
-            </a>
-          ) : (
-            <a class="sx-text-link" href={localizedPath(lang, '/contact')}>
-              {zh ? '联系开发者' : 'Contact the developer'} ↗
-            </a>
-          )}
-        </>
-      </div>
-    )
-  }
+  <p class="v3-lead">{zh ? 'Windows x64 最新正式版' : 'Latest stable release for Windows x64'} <span data-release-version>{tag}</span></p>
+  <div class="v3-cta">
+    <a class="v3-btn v3-btn-main" href={urls.setup} data-release-asset="setup">
+      {zh ? '下载安装版（EXE）' : 'Download installer (EXE)'}
+    </a>
+    <a class="v3-btn v3-btn-sub" href={urls.portable} data-release-asset="portable">
+      {zh ? '下载便携版（7z）' : 'Download portable (7z)'}
+    </a>
+  </div>
+  <a class="sx-text-link" href={latestReleaseUrl}>
+    {zh ? '在 GitHub 查看发行说明' : 'View release notes on GitHub'} ↗
+  </a>
 </section>
 <section class="v3-wrap sx-download-formats" aria-labelledby="sx-format-title">
   <h2 id="sx-format-title">{zh ? '如何选择下载包？' : 'Which package is right for you?'}</h2>
@@ -139,3 +98,5 @@ const formats = zh
     >
   </div>
 </section>
+
+<LatestReleaseLinks />

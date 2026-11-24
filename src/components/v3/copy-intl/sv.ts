@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Swedish copy for the v3 pages. Terminology follows the SnipX app's sv
+ * Swedish copy for the v3 pages. Terminology follows the SnipArc app's sv
  * language pack.
  */
 export default {
-  home: 'SnipX — Snabbare och smartare skärmbilder och skärminspelning',
+  home: 'SnipArc — Snabbare och smartare skärmbilder och skärminspelning',
   nav: {
     features: 'Funktioner',
     versions: 'Versioner',
@@ -50,7 +50,7 @@ export default {
       [{ text: 'Skärmbilder, skärminspelning, ' }, { text: 'AI-magi', hl: true }],
       [{ text: 'allt med en enda snabbtangent' }],
     ],
-    sub: 'SnipX är ett skärmbildsverktyg för skrivbordet, byggt för dig som tar skärmbilder hela dagen: anteckna, rulla långa sidor, spela in till GIF, frilägg motiv med AI, kör offline-OCR, översätt bilder och fäst referenser — utan att lämna flödet.',
+    sub: 'SnipArc är ett skärmbildsverktyg för skrivbordet, byggt för dig som tar skärmbilder hela dagen: anteckna, rulla långa sidor, spela in till GIF, frilägg motiv med AI, kör offline-OCR, översätt bilder och fäst referenser — utan att lämna flödet.',
     primary: 'Ladda ned gratis',
     secondary: 'Se hur det fungerar',
     metaStrong: 'Windows 10/11+',
@@ -62,7 +62,7 @@ export default {
   download: {
     more: 'Fler nedladdningsalternativ',
     menu: 'Nedladdningsalternativ',
-    edition: 'SnipX Standard',
+    edition: 'SnipArc Standard',
     setup: 'Installationsprogram (.exe)',
     portable: 'Portabel version (.7z)',
     msi: 'MSI-installationspaket',
@@ -121,7 +121,7 @@ export default {
       title: 'Fånga med ett tryck, rama in exakt',
       lead: 'Växla fram den med en snabbtangent och fånga, anteckna och kopiera i en obruten rörelse.',
       rows: [
-        'Hovra, så låser SnipX in fönstret eller elementet under muspekaren',
+        'Hovra, så låser SnipArc in fönstret eller elementet under muspekaren',
         'Pilar, rutor, text, numrering, emoji, förstoringsglas — anteckna i samma stund som du fångar',
         'Två sätt att avsluta: kopiera direkt till urklipp, eller anteckna på en gång (Elegant / Direktanteckna)',
       ],
@@ -138,7 +138,7 @@ export default {
       title: 'En sida högre än skärmen, i en enda bild',
       lead: 'Hela sidor, långa chattar och fullständiga dokument — fångade uppifrån och ned i en enda bild.',
       rows: [
-        'Låt SnipX rulla automatiskt, eller rulla själv — varje bildruta fångas på vägen',
+        'Låt SnipArc rulla automatiskt, eller rulla själv — varje bildruta fångas på vägen',
         'Intilliggande bildrutor matchas och blandas, så den färdiga långa bilden har inga synliga skarvar',
       ],
       items: [
@@ -228,7 +228,7 @@ export default {
     faqLink: 'Läs vanliga frågor',
     soon: 'Kommer snart',
     mail: {
-      subject: 'SnipX-feedback — ',
+      subject: 'SnipArc-feedback — ',
       body: [
         'Hej,',
         '',
@@ -237,7 +237,7 @@ export default {
         '',
         'Om du kan, hjälper de här uppgifterna oss att svara snabbare:',
         '',
-        '\u00b7 SnipX-utgåva (Lite / Standard):',
+        '\u00b7 SnipArc-utgåva (Lite / Standard):',
         '\u00b7 Windows-version:',
         '\u00b7 Steg för att återskapa:',
         '',
@@ -272,7 +272,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Chatta med andra SnipX-användare.',
+            note: 'Chatta med andra SnipArc-användare.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

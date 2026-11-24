@@ -1,10 +1,10 @@
-SnipX Capture Playbook — Sample Document
+SnipArc Capture Playbook — Sample Document
 
 This is a neutral sample document used only as on-screen content for
 product screenshots. It contains no personal data.
 
 1. Press F1 to start a capture
-   Hover a window and SnipX snaps the selection to its edges. Use the
+   Hover a window and SnipArc snaps the selection to its edges. Use the
    magnifier to nudge a boundary one pixel at a time.
 
 2. Annotate without leaving the capture

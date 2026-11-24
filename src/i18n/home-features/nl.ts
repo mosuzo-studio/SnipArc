@@ -5,12 +5,12 @@ export const content: HomeFeaturesContent = {
     tagline: 'Kernfuncties',
     title: 'Eén app voor elk soort screenshot',
     subtitle:
-      'Van een snelle greep tot serieus creatief werk: SnipX bundelt je meest voorkomende taken op het gebied van vastleggen, opnemen, OCR en annoteren in één lichtgewicht app.',
+      'Van een snelle greep tot serieus creatief werk: SnipArc bundelt je meest voorkomende taken op het gebied van vastleggen, opnemen, OCR en annoteren in één lichtgewicht app.',
     items: [
       {
         title: 'Slim vastleggen',
         description:
-          'Leg een gebied, venster of volledig scherm vast met één toetsaanslag. SnipX detecteert vensters en UI-elementen tot op de pixel.',
+          'Leg een gebied, venster of volledig scherm vast met één toetsaanslag. SnipArc detecteert vensters en UI-elementen tot op de pixel.',
       },
       {
         title: 'Schermopname en GIF',
@@ -122,7 +122,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: 'Meer functies',
     title: 'De kleine dingen waarop je gaat vertrouwen',
-    subtitle: 'Juist de kleine details maken SnipX een app die je niet meer weglegt.',
+    subtitle: 'Juist de kleine details maken SnipArc een app die je niet meer weglegt.',
     items: [
       {
         title: 'Emoji-stickers',

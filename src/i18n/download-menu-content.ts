@@ -29,7 +29,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: '在 GitHub 查看全部版本',
     recommended: '推薦',
     otherFormats: '其他格式',
-    footnote: '想要更輕量？了解 SnipX Lite（約 17 MB）→',
+    footnote: '想要更輕量？了解 SnipArc Lite（約 17 MB）→',
   },
   ja: {
     setup: 'インストーラー（.exe）',
@@ -38,7 +38,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'GitHub で全バージョンを見る',
     recommended: 'おすすめ',
     otherFormats: 'その他の形式',
-    footnote: 'もっと軽量なものが欲しい？SnipX Lite を見る（約 17 MB）→',
+    footnote: 'もっと軽量なものが欲しい？SnipArc Lite を見る（約 17 MB）→',
   },
   ko: {
     setup: '설치 버전(.exe)',
@@ -47,7 +47,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'GitHub에서 모든 버전 보기',
     recommended: '추천',
     otherFormats: '다른 형식',
-    footnote: '더 가벼운 버전을 찾으시나요? SnipX Lite 알아보기(약 17 MB) →',
+    footnote: '더 가벼운 버전을 찾으시나요? SnipArc Lite 알아보기(약 17 MB) →',
   },
   'pt-br': {
     setup: 'Instalador (.exe)',
@@ -56,7 +56,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Ver todas as versões no GitHub',
     recommended: 'Recomendado',
     otherFormats: 'Outros formatos',
-    footnote: 'Prefere algo mais leve? Conheça o SnipX Lite (~17 MB) →',
+    footnote: 'Prefere algo mais leve? Conheça o SnipArc Lite (~17 MB) →',
   },
   es: {
     setup: 'Instalador (.exe)',
@@ -65,7 +65,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Ver todas las versiones en GitHub',
     recommended: 'Recomendado',
     otherFormats: 'Otros formatos',
-    footnote: '¿Prefieres algo más ligero? Descubre SnipX Lite (~17 MB) →',
+    footnote: '¿Prefieres algo más ligero? Descubre SnipArc Lite (~17 MB) →',
   },
   de: {
     setup: 'Installer (.exe)',
@@ -74,7 +74,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Alle Versionen auf GitHub',
     recommended: 'Empfohlen',
     otherFormats: 'Weitere Formate',
-    footnote: 'Lieber leichter? SnipX Lite entdecken (~17 MB) →',
+    footnote: 'Lieber leichter? SnipArc Lite entdecken (~17 MB) →',
   },
   fr: {
     setup: "Programme d'installation (.exe)",
@@ -83,7 +83,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Toutes les versions sur GitHub',
     recommended: 'Recommandé',
     otherFormats: 'Autres formats',
-    footnote: 'Envie de plus léger ? Découvrez SnipX Lite (~17 MB) →',
+    footnote: 'Envie de plus léger ? Découvrez SnipArc Lite (~17 MB) →',
   },
   it: {
     setup: 'Programma di installazione (.exe)',
@@ -92,7 +92,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Tutte le versioni su GitHub',
     recommended: 'Consigliato',
     otherFormats: 'Altri formati',
-    footnote: 'Preferisci qualcosa di più leggero? Scopri SnipX Lite (~17 MB) →',
+    footnote: 'Preferisci qualcosa di più leggero? Scopri SnipArc Lite (~17 MB) →',
   },
   nl: {
     setup: 'Installatieprogramma (.exe)',
@@ -101,7 +101,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Alle versies op GitHub',
     recommended: 'Aanbevolen',
     otherFormats: 'Andere formaten',
-    footnote: 'Liever lichter? Ontdek SnipX Lite (~17 MB) →',
+    footnote: 'Liever lichter? Ontdek SnipArc Lite (~17 MB) →',
   },
   pl: {
     setup: 'Instalator (.exe)',
@@ -110,7 +110,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Wszystkie wersje na GitHubie',
     recommended: 'Zalecany',
     otherFormats: 'Inne formaty',
-    footnote: 'Wolisz coś lżejszego? Poznaj SnipX Lite (~17 MB) →',
+    footnote: 'Wolisz coś lżejszego? Poznaj SnipArc Lite (~17 MB) →',
   },
   ru: {
     setup: 'Установщик (.exe)',
@@ -119,7 +119,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Все версии на GitHub',
     recommended: 'Рекомендуется',
     otherFormats: 'Другие форматы',
-    footnote: 'Нужно легче? Посмотрите SnipX Lite (~17 MB) →',
+    footnote: 'Нужно легче? Посмотрите SnipArc Lite (~17 MB) →',
   },
   sv: {
     setup: 'Installationsprogram (.exe)',
@@ -128,7 +128,7 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'Alla versioner på GitHub',
     recommended: 'Rekommenderas',
     otherFormats: 'Andra format',
-    footnote: 'Vill du ha något lättare? Upptäck SnipX Lite (~17 MB) →',
+    footnote: 'Vill du ha något lättare? Upptäck SnipArc Lite (~17 MB) →',
   },
   ar: {
     setup: 'مثبّت (.exe)',
@@ -137,6 +137,6 @@ export const downloadMenuContent: Record<LocalizedLocale, DownloadMenuLabels> = 
     allVersions: 'كل الإصدارات على GitHub',
     recommended: 'موصى به',
     otherFormats: 'صيغ أخرى',
-    footnote: 'تريد نسخة أخف؟ تعرّف على SnipX Lite ‏(~17 MB) ←',
+    footnote: 'تريد نسخة أخف؟ تعرّف على SnipArc Lite ‏(~17 MB) ←',
   },
 };

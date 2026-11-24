@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Japanese copy that brings the home and about pages to parity with the English
- * pages. Terminology follows the SnipX app's ja language pack.
+ * pages. Terminology follows the SnipArc app's ja language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: '長尺キャプチャ',
 
   home: {
     heroAlt:
-      'SnipX のツール画面：スクリーンショット、長尺キャプチャ、注釈、画面録画、AI 切り抜き、オフライン OCR、QR コード・バーコード認識、画像翻訳、画面に固定',
+      'SnipArc のツール画面：スクリーンショット、長尺キャプチャ、注釈、画面録画、AI 切り抜き、オフライン OCR、QR コード・バーコード認識、画像翻訳、画面に固定',
     cards: [
       {
         title: '長尺キャプチャ',
         description:
-          '画面より長いページも1枚に収まります。自分でスクロールしても、SnipX の自動スクロールでも、長い画像がつながっていく様子をその場で確認できます。',
+          '画面より長いページも1枚に収まります。自分でスクロールしても、SnipArc の自動スクロールでも、長い画像がつながっていく様子をその場で確認できます。',
       },
       {
         title: 'QR コード・バーコード認識',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: '自動スクロールでも、手動でも',
           description:
-            'SnipX にページを下へたどらせても、自分の手でスクロールしても。どちらでも、スクロールしながら1コマずつ取り込まれます。',
+            'SnipArc にページを下へたどらせても、自分の手でスクロールしても。どちらでも、スクロールしながら1コマずつ取り込まれます。',
         },
         {
           title: 'つながっていく様子をその場で',
@@ -63,11 +63,11 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: '画面から共有まで、3ステップ。',
-      alt: 'SnipX のワークフロー',
+      alt: 'SnipArc のワークフロー',
       steps: [
         {
           title: 'ショートカットキーを押す',
-          description: 'SnipX を呼び出してマウスを重ねるだけ。撮りたいウィンドウや要素はすでに検出されています。',
+          description: 'SnipArc を呼び出してマウスを重ねるだけ。撮りたいウィンドウや要素はすでに検出されています。',
         },
         {
           title: '注釈、抽出、編集',
@@ -82,15 +82,15 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX を数字で見る',
-    metaDescription: 'SnipX の成り立ちと、ものづくりで大切にしている価値観、これまでの歩みをご紹介します。',
+    statsTitle: 'SnipArc を数字で見る',
+    metaDescription: 'SnipArc の成り立ちと、ものづくりで大切にしている価値観、これまでの歩みをご紹介します。',
     hero: {
       tagline: '私たちについて',
       title: 'スクリーンショットを、',
       accent: '忘れられるほど自然に',
       subtitle:
-        'SnipX は、ある素朴なもどかしさから生まれました。毎日何十回と繰り返すキャプチャは、もっと速く、もっとスムーズであるべきだと。私たちはキャプチャツールを人一倍使い込むプロダクト担当者とエンジニアの小さなチームで、そのこだわりをすべてのショートカット、すべての選択、すべてのフレームに込めています。',
-      alt: 'Windows デスクトップ上の SnipX 注釈ツール',
+        'SnipArc は、ある素朴なもどかしさから生まれました。毎日何十回と繰り返すキャプチャは、もっと速く、もっとスムーズであるべきだと。私たちはキャプチャツールを人一倍使い込むプロダクト担当者とエンジニアの小さなチームで、そのこだわりをすべてのショートカット、すべての選択、すべてのフレームに込めています。',
+      alt: 'Windows デスクトップ上の SnipArc 注釈ツール',
     },
     stats: [
       { title: '対応言語', amount: '15' },
@@ -123,7 +123,7 @@ export const content: LocaleExtras = {
       title: 'コア機能',
       subtitle:
         'スクリーンショット、長尺キャプチャ、画面に固定、画面録画、オフライン OCR、端末上の AI——一日に何度も手が伸びる6つの機能が、ショートカットひとつにまとまっています。',
-      alt: 'Windows デスクトップ上の SnipX 注釈ツール：選択範囲、ツールバー、ガラス調のタイル',
+      alt: 'Windows デスクトップ上の SnipArc 注釈ツール：選択範囲、ツールバー、ガラス調のタイル',
       items: [
         {
           title: 'スクリーンショット',
@@ -231,7 +231,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'これまでの歩み',
       subtitle: '自分たちのために作ったツールから、毎日多くの人に頼られるツールへ。',
-      cta: 'SnipX を無料でダウンロード',
+      cta: 'SnipArc を無料でダウンロード',
       items: [
         {
           title: '自分たちのニーズから',
@@ -245,7 +245,7 @@ export const content: LocaleExtras = {
         {
           title: 'より多くの人へ',
           description:
-            '現在 SnipX は 15 のインターフェース言語に対応し、なお増え続けています。目標は変わらず、スクリーンショットをシンプルにすることです。',
+            '現在 SnipArc は 15 のインターフェース言語に対応し、なお増え続けています。目標は変わらず、スクリーンショットをシンプルにすることです。',
         },
       ],
     },
@@ -255,7 +255,7 @@ export const content: LocaleExtras = {
       items: [
         {
           title: 'コミュニティ',
-          description: 'SnipX コミュニティに参加して、新リリースやヒントを受け取り、ご意見を直接お寄せください。',
+          description: 'SnipArc コミュニティに参加して、新リリースやヒントを受け取り、ご意見を直接お寄せください。',
         },
         {
           title: 'メールサポート',

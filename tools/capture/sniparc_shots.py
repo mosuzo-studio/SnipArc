@@ -1,11 +1,11 @@
-"""Drive SnipX v7.20.9 and grab real screenshots of its UI.
+"""Drive SnipArc v7.20.9 and grab real screenshots of its UI.
 
-Captures the full virtual desktop with the Windows GDI/DWM path so SnipX's
+Captures the full virtual desktop with the Windows GDI/DWM path so SnipArc's
 own overlay, selection band and toolbar are included (a plain PrintWindow
 on the desktop would miss the layered overlay).
 
 Usage:
-    python -I snipx_shots.py <command> [args]
+    python -I sniparc_shots.py <command> [args]
 
 Commands:
     minimize              Win+D (show desktop)

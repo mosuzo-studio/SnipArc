@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Italian copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's Italian language pack.
+ * English pages. Terminology follows the SnipArc app's Italian language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Screenshot lungo',
 
   home: {
     heroAlt:
-      'Strumenti SnipX sullo schermo: cattura, screenshot lungo, annotazione, registrazione, scontorno AI, OCR offline, lettura di codici QR e a barre, traduzione e fissaggio',
+      'Strumenti SnipArc sullo schermo: cattura, screenshot lungo, annotazione, registrazione, scontorno AI, OCR offline, lettura di codici QR e a barre, traduzione e fissaggio',
     cards: [
       {
         title: 'Screenshot lungo',
         description:
-          'Una pagina più alta dello schermo entra comunque in una sola cattura. Scorri manualmente o lascia che SnipX scorra da sola: lo screenshot lungo si compone mentre cresce.',
+          'Una pagina più alta dello schermo entra comunque in una sola cattura. Scorri manualmente o lascia che SnipArc scorra da sola: lo screenshot lungo si compone mentre cresce.',
       },
       {
         title: 'Lettura di codici QR e a barre',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: 'In automatico o a mano',
           description:
-            'Lascia che SnipX scorra la pagina o fallo a mano. In entrambi i casi ogni porzione viene catturata man mano.',
+            'Lascia che SnipArc scorra la pagina o fallo a mano. In entrambi i casi ogni porzione viene catturata man mano.',
         },
         {
           title: 'Guarda la composizione in diretta',
@@ -63,11 +63,11 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'Dallo schermo alla condivisione in tre passi.',
-      alt: 'Flusso di lavoro SnipX',
+      alt: 'Flusso di lavoro SnipArc',
       steps: [
         {
           title: 'Premi la scorciatoia',
-          description: 'Richiama SnipX ovunque e passa il mouse: la finestra o l’elemento che vuoi è già rilevato.',
+          description: 'Richiama SnipArc ovunque e passa il mouse: la finestra o l’elemento che vuoi è già rilevato.',
         },
         {
           title: 'Annota, estrai o modifica',
@@ -84,16 +84,16 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX in breve',
+    statsTitle: 'SnipArc in breve',
     metaDescription:
-      'Chi è SnipX: perché abbiamo creato uno strumento di cattura rapido e discreto per Windows e cosa guida ogni nostra decisione.',
+      'Chi è SnipArc: perché abbiamo creato uno strumento di cattura rapido e discreto per Windows e cosa guida ogni nostra decisione.',
     hero: {
       tagline: 'Chi siamo',
       title: 'Fai screenshot che',
       accent: 'si fanno dimenticare',
       subtitle:
-        'SnipX è nato da una frustrazione semplice: gli screenshot che facciamo decine di volte al giorno dovrebbero essere più rapidi e più fluidi. Siamo un piccolo team di profili prodotto e ingegneri che usano gli strumenti di cattura quanto chiunque altro — e questa dedizione è finita in ogni scorciatoia, ogni selezione, ogni fotogramma.',
-      alt: 'Strumenti di annotazione di SnipX su un desktop Windows',
+        'SnipArc è nato da una frustrazione semplice: gli screenshot che facciamo decine di volte al giorno dovrebbero essere più rapidi e più fluidi. Siamo un piccolo team di profili prodotto e ingegneri che usano gli strumenti di cattura quanto chiunque altro — e questa dedizione è finita in ogni scorciatoia, ogni selezione, ogni fotogramma.',
+      alt: 'Strumenti di annotazione di SnipArc su un desktop Windows',
     },
     stats: [
       { title: 'Lingue', amount: '15' },
@@ -126,7 +126,7 @@ export const content: LocaleExtras = {
       title: 'Capacità principali',
       subtitle:
         'Screenshot, screenshot lungo, fissaggio, registrazione, OCR offline e AI sul dispositivo: le sei cose a cui ricorri tutto il giorno, a una scorciatoia di distanza.',
-      alt: 'Strumenti di annotazione di SnipX su un desktop Windows: selezione, barra degli strumenti e riquadri in vetro',
+      alt: 'Strumenti di annotazione di SnipArc su un desktop Windows: selezione, barra degli strumenti e riquadri in vetro',
       items: [
         {
           title: 'Screenshot',
@@ -136,7 +136,7 @@ export const content: LocaleExtras = {
         {
           title: 'Screenshot lungo',
           description:
-            'Scorri una pagina o una chat lunga e lascia che SnipX la unisca in un unico screenshot lungo — in automatico o a mano, con anteprima dal vivo.',
+            'Scorri una pagina o una chat lunga e lascia che SnipArc la unisca in un unico screenshot lungo — in automatico o a mano, con anteprima dal vivo.',
         },
         {
           title: 'Fissa sul desktop',
@@ -236,7 +236,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Come siamo arrivati qui',
       subtitle: 'Da uno strumento creato per noi a uno su cui molti contano ogni giorno.',
-      cta: 'Scarica SnipX gratis',
+      cta: 'Scarica SnipArc gratis',
       items: [
         {
           title: 'Nato da un’esigenza nostra',
@@ -251,7 +251,7 @@ export const content: LocaleExtras = {
         {
           title: 'Verso sempre più persone',
           description:
-            'Oggi SnipX parla 15 lingue dell’interfaccia e continua a crescere, con lo stesso obiettivo: rendere semplici gli screenshot.',
+            'Oggi SnipArc parla 15 lingue dell’interfaccia e continua a crescere, con lo stesso obiettivo: rendere semplici gli screenshot.',
         },
       ],
     },
@@ -262,7 +262,7 @@ export const content: LocaleExtras = {
         {
           title: 'Community',
           description:
-            'Entra nella community di SnipX: nuove versioni, consigli e un canale diretto per dirci cosa pensi.',
+            'Entra nella community di SnipArc: nuove versioni, consigli e un canale diretto per dirci cosa pensi.',
         },
         {
           title: 'Supporto via e-mail',

@@ -2,19 +2,19 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * French copy that brings the home and about pages to parity with the
- * English pages. Terminology follows the SnipX app's French language pack.
+ * English pages. Terminology follows the SnipArc app's French language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: 'Longue capture',
 
   home: {
     heroAlt:
-      'Outils SnipX à l’écran : capture, longue capture, annotation, enregistrement, détourage AI, OCR hors ligne, lecture de QR Code et de codes-barres, traduction et épinglage',
+      'Outils SnipArc à l’écran : capture, longue capture, annotation, enregistrement, détourage AI, OCR hors ligne, lecture de QR Code et de codes-barres, traduction et épinglage',
     cards: [
       {
         title: 'Longue capture',
         description:
-          'Une page plus haute que l’écran tient quand même en une seule capture. Faites défiler vous-même ou laissez SnipX défiler automatiquement : la longue capture s’assemble au fil du défilement.',
+          'Une page plus haute que l’écran tient quand même en une seule capture. Faites défiler vous-même ou laissez SnipArc défiler automatiquement : la longue capture s’assemble au fil du défilement.',
       },
       {
         title: 'Lecture de QR Code et de codes-barres',
@@ -36,7 +36,7 @@ export const content: LocaleExtras = {
         {
           title: 'Défilement automatique ou à la main',
           description:
-            'Laissez SnipX parcourir la page ou faites défiler à la main. Dans les deux cas, chaque portion est capturée au fil du défilement.',
+            'Laissez SnipArc parcourir la page ou faites défiler à la main. Dans les deux cas, chaque portion est capturée au fil du défilement.',
         },
         {
           title: 'Regardez l’assemblage en direct',
@@ -63,11 +63,11 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: 'De l’écran au partage en trois étapes.',
-      alt: 'Flux de travail SnipX',
+      alt: 'Flux de travail SnipArc',
       steps: [
         {
           title: 'Appuyez sur le raccourci',
-          description: 'Appelez SnipX n’importe où et survolez : la fenêtre ou l’élément voulu est déjà détecté.',
+          description: 'Appelez SnipArc n’importe où et survolez : la fenêtre ou l’élément voulu est déjà détecté.',
         },
         {
           title: 'Annotez, extrayez ou modifiez',
@@ -84,16 +84,16 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX en un coup d’œil',
+    statsTitle: 'SnipArc en un coup d’œil',
     metaDescription:
-      'À propos de SnipX : pourquoi nous avons créé un outil de capture rapide et discret pour Windows, et ce qui guide chacune de nos décisions.',
+      'À propos de SnipArc : pourquoi nous avons créé un outil de capture rapide et discret pour Windows, et ce qui guide chacune de nos décisions.',
     hero: {
       tagline: 'À propos',
       title: 'Faites des captures',
       accent: 'qui se font oublier',
       subtitle:
-        'SnipX est né d’une frustration simple : les captures que l’on fait des dizaines de fois par jour devraient être plus rapides et plus fluides. Nous sommes une petite équipe de profils produit et d’ingénieurs qui s’appuient sur les outils de capture aussi intensivement que n’importe qui — et cette obsession se retrouve dans chaque raccourci, chaque sélection, chaque image.',
-      alt: 'Outils d’annotation SnipX sur un bureau Windows',
+        'SnipArc est né d’une frustration simple : les captures que l’on fait des dizaines de fois par jour devraient être plus rapides et plus fluides. Nous sommes une petite équipe de profils produit et d’ingénieurs qui s’appuient sur les outils de capture aussi intensivement que n’importe qui — et cette obsession se retrouve dans chaque raccourci, chaque sélection, chaque image.',
+      alt: 'Outils d’annotation SnipArc sur un bureau Windows',
     },
     stats: [
       { title: 'Langues', amount: '15' },
@@ -126,7 +126,7 @@ export const content: LocaleExtras = {
       title: 'Capacités essentielles',
       subtitle:
         'Capture, longue capture, épingler au bureau, enregistrement, OCR hors ligne et IA sur l’appareil — les six gestes du quotidien, à un raccourci près.',
-      alt: 'Outils d’annotation SnipX sur un bureau Windows\u00A0: sélection, barre d’outils et vignettes en verre',
+      alt: 'Outils d’annotation SnipArc sur un bureau Windows\u00A0: sélection, barre d’outils et vignettes en verre',
       items: [
         {
           title: 'Capture',
@@ -136,7 +136,7 @@ export const content: LocaleExtras = {
         {
           title: 'Longue capture',
           description:
-            'Faites défiler une page ou une longue discussion et laissez SnipX l’assembler en une longue capture — automatiquement ou à la main, avec un aperçu en direct.',
+            'Faites défiler une page ou une longue discussion et laissez SnipArc l’assembler en une longue capture — automatiquement ou à la main, avec un aperçu en direct.',
         },
         {
           title: 'Épingler au bureau',
@@ -236,7 +236,7 @@ export const content: LocaleExtras = {
     history: {
       title: 'Notre parcours',
       subtitle: 'D’un outil que nous avons créé pour nous à un outil sur lequel on compte chaque jour.',
-      cta: 'Télécharger SnipX gratuitement',
+      cta: 'Télécharger SnipArc gratuitement',
       items: [
         {
           title: 'Né de notre propre besoin',
@@ -250,7 +250,7 @@ export const content: LocaleExtras = {
         {
           title: 'Toucher plus de monde',
           description:
-            'Aujourd’hui, SnipX parle 15 langues d’interface et continue de grandir — avec le même objectif : simplifier les captures.',
+            'Aujourd’hui, SnipArc parle 15 langues d’interface et continue de grandir — avec le même objectif : simplifier les captures.',
         },
       ],
     },
@@ -261,7 +261,7 @@ export const content: LocaleExtras = {
         {
           title: 'Communauté',
           description:
-            'Rejoignez la communauté SnipX : nouvelles versions, astuces et un canal direct pour nous dire ce que vous en pensez.',
+            'Rejoignez la communauté SnipArc : nouvelles versions, astuces et un canal direct pour nous dire ce que vous en pensez.',
         },
         {
           title: 'Assistance par e-mail',

@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Japanese copy for the v3 pages. Terminology follows the SnipX app's ja
+ * Japanese copy for the v3 pages. Terminology follows the SnipArc app's ja
  * language pack.
  */
 export default {
-  home: 'SnipX — スクリーンショットと画面録画を、もっと速くスマートに',
+  home: 'SnipArc — スクリーンショットと画面録画を、もっと速くスマートに',
   nav: {
     features: '機能',
     versions: 'バージョン比較',
@@ -46,7 +46,7 @@ export default {
       [{ text: 'スクリーンショット、画面録画、' }, { text: 'AI の魔法', hl: true }],
       [{ text: 'ショートカットひとつで、すべて' }],
     ],
-    sub: 'SnipX は、一日中スクリーンショットを撮る人のためのデスクトップキャプチャツールです。注釈、長尺キャプチャ、GIF 録画、AI 切り抜き、オフライン OCR、画像翻訳、画面への固定まで——作業の流れを離れずに使えます。',
+    sub: 'SnipArc は、一日中スクリーンショットを撮る人のためのデスクトップキャプチャツールです。注釈、長尺キャプチャ、GIF 録画、AI 切り抜き、オフライン OCR、画像翻訳、画面への固定まで——作業の流れを離れずに使えます。',
     primary: '無料ダウンロード',
     secondary: '使い方を見る',
     metaStrong: 'Windows 10/11+',
@@ -58,7 +58,7 @@ export default {
   download: {
     more: 'その他のダウンロードオプション',
     menu: 'ダウンロードオプション',
-    edition: 'SnipX Standard 版',
+    edition: 'SnipArc Standard 版',
     setup: 'インストーラー（.exe）',
     portable: 'ポータブル版（.7z）',
     msi: 'MSI インストーラー',
@@ -117,7 +117,7 @@ export default {
       title: 'キーひとつで、狙った範囲ぴったり',
       lead: 'ショートカットで呼び出したら、撮影・注釈・コピーまで、流れを止めずに一息で終わらせます。',
       rows: [
-        'マウスを重ねると、SnipX が下のウィンドウや UI 要素を自動でとらえます',
+        'マウスを重ねると、SnipArc が下のウィンドウや UI 要素を自動でとらえます',
         '矢印、四角形、テキスト、連番、絵文字、ルーペ——撮ったその場で注釈できます',
         '完了のしかたは2つ。クリップボードへすぐコピーするか、その場で注釈を始めるか（エレガント / その場で注釈）',
       ],
@@ -224,7 +224,7 @@ export default {
     faqLink: 'よくある質問を読む',
     soon: '近日公開',
     mail: {
-      subject: 'SnipX へのフィードバック — ',
+      subject: 'SnipArc へのフィードバック — ',
       body: [
         'こんにちは。',
         '',
@@ -233,7 +233,7 @@ export default {
         '',
         '差し支えなければ、以下も添えていただけると助かります。',
         '',
-        '\u00b7 SnipX の版（Lite / Standard）：',
+        '\u00b7 SnipArc の版（Lite / Standard）：',
         '\u00b7 Windows のバージョン：',
         '\u00b7 再現手順：',
         '',
@@ -268,7 +268,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'ほかの SnipX ユーザーと交流できます。',
+            note: 'ほかの SnipArc ユーザーと交流できます。',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },
@@ -325,7 +325,7 @@ export default {
       {
         title: '運営',
         links: [
-          { text: 'SnipX について', path: '/about' },
+          { text: 'SnipArc について', path: '/about' },
           { text: 'お問い合わせ', path: '/contact' },
         ],
       },

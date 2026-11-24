@@ -1,11 +1,11 @@
 import type { V3LocaleCopy } from './types';
 
 /**
- * Italian copy for the v3 pages. Terminology follows the SnipX app's it
+ * Italian copy for the v3 pages. Terminology follows the SnipArc app's it
  * language pack.
  */
 export default {
-  home: 'SnipX — Screenshot e registrazioni schermo più rapidi e intelligenti',
+  home: 'SnipArc — Screenshot e registrazioni schermo più rapidi e intelligenti',
   nav: {
     features: 'Funzioni',
     versions: 'Versioni',
@@ -51,7 +51,7 @@ export default {
       [{ text: 'Screenshot, registrazione schermo, ' }, { text: 'magia dell’AI', hl: true }],
       [{ text: 'tutto da una sola scorciatoia' }],
     ],
-    sub: 'SnipX è uno strumento di cattura per desktop pensato per chi fa screenshot tutto il giorno: annota, cattura le pagine lunghe scorrendo, registra in GIF, scontorna i soggetti con l’AI, usa l’OCR offline, traduci le immagini e fissa i riferimenti — senza uscire dal tuo flusso.',
+    sub: 'SnipArc è uno strumento di cattura per desktop pensato per chi fa screenshot tutto il giorno: annota, cattura le pagine lunghe scorrendo, registra in GIF, scontorna i soggetti con l’AI, usa l’OCR offline, traduci le immagini e fissa i riferimenti — senza uscire dal tuo flusso.',
     primary: 'Scarica gratis',
     secondary: 'Guarda come funziona',
     metaStrong: 'Windows 10/11+',
@@ -63,7 +63,7 @@ export default {
   download: {
     more: 'Altre opzioni di download',
     menu: 'Opzioni di download',
-    edition: 'SnipX Standard',
+    edition: 'SnipArc Standard',
     setup: 'Programma di installazione (.exe)',
     portable: 'Versione portatile (.7z)',
     msi: 'Installer MSI',
@@ -126,7 +126,7 @@ export default {
       title: 'Un tasto, l’inquadratura esatta',
       lead: 'Richiamalo con una scorciatoia, poi cattura, annota e copia in un unico gesto continuo.',
       rows: [
-        'Passa il mouse e SnipX si aggancia alla finestra o all’elemento sotto il cursore',
+        'Passa il mouse e SnipArc si aggancia alla finestra o all’elemento sotto il cursore',
         'Frecce, rettangoli, testo, numerazione, emoji, lente d’ingrandimento — annota già al momento della cattura',
         'Due modi per concludere: copia subito negli appunti oppure annota sul momento (Elegante / Annotazione immediata)',
       ],
@@ -143,7 +143,7 @@ export default {
       title: 'Una pagina più alta dello schermo, in una sola cattura',
       lead: 'Pagine lunghe, chat lunghe e documenti interi — catturati dall’alto verso il basso in un’unica immagine.',
       rows: [
-        'Lascia scorrere SnipX o scorri tu: ogni fotogramma viene catturato man mano',
+        'Lascia scorrere SnipArc o scorri tu: ogni fotogramma viene catturato man mano',
         'I fotogrammi adiacenti vengono allineati e fusi, così lo screenshot lungo finale non ha cuciture visibili',
       ],
       items: [
@@ -233,7 +233,7 @@ export default {
     faqLink: 'Leggi le FAQ',
     soon: 'In arrivo',
     mail: {
-      subject: 'Feedback su SnipX — ',
+      subject: 'Feedback su SnipArc — ',
       body: [
         'Ciao,',
         '',
@@ -242,7 +242,7 @@ export default {
         '',
         'Se puoi, questi dettagli ci aiutano a risolvere prima:',
         '',
-        '· Edizione di SnipX (Lite / Standard):',
+        '· Edizione di SnipArc (Lite / Standard):',
         '· Versione di Windows:',
         '· Passaggi per riprodurre il problema:',
         '',
@@ -277,7 +277,7 @@ export default {
           {
             key: 'discord',
             name: 'Discord',
-            note: 'Per parlare con altri utenti di SnipX.',
+            note: 'Per parlare con altri utenti di SnipArc.',
             icon: 'tabler:brand-discord',
             tint: '#5865f2',
           },

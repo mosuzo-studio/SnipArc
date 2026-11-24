@@ -1,11 +1,11 @@
-# SnipX v7.20.9 Screenshot Update
+# SnipArc v7.20.9 Screenshot Update
 
 ## Source Specification
 
 | Field | Value |
 |-------|-------|
-| Program | SnipX v7.20.9 (2026-11-16) |
-| Executable | `dist\SnipX_v7.20.9_2026-11-16_1609_win64\SnipX.exe` |
+| Program | SnipArc v7.20.9 (2026-11-16) |
+| Executable | Historical v7.20.9 executable |
 | Build date | 2026-11-16 1609 |
 | Qt version | Qt 6.8.3 |
 | Portable | Yes (portable.marker present) |
@@ -54,7 +54,7 @@ the pin section's copy describes pinning, which these captures do not show.
 - Added locale detection: `const realShots = lang === 'zh-cn'`
 - `shotSources` and `featureSources` pick the real capture for that locale and the inherited render for every other locale
 
-**Scope correction**: the captures show the **Chinese** SnipX UI, so only `/zh-cn`
+**Scope correction**: the captures show the **Chinese** SnipArc UI, so only `/zh-cn`
 takes them. English and the other 13 locales keep their existing images — putting
 a Chinese-UI screenshot on the English page would mismatch the page language.
 
@@ -77,7 +77,7 @@ real-image filenames:
 
 ## Limitations & Known Issues
 
-1. **English UI screenshots**: Not captured. Real SnipX interface is in Simplified Chinese (zh-CN) only. English-language product page waits for EN-UI captures.
+1. **English UI screenshots**: Not captured. Real SnipArc interface is in Simplified Chinese (zh-CN) only. English-language product page waits for EN-UI captures.
 
 2. **Incomplete feature set**: 
    - Scrolling capture (long screenshot feature) — not visually demoed
@@ -87,23 +87,23 @@ real-image filenames:
 
 3. **Slots left empty** (inheriting existing renders): `long`, `record`, `pin`, `modes`
 
-4. **Config restrictions**: SnipX language switching requires in-app settings GUI; direct config.ini edits blocked by permissions.
+4. **Config restrictions**: SnipArc language switching requires in-app settings GUI; direct config.ini edits blocked by permissions.
 
 ## Restoration Status
 
-- **Windows state**: SnipX (v7.20.9) still running; Notepad closed; taskbar and desktop intact
+- **Windows state**: SnipArc (v7.20.9) still running; Notepad closed; taskbar and desktop intact
 - **Temporary files**: Sample document and capture script remain in `tools/capture/` for future reference
-- **Config**: SnipX config unchanged from portable defaults
+- **Config**: SnipArc config unchanged from portable defaults
 
 ## Final Locations
 
-- **Website source**: `D:\project\research\mosuzo-studio\snipx-site\`
+- **Website source**: `D:\project\research_mosuzo\mosuzo-site\SnipArc-Site\`
 - **Image assets**: `src/assets/images/real/*.zh-cn.png`
 - **Component logic**: `src/components/v3/Home.astro` (locale-conditional)
 - **Dev preview**: http://127.0.0.1:4321/ (English), http://127.0.0.1:4321/zh-cn (Simplified Chinese)
 ## Next Steps
 
-1. Capture SnipX English UI (same scenes) via in-app settings language switch
+1. Capture SnipArc English UI (same scenes) via in-app settings language switch
 2. Process EN images to site dimensions and save as `capture-wide.en.png`, etc.
 3. Wire the EN set into the `realShots` branch for `lang === 'en'`
 4. Capture the remaining feature scenes: scrolling capture, recording toolbar, a visible pinned window, the two completion modes

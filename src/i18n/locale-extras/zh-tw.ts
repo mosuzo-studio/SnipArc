@@ -2,14 +2,14 @@ import type { LocaleExtras } from '../locale-extras-types';
 
 /**
  * Traditional Chinese (Taiwan) copy that brings the home and about pages to
- * parity with the English pages. Terminology follows the SnipX app's zh-TW
+ * parity with the English pages. Terminology follows the SnipArc app's zh-TW
  * language pack.
  */
 export const content: LocaleExtras = {
   footerScrolling: '長截圖',
 
   home: {
-    heroAlt: 'SnipX 工具箱：截圖、長截圖、標註、錄製螢幕、AI 去背、離線 OCR、QR Code / 條碼辨識、圖片翻譯與釘在桌面',
+    heroAlt: 'SnipArc 工具箱：截圖、長截圖、標註、錄製螢幕、AI 去背、離線 OCR、QR Code / 條碼辨識、圖片翻譯與釘在桌面',
     cards: [
       {
         title: '長截圖',
@@ -32,7 +32,7 @@ export const content: LocaleExtras = {
       items: [
         {
           title: '自動滾，或自己動手滾',
-          description: '讓 SnipX 自動把頁面往下滾，或自己動手滾；兩種方式都會邊滾邊擷取每個畫面。',
+          description: '讓 SnipArc 自動把頁面往下滾，或自己動手滾；兩種方式都會邊滾邊擷取每個畫面。',
         },
         {
           title: '拼接過程即時可見',
@@ -56,11 +56,11 @@ export const content: LocaleExtras = {
     ],
     workflow: {
       title: '從螢幕到分享，只要三步。',
-      alt: 'SnipX 使用流程',
+      alt: 'SnipArc 使用流程',
       steps: [
         {
           title: '按下快速鍵',
-          description: '在任何畫面喚起 SnipX，滑鼠一停，要截的視窗或元素已經辨識好了。',
+          description: '在任何畫面喚起 SnipArc，滑鼠一停，要截的視窗或元素已經辨識好了。',
         },
         {
           title: '標註、擷取或編輯',
@@ -75,15 +75,15 @@ export const content: LocaleExtras = {
   },
 
   about: {
-    statsTitle: 'SnipX 數據一覽',
-    metaDescription: 'SnipX 的故事：我們為什麼打造這款截圖工具，以及背後堅持的原則與價值。',
+    statsTitle: 'SnipArc 數據一覽',
+    metaDescription: 'SnipArc 的故事：我們為什麼打造這款截圖工具，以及背後堅持的原則與價值。',
     hero: {
       tagline: '關於我們',
       title: '把截圖這件小事，',
       accent: '做到極致',
       subtitle:
-        'SnipX 誕生於一個樸素的念頭：每天都要用上無數次的截圖，理應更快、更順手。我們是一群同樣重度依賴截圖工具的產品人與工程師，把對效率的堅持，做進每一個快速鍵、每一次框選、每一幀畫面裡。',
-      alt: 'Windows 桌面上的 SnipX 標註工具',
+        'SnipArc 誕生於一個樸素的念頭：每天都要用上無數次的截圖，理應更快、更順手。我們是一群同樣重度依賴截圖工具的產品人與工程師，把對效率的堅持，做進每一個快速鍵、每一次框選、每一幀畫面裡。',
+      alt: 'Windows 桌面上的 SnipArc 標註工具',
     },
     stats: [
       { title: '介面語言', amount: '15' },
@@ -93,7 +93,7 @@ export const content: LocaleExtras = {
     ],
     stand: {
       title: '我們堅持的事',
-      subtitle: '工具越順手，你越感覺不到它的存在。這是 SnipX 每一個設計決策背後的準則。',
+      subtitle: '工具越順手，你越感覺不到它的存在。這是 SnipArc 每一個設計決策背後的準則。',
       items: [
         {
           title: '快，是第一位的',
@@ -112,7 +112,7 @@ export const content: LocaleExtras = {
     core: {
       title: '核心能力',
       subtitle: '從截圖到錄製螢幕，從釘在桌面到離線 OCR 與 AI——六件天天用得上的能力，一個快速鍵全都在。',
-      alt: 'Windows 桌面上的 SnipX 標註工具：選區、工具列與玻璃貼片',
+      alt: 'Windows 桌面上的 SnipArc 標註工具：選區、工具列與玻璃貼片',
       items: [
         {
           title: '截圖',
@@ -206,7 +206,7 @@ export const content: LocaleExtras = {
     history: {
       title: '一路走來',
       subtitle: '從一個自用的小工具，到越來越多人每天在用的截圖利器。',
-      cta: '免費下載 SnipX',
+      cta: '免費下載 SnipArc',
       items: [
         {
           title: '始於自己的需求',
@@ -218,7 +218,7 @@ export const content: LocaleExtras = {
         },
         {
           title: '走向更多人',
-          description: '如今 SnipX 支援 15 種介面語言，還在持續增加，但不變的是同一個目標：讓截圖更簡單。',
+          description: '如今 SnipArc 支援 15 種介面語言，還在持續增加，但不變的是同一個目標：讓截圖更簡單。',
         },
       ],
     },
@@ -228,7 +228,7 @@ export const content: LocaleExtras = {
       items: [
         {
           title: '使用者社群',
-          description: '加入 SnipX 社群，第一時間取得新版本與使用技巧，也能直接告訴我們你的想法。',
+          description: '加入 SnipArc 社群，第一時間取得新版本與使用技巧，也能直接告訴我們你的想法。',
         },
         {
           title: '郵件支援',

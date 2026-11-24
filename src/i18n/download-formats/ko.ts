@@ -3,7 +3,7 @@ import type { DownloadFormatsContent } from '../download-formats-types';
 export const koFormats: DownloadFormatsContent = {
   tagline: '다운로드 형식',
   title: '어떤 파일을 다운로드해야 할까요?',
-  subtitle: '네 가지 형식 모두 같은 SnipX이며, 설치 및 업데이트 방식만 다릅니다.',
+  subtitle: '네 가지 형식 모두 같은 SnipArc이며, 설치 및 업데이트 방식만 다릅니다.',
   headers: ['형식', '설치 및 업데이트', '추천 대상'],
   recommendLabel: '추천',
   rows: [

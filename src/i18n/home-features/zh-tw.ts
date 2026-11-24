@@ -3,17 +3,17 @@ import type { HomeFeaturesContent } from '~/i18n/home-features-types';
 /**
  * Traditional Chinese (Taiwan) copy for the homepage feature blocks.
  * Mirrors the English homepage in `src/pages/index.astro`, the source of truth;
- * terminology follows the SnipX app's zh-TW language pack.
+ * terminology follows the SnipArc app's zh-TW language pack.
  */
 export const content: HomeFeaturesContent = {
   features: {
     tagline: '核心功能',
     title: '一款工具，涵蓋你所有的截圖情境',
-    subtitle: '從隨手一截到專業創作，SnipX 把日常最常用的擷取、錄製、OCR 與標註需求，全都整合進一款輕巧的應用程式。',
+    subtitle: '從隨手一截到專業創作，SnipArc 把日常最常用的擷取、錄製、OCR 與標註需求，全都整合進一款輕巧的應用程式。',
     items: [
       {
         title: '智慧截圖',
-        description: '按一次快速鍵就能框選區域、視窗或全螢幕。SnipX 自動偵測視窗與介面元素，精準對齊到像素。',
+        description: '按一次快速鍵就能框選區域、視窗或全螢幕。SnipArc 自動偵測視窗與介面元素，精準對齊到像素。',
       },
       {
         title: '錄製螢幕與 GIF',
@@ -113,7 +113,7 @@ export const content: HomeFeaturesContent = {
   more: {
     tagline: '更多功能',
     title: '那些你會慢慢離不開的小細節',
-    subtitle: '藏在細節裡的小巧思，正是 SnipX 讓人一用就放不下的原因。',
+    subtitle: '藏在細節裡的小巧思，正是 SnipArc 讓人一用就放不下的原因。',
     items: [
       {
         title: '表情貼圖',

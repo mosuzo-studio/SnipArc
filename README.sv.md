@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipX-logotyp" />
+  <img src="src/assets/favicons/favicon.svg" width="88" alt="SnipArc-logotyp" />
 </p>
 
-<h1 align="center">SnipX</h1>
+<h1 align="center">SnipArc</h1>
 
 <p align="center">
   <strong>Fånga exakt. Förklara tydligt. Fortsätt arbeta.</strong><br/>
@@ -15,9 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Webbplats-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Besök SnipXs officiella webbplats" /></a>
+  <a href="https://sniparc.mosuzo.com"><img src="https://img.shields.io/badge/Webbplats-sniparc.mosuzo.com-8172b3?style=for-the-badge" height="40" alt="Besök SnipArcs officiella webbplats" /></a>
   <a href="https://sniparc.mosuzo.com/sv/faq"><img src="https://img.shields.io/badge/Vanliga%20fr%C3%A5gor-4c72b0?style=for-the-badge" height="40" alt="Läs vanliga frågor" /></a>
-  <a href="https://sniparc.mosuzo.com/sv/changelog"><img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge" height="40" alt="Läs SnipXs uppdateringar" /></a>
+  <a href="https://sniparc.mosuzo.com/sv/changelog"><img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge" height="40" alt="Läs SnipArcs uppdateringar" /></a>
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@
 <br/>
 
 <p align="center">
-  <strong>Ladda ned SnipX</strong> · Windows 10 / 11 (64-bit)
+  <strong>Ladda ned SnipArc</strong> · Windows 10 / 11 (64-bit)
 </p>
 
 <p align="center">
@@ -60,22 +60,22 @@
 
 | Vad den gör | Läs mer | Kom igång |
 | --- | --- | --- |
-| [Grundfunktioner](#grundfunktioner): Skärmbild · Rullande skärmbild · Fäst på skrivbordet · Skärminspelning & GIF · Offline-OCR · AI-frilägg och AI-radering<br/>[Fler funktioner](#fler-funktioner): anteckningar och maskning · Emoji-klistermärken · Presentationsläge · mörkt läge · flera bildskärmar | [Byggd för arbetet efter varje skärmbild](#byggd-för-arbetet-efter-varje-skärmbild)<br/>[Vanliga frågor](#vanliga-frågor)<br/>[Ett fokuserat Windows-arbetsflöde](#ett-fokuserat-windows-arbetsflöde)<br/>[Integritet och kontroll](#integritet-och-kontroll)<br/>[Språk som stöds](#språk-som-stöds) | [Hämtning och utgåvor](#hämtning-och-utgåvor)<br/>[Support och feedback](#support-och-feedback)<br/>[Stöd SnipX på Ko-fi](#stöd-snipx-på-ko-fi) |
+| [Grundfunktioner](#grundfunktioner): Skärmbild · Rullande skärmbild · Fäst på skrivbordet · Skärminspelning & GIF · Offline-OCR · AI-frilägg och AI-radering<br/>[Fler funktioner](#fler-funktioner): anteckningar och maskning · Emoji-klistermärken · Presentationsläge · mörkt läge · flera bildskärmar | [Byggd för arbetet efter varje skärmbild](#byggd-för-arbetet-efter-varje-skärmbild)<br/>[Vanliga frågor](#vanliga-frågor)<br/>[Ett fokuserat Windows-arbetsflöde](#ett-fokuserat-windows-arbetsflöde)<br/>[Integritet och kontroll](#integritet-och-kontroll)<br/>[Språk som stöds](#språk-som-stöds) | [Hämtning och utgåvor](#hämtning-och-utgåvor)<br/>[Support och feedback](#support-och-feedback)<br/>[Stöd SnipArc på Ko-fi](#stöd-sniparc-på-ko-fi) |
 
 </details>
 
 > **Tre steg för att komma igång:** ① installera → ② tryck `F1` och rama in området → ③ anteckna och kopiera, eller tryck `F3` för att fästa den på skrivbordet.
 
 <figure>
-  <img src="src/assets/images/readme/01-overview.png" alt="SnipX-översikt" />
-  <p align="center"><strong>SnipX i korthet.</strong> Från skärmbilder och långa bilder till fästa referenser, skärminspelning, textutvinning och AI-rensning — allt i ett och samma fönster.</p>
+  <img src="src/assets/images/readme/01-overview.png" alt="SnipArc-översikt" />
+  <p align="center"><strong>SnipArc i korthet.</strong> Från skärmbilder och långa bilder till fästa referenser, skärminspelning, textutvinning och AI-rensning — allt i ett och samma fönster.</p>
 </figure>
 
 <br/>
 
 ## Byggd för arbetet efter varje skärmbild
 
-Det svåra är sällan själva fångsten — det är allt som kommer efteråt: att anteckna, maska, foga samman en lång sida, plocka ut text, hålla en referens framme. SnipX samlar det arbetet i ett enda flöde, så att skärmbilden är redo i samma stund du tar den.
+Det svåra är sällan själva fångsten — det är allt som kommer efteråt: att anteckna, maska, foga samman en lång sida, plocka ut text, hålla en referens framme. SnipArc samlar det arbetet i ett enda flöde, så att skärmbilden är redo i samma stund du tar den.
 
 - **Ingen andra omgång:** anteckna, maska och förstora i samma verktygsfält
 - **Allt långt i en enda bild:** långa sidor, chattar och dokument, sammanfogade automatiskt
@@ -89,7 +89,7 @@ Vanliga användningsområden: produktfeedback, felrapporter, guider och dokument
 
 ### 📸 Skärmbild · Fånga med ett tryck, rama in exakt
 
-Tryck `F1`; hovra och SnipX låser in fönstret eller knappen under muspekaren, och finjustera sedan kanterna med förstoringsglaset.
+Tryck `F1`; hovra och SnipArc låser in fönstret eller knappen under muspekaren, och finjustera sedan kanterna med förstoringsglaset.
 
 - Pilar, numrering, text och mosaik, på plats direkt
 - Fast storlek, proportioner, koordinater och fördröjning för repeterbara skärmbilder
@@ -97,7 +97,7 @@ Tryck `F1`; hovra och SnipX låser in fönstret eller knappen under muspekaren, 
 <sub>**I detalj:** inlåsning mot kanter på fönster och gränssnittselement, justering på pixelnivå, sparade förval och fördröjd fångst.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipX smart fångst och anteckningsyta" />
+  <img src="src/assets/images/readme/02-smart-capture.png" alt="SnipArc smart fångst och anteckningsyta" />
   <p align="center"><strong>Smart fångst.</strong> Välj ett fönster eller element och anteckna direkt i verktygsfältet.</p>
 </figure>
 
@@ -106,7 +106,7 @@ Tryck `F1`; hovra och SnipX låser in fönstret eller knappen under muspekaren, 
 > **Elegant:** kopieras i samma stund du släpper; aviseringen nere till höger öppnar editorn. **Direktanteckna:** verktygsfältet visas tillsammans med markeringen, så du ritar innan du kopierar. Båda finns under Inställningar → Skärmbild.
 
 <figure>
-  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipX två sätt att avsluta: Elegant och Direktanteckna" />
+  <img src="src/assets/images/readme/12-two-modes.png" alt="SnipArc två sätt att avsluta: Elegant och Direktanteckna" />
   <p align="center"><strong>Två sätt att avsluta.</strong> Vänster: Elegant; höger: Direktanteckna.</p>
 </figure>
 
@@ -114,14 +114,14 @@ Tryck `F1`; hovra och SnipX låser in fönstret eller knappen under muspekaren, 
 
 Hela sidor, långa chattar och fullständiga dokument — fångade uppifrån och ned i en enda bild.
 
-- Låt SnipX rulla automatiskt, eller rulla själv — varje bildruta fångas
+- Låt SnipArc rulla automatiskt, eller rulla själv — varje bildruta fångas
 - Intilliggande bildrutor matchas och blandas, så det finns inga synliga skarvar
 - Förhandsvisning i realtid: stoppa så fort hela sidan är med
 
 <sub>**I detalj:** byggd för långa webbsidor, chattar och hela dokument; den färdiga bilden hamnar direkt i dokument och ärenden.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/09-longshot.png" alt="SnipX rullande skärmbild" />
+  <img src="src/assets/images/readme/09-longshot.png" alt="SnipArc rullande skärmbild" />
   <p align="center"><strong>Rullande skärmbild.</strong> Långa sidor och chattar, sammanfogade till en enda bild.</p>
 </figure>
 
@@ -135,7 +135,7 @@ Tryck `F3` för att hålla en skärmbild ovanpå allt annat — jämför och arb
 <sub>**I detalj:** ändra storlek från vilken kant eller hörn som helst med låst bildförhållande; fästa bilder ligger kvar ovanpå dina fönster och blockerar aldrig klick.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/10-pin.png" alt="SnipX fäst på skrivbordet" />
+  <img src="src/assets/images/readme/10-pin.png" alt="SnipArc fäst på skrivbordet" />
   <p align="center"><strong>Fäst på skrivbordet.</strong> Ha referenserna ovanpå medan du arbetar.</p>
 </figure>
 
@@ -149,7 +149,7 @@ Förvandla ”svårt att förklara” till ett klipp som alla kan följa.
 <sub>**I detalj:** GIF-filer är små nog för dokument, ärenden och chattar, och högupplösta lägen håller måttet på HiDPI-skärmar.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/11-recording.png" alt="SnipX skärminspelning och GIF-export" />
+  <img src="src/assets/images/readme/11-recording.png" alt="SnipArc skärminspelning och GIF-export" />
   <p align="center"><strong>Skärminspelning & GIF.</strong> Visa det en gång i stället för att förklara två gånger.</p>
 </figure>
 
@@ -162,7 +162,7 @@ Förvandla ”svårt att förklara” till ett klipp som alla kan följa.
 <sub>**I detalj:** igenkänningen körs på din enhet, och resultatet hamnar i urklipp med ett klick.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipX offline-OCR och bildöversättning" />
+  <img src="src/assets/images/readme/04-ocr-translation.png" alt="SnipArc offline-OCR och bildöversättning" />
   <p align="center"><strong>Offline-OCR och bildöversättning.</strong> Extrahera och översätt utan att lämna fångstflödet.</p>
 </figure>
 
@@ -174,7 +174,7 @@ Förvandla ”svårt att förklara” till ett klipp som alla kan följa.
 <sub>**I detalj:** båda körs på lokala modeller — originalbilden laddas aldrig upp. Det frilagda motivet kan kopieras eller sparas som genomskinlig PNG.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipX AI-frilägg" />
+  <img src="src/assets/images/readme/05-ai-cutout.png" alt="SnipArc AI-frilägg" />
   <p align="center"><strong>AI-frilägg.</strong> Motiv och bakgrund, separerade i ett enda steg.</p>
 </figure>
 
@@ -189,7 +189,7 @@ Pilar, text, penna, överstrykningspenna, numrering, förstoringsglas; mosaik oc
 <sub>**I detalj:** anteckningar kan flyttas, skalas och roteras, med ångra och gör om när du ändrar dig.</sub>
 
 <figure>
-  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipX verktyg för anteckningar och maskning" />
+  <img src="src/assets/images/readme/03-annotation-redaction.png" alt="SnipArc verktyg för anteckningar och maskning" />
   <p align="center"><strong>Anteckningar och maskning.</strong> Förklara stegen tydligt och håll känsliga delar privata.</p>
 </figure>
 
@@ -198,7 +198,7 @@ Pilar, text, penna, överstrykningspenna, numrering, förstoringsglas; mosaik oc
 Hundratals klistermärken som kan skalas och placeras var som helst — lite kul, och betydligt mer betoning.
 
 <figure>
-  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipX Emoji-klistermärken" />
+  <img src="src/assets/images/readme/06-emoji-stickers.png" alt="SnipArc Emoji-klistermärken" />
   <p align="center"><strong>Emoji-klistermärken.</strong> Rikta blicken mot precis det som är viktigt.</p>
 </figure>
 
@@ -207,7 +207,7 @@ Hundratals klistermärken som kan skalas och placeras var som helst — lite kul
 Tryck `Pause` för att rensa bort stöket inför en demo eller inspelning; efteråt sätts allt tillbaka.
 
 <figure>
-  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipX presentationsläge" />
+  <img src="src/assets/images/readme/07-presentation-mode.png" alt="SnipArc presentationsläge" />
   <p align="center"><strong>Presentationsläge.</strong> Ett tryck för att rensa skrivbordet, ett tryck för att återställa.</p>
 </figure>
 
@@ -251,7 +251,7 @@ Skärmbilder sparas lokalt; offline-OCR, AI-frilägg och AI-radering körs på d
 
 ## Språk som stöds
 
-SnipX levereras med **15 gränssnittsspråk**:
+SnipArc levereras med **15 gränssnittsspråk**:
 
 <p>
   <kbd>Engelska</kbd>
@@ -275,7 +275,7 @@ SnipX levereras med **15 gränssnittsspråk**:
 
 ## Nyckelord
 
-SnipX; SnipX AI; Mosuzo Studio; skärmbildsverktyg; rullande skärmbild; lång skärmbild; skärmbildsanteckning; fäst på skrivbordet; skärminspelning; GIF-inspelning; AI-frilägg; AI-radering; offline-OCR; bildöversättning
+SnipArc; SnipArc AI; Mosuzo Studio; skärmbildsverktyg; rullande skärmbild; lång skärmbild; skärmbildsanteckning; fäst på skrivbordet; skärminspelning; GIF-inspelning; AI-frilägg; AI-radering; offline-OCR; bildöversättning
 
 <br/>
 
@@ -299,13 +299,13 @@ Frågor, förslag och feedback är alltid välkomna.
 
 <p align="center">
   <a href="https://sniparc.mosuzo.com">
-    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Besök SnipXs officiella webbplats" />
+    <img src="src/assets/images/readme/official-website-badge.svg" height="40" alt="Besök SnipArcs officiella webbplats" />
   </a>
   <a href="https://github.com/mosuzo-studio/SnipArc/issues">
     <img src="https://img.shields.io/badge/Feedback%20%26%20felrapporter-715A8A?style=for-the-badge&amp;logo=github&amp;logoColor=white" height="40" alt="Lämna feedback eller rapportera ett fel" />
   </a>
   <a href="https://sniparc.mosuzo.com/sv/changelog">
-    <img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Läs SnipXs uppdateringar" />
+    <img src="https://img.shields.io/badge/Uppdateringar-3F7C73?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" height="40" alt="Läs SnipArcs uppdateringar" />
   </a>
   <a href="mailto:mosuzo.studio@gmail.com">
     <img src="https://img.shields.io/badge/Mejla%20oss-A75D5D?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" height="40" alt="Mejla Mosuzo Studio" />
@@ -314,13 +314,13 @@ Frågor, förslag och feedback är alltid välkomna.
 
 <br/>
 
-## Stöd SnipX på Ko-fi
+## Stöd SnipArc på Ko-fi
 
-Om SnipX gör ditt arbete enklare, stöd oss på Ko-fi — där delar vi också utvecklingsnyheter.
+Om SnipArc gör ditt arbete enklare, stöd oss på Ko-fi — där delar vi också utvecklingsnyheter.
 
 <p align="center">
   <a href="https://ko-fi.com/mosuzo">
-    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Stöd SnipX på Ko-fi" />
+    <img src="src/assets/images/readme/support_me_on_kofi_beige.png" width="180" alt="Stöd SnipArc på Ko-fi" />
   </a>
 </p>
 

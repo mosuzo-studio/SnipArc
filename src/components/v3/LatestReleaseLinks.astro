@@ -1,0 +1,26 @@
+<script>
+  import { LATEST_RELEASE_API, readReleaseAssets } from '~/utils/release-assets';
+
+  const buttons = document.querySelectorAll<HTMLAnchorElement>('[data-release-asset]');
+  if (buttons.length) {
+    fetch(LATEST_RELEASE_API, { signal: AbortSignal.timeout(5000) })
+      .then((response) => {
+        if (!response.ok) throw new Error(`GitHub status ${response.status}`);
+        return response.json();
+      })
+      .then((release) => {
+        const assets = readReleaseAssets(release);
+        if (!assets.tag) return;
+        for (const label of document.querySelectorAll('[data-release-version]')) {
+          label.textContent = assets.tag;
+        }
+        for (const button of buttons) {
+          const kind = button.dataset.releaseAsset === 'setup' ? 'setup' : 'portable';
+          button.href = assets[kind] ?? 'https://github.com/mosuzo-studio/SnipArc/releases/latest';
+        }
+      })
+      .catch(() => {
+        // Keep the links resolved during the static build.
+      });
+  }
+</script>
