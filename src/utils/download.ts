@@ -1,17 +1,4 @@
-/**
- * Resolves the latest release tag for display and keeps every download button
- * pointed at the public Releases page.
- *
- * Direct asset URLs are intentionally not derived from the release tag: the
- * SnipArc repository is new, and guessing package names would produce links
- * that 404. Once release assets are published and their names confirmed, the
- * lookup below can be extended to map them explicitly.
- *
- * This runs at build time only (the site is `output: 'static'`), so visitors
- * never touch GitHub metadata. Every failure path falls back to the Releases
- * page, so the build never breaks and the buttons always stay usable.
- */
-
+import { LATEST_RELEASE_API, readReleaseAssets } from './release-assets';
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
@@ -28,17 +15,14 @@ const FETCH_TIMEOUT_MS = 8000;
 /** Shown in copy when the release lookup fails; bump alongside real releases. */
 const FALLBACK_DISPLAY_VERSION = '8.0.0';
 
-/** Asset kinds exposed on the site, in the order they should be offered. */
-const ASSET_KINDS = ['setup', 'msi', 'portable'] as const;
-
-export type AssetKind = (typeof ASSET_KINDS)[number];
+export type AssetKind = 'setup' | 'msi' | 'portable';
 
 export interface ReleaseDownloads {
   /** Release tag, e.g. `v7.3.0`; null when it could not be resolved. */
   tag: string | null;
   /** Version without the leading `v`, e.g. `7.3.0`; null when unresolved. */
   version: string | null;
-  /** Public download URLs; every entry points at the Releases page for now. */
+  /** Public asset URLs with a release page fallback. */
   urls: Record<AssetKind, string>;
   /** Public download URLs for the Lite edition, same behaviour. */
   liteUrls: Record<AssetKind, string>;
@@ -49,19 +33,10 @@ export interface ReleaseDownloads {
 const FALLBACK: ReleaseDownloads = {
   tag: null,
   version: null,
-  urls: { setup: RELEASES_URL, msi: RELEASES_URL, portable: RELEASES_URL },
+  urls: { setup: LATEST_RELEASE_URL, msi: RELEASES_URL, portable: LATEST_RELEASE_URL },
   liteUrls: { setup: RELEASES_URL, msi: RELEASES_URL, portable: RELEASES_URL },
   resolved: false,
 };
-
-/** Extracts `v7.3.0` from `.../releases/tag/v7.3.0`. */
-const tagFromLocation = (location: string): string | null => {
-  const match = /\/releases\/tag\/([^/?#]+)/.exec(location);
-  return match ? decodeURIComponent(match[1]) : null;
-};
-
-const buildReleasePageUrls = (): Record<AssetKind, string> =>
-  Object.fromEntries(ASSET_KINDS.map((kind) => [kind, RELEASES_URL])) as Record<AssetKind, string>;
 
 /**
  * Node's `fetch` ignores the usual proxy env vars, so on a build machine that
@@ -83,39 +58,21 @@ const installProxyDispatcher = async (): Promise<void> => {
 };
 
 const resolveLatestRelease = async (): Promise<ReleaseDownloads> => {
-  // `manual` keeps the 302 so the tag can be read from Location without
-  // downloading the release page itself.
-  const response = await fetch(LATEST_RELEASE_URL, {
-    redirect: 'manual',
-    headers: { 'User-Agent': 'sniparc-site-build' },
+  const response = await fetch(LATEST_RELEASE_API, {
+    headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'sniparc-site-build' },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
+  if (!response.ok) throw new Error(`GitHub status ${response.status}`);
 
-  const location = response.headers.get('location');
-
-  if (!location) {
-    console.warn(
-      `[download] /releases/latest did not redirect (status ${response.status}); linking to the Releases page instead.`
-    );
-    return FALLBACK;
-  }
-
-  const tag = tagFromLocation(location);
-
-  if (!tag) {
-    console.warn(`[download] Could not read a release tag from "${location}"; linking to the Releases page instead.`);
-    return FALLBACK;
-  }
-
-  const version = tag.replace(/^v/i, '');
-  console.info(`[download] Resolved release ${tag}; download buttons link to the Releases page.`);
+  const { tag, setup, portable } = readReleaseAssets(await response.json());
+  if (!tag) return FALLBACK;
 
   return {
     tag,
-    version,
-    urls: buildReleasePageUrls(),
-    liteUrls: buildReleasePageUrls(),
-    resolved: false,
+    version: tag.replace(/^v/i, ''),
+    urls: { setup: setup ?? LATEST_RELEASE_URL, portable: portable ?? LATEST_RELEASE_URL, msi: RELEASES_URL },
+    liteUrls: FALLBACK.liteUrls,
+    resolved: Boolean(setup && portable),
   };
 };
 

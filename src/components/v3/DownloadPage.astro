@@ -10,8 +10,6 @@ const { lang } = Astro.props;
 const zh = lang === 'zh-cn';
 const { tag: publicReleaseTag } = await getReleaseDownloads();
 const releaseAvailable = Boolean(publicReleaseTag);
-/* Release lookup currently derives filenames from a tag rather than checking
-   assets. Link to the actual release list until package URLs are verified. */
 const formats = zh
   ? [
       { n: '01', title: '安装版', format: '.exe', note: '适合日常使用，通过安装向导完成设置。', label: '日常使用' },
@@ -70,8 +68,8 @@ const formats = zh
           <strong>
             {PUBLIC_RELEASES_URL
               ? zh
-                ? '公开发行尚未发布'
-                : 'No public release yet'
+                ? '请在 GitHub 查看发行状态'
+                : 'Check release availability on GitHub'
               : zh
                 ? '公开下载链接待提供'
                 : 'Public download link pending'}
@@ -79,8 +77,8 @@ const formats = zh
           <p>
             {PUBLIC_RELEASES_URL
               ? zh
-                ? '发行页面已经就绪，但还没有上传安装包；发布后可在这里查看。'
-                : 'The releases page is ready, but no packages have been published yet. Check back once a release is available.'
+                ? '请以 GitHub 发行页面列出的安装包为准。'
+                : 'See the GitHub releases page for available packages.'
               : zh
                 ? '目前没有已确认的公开下载链接。你可以先了解下载包类型，或联系开发者获取发布信息。'
                 : 'A confirmed public download link is not available yet. Explore the package options below, or contact the developer for release information.'}

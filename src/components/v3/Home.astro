@@ -1,4 +1,5 @@
 ---
+import QqGroup from '../QqGroup.astro';
 import { getImage } from 'astro:assets';
 import { localizedPath } from '~/i18n/utils';
 import type { Lang } from '~/i18n/utils';
@@ -138,7 +139,7 @@ const shotData = JSON.stringify({
           </h1>
           <p class="sx-summary">{c.hero.sub}</p>
           <div class="sx-actions">
-            <a class="v3-btn v3-btn-main" href={l('/download')}>
+            <a class="v3-btn v3-btn-main" href={downloadUrl} data-release-asset="setup">
               <svg
                 width="18"
                 height="18"
@@ -150,7 +151,10 @@ const shotData = JSON.stringify({
               >
                 <path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" />
               </svg>
-              {c.hero.primary}
+              {zh ? '安装版（EXE）' : 'Installer (EXE)'}
+            </a>
+            <a class="v3-btn v3-btn-sub" href={downloadUrls.portable} data-release-asset="portable">
+              {zh ? '便携版（7z）' : 'Portable (7z)'}
             </a>
             <a class="sx-text-link" href="#features" data-astro-reload>
               {c.hero.secondary}
@@ -162,6 +166,8 @@ const shotData = JSON.stringify({
             <span aria-hidden="true"> · </span>
             {c.hero.metaRest}
           </p>
+          <p class="sx-platform"><a href={l('/changelog')}>v8.2.0 · {zh ? '更新日志' : 'Changelog'}</a></p>
+          <QqGroup />
         </div>
         <figure class="sx-preview">
           <div class="sx-preview-bar">
@@ -544,7 +550,7 @@ const shotData = JSON.stringify({
           </>
           <div class="v3-cta">
             <>
-              <a class="v3-btn v3-btn-main" href={l('/download')}>
+              <a class="v3-btn v3-btn-main" href={downloadUrl} data-release-asset="setup">
                 {c.cta.primary}
               </a>
               <a class="sx-text-link" href={l('/download#sx-format-title')}>
@@ -902,4 +908,28 @@ const shotData = JSON.stringify({
 
   initV3SplitMenus();
   document.addEventListener('astro:page-load', initV3SplitMenus);
+</script>
+
+<script>
+  import { LATEST_RELEASE_API, readReleaseAssets } from '~/utils/release-assets';
+
+  const buttons = document.querySelectorAll<HTMLAnchorElement>('[data-release-asset]');
+  if (buttons.length) {
+    fetch(LATEST_RELEASE_API, { signal: AbortSignal.timeout(5000) })
+      .then((response) => {
+        if (!response.ok) throw new Error(`GitHub status ${response.status}`);
+        return response.json();
+      })
+      .then((release) => {
+        const assets = readReleaseAssets(release);
+        if (!assets.tag) return;
+        for (const button of buttons) {
+          const kind = button.dataset.releaseAsset === 'setup' ? 'setup' : 'portable';
+          button.href = assets[kind] ?? 'https://github.com/mosuzo-studio/SnipArc/releases/latest';
+        }
+      })
+      .catch(() => {
+        // Keep the links resolved during the static build.
+      });
+  }
 </script>
