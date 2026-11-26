@@ -5,6 +5,16 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 Check the [download page](/download) for public release availability. Software screenshots and the historical entry below do not establish the latest publicly released version.
 
+## v8.3.0
+
+- Added in-app feedback and rating system with feature voting, first-time experience feedback, and contact tracking.
+- Default filename now includes `SnipArc_` prefix (format: `SnipArc_YYYY-MM-DD_HH-mm-ss.png`) to identify source when using multiple tools.
+- Quick save, auto-save, and pin backup now write atomically, preventing partial files when disk is full.
+- Recording result windows and capture sessions now automatically avoid the app's own windows.
+- Fixed UI automation timeout for large tables by switching to MSAA hit testing, reducing recognition time from 195ms+ to ~5ms.
+- External windows appearing after screenshot are now correctly skipped and re-probed.
+- Fixed lost mouse movement events causing recognition frames to stay at old positions.
+
 ## v8.2.0
 
 - Pinned images now support AI cutout, AI eraser, and offline OCR with text selection and copying directly on the image.
